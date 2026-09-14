@@ -1,0 +1,19 @@
+# Virtual environments
+.venv/
+test_env/
+
+# Python-generated files
+__pycache__/
+*.pyc
+*.pyo
+
+# Test-generated files
+.pytest_cache/
+
+# Package builds
+dist/
+build/
+*.egg-info/
+
+# PyCharm settings
+.idea/
