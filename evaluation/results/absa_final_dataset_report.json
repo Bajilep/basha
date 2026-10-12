@@ -1,0 +1,76 @@
+{
+  "train": {
+    "sentences": 5958,
+    "aspects": 14083,
+    "positive": 5156,
+    "negative": 3321,
+    "neutral": 5527,
+    "conflict": 79,
+    "mixed_sentences": 704,
+    "source_counts": {
+      "semeval": 1727,
+      "mams": 4231
+    }
+  },
+  "validation": {
+    "sentences": 679,
+    "aspects": 1616,
+    "positive": 571,
+    "negative": 388,
+    "neutral": 647,
+    "conflict": 10,
+    "mixed_sentences": 90,
+    "source_counts": {
+      "semeval": 184,
+      "mams": 495
+    }
+  },
+  "mams_test": {
+    "sentences": 487,
+    "aspects": 1298,
+    "positive": 380,
+    "negative": 321,
+    "neutral": 597,
+    "conflict": 0,
+    "mixed_sentences": 68,
+    "source_counts": {
+      "mams": 487
+    }
+  },
+  "mams_invalid_span_info": {
+    "train": {
+      "valid_aspects": 11181,
+      "invalid_span": 5,
+      "sentences_removed_no_valid_aspects": 1,
+      "sentences": 4296
+    },
+    "validation": {
+      "valid_aspects": 1332,
+      "sentences": 500
+    },
+    "test": {
+      "valid_aspects": 1336,
+      "sentences": 500
+    }
+  },
+  "removed_frozen_overlap": {
+    "mams_train": 13,
+    "mams_validation": 1,
+    "mams_test": 2
+  },
+  "removed_duplicates": {
+    "train": 52,
+    "validation": 1,
+    "test": 0,
+    "validation_vs_train": 11,
+    "test_cross_split": 11
+  },
+  "leakage_checks": {
+    "train_vs_validation": 0,
+    "train_vs_mams_test": 0,
+    "validation_vs_mams_test": 0,
+    "train_vs_frozen": 0,
+    "validation_vs_frozen": 0,
+    "mams_test_vs_frozen": 0
+  }
+}

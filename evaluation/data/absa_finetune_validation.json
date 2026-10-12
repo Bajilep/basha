@@ -1,0 +1,2254 @@
+[
+  {
+    "text": "Service was quick.",
+    "aspects": [
+      {
+        "aspect": "Service",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "Went there and had a combination of different seafood dishes and appetizers.",
+    "aspects": [
+      {
+        "aspect": "seafood dishes",
+        "label": "neutral"
+      },
+      {
+        "aspect": "appetizers",
+        "label": "neutral"
+      }
+    ]
+  },
+  {
+    "text": "My husband and I enjoyed each of the 6 taste size portions and left completely full.",
+    "aspects": [
+      {
+        "aspect": "portions",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "Fluke sashimi drizzled with jalapeno-lime olive oil, the fruit of the oil nicely highlighting the fish's sweetness.",
+    "aspects": [
+      {
+        "aspect": "Fluke sashimi",
+        "label": "positive"
+      },
+      {
+        "aspect": "jalapeno-lime olive oil",
+        "label": "positive"
+      },
+      {
+        "aspect": "fruit of the oil",
+        "label": "positive"
+      },
+      {
+        "aspect": "fish",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "Cozy romantic atomosphere with only around 15 tables at most.",
+    "aspects": [
+      {
+        "aspect": "atomosphere",
+        "label": "positive"
+      },
+      {
+        "aspect": "tables",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "Try the mediterranean salad, it is a true experience for your taste buds!!",
+    "aspects": [
+      {
+        "aspect": "mediterranean salad",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "We have never had any problems with charging the meal or the tip, and the food was delivered quickly, but we live only a few minutes walk from them.",
+    "aspects": [
+      {
+        "aspect": "meal",
+        "label": "positive"
+      },
+      {
+        "aspect": "food",
+        "label": "positive"
+      },
+      {
+        "aspect": "tip",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "Although we were looking for regular lettuce and some walnuts the salads we got were great.",
+    "aspects": [
+      {
+        "aspect": "salads",
+        "label": "positive"
+      },
+      {
+        "aspect": "lettuce",
+        "label": "neutral"
+      },
+      {
+        "aspect": "walnuts",
+        "label": "neutral"
+      }
+    ]
+  },
+  {
+    "text": "i would recommend reservations on weekends though.",
+    "aspects": [
+      {
+        "aspect": "reservations",
+        "label": "neutral"
+      }
+    ]
+  },
+  {
+    "text": "From the moment you enter till the moment you walk out the friendly and helpful staff was was just Fantastic.",
+    "aspects": [
+      {
+        "aspect": "staff",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "Went on a 3 day oyster binge, with Fish bringing up the closing, and I am so glad this was the place it O trip ended, because it was so great!",
+    "aspects": [
+      {
+        "aspect": "place",
+        "label": "positive"
+      },
+      {
+        "aspect": "oyster",
+        "label": "neutral"
+      },
+      {
+        "aspect": "Fish",
+        "label": "neutral"
+      }
+    ]
+  },
+  {
+    "text": "Ummm...the beer was cold.",
+    "aspects": [
+      {
+        "aspect": "beer",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "For the location, the prices are very reasonable.",
+    "aspects": [
+      {
+        "aspect": "prices",
+        "label": "positive"
+      },
+      {
+        "aspect": "location",
+        "label": "neutral"
+      }
+    ]
+  },
+  {
+    "text": "The best part of the experience was knowing that the manager (a bubbly, friendly young woman with a great smile) truly cared about how we were doing.",
+    "aspects": [
+      {
+        "aspect": "manager",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "My friend ordered some of their special sushi rolls which had excellent presentation and tasted great!",
+    "aspects": [
+      {
+        "aspect": "sushi rolls",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "Just don't take the seat between the bar and the back half of the restaurant, i saw a woman get nudged 40times sitting there.",
+    "aspects": [
+      {
+        "aspect": "seat",
+        "label": "negative"
+      },
+      {
+        "aspect": "bar",
+        "label": "neutral"
+      }
+    ]
+  },
+  {
+    "text": "The service, however, was a bright flower in a garden.",
+    "aspects": [
+      {
+        "aspect": "service",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "The hot dogs were cold in the middle and the buns were stale.",
+    "aspects": [
+      {
+        "aspect": "hot dogs",
+        "label": "negative"
+      },
+      {
+        "aspect": "buns",
+        "label": "negative"
+      }
+    ]
+  },
+  {
+    "text": "For appetizers, I recommend the shrimp fritters and dumplings.",
+    "aspects": [
+      {
+        "aspect": "appetizers",
+        "label": "neutral"
+      },
+      {
+        "aspect": "shrimp fritters",
+        "label": "positive"
+      },
+      {
+        "aspect": "dumplings",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "To my right, the hostess stood over a busboy and hissed rapido, rapido as he tried to clear and re-set a table for six.",
+    "aspects": [
+      {
+        "aspect": "hostess",
+        "label": "negative"
+      },
+      {
+        "aspect": "busboy",
+        "label": "neutral"
+      },
+      {
+        "aspect": "table",
+        "label": "neutral"
+      }
+    ]
+  },
+  {
+    "text": "Good to find a restaurant where the owners have some imagination and they have actually pulled it off, like in this case.",
+    "aspects": [
+      {
+        "aspect": "owners",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "Unlike HH up the block, this place actually gives you hearty and hot bagels this town is known for.",
+    "aspects": [
+      {
+        "aspect": "bagels",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "Been going here since it opened have seen the quality value decrease considerably.",
+    "aspects": [
+      {
+        "aspect": "quality value",
+        "label": "negative"
+      }
+    ]
+  },
+  {
+    "text": "If you like your music blasted and the system isnt that great and if you want to pay at least 100 dollar bottle minimun then you'll love it here.",
+    "aspects": [
+      {
+        "aspect": "music",
+        "label": "negative"
+      },
+      {
+        "aspect": "bottle minimun",
+        "label": "negative"
+      }
+    ]
+  },
+  {
+    "text": "not only does make the best pizza in NY , maybe anywhere.",
+    "aspects": [
+      {
+        "aspect": "pizza",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "The service is ok, some of the people didn't get what they asked for.",
+    "aspects": [
+      {
+        "aspect": "service",
+        "label": "neutral"
+      }
+    ]
+  },
+  {
+    "text": "They have some great entrees here as well.",
+    "aspects": [
+      {
+        "aspect": "entrees",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "Well, their deliveries take for ever and the food is usually cold.",
+    "aspects": [
+      {
+        "aspect": "deliveries",
+        "label": "negative"
+      },
+      {
+        "aspect": "food",
+        "label": "negative"
+      }
+    ]
+  },
+  {
+    "text": "though the service could be better (possibly due to more than one very large group in the house), it is very cordial and warm, as is the general clientele.",
+    "aspects": [
+      {
+        "aspect": "service",
+        "label": "conflict"
+      }
+    ]
+  },
+  {
+    "text": "The food was not fresh, the sauces were bland and very oily.",
+    "aspects": [
+      {
+        "aspect": "food",
+        "label": "negative"
+      },
+      {
+        "aspect": "sauces",
+        "label": "negative"
+      }
+    ]
+  },
+  {
+    "text": "The pizza was pretty good and huge.",
+    "aspects": [
+      {
+        "aspect": "pizza",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "I got an excellent piece of cheesecake and we had several other nice pastries.",
+    "aspects": [
+      {
+        "aspect": "cheesecake",
+        "label": "positive"
+      },
+      {
+        "aspect": "pastries",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "Tasty steak, pork loin, the works.",
+    "aspects": [
+      {
+        "aspect": "steak",
+        "label": "positive"
+      },
+      {
+        "aspect": "pork loin",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "Light, refreshing summer rolls (not fried) remind me of Vietnamese places in Paris.",
+    "aspects": [
+      {
+        "aspect": "summer rolls",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "Although they do the typical what kind of water would you like questions the service was good and overall very relaxing to place to eat.",
+    "aspects": [
+      {
+        "aspect": "service",
+        "label": "positive"
+      },
+      {
+        "aspect": "place",
+        "label": "positive"
+      },
+      {
+        "aspect": "water",
+        "label": "neutral"
+      }
+    ]
+  },
+  {
+    "text": "This is the only Thai place I go too in NYC, it's wonderful, and live relaxed Jazz on certain nights.",
+    "aspects": [
+      {
+        "aspect": "Jazz",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "The service is outstanding and my crab-cake eggs benedict could not have been better.",
+    "aspects": [
+      {
+        "aspect": "service",
+        "label": "positive"
+      },
+      {
+        "aspect": "crab-cake eggs benedict",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "The pizza here is delicious.",
+    "aspects": [
+      {
+        "aspect": "pizza",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "The two star chefs left quite some time ago to open their own place.",
+    "aspects": [
+      {
+        "aspect": "chefs",
+        "label": "neutral"
+      }
+    ]
+  },
+  {
+    "text": "This restaurant used to be our regular Thursday night dinner location.",
+    "aspects": [
+      {
+        "aspect": "dinner location",
+        "label": "neutral"
+      }
+    ]
+  },
+  {
+    "text": "Check out the secret back room.",
+    "aspects": [
+      {
+        "aspect": "secret back room",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "It's charmingly small and that leads to an atmoshere that is extremely cozy and romantic, even.",
+    "aspects": [
+      {
+        "aspect": "atmoshere",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "The sides were ok and incredibly salty.",
+    "aspects": [
+      {
+        "aspect": "sides",
+        "label": "negative"
+      }
+    ]
+  },
+  {
+    "text": "The only possible drawback to this last point is that as of the date of this posting, the additional menu items are only written in Chinese.",
+    "aspects": [
+      {
+        "aspect": "menu items",
+        "label": "negative"
+      }
+    ]
+  },
+  {
+    "text": "The table next to us asked if he crushed the grapes himself when their long overdue bottle of wine finally arrived.",
+    "aspects": [
+      {
+        "aspect": "bottle of wine",
+        "label": "neutral"
+      },
+      {
+        "aspect": "grapes",
+        "label": "neutral"
+      }
+    ]
+  },
+  {
+    "text": "kalbi and nebbiolo do work together.",
+    "aspects": [
+      {
+        "aspect": "kalbi",
+        "label": "neutral"
+      },
+      {
+        "aspect": "nebbiolo",
+        "label": "neutral"
+      }
+    ]
+  },
+  {
+    "text": "But the thing that my wife and I hated was it was so loud and it felt like 'bar' or 'pub'.",
+    "aspects": [
+      {
+        "aspect": "bar",
+        "label": "negative"
+      },
+      {
+        "aspect": "pub",
+        "label": "negative"
+      }
+    ]
+  },
+  {
+    "text": "The food is consistently wonderful - I've been coming here for years, and the owner has always been accomodating and friendly.",
+    "aspects": [
+      {
+        "aspect": "food",
+        "label": "positive"
+      },
+      {
+        "aspect": "owner",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "The staff has always been attentive and kind, and I've always been amazed at how they've handled all the various different group sizes that come in.",
+    "aspects": [
+      {
+        "aspect": "staff",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "Great Indian food and the service is incredible.",
+    "aspects": [
+      {
+        "aspect": "Indian food",
+        "label": "positive"
+      },
+      {
+        "aspect": "service",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "The food was delicious, the atmosphere was relaxed, and we have now adopted Plate 347 as our Secret on Second!",
+    "aspects": [
+      {
+        "aspect": "food",
+        "label": "positive"
+      },
+      {
+        "aspect": "atmosphere",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "Not enough wines by the glass either.",
+    "aspects": [
+      {
+        "aspect": "wines by the glass",
+        "label": "negative"
+      }
+    ]
+  },
+  {
+    "text": "BE CAREFUL before you request extra spice.",
+    "aspects": [
+      {
+        "aspect": "spice",
+        "label": "neutral"
+      }
+    ]
+  },
+  {
+    "text": "And the fried clams had just enough kick to them to make 'em worth eating.",
+    "aspects": [
+      {
+        "aspect": "fried clams",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "And they provided a delicious dessert on the house!",
+    "aspects": [
+      {
+        "aspect": "dessert",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "When we were finally seated our waitress came by twice-1 for our order and 2-for our check.",
+    "aspects": [
+      {
+        "aspect": "waitress",
+        "label": "negative"
+      },
+      {
+        "aspect": "check",
+        "label": "neutral"
+      }
+    ]
+  },
+  {
+    "text": "I was here a few weeks back and we had the worst customer service experience at a restaurant ever.",
+    "aspects": [
+      {
+        "aspect": "customer service",
+        "label": "negative"
+      }
+    ]
+  },
+  {
+    "text": "However, I was there for a work dinner not long ago when my colleague from London noticed a very large waterbug on the ceiling.",
+    "aspects": [
+      {
+        "aspect": "ceiling",
+        "label": "negative"
+      },
+      {
+        "aspect": "dinner",
+        "label": "neutral"
+      }
+    ]
+  },
+  {
+    "text": "We ordered some beef and noodle soup dishes from the Thai section of the menu but nothing we got was Thai.",
+    "aspects": [
+      {
+        "aspect": "beef",
+        "label": "negative"
+      },
+      {
+        "aspect": "noodle soup dishes",
+        "label": "negative"
+      },
+      {
+        "aspect": "menu",
+        "label": "negative"
+      }
+    ]
+  },
+  {
+    "text": "The wine list is extensive and impressive.",
+    "aspects": [
+      {
+        "aspect": "wine list",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "The worst excuse for Japanese food I've ever encountered.",
+    "aspects": [
+      {
+        "aspect": "Japanese food",
+        "label": "negative"
+      }
+    ]
+  },
+  {
+    "text": "LOVE the atmosphere - felt like I was in Paris.",
+    "aspects": [
+      {
+        "aspect": "atmosphere",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "For some reason, all the seafood on the menu was unavailable except for the Salmon.",
+    "aspects": [
+      {
+        "aspect": "seafood",
+        "label": "negative"
+      },
+      {
+        "aspect": "menu",
+        "label": "negative"
+      },
+      {
+        "aspect": "Salmon",
+        "label": "neutral"
+      }
+    ]
+  },
+  {
+    "text": "They also have a back garden open in the summer - cute and French with outdoor seating - what more could you ask for?",
+    "aspects": [
+      {
+        "aspect": "back garden",
+        "label": "positive"
+      },
+      {
+        "aspect": "outdoor seating",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "The only positive was the wait staff, which was prompt, knowledgable, and likeable.",
+    "aspects": [
+      {
+        "aspect": "wait staff",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "The hot and sour soup was unbearably hot and tasted of only pepper and nothing else.",
+    "aspects": [
+      {
+        "aspect": "soup",
+        "label": "negative"
+      },
+      {
+        "aspect": "pepper",
+        "label": "negative"
+      }
+    ]
+  },
+  {
+    "text": "If you are someone who appreciates the same things but hope to have food to spare or share, Kai may not be the best option.",
+    "aspects": [
+      {
+        "aspect": "food",
+        "label": "neutral"
+      }
+    ]
+  },
+  {
+    "text": "Went on a double date with friend and his girlfriend for a few drinks and appetizers.",
+    "aspects": [
+      {
+        "aspect": "drinks",
+        "label": "neutral"
+      },
+      {
+        "aspect": "appetizers",
+        "label": "neutral"
+      }
+    ]
+  },
+  {
+    "text": "Stay away from the two specialty rolls on the menu, though- too much avocado and rice will fill you up right quick.",
+    "aspects": [
+      {
+        "aspect": "rolls",
+        "label": "negative"
+      },
+      {
+        "aspect": "menu",
+        "label": "neutral"
+      },
+      {
+        "aspect": "avocado",
+        "label": "negative"
+      },
+      {
+        "aspect": "rice",
+        "label": "negative"
+      }
+    ]
+  },
+  {
+    "text": "Seating is ok even though sometimes there's alot of people.",
+    "aspects": [
+      {
+        "aspect": "Seating",
+        "label": "neutral"
+      }
+    ]
+  },
+  {
+    "text": "Great food at reasonable prices.",
+    "aspects": [
+      {
+        "aspect": "food",
+        "label": "positive"
+      },
+      {
+        "aspect": "prices",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "A very inviting restaurant, with friendly service.",
+    "aspects": [
+      {
+        "aspect": "service",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "The decor is very simple but comfortable.",
+    "aspects": [
+      {
+        "aspect": "decor",
+        "label": "conflict"
+      }
+    ]
+  },
+  {
+    "text": "My wife and I ate here earlier this week and have not stopped ranting and raving about the food.",
+    "aspects": [
+      {
+        "aspect": "food",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "The place's decor and hidden bathrooms made for a good laugh.",
+    "aspects": [
+      {
+        "aspect": "decor",
+        "label": "positive"
+      },
+      {
+        "aspect": "bathrooms",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "One of the earlier people commenting on the restaurant did not get the that some experimenting is going on with the menu in a positive way.",
+    "aspects": [
+      {
+        "aspect": "menu",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "We ended our great experience by having Gulab Jamun (dessert) recommended by the waiter.",
+    "aspects": [
+      {
+        "aspect": "Gulab Jamun (dessert)",
+        "label": "positive"
+      },
+      {
+        "aspect": "waiter",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "The dim sum is delectable while the prices are quite easy on the wallet.",
+    "aspects": [
+      {
+        "aspect": "dim sum",
+        "label": "positive"
+      },
+      {
+        "aspect": "prices",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "Maybe I say so because it looked promising for people who like artery-clogging jewish deli food, but turns out to be poorly run and awful.",
+    "aspects": [
+      {
+        "aspect": "jewish deli food",
+        "label": "conflict"
+      }
+    ]
+  },
+  {
+    "text": "The steak was excellent and one of the best I have had (I tasted the butter intitally but in no way did it overwhelm the flavor of the meat).",
+    "aspects": [
+      {
+        "aspect": "steak",
+        "label": "positive"
+      },
+      {
+        "aspect": "butter",
+        "label": "negative"
+      },
+      {
+        "aspect": "flavor",
+        "label": "neutral"
+      },
+      {
+        "aspect": "meat",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "Faan's got a great concept but a little rough on the delivery.",
+    "aspects": [
+      {
+        "aspect": "delivery",
+        "label": "negative"
+      }
+    ]
+  },
+  {
+    "text": "So, a little inconsistency there but either way, both pizzas were really good.",
+    "aspects": [
+      {
+        "aspect": "pizzas",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "The lunch special is an asbolute steal.",
+    "aspects": [
+      {
+        "aspect": "lunch special",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "Try the lobster teriyaki and the rose special roll.",
+    "aspects": [
+      {
+        "aspect": "lobster teriyaki",
+        "label": "positive"
+      },
+      {
+        "aspect": "rose special roll",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "The staff is very kind and well trained, they're fast, they are always prompt to jump behind the bar and fix drinks, they know details of every item in the menu and make excelent recomendations.",
+    "aspects": [
+      {
+        "aspect": "staff",
+        "label": "positive"
+      },
+      {
+        "aspect": "bar",
+        "label": "neutral"
+      },
+      {
+        "aspect": "drinks",
+        "label": "neutral"
+      },
+      {
+        "aspect": "menu",
+        "label": "neutral"
+      }
+    ]
+  },
+  {
+    "text": "However, they've got the most amazing pastrami and the soups hit the spot.",
+    "aspects": [
+      {
+        "aspect": "pastrami",
+        "label": "positive"
+      },
+      {
+        "aspect": "soups",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "black white shakes came out good also.",
+    "aspects": [
+      {
+        "aspect": "black white shakes",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "Great romantic place for a date (try to get the corner booth table for a little privacy and to sit close!).",
+    "aspects": [
+      {
+        "aspect": "privacy",
+        "label": "positive"
+      },
+      {
+        "aspect": "corner booth table",
+        "label": "positive"
+      },
+      {
+        "aspect": "place",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "The bill is approximately $25 for 2 at lunch without drinks.",
+    "aspects": [
+      {
+        "aspect": "bill",
+        "label": "neutral"
+      },
+      {
+        "aspect": "lunch",
+        "label": "neutral"
+      },
+      {
+        "aspect": "drinks",
+        "label": "neutral"
+      }
+    ]
+  },
+  {
+    "text": "They don't walk around with the trays of Dim Sum.",
+    "aspects": [
+      {
+        "aspect": "trays of Dim Sum",
+        "label": "neutral"
+      }
+    ]
+  },
+  {
+    "text": "Even with a relatively inexpensive botle of wine, if you can call $70.00 inexpensive, the cost is through the roof for better than average fare.",
+    "aspects": [
+      {
+        "aspect": "cost",
+        "label": "negative"
+      },
+      {
+        "aspect": "botle of wine",
+        "label": "conflict"
+      }
+    ]
+  },
+  {
+    "text": "The table service could have been a little more attentive but as someone who also works in the service industry, I understood they were busy.",
+    "aspects": [
+      {
+        "aspect": "table service",
+        "label": "conflict"
+      },
+      {
+        "aspect": "service",
+        "label": "neutral"
+      }
+    ]
+  },
+  {
+    "text": "at taj, vegetarians can rejoice-all the dishes are manna from heaven.",
+    "aspects": [
+      {
+        "aspect": "dishes",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "The staff there is very attentive and down to earth.",
+    "aspects": [
+      {
+        "aspect": "staff",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "The menu changed, portions were even smaller than before, a lentil dish was salty beyond edibility, a basmati rice dish lacked flavor.",
+    "aspects": [
+      {
+        "aspect": "menu",
+        "label": "negative"
+      },
+      {
+        "aspect": "portions",
+        "label": "negative"
+      },
+      {
+        "aspect": "lentil dish",
+        "label": "negative"
+      },
+      {
+        "aspect": "basmati rice dish",
+        "label": "negative"
+      },
+      {
+        "aspect": "flavor",
+        "label": "negative"
+      }
+    ]
+  },
+  {
+    "text": "Great food, great prices, great service.",
+    "aspects": [
+      {
+        "aspect": "food",
+        "label": "positive"
+      },
+      {
+        "aspect": "prices",
+        "label": "positive"
+      },
+      {
+        "aspect": "service",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "Raga stands out with an interesting fusion of French and Indian cooking.",
+    "aspects": [
+      {
+        "aspect": "fusion of French and Indian cooking",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "Service was excellent, and the AC worked very well too (thank God, it was hot!).",
+    "aspects": [
+      {
+        "aspect": "Service",
+        "label": "positive"
+      },
+      {
+        "aspect": "AC",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "We actually left hungry and went across the street to Wo Hop at 15 Mott street for some good chinese food.",
+    "aspects": [
+      {
+        "aspect": "chinese food",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "Jimmy's is hands down the hottest night spot in the Bronx.",
+    "aspects": [
+      {
+        "aspect": "spot",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "Could be pricey without a prix fixe meal.",
+    "aspects": [
+      {
+        "aspect": "prix fixe meal",
+        "label": "negative"
+      }
+    ]
+  },
+  {
+    "text": "Won't or Can't is not in the service directory.",
+    "aspects": [
+      {
+        "aspect": "service",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "Meanwhile, the bartender continued to pour champagne from his reserve after we had finished our bottle and we enjoyed an amuse of turnip soup with pureed basil, gratis.",
+    "aspects": [
+      {
+        "aspect": "bartender",
+        "label": "positive"
+      },
+      {
+        "aspect": "champagne",
+        "label": "neutral"
+      },
+      {
+        "aspect": "turnip soup with pureed basil",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "In such a crappy part of town to find a good value for lunch, this place is great.",
+    "aspects": [
+      {
+        "aspect": "value",
+        "label": "positive"
+      },
+      {
+        "aspect": "lunch",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "The food is outstanding and the service is quick, friendly and very professional.",
+    "aspects": [
+      {
+        "aspect": "food",
+        "label": "positive"
+      },
+      {
+        "aspect": "service",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "I have known about this secret for the last 13 years, Emilio(the Godfather) has continued to serve food and wine for the gods at mortal prices.",
+    "aspects": [
+      {
+        "aspect": "food",
+        "label": "positive"
+      },
+      {
+        "aspect": "wine",
+        "label": "positive"
+      },
+      {
+        "aspect": "prices",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "The photos of the restaurant in its web site are way better than the real look.",
+    "aspects": [
+      {
+        "aspect": "look",
+        "label": "negative"
+      }
+    ]
+  },
+  {
+    "text": "When he's not making authentic Neapolitan pizza in the open brick oven or lightly frying zucchini blossoms, he's visiting the regulars (a growing legion) and checking on newcomers.",
+    "aspects": [
+      {
+        "aspect": "Neapolitan pizza",
+        "label": "positive"
+      },
+      {
+        "aspect": "zucchini blossoms",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "The price very reasonable.",
+    "aspects": [
+      {
+        "aspect": "price",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "Our agreed favorite is the orrechiete with sausage and chicken (usually the waiters are kind enough to split the dish in half so you get to sample both meats).",
+    "aspects": [
+      {
+        "aspect": "orrechiete with sausage and chicken",
+        "label": "positive"
+      },
+      {
+        "aspect": "waiters",
+        "label": "positive"
+      },
+      {
+        "aspect": "meats",
+        "label": "neutral"
+      },
+      {
+        "aspect": "dish",
+        "label": "neutral"
+      }
+    ]
+  },
+  {
+    "text": "Fabulous service, fantastic food, and a chilled out atmosphere and environment.",
+    "aspects": [
+      {
+        "aspect": "service",
+        "label": "positive"
+      },
+      {
+        "aspect": "food",
+        "label": "positive"
+      },
+      {
+        "aspect": "atmosphere",
+        "label": "positive"
+      },
+      {
+        "aspect": "environment",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "The kitchen however, is almost always slow.",
+    "aspects": [
+      {
+        "aspect": "kitchen",
+        "label": "negative"
+      }
+    ]
+  },
+  {
+    "text": "At the end you're left with a mild broth with noodles that you can slurp out of a cup.",
+    "aspects": [
+      {
+        "aspect": "broth with noodles",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "When I saw that their website had a link to da Ciro in Napoli, I knew there was going to be good pizza!",
+    "aspects": [
+      {
+        "aspect": "pizza",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "You can certainly find restaurants that offer a superior fine dining experience, but for superb food at reasonable prices, La Villa can't be beat.",
+    "aspects": [
+      {
+        "aspect": "food",
+        "label": "positive"
+      },
+      {
+        "aspect": "prices",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "Last time I went here, the waitress didn't come back after taking our order.",
+    "aspects": [
+      {
+        "aspect": "waitress",
+        "label": "negative"
+      }
+    ]
+  },
+  {
+    "text": "I have been to spice three times- twice during lunch and once at dinner.",
+    "aspects": [
+      {
+        "aspect": "lunch",
+        "label": "neutral"
+      },
+      {
+        "aspect": "dinner",
+        "label": "neutral"
+      }
+    ]
+  },
+  {
+    "text": "Again, the waitress was awesome.",
+    "aspects": [
+      {
+        "aspect": "waitress",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "Both the fresh mozzerella slices and the Plain Cheese slice are phenomenal.",
+    "aspects": [
+      {
+        "aspect": "fresh mozzerella slices",
+        "label": "positive"
+      },
+      {
+        "aspect": "Plain Cheese slice",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "The prices are wonderfully low.",
+    "aspects": [
+      {
+        "aspect": "prices",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "The food was lousy - too sweet or too salty and the portions tiny.",
+    "aspects": [
+      {
+        "aspect": "food",
+        "label": "negative"
+      },
+      {
+        "aspect": "portions",
+        "label": "negative"
+      }
+    ]
+  },
+  {
+    "text": "Waitstaff is great, very attentive.",
+    "aspects": [
+      {
+        "aspect": "Waitstaff",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "Its a go-to for dates as well as entertaining out of town guests.",
+    "aspects": [
+      {
+        "aspect": "entertaining",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "DO not try unless you're just going there to hang out like the rest of the hipsters who apparently have no sense of taste.",
+    "aspects": [
+      {
+        "aspect": "taste",
+        "label": "negative"
+      }
+    ]
+  },
+  {
+    "text": "There are a few Italian employees who may not speak the best English but for me that adds to the experience.",
+    "aspects": [
+      {
+        "aspect": "employees",
+        "label": "conflict"
+      }
+    ]
+  },
+  {
+    "text": "Pastrami or corned beef are juicy and piled high (ask for extra rye bread).",
+    "aspects": [
+      {
+        "aspect": "Pastrami or corned beef",
+        "label": "positive"
+      },
+      {
+        "aspect": "rye bread",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "Nice atmosphere, the service was very pleasant and the desert was good.",
+    "aspects": [
+      {
+        "aspect": "atmosphere",
+        "label": "positive"
+      },
+      {
+        "aspect": "service",
+        "label": "positive"
+      },
+      {
+        "aspect": "desert",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "We figured we never had Argentinian Pizza before so we grabbed our lunch there, sharing a large Pelligrino, a pizza of two of their specials, one was goat cheese the other blue cheese, and both were excellent.",
+    "aspects": [
+      {
+        "aspect": "Argentinian Pizza",
+        "label": "neutral"
+      },
+      {
+        "aspect": "lunch",
+        "label": "neutral"
+      },
+      {
+        "aspect": "Pelligrino",
+        "label": "positive"
+      },
+      {
+        "aspect": "pizza",
+        "label": "positive"
+      },
+      {
+        "aspect": "goat cheese",
+        "label": "positive"
+      },
+      {
+        "aspect": "blue cheese",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "We asked to be moved (which took half an hour), and then were seated in a high traffic area in the back, even though the rest of the room was practically empty.",
+    "aspects": [
+      {
+        "aspect": "room",
+        "label": "neutral"
+      },
+      {
+        "aspect": "area",
+        "label": "negative"
+      }
+    ]
+  },
+  {
+    "text": "My husband and I have been there a couple of times and each time we sat at the sushi bar (chef Yoshi) and ordered everything ala carte.",
+    "aspects": [
+      {
+        "aspect": "sushi bar",
+        "label": "neutral"
+      },
+      {
+        "aspect": "chef",
+        "label": "neutral"
+      },
+      {
+        "aspect": "ala carte",
+        "label": "neutral"
+      }
+    ]
+  },
+  {
+    "text": "The food arrived 20 minutes after I called, cold and soggy.",
+    "aspects": [
+      {
+        "aspect": "food",
+        "label": "negative"
+      }
+    ]
+  },
+  {
+    "text": "The vibe is very relaxed and cozy, service was great and the food was excellent!",
+    "aspects": [
+      {
+        "aspect": "vibe",
+        "label": "positive"
+      },
+      {
+        "aspect": "service",
+        "label": "positive"
+      },
+      {
+        "aspect": "food",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "Be careful of portions - they're HUGE.",
+    "aspects": [
+      {
+        "aspect": "portions",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "You can even get packages of the chutneys to stock your fridge!",
+    "aspects": [
+      {
+        "aspect": "chutneys",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "The food is alright - some stuff is good - some is not (like the steak dish which tends to be dry).",
+    "aspects": [
+      {
+        "aspect": "food",
+        "label": "conflict"
+      },
+      {
+        "aspect": "steak dish",
+        "label": "negative"
+      }
+    ]
+  },
+  {
+    "text": "Drinks got screwed up, she acted put upon.",
+    "aspects": [
+      {
+        "aspect": "Drinks",
+        "label": "negative"
+      }
+    ]
+  },
+  {
+    "text": "they were able to squeeze me in at 6 after i called the night before my anniversary for a friday night reservation and told me they'd treat us well for the occasion.",
+    "aspects": [
+      {
+        "aspect": "reservation",
+        "label": "neutral"
+      }
+    ]
+  },
+  {
+    "text": "While I quite liked the food and the ambience, I'm not quite sure if it they really deserve it the Michelin rating they have displayed so prooudly in the window.",
+    "aspects": [
+      {
+        "aspect": "food",
+        "label": "positive"
+      },
+      {
+        "aspect": "ambience",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "I'd call it an 'italian dinner'.",
+    "aspects": [
+      {
+        "aspect": "dinner",
+        "label": "neutral"
+      }
+    ]
+  },
+  {
+    "text": "skip dessert.",
+    "aspects": [
+      {
+        "aspect": "dessert",
+        "label": "negative"
+      }
+    ]
+  },
+  {
+    "text": "Prices are very good.",
+    "aspects": [
+      {
+        "aspect": "Prices",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "Obv caviar is top of the line but the rest of the menu is so diverse it gives you a chance to taste so manydifferent varietys.",
+    "aspects": [
+      {
+        "aspect": "Obv caviar",
+        "label": "positive"
+      },
+      {
+        "aspect": "menu",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "Kind, attentive wait staff.",
+    "aspects": [
+      {
+        "aspect": "wait staff",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "The spicy tuna roll was unusually good and the rock shrimp tempura was awesome, great appetizer to share!",
+    "aspects": [
+      {
+        "aspect": "spicy tuna roll",
+        "label": "positive"
+      },
+      {
+        "aspect": "rock shrimp tempura",
+        "label": "positive"
+      },
+      {
+        "aspect": "appetizer",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "The sushi has been from average to below average, the wait service has always been sub-par the atmosphere goes from nice to really irritating (if you sit in the area beyond the kitchen, the acousitcs are horrid, everything echoes is extremely loud).",
+    "aspects": [
+      {
+        "aspect": "sushi",
+        "label": "negative"
+      },
+      {
+        "aspect": "wait service",
+        "label": "negative"
+      },
+      {
+        "aspect": "atmosphere",
+        "label": "conflict"
+      },
+      {
+        "aspect": "area",
+        "label": "negative"
+      }
+    ]
+  },
+  {
+    "text": "They've the best desserts and mixed drinks as well as snack foods.",
+    "aspects": [
+      {
+        "aspect": "desserts",
+        "label": "positive"
+      },
+      {
+        "aspect": "mixed drinks",
+        "label": "positive"
+      },
+      {
+        "aspect": "snack foods",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "By far the best salad I have had in a fast food restaurant.",
+    "aspects": [
+      {
+        "aspect": "salad",
+        "label": "positive"
+      },
+      {
+        "aspect": "fast food",
+        "label": "neutral"
+      }
+    ]
+  },
+  {
+    "text": "Highly recommended is the Spicy Fried Clam Rolls and Spider Rolls.",
+    "aspects": [
+      {
+        "aspect": "Spicy Fried Clam Rolls",
+        "label": "positive"
+      },
+      {
+        "aspect": "Spider Rolls",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "The waitresses are nice--also you can just get counter service sit.",
+    "aspects": [
+      {
+        "aspect": "waitresses",
+        "label": "positive"
+      },
+      {
+        "aspect": "counter service",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "This place must have cost the owners afortune to build.",
+    "aspects": [
+      {
+        "aspect": "owners",
+        "label": "neutral"
+      },
+      {
+        "aspect": "cost",
+        "label": "negative"
+      }
+    ]
+  },
+  {
+    "text": "A bit breezy up there on the mezzanine from the wind coming from the tracks.",
+    "aspects": [
+      {
+        "aspect": "mezzanine",
+        "label": "negative"
+      }
+    ]
+  },
+  {
+    "text": "The waitress, seems to be more concerned of looking good than actually waitressing.",
+    "aspects": [
+      {
+        "aspect": "waitress",
+        "label": "negative"
+      }
+    ]
+  },
+  {
+    "text": "From the appetizers we ate, the dim sum and other variety of foods, it was impossible to criticize the food.",
+    "aspects": [
+      {
+        "aspect": "appetizers",
+        "label": "positive"
+      },
+      {
+        "aspect": "dim sum",
+        "label": "positive"
+      },
+      {
+        "aspect": "foods",
+        "label": "positive"
+      },
+      {
+        "aspect": "food",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "They are tasty, but I suggest only eating one with meat because they tend not to mesh that well with the average American digestive system.",
+    "aspects": [
+      {
+        "aspect": "meat",
+        "label": "neutral"
+      }
+    ]
+  },
+  {
+    "text": "and yes Dal Bukhara is so dam good and so are all the kababs.",
+    "aspects": [
+      {
+        "aspect": "kababs",
+        "label": "positive"
+      },
+      {
+        "aspect": "Dal Bukhara",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "I will recommend Scopa to all of my friends for a place to go for wonderful Italian food.",
+    "aspects": [
+      {
+        "aspect": "Italian food",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "Love the Jazz bands on Fri and Sat.",
+    "aspects": [
+      {
+        "aspect": "Jazz bands",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "Food was very good, but not what I would consider out of this world.",
+    "aspects": [
+      {
+        "aspect": "Food",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "The only disappointment was the coat check girls who didn't seem to know what a customer is on a realtively non-busy night (for the coat check girls).",
+    "aspects": [
+      {
+        "aspect": "coat check girls",
+        "label": "negative"
+      },
+      {
+        "aspect": "coat check girls",
+        "label": "negative"
+      }
+    ]
+  },
+  {
+    "text": "i recommend the thai popcorn :)",
+    "aspects": [
+      {
+        "aspect": "thai popcorn",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "Outstanding Bagels, but you get what you pay for.",
+    "aspects": [
+      {
+        "aspect": "Bagels",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "The menu may be small, but everything on it is delicious.",
+    "aspects": [
+      {
+        "aspect": "menu",
+        "label": "negative"
+      }
+    ]
+  },
+  {
+    "text": "Otherwise, this place has great service and prices and a nice friendly atmosphere.",
+    "aspects": [
+      {
+        "aspect": "service",
+        "label": "positive"
+      },
+      {
+        "aspect": "prices",
+        "label": "positive"
+      },
+      {
+        "aspect": "atmosphere",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "In addition, the food is very good and the prices are reasonable.",
+    "aspects": [
+      {
+        "aspect": "food",
+        "label": "positive"
+      },
+      {
+        "aspect": "prices",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "Great bar, most gorgeous bartenders you've ever seen (specifically the blond lady).",
+    "aspects": [
+      {
+        "aspect": "bar",
+        "label": "positive"
+      },
+      {
+        "aspect": "bartenders",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "He takes real pride in his food and his business.",
+    "aspects": [
+      {
+        "aspect": "food",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "It took them 15 minutes to put water in our glasses.",
+    "aspects": [
+      {
+        "aspect": "water",
+        "label": "neutral"
+      }
+    ]
+  },
+  {
+    "text": "A large is $20, and toppings are about $3 each.",
+    "aspects": [
+      {
+        "aspect": "toppings",
+        "label": "neutral"
+      }
+    ]
+  },
+  {
+    "text": "While we thoroughly enjoyed the food, it was annoying to scream across the table for conversation.",
+    "aspects": [
+      {
+        "aspect": "food",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "Not the greatest sushi place, but excellent for a $19.95 all you can eat.",
+    "aspects": [
+      {
+        "aspect": "sushi place",
+        "label": "negative"
+      }
+    ]
+  },
+  {
+    "text": "my wife and i have been going to nyc for years and wouldn't miss roxy,s food is expensive but it's new york!",
+    "aspects": [
+      {
+        "aspect": "food",
+        "label": "conflict"
+      }
+    ]
+  },
+  {
+    "text": "To finish off such a delightful dinner experience you must have dessert, especially the White Chocolate Bread Pudding with Gelato and hot chocolate.",
+    "aspects": [
+      {
+        "aspect": "dessert",
+        "label": "positive"
+      },
+      {
+        "aspect": "White Chocolate Bread Pudding with Gelato and hot chocolate",
+        "label": "positive"
+      },
+      {
+        "aspect": "dinner",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "I'm happy to have Nosh in the neighborhood and the food is very comforting.",
+    "aspects": [
+      {
+        "aspect": "food",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "Just stick with the small dishes!",
+    "aspects": [
+      {
+        "aspect": "dishes",
+        "label": "negative"
+      }
+    ]
+  },
+  {
+    "text": "If you're not familiar with the cuisine, you may encounter problems ordering here and be sure to bring plenty of cash with you as they don't accept credit cards.",
+    "aspects": [
+      {
+        "aspect": "cuisine",
+        "label": "negative"
+      }
+    ]
+  },
+  {
+    "text": "I must say the view of NYC is so beautiful!",
+    "aspects": [
+      {
+        "aspect": "view",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "The food was exceptional.",
+    "aspects": [
+      {
+        "aspect": "food",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "A great way to make some money is to buy a case of snapple from Costco and sell it right outside for only $2.50.",
+    "aspects": [
+      {
+        "aspect": "case of snapple",
+        "label": "neutral"
+      }
+    ]
+  },
+  {
+    "text": "The staff is incredibly helpful and attentive.",
+    "aspects": [
+      {
+        "aspect": "staff",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "THE FOOD PORTIONS ARE REALLY LARGE.",
+    "aspects": [
+      {
+        "aspect": "FOOD PORTIONS",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "Only wine and beer are served, but the house varities are actually quite good.",
+    "aspects": [
+      {
+        "aspect": "wine",
+        "label": "neutral"
+      },
+      {
+        "aspect": "beer",
+        "label": "neutral"
+      },
+      {
+        "aspect": "house varities",
+        "label": "positive"
+      },
+      {
+        "aspect": "served",
+        "label": "negative"
+      }
+    ]
+  },
+  {
+    "text": "Le Pere Pinard has a $15 pre-theater menu that is outstanding.",
+    "aspects": [
+      {
+        "aspect": "pre-theater menu",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "Of course this atmosphere is lacking, but what do you expect from a 24 hour bagel place anyways?",
+    "aspects": [
+      {
+        "aspect": "atmosphere",
+        "label": "negative"
+      },
+      {
+        "aspect": "bagel",
+        "label": "neutral"
+      }
+    ]
+  },
+  {
+    "text": "Got club soda, filled with ice, no lime.",
+    "aspects": [
+      {
+        "aspect": "club soda, filled with ice, no lime",
+        "label": "neutral"
+      }
+    ]
+  },
+  {
+    "text": "Here's to the fake fish tanks too...",
+    "aspects": [
+      {
+        "aspect": "fish tanks",
+        "label": "negative"
+      }
+    ]
+  },
+  {
+    "text": "Just straight up cheap, good food.",
+    "aspects": [
+      {
+        "aspect": "food",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "The view is spectacular, and the food is great.",
+    "aspects": [
+      {
+        "aspect": "view",
+        "label": "positive"
+      },
+      {
+        "aspect": "food",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "There are much better places in NY with better prices.",
+    "aspects": [
+      {
+        "aspect": "prices",
+        "label": "negative"
+      }
+    ]
+  },
+  {
+    "text": "Great food, great lay out and awesome service.",
+    "aspects": [
+      {
+        "aspect": "food",
+        "label": "positive"
+      },
+      {
+        "aspect": "lay out",
+        "label": "positive"
+      },
+      {
+        "aspect": "service",
+        "label": "positive"
+      }
+    ]
+  },
+  {
+    "text": "What I didn't like was how the food came right after it was ordered.",
+    "aspects": [
+      {
+        "aspect": "food",
+        "label": "negative"
+      }
+    ]
+  },
+  {
+    "text": "The overall price tag was very very expensive, something I did expect.",
+    "aspects": [
+      {
+        "aspect": "price tag",
+        "label": "negative"
+      }
+    ]
+  },
+  {
+    "text": "Not a large place, but it's cute and cozy.",
+    "aspects": [
+      {
+        "aspect": "place",
+        "label": "conflict"
+      }
+    ]
+  }
+]

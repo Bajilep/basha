@@ -1,0 +1,2514 @@
+{
+  "benchmark": {
+    "name": "Basha Sarcasm Pre-Fine-Tuning Baseline",
+    "examples": 200,
+    "threshold": 0.8
+  },
+  "metrics": {
+    "accuracy": 0.76,
+    "precision": 0.782608695652174,
+    "recall": 0.72,
+    "sarcasm_f1": 0.75,
+    "macro_f1": 0.7596153846153846
+  },
+  "confusion_matrix": {
+    "tn": 80,
+    "fp": 20,
+    "fn": 28,
+    "tp": 72
+  },
+  "errors": {
+    "false_positive_count": 20,
+    "false_negative_count": 28,
+    "false_positives": [
+      {
+        "text": "I wonder how many people who visit food banks have huge TVs or are drunks? #freedomofspeech #foodbanks",
+        "true_label": "non_sarcasm",
+        "predicted_label": "sarcasm",
+        "correct": false,
+        "sarcasm_probability": 0.9919,
+        "non_sarcasm_probability": 0.0081,
+        "threshold": 0.8,
+        "time_seconds": 0.17028869991190732
+      },
+      {
+        "text": "@user but you can't expect us to hire one in only 3 weeks. Who moves that quickly on a coaching search? #sarcasm",
+        "true_label": "non_sarcasm",
+        "predicted_label": "sarcasm",
+        "correct": false,
+        "sarcasm_probability": 0.9387,
+        "non_sarcasm_probability": 0.0613,
+        "threshold": 0.8,
+        "time_seconds": 0.19038460007868707
+      },
+      {
+        "text": "<-Video $ #SmartPhone can pay you to post!||#iphone #samsung #S4 #S3 #ipad #tablet #mlm|Start@",
+        "true_label": "non_sarcasm",
+        "predicted_label": "sarcasm",
+        "correct": false,
+        "sarcasm_probability": 0.9677,
+        "non_sarcasm_probability": 0.0323,
+        "threshold": 0.8,
+        "time_seconds": 0.21368569997139275
+      },
+      {
+        "text": "@user Tag a teammate who is so bad, he runs the line every week. I'm sorry to say it's @user",
+        "true_label": "non_sarcasm",
+        "predicted_label": "sarcasm",
+        "correct": false,
+        "sarcasm_probability": 0.867,
+        "non_sarcasm_probability": 0.133,
+        "threshold": 0.8,
+        "time_seconds": 0.19443600019440055
+      },
+      {
+        "text": "HELLO Wednesday! BY THE WAY IT'S December 10, 2014 at 02:15PM! (just a random information)",
+        "true_label": "non_sarcasm",
+        "predicted_label": "sarcasm",
+        "correct": false,
+        "sarcasm_probability": 0.9716,
+        "non_sarcasm_probability": 0.0284,
+        "threshold": 0.8,
+        "time_seconds": 0.1662399999331683
+      },
+      {
+        "text": "@user - p.s. strong tweet. particularly Horatio's involvement in the matters #bloodlinecontinues xxx",
+        "true_label": "non_sarcasm",
+        "predicted_label": "sarcasm",
+        "correct": false,
+        "sarcasm_probability": 0.8038,
+        "non_sarcasm_probability": 0.1962,
+        "threshold": 0.8,
+        "time_seconds": 0.16880909982137382
+      },
+      {
+        "text": "@user @user @user We Agree #NHSENGLAND needs to #Publish #AandE figures over #HolidayPeriod #Sarcasm from #JeremyHunt",
+        "true_label": "non_sarcasm",
+        "predicted_label": "sarcasm",
+        "correct": false,
+        "sarcasm_probability": 0.9394,
+        "non_sarcasm_probability": 0.0606,
+        "threshold": 0.8,
+        "time_seconds": 0.15596570004709065
+      },
+      {
+        "text": "Mike Smith and Brian Hoyer walk into a bar. They sit down and at the same time say \"I told you it wasn't all my fault\" #Coyotes #Browns",
+        "true_label": "non_sarcasm",
+        "predicted_label": "sarcasm",
+        "correct": false,
+        "sarcasm_probability": 0.9108,
+        "non_sarcasm_probability": 0.0892,
+        "threshold": 0.8,
+        "time_seconds": 0.17808009986765683
+      },
+      {
+        "text": "@user though, I suspect you don't actually care about the truth, so whatever, go troll someone else ;-)",
+        "true_label": "non_sarcasm",
+        "predicted_label": "sarcasm",
+        "correct": false,
+        "sarcasm_probability": 0.8986,
+        "non_sarcasm_probability": 0.1014,
+        "threshold": 0.8,
+        "time_seconds": 0.17227369989268482
+      },
+      {
+        "text": "Happy Holidays! (this is officially our Christmas card) #BestFriend #UglySweaterBarCrawl",
+        "true_label": "non_sarcasm",
+        "predicted_label": "sarcasm",
+        "correct": false,
+        "sarcasm_probability": 0.8701,
+        "non_sarcasm_probability": 0.1299,
+        "threshold": 0.8,
+        "time_seconds": 0.1514212000183761
+      },
+      {
+        "text": "@user and that \"somebody\" thought you were Padoin sister LoL !!! #SarcasmFail",
+        "true_label": "non_sarcasm",
+        "predicted_label": "sarcasm",
+        "correct": false,
+        "sarcasm_probability": 0.8285,
+        "non_sarcasm_probability": 0.1715,
+        "threshold": 0.8,
+        "time_seconds": 0.15214239992201328
+      },
+      {
+        "text": "I see the #irony of MY LAST 3 TWEETS COMBINED was lost entirely on a certain someone... Faith in humanity: -3% :(",
+        "true_label": "non_sarcasm",
+        "predicted_label": "sarcasm",
+        "correct": false,
+        "sarcasm_probability": 0.931,
+        "non_sarcasm_probability": 0.069,
+        "threshold": 0.8,
+        "time_seconds": 0.18962960015051067
+      },
+      {
+        "text": "#Analysis -- #Economic #issues #whip #up #Israelis #in #chocolate #pudding #election. via @user",
+        "true_label": "non_sarcasm",
+        "predicted_label": "sarcasm",
+        "correct": false,
+        "sarcasm_probability": 0.9581,
+        "non_sarcasm_probability": 0.0419,
+        "threshold": 0.8,
+        "time_seconds": 0.19106859993189573
+      },
+      {
+        "text": "Can always count on you to speak to me on here then delete the messages so It looks like I'm talking to myself. 😒 @user",
+        "true_label": "non_sarcasm",
+        "predicted_label": "sarcasm",
+        "correct": false,
+        "sarcasm_probability": 0.99,
+        "non_sarcasm_probability": 0.01,
+        "threshold": 0.8,
+        "time_seconds": 0.18303360021673143
+      },
+      {
+        "text": "I have a very annoying bluetick for sale. 8 yrs old. Needs babied and a bath. #sarcasm",
+        "true_label": "non_sarcasm",
+        "predicted_label": "sarcasm",
+        "correct": false,
+        "sarcasm_probability": 0.9454,
+        "non_sarcasm_probability": 0.0546,
+        "threshold": 0.8,
+        "time_seconds": 0.17383980005979538
+      },
+      {
+        "text": "@user #sarcasm is a service I offer.",
+        "true_label": "non_sarcasm",
+        "predicted_label": "sarcasm",
+        "correct": false,
+        "sarcasm_probability": 0.9777,
+        "non_sarcasm_probability": 0.0223,
+        "threshold": 0.8,
+        "time_seconds": 0.17331369989551604
+      },
+      {
+        "text": "@user Not going this time, we might have a chance! Fool me once, shame on you, fool me twice..... #fuckthat",
+        "true_label": "non_sarcasm",
+        "predicted_label": "sarcasm",
+        "correct": false,
+        "sarcasm_probability": 0.835,
+        "non_sarcasm_probability": 0.165,
+        "threshold": 0.8,
+        "time_seconds": 0.15827699983492494
+      },
+      {
+        "text": "@user @user Yes on Auto-messagers No to #FollowBackers ... They make me money over on TSU. Thx your post||http://t.co/ALSThKb1pG",
+        "true_label": "non_sarcasm",
+        "predicted_label": "sarcasm",
+        "correct": false,
+        "sarcasm_probability": 0.8339,
+        "non_sarcasm_probability": 0.1661,
+        "threshold": 0.8,
+        "time_seconds": 0.17648390005342662
+      },
+      {
+        "text": "Acronyms because we're cool as fuck. Judge me.",
+        "true_label": "non_sarcasm",
+        "predicted_label": "sarcasm",
+        "correct": false,
+        "sarcasm_probability": 0.9064,
+        "non_sarcasm_probability": 0.0936,
+        "threshold": 0.8,
+        "time_seconds": 0.1474101000931114
+      },
+      {
+        "text": "It's all about Twitter #not a clue",
+        "true_label": "non_sarcasm",
+        "predicted_label": "sarcasm",
+        "correct": false,
+        "sarcasm_probability": 0.8643,
+        "non_sarcasm_probability": 0.1357,
+        "threshold": 0.8,
+        "time_seconds": 0.13634860003367066
+      }
+    ],
+    "false_negatives": [
+      {
+        "text": "Making the most out of my last vacation day. #not #tvandsleep",
+        "true_label": "sarcasm",
+        "predicted_label": "non_sarcasm",
+        "correct": false,
+        "sarcasm_probability": 0.562,
+        "non_sarcasm_probability": 0.438,
+        "threshold": 0.8,
+        "time_seconds": 0.13635639986023307
+      },
+      {
+        "text": "Literally functioning on 4 hours of sleep and I feel great 😄 !! #Not #CollegeisKillingMe #OneMoreWeek",
+        "true_label": "sarcasm",
+        "predicted_label": "non_sarcasm",
+        "correct": false,
+        "sarcasm_probability": 0.1204,
+        "non_sarcasm_probability": 0.8796,
+        "threshold": 0.8,
+        "time_seconds": 0.18431370006874204
+      },
+      {
+        "text": "@user You want to see something Irish!!Of all the reasons to be closed 😂😂😂 #irony",
+        "true_label": "sarcasm",
+        "predicted_label": "non_sarcasm",
+        "correct": false,
+        "sarcasm_probability": 0.4233,
+        "non_sarcasm_probability": 0.5767,
+        "threshold": 0.8,
+        "time_seconds": 0.18195060011930764
+      },
+      {
+        "text": "#Malala Yousufzai receives #NobelPeacePrize and #Pakistan ranks in top 10 dangerous countries !!! #irony",
+        "true_label": "sarcasm",
+        "predicted_label": "non_sarcasm",
+        "correct": false,
+        "sarcasm_probability": 0.1721,
+        "non_sarcasm_probability": 0.8279,
+        "threshold": 0.8,
+        "time_seconds": 0.18435060000047088
+      },
+      {
+        "text": "@user maybe you should grind the gym man #not #calling #you #fat",
+        "true_label": "sarcasm",
+        "predicted_label": "non_sarcasm",
+        "correct": false,
+        "sarcasm_probability": 0.5251,
+        "non_sarcasm_probability": 0.4749,
+        "threshold": 0.8,
+        "time_seconds": 0.19077719980850816
+      },
+      {
+        "text": "Gotta love a Romanian playing an improvised version of jingle bells in a minor key. Really sets the festive mood. #not",
+        "true_label": "sarcasm",
+        "predicted_label": "non_sarcasm",
+        "correct": false,
+        "sarcasm_probability": 0.7274,
+        "non_sarcasm_probability": 0.2726,
+        "threshold": 0.8,
+        "time_seconds": 0.21262930007651448
+      },
+      {
+        "text": "Painting all cops with a broad brush because of the actions of a few is the same logic racists use. #Irony",
+        "true_label": "sarcasm",
+        "predicted_label": "non_sarcasm",
+        "correct": false,
+        "sarcasm_probability": 0.4898,
+        "non_sarcasm_probability": 0.5102,
+        "threshold": 0.8,
+        "time_seconds": 0.17071740003302693
+      },
+      {
+        "text": "EmoPostAhead lol the sucky thing about seeing beauty in everything? You see the beauty in a liar #BeautifulLiar #lovethwayyoulie #NOT",
+        "true_label": "sarcasm",
+        "predicted_label": "non_sarcasm",
+        "correct": false,
+        "sarcasm_probability": 0.3526,
+        "non_sarcasm_probability": 0.6474,
+        "threshold": 0.8,
+        "time_seconds": 0.18466649996116757
+      },
+      {
+        "text": "@user hahaha yeah I think so too cause you know how she loves her with all her heart 😂😂😂.... #NOT 🔫.",
+        "true_label": "sarcasm",
+        "predicted_label": "non_sarcasm",
+        "correct": false,
+        "sarcasm_probability": 0.5232,
+        "non_sarcasm_probability": 0.4768,
+        "threshold": 0.8,
+        "time_seconds": 0.199052199954167
+      },
+      {
+        "text": "@user u bragged all yr about having Peyton in 2 leagues only to get beat in the 1st round in both #irony 😂😂😂😂",
+        "true_label": "sarcasm",
+        "predicted_label": "non_sarcasm",
+        "correct": false,
+        "sarcasm_probability": 0.1214,
+        "non_sarcasm_probability": 0.8786,
+        "threshold": 0.8,
+        "time_seconds": 0.19902639999054372
+      },
+      {
+        "text": "The Bay Area storm is so big that tons of people's work was canceled today, causing me to be early to mine. #irony #stormageddon",
+        "true_label": "sarcasm",
+        "predicted_label": "non_sarcasm",
+        "correct": false,
+        "sarcasm_probability": 0.7907,
+        "non_sarcasm_probability": 0.2093,
+        "threshold": 0.8,
+        "time_seconds": 0.17782670003362
+      },
+      {
+        "text": "That's always the solution..... #not. Doesn't fix anything!",
+        "true_label": "sarcasm",
+        "predicted_label": "non_sarcasm",
+        "correct": false,
+        "sarcasm_probability": 0.6883,
+        "non_sarcasm_probability": 0.3117,
+        "threshold": 0.8,
+        "time_seconds": 0.14168290002271533
+      },
+      {
+        "text": "If you wanna look like a badass, have drama on social media #not",
+        "true_label": "sarcasm",
+        "predicted_label": "non_sarcasm",
+        "correct": false,
+        "sarcasm_probability": 0.7468,
+        "non_sarcasm_probability": 0.2532,
+        "threshold": 0.8,
+        "time_seconds": 0.15544639993458986
+      },
+      {
+        "text": "When you're sick and you feel bad for your cells cause they're fighting hard for you. #blessed #appreciative #sarcasm #kinda",
+        "true_label": "sarcasm",
+        "predicted_label": "non_sarcasm",
+        "correct": false,
+        "sarcasm_probability": 0.6785,
+        "non_sarcasm_probability": 0.3215,
+        "threshold": 0.8,
+        "time_seconds": 0.17463740007951856
+      },
+      {
+        "text": "Laptop speakers are too quiet for music & simply too loud for porn 😒 !#Irony",
+        "true_label": "sarcasm",
+        "predicted_label": "non_sarcasm",
+        "correct": false,
+        "sarcasm_probability": 0.6009,
+        "non_sarcasm_probability": 0.3991,
+        "threshold": 0.8,
+        "time_seconds": 0.17604109994135797
+      },
+      {
+        "text": "@user You think my mom and I would get along better, she's a middle child too. #irony #middlechildsyndrome",
+        "true_label": "sarcasm",
+        "predicted_label": "non_sarcasm",
+        "correct": false,
+        "sarcasm_probability": 0.7483,
+        "non_sarcasm_probability": 0.2517,
+        "threshold": 0.8,
+        "time_seconds": 0.16380829992704093
+      },
+      {
+        "text": "08:01am on the dot and the buzzer rings #helloworld #not #sleepy #tired #nothanks",
+        "true_label": "sarcasm",
+        "predicted_label": "non_sarcasm",
+        "correct": false,
+        "sarcasm_probability": 0.3188,
+        "non_sarcasm_probability": 0.6812,
+        "threshold": 0.8,
+        "time_seconds": 0.17861649999395013
+      },
+      {
+        "text": "Anybody using their rights to protest legally gets the law thrown at them. & the ones who do the crimes don't. That's #Irony #NotJustice",
+        "true_label": "sarcasm",
+        "predicted_label": "non_sarcasm",
+        "correct": false,
+        "sarcasm_probability": 0.1713,
+        "non_sarcasm_probability": 0.8287,
+        "threshold": 0.8,
+        "time_seconds": 0.16826830012723804
+      },
+      {
+        "text": "@user Niagra Falls tho... Really? #irony #LOL",
+        "true_label": "sarcasm",
+        "predicted_label": "non_sarcasm",
+        "correct": false,
+        "sarcasm_probability": 0.6657,
+        "non_sarcasm_probability": 0.3343,
+        "threshold": 0.8,
+        "time_seconds": 0.16082069999538362
+      },
+      {
+        "text": "#Irony RT @user If you're going to give someone a scathing, 1-Star review for poor grammar, FFS use proper grammar.",
+        "true_label": "sarcasm",
+        "predicted_label": "non_sarcasm",
+        "correct": false,
+        "sarcasm_probability": 0.7175,
+        "non_sarcasm_probability": 0.2825,
+        "threshold": 0.8,
+        "time_seconds": 0.18789099995046854
+      },
+      {
+        "text": "@user @user @user @user @user @user #irony #oxymoron \"planned parenthood\" nothing abt parenting",
+        "true_label": "sarcasm",
+        "predicted_label": "non_sarcasm",
+        "correct": false,
+        "sarcasm_probability": 0.6898,
+        "non_sarcasm_probability": 0.3102,
+        "threshold": 0.8,
+        "time_seconds": 0.17413370008580387
+      },
+      {
+        "text": "Amar Singh gives A+ rating to the Modi govt but Arun #Shourie says more is said than done in present govt #Irony #Politics",
+        "true_label": "sarcasm",
+        "predicted_label": "non_sarcasm",
+        "correct": false,
+        "sarcasm_probability": 0.0751,
+        "non_sarcasm_probability": 0.9249,
+        "threshold": 0.8,
+        "time_seconds": 0.15872900001704693
+      },
+      {
+        "text": "@user Garner protesters chant 'F*ck Fox News' despite Fox agreeing with them #EricGarner #Irony",
+        "true_label": "sarcasm",
+        "predicted_label": "non_sarcasm",
+        "correct": false,
+        "sarcasm_probability": 0.198,
+        "non_sarcasm_probability": 0.802,
+        "threshold": 0.8,
+        "time_seconds": 0.17135530011728406
+      },
+      {
+        "text": "Perfect time to get sick 😢 #not",
+        "true_label": "sarcasm",
+        "predicted_label": "non_sarcasm",
+        "correct": false,
+        "sarcasm_probability": 0.2323,
+        "non_sarcasm_probability": 0.7677,
+        "threshold": 0.8,
+        "time_seconds": 0.166652400046587
+      },
+      {
+        "text": "@user skiing in Regents Park much #not",
+        "true_label": "sarcasm",
+        "predicted_label": "non_sarcasm",
+        "correct": false,
+        "sarcasm_probability": 0.5867,
+        "non_sarcasm_probability": 0.4133,
+        "threshold": 0.8,
+        "time_seconds": 0.1532878999132663
+      },
+      {
+        "text": "Being a hipster now is so mainstream. Oh, the irony. #hipster #irony",
+        "true_label": "sarcasm",
+        "predicted_label": "non_sarcasm",
+        "correct": false,
+        "sarcasm_probability": 0.5055,
+        "non_sarcasm_probability": 0.4945,
+        "threshold": 0.8,
+        "time_seconds": 0.175574199995026
+      },
+      {
+        "text": "Wash hands with water? MOH is rubbing this on everyone's face? #irony",
+        "true_label": "sarcasm",
+        "predicted_label": "non_sarcasm",
+        "correct": false,
+        "sarcasm_probability": 0.773,
+        "non_sarcasm_probability": 0.227,
+        "threshold": 0.8,
+        "time_seconds": 0.1539698000997305
+      },
+      {
+        "text": "so glad I came to work at 7:30am for all the customers that are here!!!!!! #not #itsdead",
+        "true_label": "sarcasm",
+        "predicted_label": "non_sarcasm",
+        "correct": false,
+        "sarcasm_probability": 0.0908,
+        "non_sarcasm_probability": 0.9092,
+        "threshold": 0.8,
+        "time_seconds": 0.155377599876374
+      }
+    ]
+  },
+  "performance": {
+    "total_seconds": 34.240916000446305,
+    "average_seconds_per_sample": 0.17120458000223152
+  },
+  "results": [
+    {
+      "text": "@user @user this vine won't come up 😫😫😫",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.4633,
+      "non_sarcasm_probability": 0.5367,
+      "threshold": 0.8,
+      "time_seconds": 0.6557356999255717
+    },
+    {
+      "text": "You decide to go on vacation without me sleep? Reaaaal nice. #considerate #not 😒💤",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.8283,
+      "non_sarcasm_probability": 0.1717,
+      "threshold": 0.8,
+      "time_seconds": 0.17823900002986193
+    },
+    {
+      "text": "@user Oh, BELIEVE me. I agree totally. My tweet was pure #sarcasm. We need MORE #guns, not less. Santa is bringing me one. #2A",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.8158,
+      "non_sarcasm_probability": 0.1842,
+      "threshold": 0.8,
+      "time_seconds": 0.1950624999590218
+    },
+    {
+      "text": "Making the most out of my last vacation day. #not #tvandsleep",
+      "true_label": "sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": false,
+      "sarcasm_probability": 0.562,
+      "non_sarcasm_probability": 0.438,
+      "threshold": 0.8,
+      "time_seconds": 0.13635639986023307
+    },
+    {
+      "text": "#tbt #not Dedicated to those days we DONT want to throwback to. Like this evil cold November day at...",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.593,
+      "non_sarcasm_probability": 0.407,
+      "threshold": 0.8,
+      "time_seconds": 0.16817179997451603
+    },
+    {
+      "text": "Just woken up after 16 hour night shift to no gas. Looks like microwave meal and cold shower for me today. Woo!|#sarcasm #fml",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.9741,
+      "non_sarcasm_probability": 0.0259,
+      "threshold": 0.8,
+      "time_seconds": 0.20826390013098717
+    },
+    {
+      "text": "Well this is great.. #sarcasm|Illinois Passes Bill That Makes It Illegal To Record The Police",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.9875,
+      "non_sarcasm_probability": 0.0125,
+      "threshold": 0.8,
+      "time_seconds": 0.1658403999172151
+    },
+    {
+      "text": "So not okay with DB's racist jokes.",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.0238,
+      "non_sarcasm_probability": 0.9762,
+      "threshold": 0.8,
+      "time_seconds": 0.1665743999183178
+    },
+    {
+      "text": "@user grateful for this encouragement :))",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.0087,
+      "non_sarcasm_probability": 0.9913,
+      "threshold": 0.8,
+      "time_seconds": 0.15601200005039573
+    },
+    {
+      "text": "Literally functioning on 4 hours of sleep and I feel great 😄 !! #Not #CollegeisKillingMe #OneMoreWeek",
+      "true_label": "sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": false,
+      "sarcasm_probability": 0.1204,
+      "non_sarcasm_probability": 0.8796,
+      "threshold": 0.8,
+      "time_seconds": 0.18431370006874204
+    },
+    {
+      "text": "@user You want to see something Irish!!Of all the reasons to be closed 😂😂😂 #irony",
+      "true_label": "sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": false,
+      "sarcasm_probability": 0.4233,
+      "non_sarcasm_probability": 0.5767,
+      "threshold": 0.8,
+      "time_seconds": 0.18195060011930764
+    },
+    {
+      "text": "Shitty drivers are always fun. #not",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.9106,
+      "non_sarcasm_probability": 0.0894,
+      "threshold": 0.8,
+      "time_seconds": 0.15817110007628798
+    },
+    {
+      "text": "I wonder how many people who visit food banks have huge TVs or are drunks? #freedomofspeech #foodbanks",
+      "true_label": "non_sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": false,
+      "sarcasm_probability": 0.9919,
+      "non_sarcasm_probability": 0.0081,
+      "threshold": 0.8,
+      "time_seconds": 0.17028869991190732
+    },
+    {
+      "text": "@user but you can't expect us to hire one in only 3 weeks. Who moves that quickly on a coaching search? #sarcasm",
+      "true_label": "non_sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": false,
+      "sarcasm_probability": 0.9387,
+      "non_sarcasm_probability": 0.0613,
+      "threshold": 0.8,
+      "time_seconds": 0.19038460007868707
+    },
+    {
+      "text": "#Malala Yousufzai receives #NobelPeacePrize and #Pakistan ranks in top 10 dangerous countries !!! #irony",
+      "true_label": "sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": false,
+      "sarcasm_probability": 0.1721,
+      "non_sarcasm_probability": 0.8279,
+      "threshold": 0.8,
+      "time_seconds": 0.18435060000047088
+    },
+    {
+      "text": "Found my motivation... Aka the back of my eye lids, by accident. Boy, me and @user are some winners. #not #senioritisisreal #losers",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.9654,
+      "non_sarcasm_probability": 0.0346,
+      "threshold": 0.8,
+      "time_seconds": 0.20848280005156994
+    },
+    {
+      "text": "I just wrote a 13 page paper... I was awfully tired when I was writing it and now I can't sleep. #irony",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.8136,
+      "non_sarcasm_probability": 0.1864,
+      "threshold": 0.8,
+      "time_seconds": 0.2085730000399053
+    },
+    {
+      "text": "<-Video $ #SmartPhone can pay you to post!||#iphone #samsung #S4 #S3 #ipad #tablet #mlm|Start@",
+      "true_label": "non_sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": false,
+      "sarcasm_probability": 0.9677,
+      "non_sarcasm_probability": 0.0323,
+      "threshold": 0.8,
+      "time_seconds": 0.21368569997139275
+    },
+    {
+      "text": "Nothing says nature like the relentless sound of AM commuter traffic #fthunter #AMdogfun #not@allpeaceful",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.9685,
+      "non_sarcasm_probability": 0.0315,
+      "threshold": 0.8,
+      "time_seconds": 0.20628969999961555
+    },
+    {
+      "text": "My coach is so supportive. \"tighten your belt, pick up the weight and just do it.\" #sarcasm #ithinkhehatesmesomedays #itsmostlylove",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.9002,
+      "non_sarcasm_probability": 0.0998,
+      "threshold": 0.8,
+      "time_seconds": 0.2144500999711454
+    },
+    {
+      "text": "@user maybe you should grind the gym man #not #calling #you #fat",
+      "true_label": "sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": false,
+      "sarcasm_probability": 0.5251,
+      "non_sarcasm_probability": 0.4749,
+      "threshold": 0.8,
+      "time_seconds": 0.19077719980850816
+    },
+    {
+      "text": "A #sale is #not #something you #pursue, it's #what #happens to you #while you are #immersed in #serving your...",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.3623,
+      "non_sarcasm_probability": 0.6377,
+      "threshold": 0.8,
+      "time_seconds": 0.20035749999806285
+    },
+    {
+      "text": "Lesson learnt? Herd of sheep who fought over TVs on #BlackFriday struggling to sell them #irony #capitalism",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.9873,
+      "non_sarcasm_probability": 0.0127,
+      "threshold": 0.8,
+      "time_seconds": 0.19751870003528893
+    },
+    {
+      "text": "@user @user Yet no \"dog in the manger\" that actually makes it a dog in a manger story #Irony",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.9797,
+      "non_sarcasm_probability": 0.0203,
+      "threshold": 0.8,
+      "time_seconds": 0.20375959994271398
+    },
+    {
+      "text": "@user Tag a teammate who is so bad, he runs the line every week. I'm sorry to say it's @user",
+      "true_label": "non_sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": false,
+      "sarcasm_probability": 0.867,
+      "non_sarcasm_probability": 0.133,
+      "threshold": 0.8,
+      "time_seconds": 0.19443600019440055
+    },
+    {
+      "text": "@user Gotta love those racially based awards! #not",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.9846,
+      "non_sarcasm_probability": 0.0154,
+      "threshold": 0.8,
+      "time_seconds": 0.18312339996919036
+    },
+    {
+      "text": "Can't take my eyes off you|http://t.co/cKYk9vXewc via @user",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.0342,
+      "non_sarcasm_probability": 0.9658,
+      "threshold": 0.8,
+      "time_seconds": 0.19287869986146688
+    },
+    {
+      "text": "this music is for the people and not for the money. peace and love. #KINGLIFE",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.034,
+      "non_sarcasm_probability": 0.966,
+      "threshold": 0.8,
+      "time_seconds": 0.18366169999353588
+    },
+    {
+      "text": "Gotta love a Romanian playing an improvised version of jingle bells in a minor key. Really sets the festive mood. #not",
+      "true_label": "sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": false,
+      "sarcasm_probability": 0.7274,
+      "non_sarcasm_probability": 0.2726,
+      "threshold": 0.8,
+      "time_seconds": 0.21262930007651448
+    },
+    {
+      "text": "I feel and look like shit. #rainyday #nomakeup #sorrynotsorry",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.1887,
+      "non_sarcasm_probability": 0.8113,
+      "threshold": 0.8,
+      "time_seconds": 0.1511587998829782
+    },
+    {
+      "text": "Being a light sleeper is the best. #not",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.974,
+      "non_sarcasm_probability": 0.026,
+      "threshold": 0.8,
+      "time_seconds": 0.1580425000283867
+    },
+    {
+      "text": "@user @user A thief, a liar, a vote rigger, mocks those who use food banks and an online bully #irony",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.7359,
+      "non_sarcasm_probability": 0.2641,
+      "threshold": 0.8,
+      "time_seconds": 0.17496930016204715
+    },
+    {
+      "text": "Painting all cops with a broad brush because of the actions of a few is the same logic racists use. #Irony",
+      "true_label": "sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": false,
+      "sarcasm_probability": 0.4898,
+      "non_sarcasm_probability": 0.5102,
+      "threshold": 0.8,
+      "time_seconds": 0.17071740003302693
+    },
+    {
+      "text": "EmoPostAhead lol the sucky thing about seeing beauty in everything? You see the beauty in a liar #BeautifulLiar #lovethwayyoulie #NOT",
+      "true_label": "sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": false,
+      "sarcasm_probability": 0.3526,
+      "non_sarcasm_probability": 0.6474,
+      "threshold": 0.8,
+      "time_seconds": 0.18466649996116757
+    },
+    {
+      "text": "@user hahaha yeah I think so too cause you know how she loves her with all her heart 😂😂😂.... #NOT 🔫.",
+      "true_label": "sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": false,
+      "sarcasm_probability": 0.5232,
+      "non_sarcasm_probability": 0.4768,
+      "threshold": 0.8,
+      "time_seconds": 0.199052199954167
+    },
+    {
+      "text": "@user u bragged all yr about having Peyton in 2 leagues only to get beat in the 1st round in both #irony 😂😂😂😂",
+      "true_label": "sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": false,
+      "sarcasm_probability": 0.1214,
+      "non_sarcasm_probability": 0.8786,
+      "threshold": 0.8,
+      "time_seconds": 0.19902639999054372
+    },
+    {
+      "text": "HAPPY BIRTHDAY BECCA. I just looked through ALL of my pictures which you know is a ton and found my...",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.0128,
+      "non_sarcasm_probability": 0.9872,
+      "threshold": 0.8,
+      "time_seconds": 0.17620870005339384
+    },
+    {
+      "text": "@user @user @user It wasn't for one person. It was a business expense.",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.0517,
+      "non_sarcasm_probability": 0.9483,
+      "threshold": 0.8,
+      "time_seconds": 0.15699220006354153
+    },
+    {
+      "text": "I had the most broke friends in undergrad now these fools get a lil money and want to act uppity as ever",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.0296,
+      "non_sarcasm_probability": 0.9704,
+      "threshold": 0.8,
+      "time_seconds": 0.16438460000790656
+    },
+    {
+      "text": "Just loveeee driving upstate in the snow #not",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.9875,
+      "non_sarcasm_probability": 0.0125,
+      "threshold": 0.8,
+      "time_seconds": 0.1570931999012828
+    },
+    {
+      "text": "The Bay Area storm is so big that tons of people's work was canceled today, causing me to be early to mine. #irony #stormageddon",
+      "true_label": "sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": false,
+      "sarcasm_probability": 0.7907,
+      "non_sarcasm_probability": 0.2093,
+      "threshold": 0.8,
+      "time_seconds": 0.17782670003362
+    },
+    {
+      "text": "I like to think of myself as a broken down Justin Bieber - my philosophy professor, everyone. #sarcasm",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.9898,
+      "non_sarcasm_probability": 0.0102,
+      "threshold": 0.8,
+      "time_seconds": 0.15262169996276498
+    },
+    {
+      "text": "@user #pantsdowntiggy was his crime. Pixelation #moot or #irony",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.7596,
+      "non_sarcasm_probability": 0.2404,
+      "threshold": 0.8,
+      "time_seconds": 0.17016050009988248
+    },
+    {
+      "text": "HELLO Wednesday! BY THE WAY IT'S December 10, 2014 at 02:15PM! (just a random information)",
+      "true_label": "non_sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": false,
+      "sarcasm_probability": 0.9716,
+      "non_sarcasm_probability": 0.0284,
+      "threshold": 0.8,
+      "time_seconds": 0.1662399999331683
+    },
+    {
+      "text": "That's always the solution..... #not. Doesn't fix anything!",
+      "true_label": "sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": false,
+      "sarcasm_probability": 0.6883,
+      "non_sarcasm_probability": 0.3117,
+      "threshold": 0.8,
+      "time_seconds": 0.14168290002271533
+    },
+    {
+      "text": "The fact that this time next week I'll be getting my wisdom teeth out 😖🙊 #chipmunk",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.1845,
+      "non_sarcasm_probability": 0.8155,
+      "threshold": 0.8,
+      "time_seconds": 0.16692780004814267
+    },
+    {
+      "text": "If it's NOT? then it IS! Hand Crafted Artistically Fashionable, Connect @user for #fashionblog #thoughts",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.1277,
+      "non_sarcasm_probability": 0.8723,
+      "threshold": 0.8,
+      "time_seconds": 0.185855699935928
+    },
+    {
+      "text": "Planning a vacation instead of studying.... My priorities are in line. #NOT",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.9915,
+      "non_sarcasm_probability": 0.0085,
+      "threshold": 0.8,
+      "time_seconds": 0.15665749995969236
+    },
+    {
+      "text": "Getting Final Jeopardy correct on Kids Jeopardy boosts my self-esteem",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.0304,
+      "non_sarcasm_probability": 0.9696,
+      "threshold": 0.8,
+      "time_seconds": 0.1755474000237882
+    },
+    {
+      "text": "i literally love when someone throw me in at the deep end #irony #tough #life",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.8985,
+      "non_sarcasm_probability": 0.1015,
+      "threshold": 0.8,
+      "time_seconds": 0.15684429998509586
+    },
+    {
+      "text": "Read at the news '#Obama: #The #American #way #of #life #is #not #a #gift'",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.6747,
+      "non_sarcasm_probability": 0.3253,
+      "threshold": 0.8,
+      "time_seconds": 0.16943949996493757
+    },
+    {
+      "text": "@user @user @user @user @user @user \"left regressives\" is that not a label #irony",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.8238,
+      "non_sarcasm_probability": 0.1762,
+      "threshold": 0.8,
+      "time_seconds": 0.14986630016937852
+    },
+    {
+      "text": "I blame my mom. Mother of the Year #sarcasm",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.991,
+      "non_sarcasm_probability": 0.009,
+      "threshold": 0.8,
+      "time_seconds": 0.17549359984695911
+    },
+    {
+      "text": "How dare Charles Barkley have an intelligent conversation about race. #sarcasm #CharlesBarkley",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.995,
+      "non_sarcasm_probability": 0.005,
+      "threshold": 0.8,
+      "time_seconds": 0.1595357998739928
+    },
+    {
+      "text": "If you wanna look like a badass, have drama on social media #not",
+      "true_label": "sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": false,
+      "sarcasm_probability": 0.7468,
+      "non_sarcasm_probability": 0.2532,
+      "threshold": 0.8,
+      "time_seconds": 0.15544639993458986
+    },
+    {
+      "text": "@user - p.s. strong tweet. particularly Horatio's involvement in the matters #bloodlinecontinues xxx",
+      "true_label": "non_sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": false,
+      "sarcasm_probability": 0.8038,
+      "non_sarcasm_probability": 0.1962,
+      "threshold": 0.8,
+      "time_seconds": 0.16880909982137382
+    },
+    {
+      "text": "Most of us didn't focus in the #ADHD lecture. |.|#irony",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.9475,
+      "non_sarcasm_probability": 0.0525,
+      "threshold": 0.8,
+      "time_seconds": 0.17565990006551147
+    },
+    {
+      "text": "@user @user @user We Agree #NHSENGLAND needs to #Publish #AandE figures over #HolidayPeriod #Sarcasm from #JeremyHunt",
+      "true_label": "non_sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": false,
+      "sarcasm_probability": 0.9394,
+      "non_sarcasm_probability": 0.0606,
+      "threshold": 0.8,
+      "time_seconds": 0.15596570004709065
+    },
+    {
+      "text": "@user @user Ah ok. Well I hope things keep going well with person A x",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.0059,
+      "non_sarcasm_probability": 0.9941,
+      "threshold": 0.8,
+      "time_seconds": 0.14841670007444918
+    },
+    {
+      "text": "Little cutie #Chico #Dog #Doggy #Puppy #Sweet #Cute #UK #Black #Biscuit #Not #Mine #Mini #Miss #My",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.0261,
+      "non_sarcasm_probability": 0.9739,
+      "threshold": 0.8,
+      "time_seconds": 0.17373570008203387
+    },
+    {
+      "text": "No one talks like I do , No one thinks like I do , No moves like I do #ConorMcgregor #Ufc #Quotes",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.5731,
+      "non_sarcasm_probability": 0.4269,
+      "threshold": 0.8,
+      "time_seconds": 0.19017690001055598
+    },
+    {
+      "text": "When you're sick and you feel bad for your cells cause they're fighting hard for you. #blessed #appreciative #sarcasm #kinda",
+      "true_label": "sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": false,
+      "sarcasm_probability": 0.6785,
+      "non_sarcasm_probability": 0.3215,
+      "threshold": 0.8,
+      "time_seconds": 0.17463740007951856
+    },
+    {
+      "text": "@user Even though @user got more ex-wives than @user majors, I'm happy for that washed-up mess... #Not!! #Blocked",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.9052,
+      "non_sarcasm_probability": 0.0948,
+      "threshold": 0.8,
+      "time_seconds": 0.19655869994312525
+    },
+    {
+      "text": "Goes both ways #make #love #not #war #peace",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.1094,
+      "non_sarcasm_probability": 0.8906,
+      "threshold": 0.8,
+      "time_seconds": 0.15629150019958615
+    },
+    {
+      "text": "@user That was the case, not the recording.So comparing the two is apple & oranges.",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.0103,
+      "non_sarcasm_probability": 0.9897,
+      "threshold": 0.8,
+      "time_seconds": 0.1930724000558257
+    },
+    {
+      "text": "Some days are just better than others..",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.0069,
+      "non_sarcasm_probability": 0.9931,
+      "threshold": 0.8,
+      "time_seconds": 0.1612603000830859
+    },
+    {
+      "text": "13 voice mails at work is always lovely #not",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.9909,
+      "non_sarcasm_probability": 0.0091,
+      "threshold": 0.8,
+      "time_seconds": 0.1545357999857515
+    },
+    {
+      "text": "@user make sure you don't say Christmas!! The decorate for the holiday. #sarcasm #itisachristmastree",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.9815,
+      "non_sarcasm_probability": 0.0185,
+      "threshold": 0.8,
+      "time_seconds": 0.16803220007568598
+    },
+    {
+      "text": "Fighting over chargers is definitely how I wanted to start my day.😒 #not",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.9812,
+      "non_sarcasm_probability": 0.0188,
+      "threshold": 0.8,
+      "time_seconds": 0.16061830008402467
+    },
+    {
+      "text": "Picked an excellent day to get my hair done 😒 #sarcasm",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.987,
+      "non_sarcasm_probability": 0.013,
+      "threshold": 0.8,
+      "time_seconds": 0.1462104998063296
+    },
+    {
+      "text": "@user is this a new/recent release?",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.1455,
+      "non_sarcasm_probability": 0.8545,
+      "threshold": 0.8,
+      "time_seconds": 0.16765669989399612
+    },
+    {
+      "text": "Its a shame on an off day that the NFL doesnt have any interesting stories and isnt getting any attention. NOT #sarcasm",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.8586,
+      "non_sarcasm_probability": 0.1414,
+      "threshold": 0.8,
+      "time_seconds": 0.17823520000092685
+    },
+    {
+      "text": "i just enjoy throwing up #not #hatethis #sick #wanna #go #to #school #for #once #take #me #away",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.9515,
+      "non_sarcasm_probability": 0.0485,
+      "threshold": 0.8,
+      "time_seconds": 0.18031920003704727
+    },
+    {
+      "text": "#UKArtistOnly @user @user @user present. #UKUntoldStory #MIXTape #GetOn #DUCMG",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.229,
+      "non_sarcasm_probability": 0.771,
+      "threshold": 0.8,
+      "time_seconds": 0.16505619999952614
+    },
+    {
+      "text": "@user great story about the student trying to get the teacher fired!!#sarcasm#moron#storywasstupid",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.9754,
+      "non_sarcasm_probability": 0.0246,
+      "threshold": 0.8,
+      "time_seconds": 0.1791236000135541
+    },
+    {
+      "text": "So Jeremy Irons and Alan Rickman are BOTH in Marrakech just one week before I'm going there #everythingisfine #not #sonot",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.9005,
+      "non_sarcasm_probability": 0.0995,
+      "threshold": 0.8,
+      "time_seconds": 0.14822930004447699
+    },
+    {
+      "text": "Why is there evidence of a stripper in my house yet I see no stripper in my house 😑💔",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.2764,
+      "non_sarcasm_probability": 0.7236,
+      "threshold": 0.8,
+      "time_seconds": 0.16196350008249283
+    },
+    {
+      "text": "Mike Smith and Brian Hoyer walk into a bar. They sit down and at the same time say \"I told you it wasn't all my fault\" #Coyotes #Browns",
+      "true_label": "non_sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": false,
+      "sarcasm_probability": 0.9108,
+      "non_sarcasm_probability": 0.0892,
+      "threshold": 0.8,
+      "time_seconds": 0.17808009986765683
+    },
+    {
+      "text": "I actually just started crying while brushing my teeth due to lack of sleep, stress and test anxiety. Today's gonna be a good one... #not",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.8391,
+      "non_sarcasm_probability": 0.1609,
+      "threshold": 0.8,
+      "time_seconds": 0.16220859996974468
+    },
+    {
+      "text": "The #Gophers aren't nervous. #SammyCommentary #Gophers",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.6075,
+      "non_sarcasm_probability": 0.3925,
+      "threshold": 0.8,
+      "time_seconds": 0.14312390005216002
+    },
+    {
+      "text": "Sunday is such a fun day to study #not #ew #saywhat",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.9839,
+      "non_sarcasm_probability": 0.0161,
+      "threshold": 0.8,
+      "time_seconds": 0.15147299994714558
+    },
+    {
+      "text": "Just paid $2.59 for gas! #ThanksObama #sarcasm",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.9928,
+      "non_sarcasm_probability": 0.0072,
+      "threshold": 0.8,
+      "time_seconds": 0.16097919992171228
+    },
+    {
+      "text": "@user though, I suspect you don't actually care about the truth, so whatever, go troll someone else ;-)",
+      "true_label": "non_sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": false,
+      "sarcasm_probability": 0.8986,
+      "non_sarcasm_probability": 0.1014,
+      "threshold": 0.8,
+      "time_seconds": 0.17227369989268482
+    },
+    {
+      "text": "itsfunny bc people think im quiet|but im just listening toeveryones convos|and figuring out ur weaknesses|todestroy u later in life #sarcasm",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.9541,
+      "non_sarcasm_probability": 0.0459,
+      "threshold": 0.8,
+      "time_seconds": 0.1594597001094371
+    },
+    {
+      "text": "@user Way to lay out yesterday and put it all on the line #GoodLeader #Sarcasm",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.8983,
+      "non_sarcasm_probability": 0.1017,
+      "threshold": 0.8,
+      "time_seconds": 0.1772908999118954
+    },
+    {
+      "text": "#A #tax #per mile? #Americans #should #not #allow #GPS #tracking #of #cars, #trucks: Watch out – as the new year...",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.7032,
+      "non_sarcasm_probability": 0.2968,
+      "threshold": 0.8,
+      "time_seconds": 0.17248030006885529
+    },
+    {
+      "text": "Really missing my momma today.. More than usual. I don't think today will be a good day",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.01,
+      "non_sarcasm_probability": 0.99,
+      "threshold": 0.8,
+      "time_seconds": 0.16848849994130433
+    },
+    {
+      "text": "@user your tongue in cheek @user weigh in does nothing but instigate breed specific hate. Stick to reporting on tuques. #yyj",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.0927,
+      "non_sarcasm_probability": 0.9073,
+      "threshold": 0.8,
+      "time_seconds": 0.17236270010471344
+    },
+    {
+      "text": "Laptop speakers are too quiet for music & simply too loud for porn 😒 !#Irony",
+      "true_label": "sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": false,
+      "sarcasm_probability": 0.6009,
+      "non_sarcasm_probability": 0.3991,
+      "threshold": 0.8,
+      "time_seconds": 0.17604109994135797
+    },
+    {
+      "text": "Love #hiphop mix tapes or have a mixtape to promote check out follow them on twitter #undergroundhiphop",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.0058,
+      "non_sarcasm_probability": 0.9942,
+      "threshold": 0.8,
+      "time_seconds": 0.17406299989670515
+    },
+    {
+      "text": "@user Obama and Hillary convinced Ukraine that they would protect them if they essentially disarm. Need to keep at least one promise.",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.4606,
+      "non_sarcasm_probability": 0.5394,
+      "threshold": 0.8,
+      "time_seconds": 0.16103870002552867
+    },
+    {
+      "text": "Exam na jud. Merry christmas. ||#Sarcasm|#KillUsSlowly",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.9836,
+      "non_sarcasm_probability": 0.0164,
+      "threshold": 0.8,
+      "time_seconds": 0.15907919988967478
+    },
+    {
+      "text": "@user You think my mom and I would get along better, she's a middle child too. #irony #middlechildsyndrome",
+      "true_label": "sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": false,
+      "sarcasm_probability": 0.7483,
+      "non_sarcasm_probability": 0.2517,
+      "threshold": 0.8,
+      "time_seconds": 0.16380829992704093
+    },
+    {
+      "text": "#AdvancedWarfare is so much better than any FPS released in 2014 XD",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.0357,
+      "non_sarcasm_probability": 0.9643,
+      "threshold": 0.8,
+      "time_seconds": 0.1658427999354899
+    },
+    {
+      "text": "I'm giving up a lot of stuff to make sure others are happy . I wonder if anyone ever look past my appearance and see what I'm feeling 😩",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.1043,
+      "non_sarcasm_probability": 0.8957,
+      "threshold": 0.8,
+      "time_seconds": 0.18958510016091168
+    },
+    {
+      "text": "What to do with that old #motherboard you have laying around. #NOT #guitarpicks",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.9759,
+      "non_sarcasm_probability": 0.0241,
+      "threshold": 0.8,
+      "time_seconds": 0.16198430000804365
+    },
+    {
+      "text": "@user where did THAT come from?!",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.2566,
+      "non_sarcasm_probability": 0.7434,
+      "threshold": 0.8,
+      "time_seconds": 0.14671669993549585
+    },
+    {
+      "text": "Hardest parking i've probably ever done! #screwyousmallparkinglot",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.1716,
+      "non_sarcasm_probability": 0.8284,
+      "threshold": 0.8,
+      "time_seconds": 0.1513945001643151
+    },
+    {
+      "text": "BM \"gives me\" from 3 pm to 8 pm with my son today, that's fair huh? #NOT!",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.9892,
+      "non_sarcasm_probability": 0.0108,
+      "threshold": 0.8,
+      "time_seconds": 0.18305390002205968
+    },
+    {
+      "text": "What the hell has happened to Shahid Afridi in last couple of days? Left alone more bouncers than played, got a review right. #pakvnz",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.0099,
+      "non_sarcasm_probability": 0.9901,
+      "threshold": 0.8,
+      "time_seconds": 0.14448690018616617
+    },
+    {
+      "text": "and as much as I want to connect .. I like only the people who dont want to .. #Irony #Why oh why?",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.8748,
+      "non_sarcasm_probability": 0.1252,
+      "threshold": 0.8,
+      "time_seconds": 0.16878390009514987
+    },
+    {
+      "text": "Don't you just love those people who won't shut up in class then hold everyone back by asking the teacher to repeat answers? #sarcasm",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.9927,
+      "non_sarcasm_probability": 0.0073,
+      "threshold": 0.8,
+      "time_seconds": 0.17330999998375773
+    },
+    {
+      "text": "Happy Holidays! (this is officially our Christmas card) #BestFriend #UglySweaterBarCrawl",
+      "true_label": "non_sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": false,
+      "sarcasm_probability": 0.8701,
+      "non_sarcasm_probability": 0.1299,
+      "threshold": 0.8,
+      "time_seconds": 0.1514212000183761
+    },
+    {
+      "text": "Cause I love going to bed alone every night.. #not",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.9765,
+      "non_sarcasm_probability": 0.0235,
+      "threshold": 0.8,
+      "time_seconds": 0.14606989989988506
+    },
+    {
+      "text": "08:01am on the dot and the buzzer rings #helloworld #not #sleepy #tired #nothanks",
+      "true_label": "sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": false,
+      "sarcasm_probability": 0.3188,
+      "non_sarcasm_probability": 0.6812,
+      "threshold": 0.8,
+      "time_seconds": 0.17861649999395013
+    },
+    {
+      "text": "@user and that \"somebody\" thought you were Padoin sister LoL !!! #SarcasmFail",
+      "true_label": "non_sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": false,
+      "sarcasm_probability": 0.8285,
+      "non_sarcasm_probability": 0.1715,
+      "threshold": 0.8,
+      "time_seconds": 0.15214239992201328
+    },
+    {
+      "text": "Is there a \"like\" tab on me? I'm not a facebook status to be liked by people... #sarcasm #RudeButTrue",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.9734,
+      "non_sarcasm_probability": 0.0266,
+      "threshold": 0.8,
+      "time_seconds": 0.1918891998939216
+    },
+    {
+      "text": "The most exciting way to start a Friday: a presentation on structurally deficient bridges. #sarcasm #lobbyinglife",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.9949,
+      "non_sarcasm_probability": 0.0051,
+      "threshold": 0.8,
+      "time_seconds": 0.16672140010632575
+    },
+    {
+      "text": "@user Our 3 losses followed bye weeks & an FCS team. Do we get rid of those next year? #sarcasm",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.9714,
+      "non_sarcasm_probability": 0.0286,
+      "threshold": 0.8,
+      "time_seconds": 0.1607244999613613
+    },
+    {
+      "text": "@user It's so the speaker remembers their talk's over. Otherwise how would they know? #sarcasm",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.983,
+      "non_sarcasm_probability": 0.017,
+      "threshold": 0.8,
+      "time_seconds": 0.17728740000166
+    },
+    {
+      "text": "30 years on, people still haven't got justice they deserve. #BhopalGasTragedy Yet another brilliant job done by the Americans #sarcasm",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.9664,
+      "non_sarcasm_probability": 0.0336,
+      "threshold": 0.8,
+      "time_seconds": 0.1789843998849392
+    },
+    {
+      "text": "can I just own an isle far away from here where my house is stunningly beautiful with only some closed ppl who appreciates me as a human",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.1649,
+      "non_sarcasm_probability": 0.8351,
+      "threshold": 0.8,
+      "time_seconds": 0.1663571000099182
+    },
+    {
+      "text": "I see the #irony of MY LAST 3 TWEETS COMBINED was lost entirely on a certain someone... Faith in humanity: -3% :(",
+      "true_label": "non_sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": false,
+      "sarcasm_probability": 0.931,
+      "non_sarcasm_probability": 0.069,
+      "threshold": 0.8,
+      "time_seconds": 0.18962960015051067
+    },
+    {
+      "text": "'Tis the season for tablets! I entered the #tabletsforall contest to win a tablet gift pack. Check it out:",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.0183,
+      "non_sarcasm_probability": 0.9817,
+      "threshold": 0.8,
+      "time_seconds": 0.1580626000650227
+    },
+    {
+      "text": "Check out> @user that makes you feel something. #London #UK",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.0254,
+      "non_sarcasm_probability": 0.9746,
+      "threshold": 0.8,
+      "time_seconds": 0.1574405999854207
+    },
+    {
+      "text": "Pretty Shitty day I'm gonna be soaked and full of mud and clay #iliketogetdirty #notreally #sarcasm",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.9541,
+      "non_sarcasm_probability": 0.0459,
+      "threshold": 0.8,
+      "time_seconds": 0.15492390003055334
+    },
+    {
+      "text": "Even getting cooked breakfast.. Hes defo up to something 😕😮😆😆",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.1434,
+      "non_sarcasm_probability": 0.8566,
+      "threshold": 0.8,
+      "time_seconds": 0.1449535998981446
+    },
+    {
+      "text": "Jeez I wish the government paid for my food. #not #EBTbitches",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.9493,
+      "non_sarcasm_probability": 0.0507,
+      "threshold": 0.8,
+      "time_seconds": 0.15561580006033182
+    },
+    {
+      "text": "Anybody using their rights to protest legally gets the law thrown at them. & the ones who do the crimes don't. That's #Irony #NotJustice",
+      "true_label": "sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": false,
+      "sarcasm_probability": 0.1713,
+      "non_sarcasm_probability": 0.8287,
+      "threshold": 0.8,
+      "time_seconds": 0.16826830012723804
+    },
+    {
+      "text": "@user Niagra Falls tho... Really? #irony #LOL",
+      "true_label": "sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": false,
+      "sarcasm_probability": 0.6657,
+      "non_sarcasm_probability": 0.3343,
+      "threshold": 0.8,
+      "time_seconds": 0.16082069999538362
+    },
+    {
+      "text": "I do hope you Anti #GamerGate'rs will sleep better, knowing that sabotaging charities would make you more respectable in society. #sarcasm",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.9911,
+      "non_sarcasm_probability": 0.0089,
+      "threshold": 0.8,
+      "time_seconds": 0.19219530001282692
+    },
+    {
+      "text": "#Analysis -- #Economic #issues #whip #up #Israelis #in #chocolate #pudding #election. via @user",
+      "true_label": "non_sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": false,
+      "sarcasm_probability": 0.9581,
+      "non_sarcasm_probability": 0.0419,
+      "threshold": 0.8,
+      "time_seconds": 0.19106859993189573
+    },
+    {
+      "text": "Sweet jeebus! MT @user CryoSat & Jason-2 confirm very high to phenomenal seas generated by North Atlantic low",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.0075,
+      "non_sarcasm_probability": 0.9925,
+      "threshold": 0.8,
+      "time_seconds": 0.1947512999176979
+    },
+    {
+      "text": "Still time to enter our @user planner giveaway courtesy of @user & @user #bbloggers #lbloggers",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.0403,
+      "non_sarcasm_probability": 0.9597,
+      "threshold": 0.8,
+      "time_seconds": 0.18096009991131723
+    },
+    {
+      "text": "Where is the promise of \"peace on earth\" in this? \"Lord, Thy Kingdom come, Thy will be done.\" #Advent #terror #irony",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.9659,
+      "non_sarcasm_probability": 0.0341,
+      "threshold": 0.8,
+      "time_seconds": 0.2001053998246789
+    },
+    {
+      "text": "@user I do love a chilled night in. Saves having a hangover to😂 thank you hun X",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.0059,
+      "non_sarcasm_probability": 0.9941,
+      "threshold": 0.8,
+      "time_seconds": 0.17500080005265772
+    },
+    {
+      "text": "Can always count on you to speak to me on here then delete the messages so It looks like I'm talking to myself. 😒 @user",
+      "true_label": "non_sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": false,
+      "sarcasm_probability": 0.99,
+      "non_sarcasm_probability": 0.01,
+      "threshold": 0.8,
+      "time_seconds": 0.18303360021673143
+    },
+    {
+      "text": "Just entered the @user competition for tickets to the final! Fingers crossed @user",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.0201,
+      "non_sarcasm_probability": 0.9799,
+      "threshold": 0.8,
+      "time_seconds": 0.1623210001271218
+    },
+    {
+      "text": "Just got yelled at by proxy. It's going to be an excellent day. #sarcasm",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.9917,
+      "non_sarcasm_probability": 0.0083,
+      "threshold": 0.8,
+      "time_seconds": 0.1803955000359565
+    },
+    {
+      "text": "You are taking your responsibilities so seriously today that i... More for Leo",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.6253,
+      "non_sarcasm_probability": 0.3747,
+      "threshold": 0.8,
+      "time_seconds": 0.18931149994023144
+    },
+    {
+      "text": "ROFLMAO yeah, OOPS is right @user @user @user @user",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.0392,
+      "non_sarcasm_probability": 0.9608,
+      "threshold": 0.8,
+      "time_seconds": 0.16569940000772476
+    },
+    {
+      "text": "@user one hope this gets a RT! #recycling #roses #holly #wreath #MerryChristmas",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.0452,
+      "non_sarcasm_probability": 0.9548,
+      "threshold": 0.8,
+      "time_seconds": 0.16111099999397993
+    },
+    {
+      "text": "A #celebrity is a person who is known for his well-knownness. #fact #TeamFollowBack #irony",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.9281,
+      "non_sarcasm_probability": 0.0719,
+      "threshold": 0.8,
+      "time_seconds": 0.16883910004980862
+    },
+    {
+      "text": "Don't know if I can handle this crazy 11-2 shift. It's so long I might pass out on the job! #sarcasm",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.973,
+      "non_sarcasm_probability": 0.027,
+      "threshold": 0.8,
+      "time_seconds": 0.1476475999224931
+    },
+    {
+      "text": "@user THAT'S WHAT I'M TALKING ABOUT! Awesome Win CAVS!!!!!!",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.0085,
+      "non_sarcasm_probability": 0.9915,
+      "threshold": 0.8,
+      "time_seconds": 0.15636570006608963
+    },
+    {
+      "text": "@user Go you! #not Home until the 1st Jan. So excited!",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.0482,
+      "non_sarcasm_probability": 0.9518,
+      "threshold": 0.8,
+      "time_seconds": 0.15559189999476075
+    },
+    {
+      "text": "I am downloading #AdvancedWarfare now!! Can't play it until 22nd of December tho :/ #Exams",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.0688,
+      "non_sarcasm_probability": 0.9312,
+      "threshold": 0.8,
+      "time_seconds": 0.18540559988468885
+    },
+    {
+      "text": ".@ibnlive is the first to cut to ads during primetime to proudly announce that they're \"putting journalism first\". #Irony #NLprimetime",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.9735,
+      "non_sarcasm_probability": 0.0265,
+      "threshold": 0.8,
+      "time_seconds": 0.17062510014511645
+    },
+    {
+      "text": "Love it when my mans on a cleaning spree.. Saves me doing it 👌😘😘😘",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.3161,
+      "non_sarcasm_probability": 0.6839,
+      "threshold": 0.8,
+      "time_seconds": 0.16137770004570484
+    },
+    {
+      "text": "#Celtics RT @user And then there were none",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.7999,
+      "non_sarcasm_probability": 0.2001,
+      "threshold": 0.8,
+      "time_seconds": 0.15683309989981353
+    },
+    {
+      "text": "#Irony RT @user If you're going to give someone a scathing, 1-Star review for poor grammar, FFS use proper grammar.",
+      "true_label": "sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": false,
+      "sarcasm_probability": 0.7175,
+      "non_sarcasm_probability": 0.2825,
+      "threshold": 0.8,
+      "time_seconds": 0.18789099995046854
+    },
+    {
+      "text": "@user @user @user @user @user @user #irony #oxymoron \"planned parenthood\" nothing abt parenting",
+      "true_label": "sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": false,
+      "sarcasm_probability": 0.6898,
+      "non_sarcasm_probability": 0.3102,
+      "threshold": 0.8,
+      "time_seconds": 0.17413370008580387
+    },
+    {
+      "text": "@user hey I seen u have followed me and I was going to ask to check out my channel and help me with a shoutout for subscribers ??",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.0085,
+      "non_sarcasm_probability": 0.9915,
+      "threshold": 0.8,
+      "time_seconds": 0.15573100000619888
+    },
+    {
+      "text": "Extended cut \"NICHA\" #trailer #spoof #film #dramatic #action #film2014 #youtube #fightscenes",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.0532,
+      "non_sarcasm_probability": 0.9468,
+      "threshold": 0.8,
+      "time_seconds": 0.15249640005640686
+    },
+    {
+      "text": "Amar Singh gives A+ rating to the Modi govt but Arun #Shourie says more is said than done in present govt #Irony #Politics",
+      "true_label": "sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": false,
+      "sarcasm_probability": 0.0751,
+      "non_sarcasm_probability": 0.9249,
+      "threshold": 0.8,
+      "time_seconds": 0.15872900001704693
+    },
+    {
+      "text": "The thought of work tonight really kills that Friday feeling.",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.0163,
+      "non_sarcasm_probability": 0.9837,
+      "threshold": 0.8,
+      "time_seconds": 0.14122470002621412
+    },
+    {
+      "text": "I JUST WANT TO BE DONE WITH FINALS #4hoursleft",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.0542,
+      "non_sarcasm_probability": 0.9458,
+      "threshold": 0.8,
+      "time_seconds": 0.1646792001556605
+    },
+    {
+      "text": "final labs coursework submitted!! now to treat myself by catching up with the whole semester's lectures #winning #not",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.912,
+      "non_sarcasm_probability": 0.088,
+      "threshold": 0.8,
+      "time_seconds": 0.16148200002498925
+    },
+    {
+      "text": "@user @user Darn, my sock joke needs fixing?",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.4618,
+      "non_sarcasm_probability": 0.5382,
+      "threshold": 0.8,
+      "time_seconds": 0.1646107998676598
+    },
+    {
+      "text": "I have a very annoying bluetick for sale. 8 yrs old. Needs babied and a bath. #sarcasm",
+      "true_label": "non_sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": false,
+      "sarcasm_probability": 0.9454,
+      "non_sarcasm_probability": 0.0546,
+      "threshold": 0.8,
+      "time_seconds": 0.17383980005979538
+    },
+    {
+      "text": "#notcies #eu Green determined to block Hinkley Point - Green determined to block Hinkley Point Copyright EP 2013....",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.5334,
+      "non_sarcasm_probability": 0.4666,
+      "threshold": 0.8,
+      "time_seconds": 0.17899909988045692
+    },
+    {
+      "text": "I may or may not have put @user at the top of @user tree soon as he likes Christmas time... #Sarcasm",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.9859,
+      "non_sarcasm_probability": 0.0141,
+      "threshold": 0.8,
+      "time_seconds": 0.1556462999433279
+    },
+    {
+      "text": "@user Garner protesters chant 'F*ck Fox News' despite Fox agreeing with them #EricGarner #Irony",
+      "true_label": "sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": false,
+      "sarcasm_probability": 0.198,
+      "non_sarcasm_probability": 0.802,
+      "threshold": 0.8,
+      "time_seconds": 0.17135530011728406
+    },
+    {
+      "text": "Sometimes it's #not about being #Cocky.. 😏😼 It's abt knowing what ur #Capable of & #doing it......",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.4049,
+      "non_sarcasm_probability": 0.5951,
+      "threshold": 0.8,
+      "time_seconds": 0.14852809999138117
+    },
+    {
+      "text": "@user #sarcasm is a service I offer.",
+      "true_label": "non_sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": false,
+      "sarcasm_probability": 0.9777,
+      "non_sarcasm_probability": 0.0223,
+      "threshold": 0.8,
+      "time_seconds": 0.17331369989551604
+    },
+    {
+      "text": "@user Yeah thanks for messing me about and then not delivering on the product, i feel really great about how this went down!! #Not #Thanks",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.9919,
+      "non_sarcasm_probability": 0.0081,
+      "threshold": 0.8,
+      "time_seconds": 0.17741050012409687
+    },
+    {
+      "text": "@user Guess they didn't get the memo reg non-nuclear Baltic sea #sarcasm",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.9716,
+      "non_sarcasm_probability": 0.0284,
+      "threshold": 0.8,
+      "time_seconds": 0.1585242000874132
+    },
+    {
+      "text": "you believe you can say something, provide no proof and its a fact, WRONG @user @user",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.1317,
+      "non_sarcasm_probability": 0.8683,
+      "threshold": 0.8,
+      "time_seconds": 0.15031239995732903
+    },
+    {
+      "text": "Drinking a Southern Triangle IPA by @user at @user --",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.0191,
+      "non_sarcasm_probability": 0.9809,
+      "threshold": 0.8,
+      "time_seconds": 0.16349199996329844
+    },
+    {
+      "text": "There's no better way to start the week than to get your wisdom teeth taken out at 8 am!!! #not ☺😊😳",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.992,
+      "non_sarcasm_probability": 0.008,
+      "threshold": 0.8,
+      "time_seconds": 0.13717669993638992
+    },
+    {
+      "text": "Can't wait to have an afternoon schedule because of you. It's gonna be so much fun #not",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.82,
+      "non_sarcasm_probability": 0.18,
+      "threshold": 0.8,
+      "time_seconds": 0.17332910001277924
+    },
+    {
+      "text": "'Liberated' Iraq -- 2014 One of Bloodiest Years with More than 36,000 Victims: Thank you, Western liberators #sarcasm",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.9889,
+      "non_sarcasm_probability": 0.0111,
+      "threshold": 0.8,
+      "time_seconds": 0.1740299998782575
+    },
+    {
+      "text": "Throwing up is exactly what I want to be doing at 7:30am... 😷😷😷 #not",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.9743,
+      "non_sarcasm_probability": 0.0257,
+      "threshold": 0.8,
+      "time_seconds": 0.16889189998619258
+    },
+    {
+      "text": "That's comfortably the most stonewall penalty I've ever seen.. What are these refs on? #hadone #Stoke",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.0337,
+      "non_sarcasm_probability": 0.9663,
+      "threshold": 0.8,
+      "time_seconds": 0.1633107999805361
+    },
+    {
+      "text": "Perfect time to get sick 😢 #not",
+      "true_label": "sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": false,
+      "sarcasm_probability": 0.2323,
+      "non_sarcasm_probability": 0.7677,
+      "threshold": 0.8,
+      "time_seconds": 0.166652400046587
+    },
+    {
+      "text": "#farage a t1t in public who doesnt agree with seeing t1ts in public #breastfeeding #irony",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.4026,
+      "non_sarcasm_probability": 0.5974,
+      "threshold": 0.8,
+      "time_seconds": 0.168955999892205
+    },
+    {
+      "text": "When I start singing songs from Once More With Feeling to myself while at work... #Buffymusical #stuckinmyhead",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.1182,
+      "non_sarcasm_probability": 0.8818,
+      "threshold": 0.8,
+      "time_seconds": 0.15663590002804995
+    },
+    {
+      "text": "@user skiing in Regents Park much #not",
+      "true_label": "sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": false,
+      "sarcasm_probability": 0.5867,
+      "non_sarcasm_probability": 0.4133,
+      "threshold": 0.8,
+      "time_seconds": 0.1532878999132663
+    },
+    {
+      "text": "A Puppet at the #PTI rally wanting to make #NayaPakistan #irony",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.834,
+      "non_sarcasm_probability": 0.166,
+      "threshold": 0.8,
+      "time_seconds": 0.15240880008786917
+    },
+    {
+      "text": ".@ChrisBrett2 @user @user @user I think it's your white skin. Or \"racist DNA\". He's a geneticist too, did ya know? #not",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.9953,
+      "non_sarcasm_probability": 0.0047,
+      "threshold": 0.8,
+      "time_seconds": 0.17075280006974936
+    },
+    {
+      "text": "If we win against Poland and Scotland, does that put us 65th in the world rankings. @user @user #Sarcasm",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.9207,
+      "non_sarcasm_probability": 0.0793,
+      "threshold": 0.8,
+      "time_seconds": 0.1670504999347031
+    },
+    {
+      "text": "@user Thanks for pirating my music! :D #not",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.9907,
+      "non_sarcasm_probability": 0.0093,
+      "threshold": 0.8,
+      "time_seconds": 0.14845159999094903
+    },
+    {
+      "text": "Did you know iOS 8 features custom keyboards? #sarcasm",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.9871,
+      "non_sarcasm_probability": 0.0129,
+      "threshold": 0.8,
+      "time_seconds": 0.15947690000757575
+    },
+    {
+      "text": "@user Not going this time, we might have a chance! Fool me once, shame on you, fool me twice..... #fuckthat",
+      "true_label": "non_sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": false,
+      "sarcasm_probability": 0.835,
+      "non_sarcasm_probability": 0.165,
+      "threshold": 0.8,
+      "time_seconds": 0.15827699983492494
+    },
+    {
+      "text": "#Sarcasm makes you mentally stronger. Which is very effective when dealing with emotional #stress and #fustration.|#funfact #WhatIfISay",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.389,
+      "non_sarcasm_probability": 0.611,
+      "threshold": 0.8,
+      "time_seconds": 0.17428779997862875
+    },
+    {
+      "text": "@user @user @user but of course it was. Cops could shoot a black man in front of a hospital & I bet you he'd still get no aid.",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.3545,
+      "non_sarcasm_probability": 0.6455,
+      "threshold": 0.8,
+      "time_seconds": 0.18927059997804463
+    },
+    {
+      "text": "@user yeah I do. But you know there's this thing called an all nighter and apparently I wanna pull one #not",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.9846,
+      "non_sarcasm_probability": 0.0154,
+      "threshold": 0.8,
+      "time_seconds": 0.15993790002539754
+    },
+    {
+      "text": "Tulisa has really made herself ugly #xfactor",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.0057,
+      "non_sarcasm_probability": 0.9943,
+      "threshold": 0.8,
+      "time_seconds": 0.1275555999018252
+    },
+    {
+      "text": "@user @user Yes on Auto-messagers No to #FollowBackers ... They make me money over on TSU. Thx your post||http://t.co/ALSThKb1pG",
+      "true_label": "non_sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": false,
+      "sarcasm_probability": 0.8339,
+      "non_sarcasm_probability": 0.1661,
+      "threshold": 0.8,
+      "time_seconds": 0.17648390005342662
+    },
+    {
+      "text": "You've set yourself some target to achieve there like love #hot or #not",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.3102,
+      "non_sarcasm_probability": 0.6898,
+      "threshold": 0.8,
+      "time_seconds": 0.1466570000629872
+    },
+    {
+      "text": "Being a hipster now is so mainstream. Oh, the irony. #hipster #irony",
+      "true_label": "sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": false,
+      "sarcasm_probability": 0.5055,
+      "non_sarcasm_probability": 0.4945,
+      "threshold": 0.8,
+      "time_seconds": 0.175574199995026
+    },
+    {
+      "text": "Wash hands with water? MOH is rubbing this on everyone's face? #irony",
+      "true_label": "sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": false,
+      "sarcasm_probability": 0.773,
+      "non_sarcasm_probability": 0.227,
+      "threshold": 0.8,
+      "time_seconds": 0.1539698000997305
+    },
+    {
+      "text": "Looking for quality music check> @user hot record \"What About\"",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.0112,
+      "non_sarcasm_probability": 0.9888,
+      "threshold": 0.8,
+      "time_seconds": 0.1447217999957502
+    },
+    {
+      "text": "No doubt. Main Stream Media, Obama, Holder, DeBlasio et al have the blood of those cops on their hands.",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.0086,
+      "non_sarcasm_probability": 0.9914,
+      "threshold": 0.8,
+      "time_seconds": 0.1782664000056684
+    },
+    {
+      "text": "What a great Christmas. 😅 #not",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.9666,
+      "non_sarcasm_probability": 0.0334,
+      "threshold": 0.8,
+      "time_seconds": 0.1602149000391364
+    },
+    {
+      "text": "Acronyms because we're cool as fuck. Judge me.",
+      "true_label": "non_sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": false,
+      "sarcasm_probability": 0.9064,
+      "non_sarcasm_probability": 0.0936,
+      "threshold": 0.8,
+      "time_seconds": 0.1474101000931114
+    },
+    {
+      "text": "Someone discovered that they do indeed have a tail and that it is, in fact, fun to play with",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.0646,
+      "non_sarcasm_probability": 0.9354,
+      "threshold": 0.8,
+      "time_seconds": 0.15582660003565252
+    },
+    {
+      "text": "Lol everyday excuse the language #relationships #men #women #irony #lotd",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.1676,
+      "non_sarcasm_probability": 0.8324,
+      "threshold": 0.8,
+      "time_seconds": 0.161741100018844
+    },
+    {
+      "text": "So there used to be a crossfit place here.... #irony #pizzawins",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.9378,
+      "non_sarcasm_probability": 0.0622,
+      "threshold": 0.8,
+      "time_seconds": 0.17418000008910894
+    },
+    {
+      "text": "Loving how dominant the SEC is #Pause ..... #Not",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.9804,
+      "non_sarcasm_probability": 0.0196,
+      "threshold": 0.8,
+      "time_seconds": 0.15690230019390583
+    },
+    {
+      "text": "It has #not #been #seen www.MonsterMMORPG. com since. progoneate follow @user #mariland",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.2524,
+      "non_sarcasm_probability": 0.7476,
+      "threshold": 0.8,
+      "time_seconds": 0.15284219989553094
+    },
+    {
+      "text": "If only I could be a cooler kid xp lol I'm such a nerd #can #i #know #when #im #not #gonna #get #rejected",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.5469,
+      "non_sarcasm_probability": 0.4531,
+      "threshold": 0.8,
+      "time_seconds": 0.18502800003625453
+    },
+    {
+      "text": "can you not understand that not EVERYTHING is about the President? @user @user @user @user",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.3289,
+      "non_sarcasm_probability": 0.6711,
+      "threshold": 0.8,
+      "time_seconds": 0.15899250004440546
+    },
+    {
+      "text": "@user NDP to introduce bill to make OHIP public #not appropriate # confidentiality",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.2201,
+      "non_sarcasm_probability": 0.7799,
+      "threshold": 0.8,
+      "time_seconds": 0.16221250011585653
+    },
+    {
+      "text": "so glad I came to work at 7:30am for all the customers that are here!!!!!! #not #itsdead",
+      "true_label": "sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": false,
+      "sarcasm_probability": 0.0908,
+      "non_sarcasm_probability": 0.9092,
+      "threshold": 0.8,
+      "time_seconds": 0.155377599876374
+    },
+    {
+      "text": "@user @user At least you got my joke",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.0582,
+      "non_sarcasm_probability": 0.9418,
+      "threshold": 0.8,
+      "time_seconds": 0.1383038000203669
+    },
+    {
+      "text": "@user Minky Wale tail fritter for price of a bijoux flat in Port Talbot.",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.0387,
+      "non_sarcasm_probability": 0.9613,
+      "threshold": 0.8,
+      "time_seconds": 0.15225209994241595
+    },
+    {
+      "text": "Yay I just love this time of the month...! #Sarcasm",
+      "true_label": "sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.9446,
+      "non_sarcasm_probability": 0.0554,
+      "threshold": 0.8,
+      "time_seconds": 0.15697099990211427
+    },
+    {
+      "text": "Agree with that... #we #are #not #mind #readers #haha||#Repost 9gag ⁰You may think we are, but we are...",
+      "true_label": "non_sarcasm",
+      "predicted_label": "non_sarcasm",
+      "correct": true,
+      "sarcasm_probability": 0.7735,
+      "non_sarcasm_probability": 0.2265,
+      "threshold": 0.8,
+      "time_seconds": 0.1851613000035286
+    },
+    {
+      "text": "It's all about Twitter #not a clue",
+      "true_label": "non_sarcasm",
+      "predicted_label": "sarcasm",
+      "correct": false,
+      "sarcasm_probability": 0.8643,
+      "non_sarcasm_probability": 0.1357,
+      "threshold": 0.8,
+      "time_seconds": 0.13634860003367066
+    }
+  ]
+}

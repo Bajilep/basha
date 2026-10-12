@@ -1,0 +1,3273 @@
+[
+  {
+    "text": "I'm honoured to be followed by both leftists & rightists. I always try to stay in the middle & take the good from both sides.",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user Too bad, the FIX is in for Pelosi!  democrates cant having somone work on REAL problems, they need to keep BASHING @user",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user @user I have some thoughts for how to apply deep learning to games, but they mostly don't look traditional games AI",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Fell asleep while watching persona 5 walkthrough. Again. Gosh....",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Direct donate link for that senate seat DEMS CAN STILL WIN",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "I liked a @user video from @user Google Earth VR - This Is Going To Change The World! (Oculus +",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "More than 700 UK artists pledge to boycott Israel via @user #gaza #palestine #israel #BDS",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "#ISIS infogrphic, week 5 of #MosulOffensive: claims killing 487 #ISF & #Peshmerga; 20 suicide attacks; 76 Humvees,…",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "🏀Good practice and ready for tomorrow! @user @user #fcblive",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user @user Well, good for you!",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "There's not enough hair to track all the death. #BlackLivesMatter Reminds of cool art @ Seattle AfAm Museum @user",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "I must warn the reader that the portions sizes are very small (especially the appetizers), so if you plan to eat until you are full and do not intend to order the chef's special tasting menu, prepare to order and pay for an appetizer (1 dish for each person because the portions are not for sharing), a main entree, and the cold udon at the end of the meal.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "chef",
+        "menu"
+      ],
+      "negative_aspects": [
+        "portions",
+        "appetizers",
+        "appetizer",
+        "dish",
+        "portions"
+      ]
+    }
+  },
+  {
+    "text": "\"Samsung Galaxy Note 7 are not allowed in all AirAsia flight\"😂😂 apakah",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "The wait here is long for dim sum, but if you don't like sharing tables or if the typical raucous dim sum atmosphere is not your gig, this is a sleek (for Chinatown) alternative.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "tables"
+      ],
+      "negative_aspects": [
+        "wait"
+      ]
+    }
+  },
+  {
+    "text": "My entree of hot pot with seafood was full of imitation crabmeat with a couple pieces of shrimp and squid, and was unnecessarily heated with a burner.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "entree"
+      ],
+      "negative_aspects": [
+        "hot pot with seafood",
+        "shrimp",
+        "squid",
+        "crabmeat"
+      ]
+    }
+  },
+  {
+    "text": "The food is very good for it's price, better than most fried dumplings I've had.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "food",
+        "price"
+      ],
+      "negative_aspects": [
+        "fried dumplings"
+      ]
+    }
+  },
+  {
+    "text": "@user or this year, its about russia stupid. N comey.",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user So you support raising the federal minimum wage to $11/hour? That's a start!",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Liberals demonize Fidel as a 'dictator' and in the same breath extol entrepreneurs who are entirely unwilling to cede control.",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user YOUR RACIAL COMMENTS ARE DESPICABLE!ARE YOU NOW SAYING OBAMA WAS ELECTED BY \"BLACK SUPREMACISTS\" ??",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user @user that's awesome you met @user . I really enjoy the show #ThisIsUs",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Putin calls Saakashvili’s appointment as Odessa governor ‘spit in Ukraine’s face’https://t.co/J2RyKnvbes",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "FINALLY watching Love & Happiness!!!  This country is going to miss your family's class, wisdom, love, and patience. #ThankYouObama",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "HURRY!  then work on dismantling the electoral college. it's a dinosaur that needs extinction. 2.7 million (so far)…",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user 1. People lied to pollsters bc they were ashamed. 2. Comey effect 3. If we could trust polls 100%, why have an election?",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": ".@wikileaks news release #Yemen #YemenCrisis SHows that it is US manufactured.Same as #Syria \"civil-war\" #ISIS",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user @user Indeed. If Steve Bannon followed Kissingers's orders, you'd hail him as great progressive.",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "#Hezbollah shld get the msg that #Miami isnt the place to do its dirty biz, says @user By @user",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Mine was a little burnt but still delicious with goat cheese and panchetta (raddichio was kind of bitter though).",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "goat cheese",
+        "panchetta"
+      ],
+      "negative_aspects": [
+        "raddichio"
+      ]
+    }
+  },
+  {
+    "text": "Aside from the rushed service, we were very impressed with the food and the drinks.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "food",
+        "drinks"
+      ],
+      "negative_aspects": [
+        "service"
+      ]
+    }
+  },
+  {
+    "text": "Flick & Ben enjoying a trip to the countryside. I can almost hear #jerusalem playing…",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "There's a lot of birthdays this week. Happy Valentines Day!!!!",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user @user @user @user Agreed",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "8 Romantic Lesbian Movies To Get You In The Mood For Love -",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user The same media that hides from the truth about the Clinton Foundation...",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Hillary Clinton was waaaay too conservative on her percentage of deplorables eatimate",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "The place is small and intimate and you may feel a little crowded, but the service is excellent and it's great for friends out, a romantic date, or a special occassion.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "service"
+      ],
+      "negative_aspects": [
+        "place"
+      ]
+    }
+  },
+  {
+    "text": "@user are you watcing #ThisIsUs? I feel like it's a show you'd enjoy. Wife and I love it. Our favorite new show of the season.",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user After the privatize medicare, SS cut medicaid and roll back workers, women, POC, environmental protection and taxes. Also war",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "#Eurozone BREAKING: Vladimir Putin admits Kim Jong-un is better in every way and would \"love to see... [his] face\" #SydMUN16",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Nha Trang, while being notorious for utter lack of comfort and decor, horribly slow wait staff and horribly quick meals, is one of the best vietnamese restaurants i've ever been to. the pho is delicious and comes with very fresh vegtables.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "pho",
+        "vegtables"
+      ],
+      "negative_aspects": [
+        "comfort",
+        "decor",
+        "wait staff",
+        "meals"
+      ]
+    }
+  },
+  {
+    "text": "11 Most Inspirational Quotes From Muhammad Ali",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Love this picture by @user",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Good, because hey, it's more food, but bad because dim sum is supposed to be smaller portions so you can try out more dishes and smaller so that each dish is cheap.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "food"
+      ],
+      "negative_aspects": [
+        "dim sum",
+        "portions"
+      ]
+    }
+  },
+  {
+    "text": "Nah just a tattoo on their moronic stating \"\"If I ever vote again euthanasia is my only option\"\"::",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Staffs are not that friendly, but the taste covers all.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "taste"
+      ],
+      "negative_aspects": [
+        "Staffs"
+      ]
+    }
+  },
+  {
+    "text": "guess whom @user is obsessed with right now😊🙏🏼❤️️#AshleyGraham #plussizefashion",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user The British value test is a practical exam on clubbing fox cubs, and a verbal casual racism test. Written test not feasible.",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "The place is small and cramped but the food is fantastic.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "food"
+      ],
+      "negative_aspects": [
+        "place"
+      ]
+    }
+  },
+  {
+    "text": "@user one for all the T-Shirt luvving liberals #democrats #CaliforniaDreaming",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "POWERFUL #AUDIO #TEACHINGS = #ConservativeReview #MarkLevin #CommonCore #Immigration #Conservatism #DanielHorowitz",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "\\Saakashvili's government was an insult to inhabitants of Odessa and all Ukrainian people\\",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Despite the fact that the space is large, they've overcrowded the floor with tables.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "space"
+      ],
+      "negative_aspects": [
+        "tables"
+      ]
+    }
+  },
+  {
+    "text": "@user Corporate dictatorship has arrived even without the TPP.",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Bob Dylan sings his 3rd highest charting single, Lay Lady Lay live on the Rolling Thunder Tour in 1975 -",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "So youa ve saved for retirement. Did you think about these 3 things?",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user @user I was just thinking this the other day!",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Trump supporters always think they're so cute calling themselves deplorables. So annoying lol",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "While the place is not a hotspot hangout, the drinks are unique and pack a lot of bang for the buck.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "drinks"
+      ],
+      "negative_aspects": [
+        "place"
+      ]
+    }
+  },
+  {
+    "text": "Given the incredible architecture surrounding it, this place has no character.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "architecture"
+      ],
+      "negative_aspects": [
+        "place"
+      ]
+    }
+  },
+  {
+    "text": "@user @user and illegally crossing our borders does NOT CHANGE THAT !!",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "The environment is romantic, but the food is horrible, the service is pathetic, and gabriella lies about everything she could.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "environment"
+      ],
+      "negative_aspects": [
+        "food",
+        "service"
+      ]
+    }
+  },
+  {
+    "text": "@user @user IMO, it was a unique shitstorm of about 12 reasons and unlikely to be duplicated. Dems need to hold their values",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "If he looked any shade of brown skin he would have been. These \"Deplorables\" are really starting to come out ofthe…",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Among #Libya’s politically relevant elites today, I doubt there is 1 group that hasn’t committed atrocities; so . .",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user nobody is saying to go cold turkey on fossil fuels. Just saying to expedite alternatives. Simple minded people make straw men",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "The puke green walls leave a lot to be desired, but the food is very good.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "food"
+      ],
+      "negative_aspects": [
+        "walls"
+      ]
+    }
+  },
+  {
+    "text": "Behind Varane & Carvajal, on the list are Cristiano Ronaldo, Kroos and Bale. The three have all played over 1300 minutes.",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user I'm not saying they will, but they can; also: will of the ppl? HRC is winning popular vote by 2 mill, so ... 😉",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Ben Carson??",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "#ThankYouObama 4everything!This @user special's giving me so much happiness in this moment. Beyond that I'm a mess;anxious &already grieving!",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "While we enjoyed the food, we were highly disappointed by the poor service (waiter was not quite competent and SLOW service) and lack of remorse.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "food"
+      ],
+      "negative_aspects": [
+        "service",
+        "waiter",
+        "service"
+      ]
+    }
+  },
+  {
+    "text": "Lord Pannick and Lord Keen - two lawyers doing battle over Brexit today. You couldn't make this shit up... #brexit",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user @user @user @user @user Trump no statements on this? I hope Melania/Barron NEVER move to DC",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Decent Thai food in cute - though a bit dank - little Nolita hangout, BUT service terrible.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "Thai food"
+      ],
+      "negative_aspects": [
+        "service"
+      ]
+    }
+  },
+  {
+    "text": "Ambiance is barely romantic but management tries.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "management"
+      ],
+      "negative_aspects": [
+        "Ambiance"
+      ]
+    }
+  },
+  {
+    "text": "George Hill returns from injury to score 22 points in the @user 108-83 blowout win over Denver.…",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Donald trump_ melania might be mad after joke about michelle obama speech [video] chf usd exchange rate  Trump prompted the round of ...",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "#TrumpTransitionTeam: #Lobbyists All Purged, #JeffSessions Promoted #DrainTheSwamp #MAGA #Trump #TrumpFTW #WINNINGhttps://t.co/55nYcQxZFN",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user Getting sick and tired of our country being expected to turn a blind eye to illegal immigration while everyone else enforces.",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "#NowPlaying Bad Hombres, Nasty Women Mix (feat. \"Weird Al\" Yankovic) by The Gregory Brothers, \"Weird Al\" Yankovic ♫",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "#Saudi_Arabia seeks to control a port in #Yemen to avoid the potential constriction of its oil shipments by Iran along the Straight of Homuz",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "While the room is not particularly comfortable, once you're seated you'll forget about everything except what's on your plate.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "plate"
+      ],
+      "negative_aspects": [
+        "room"
+      ]
+    }
+  },
+  {
+    "text": "Changing times Microsoft is Linux Foundation Platinum Partner!",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "ashley graham is so pretty",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "What is life lol what are we 💀😂 UFO's steal our cows bc they like beef to 😂 f vegetarianism that's what's the aliens want you to be 👽😂",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "To Bannon of Trump Noahpinion: Steve Bannon and the Last Crusade",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "This New View Of Google Earth Is A Love Letter To Cities #VR #immersive",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "VP Robredo: I will loudly oppose policies on death penalty, on extrajudicial killing, maltreatment on women.",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "the @user organization is one of the purest and most giving organizations, i love it.",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Obviously @user must sing #BeautyAndTheBeast Again !!!! @user @user  (WE WANTTTTT) 🙏🏻",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Robots!!",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "We were seated promptly as we had reservations, however after that the service was slow.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "reservations"
+      ],
+      "negative_aspects": [
+        "service"
+      ]
+    }
+  },
+  {
+    "text": "Oh nah Muhammad Ali was lit for this",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "THE A WORD #apartheid #gaza #palestine #israel #BDS",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Their building a wall...... not on the Mexican border.......on the seafront Strandhill........ they only thing we...",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Ukraine junta considers extraditing Saakashvili back to Georgia (but they don't seem to want him):",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "The space is nice but when we order our drink we were in for a surprise.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "space"
+      ],
+      "negative_aspects": [
+        "drink"
+      ]
+    }
+  },
+  {
+    "text": "While Sapphire is certainly not lacking in ambiance, and probably has the best decor of any Indian restaurant I have been to in New York City, the food was not what I had hoped for.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "ambiance",
+        "decor"
+      ],
+      "negative_aspects": [
+        "food"
+      ]
+    }
+  },
+  {
+    "text": "#Aleppo : Despite Russian airstrikes the Regime has failed to advance and the Opposition have killed 250 militiamen in the last 48 hours.",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user so what happened to your wall? and what about investigating Clinton? gay marriage? small govt? #GOPCON",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Why Patten would fire #Trump adviser #SteveBannon via @user",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Great roofdeck, nice group of 30 somethings, but no music, kind of quiet.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "roofdeck"
+      ],
+      "negative_aspects": [
+        "music"
+      ]
+    }
+  },
+  {
+    "text": "Excellent 2nd Sunday #Advent homily re darkness covering our land w/ #abortion #euthanasia & distinguishing remorse from repentance.",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "YES! #campaignfinance reform is the underlying change that supports the effort to #draintheswamp Go…",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Messi's 100 international goals for Barcelona: left foot (81), right foot (14), header (4), chest (1) #fcblive [via @user",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user @user @user @user the defense budget! Add another 357B in Medicaid benefits.  Why is it costing us almost",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Dont miss out today Dubai's iconic landmarks going Orange #BurjAlArab #InterContinental #SpeakUpae #OrangeTheWorld…",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user @user @user All fair. After all, Obama is planning to stay for jab at new admin.  #nazi GeorgeSoros",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user write in: Cy Young and 20 strikeout, 20 game winner: Max Scherzer",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user yeah good point, I forgot that veganism requires a lot of thought in that sense! I'm defo with you on vegetarianism though!",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "First, the waiter who served us neglected to fill us in on the specials, which I would have chosen had I known about them.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "specials"
+      ],
+      "negative_aspects": [
+        "waiter",
+        "served"
+      ]
+    }
+  },
+  {
+    "text": "@user Thankful for you and the wonderful humans in the Pantsuit Nation FB group <3 #StillWithHer",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Thank you!  @user @user @user",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Melania and Barron Trump isn't moving into the White House immediately.https://t.co/Yrv1hk1gTF",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user Verlander or Sales... no one who is on current roster, unfortunately.",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Pope Benedict admits he was 'unsure' about Francis at first",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user @user oh my godddd!@@@",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "I had a terrific meal, and our server guided us toward a very nice wine in our price range, instead of allowing us to purchase a similarly priced wine that wasn't as good.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "meal",
+        "server",
+        "wine",
+        "price range"
+      ],
+      "negative_aspects": [
+        "wine"
+      ]
+    }
+  },
+  {
+    "text": "Faculties overwlmngly vote Dem, study finds. Even econ profs go left, debunking belief that Repubs bttr 4 biz.",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Bottom line: B+ for the food, F for the service.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "food"
+      ],
+      "negative_aspects": [
+        "service"
+      ]
+    }
+  },
+  {
+    "text": "@user @user Trump is not a Republican selected by the Bilderberg Group. The Democrats are funding Anti Trump Riots. It's Not over.",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "It is kinda nosiy and the tables are close together but it's still a beautiful place to enjoy a nice dinner.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "dinner",
+        "place"
+      ],
+      "negative_aspects": [
+        "tables"
+      ]
+    }
+  },
+  {
+    "text": "P.S. Y'all could have told me Yolanda Adams ATE \"Glory\" with Common on #ThankYouObama 🙌🏾",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user atmosphere.The plan would require robots to help gather the trash from land and sea to be recycled into floating plastic",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user Medicare for All, a real jobs program, tuition-free public college, ending the drug war. These are non-negotiable.",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Cohen reading On Moonlight",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user the man in Black's real identity :o #Westworld",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user #0bumas Anti American Muslim phoney incites cop killing,Riots- CIVIL WAR.Goal martial law 2 stop @user BECOMING 45 POTUSMAGA",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Watched the #Westworld finale? Want to watch the whole season all over again. Do it! @user and @user Also visit",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Will Trump Be Ready to Govern?",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user @user - #ScreamQueens so lucky to get to work with TK.",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "With two touchdown grabs tonight, Michael Roberts ties Lance Moore's 2004 single-season record of 14 receiving touchdowns.",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "This Is What It's Like to Film an Insane Sex Scene with, uh, Michael Moore",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "20 minutes for our reservation but it gave us time to have a few cocktails and enjoy our surroundings and each other.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "cocktails",
+        "surroundings"
+      ],
+      "negative_aspects": [
+        "reservation"
+      ]
+    }
+  },
+  {
+    "text": "Average to good Thai food, but terrible delivery.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "Thai food"
+      ],
+      "negative_aspects": [
+        "delivery"
+      ]
+    }
+  },
+  {
+    "text": "Marine Le Pen storms into the lead in French election polls | World | News | Daily Express...crows the Express.",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "The menu is Prix Fixe, so be prepared to spend at least $60 per person, but it is Well worth itsuperb food.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "food"
+      ],
+      "negative_aspects": [
+        "menu"
+      ]
+    }
+  },
+  {
+    "text": "\"England and Wales at under five per cent, while Christians account for nearly 60 per ...\" via @user",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "The fish is fresh but the variety of fish is nothing out of ordinary.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "fish"
+      ],
+      "negative_aspects": [
+        "variety of fish"
+      ]
+    }
+  },
+  {
+    "text": "Food was very good as well, considering that we tried the budget selection (though I wish the pork belly that I ordered was roasted a bit longer, so that fat was more of a melt-in-your-mouth experience).",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "Food"
+      ],
+      "negative_aspects": [
+        "pork belly",
+        "fat"
+      ]
+    }
+  },
+  {
+    "text": "UK Immigration Ebriefing: New Home Office powers to Close Businesses- Publications - Eversheds International",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "4. Michele #GilmoreGirlsTop43. Roon2. Emily and Richard (I count as one )1.  Paris",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "France hard-right politician Marine Le Pen says she hasn't made up ‘dumb’ tax law to fill hole in her hans:",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "The ambiance is minimal the food is not phenomenal, but some dishes are quite good, such as the eggplant parmesan, veal in carozza chicken saltimbocca.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "ambiance",
+        "dishes",
+        "eggplant parmesan",
+        "veal in carozza chicken saltimbocca"
+      ],
+      "negative_aspects": [
+        "food"
+      ]
+    }
+  },
+  {
+    "text": "Service is highly refined: our seating was delayed 35 minutes past our reservation and the maitre d' apologized and regularly kept us apprised of progress.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "Service",
+        "maitre"
+      ],
+      "negative_aspects": [
+        "reservation"
+      ]
+    }
+  },
+  {
+    "text": "The Gold Standard⚜️ Just In Time for Christmas 🎄 @user #skinceuticals #antioxidants…",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "\"A little bit of mercy makes the world less cold and more just.\"- Pope Francis",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user - dump Pelosi.  Like Harry Reid, she lied about Obamacare and is useless.  Go away.",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "It is far more popular as a bar than as a restaurant, with only a few tables and the waiter being the bartender, but we greatly enjoyed the unobtrusive atmosphere.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "bar",
+        "atmosphere"
+      ],
+      "negative_aspects": [
+        "tables"
+      ]
+    }
+  },
+  {
+    "text": "Musical Themed Nails - #onedirection #coldplay #21pilots @user #nails",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Aww so cute! @user with the boys))",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "statistically, \"bad luck\" is just as valid a cause for the Electoral College result as anything else",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "#Yezidi #Peshmerga forces playing volleyball and crushing #ISIS in the frontline. #Kurdistan",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user @user All the data shows that immigration is a net contributor to the UK",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "One thing we're learning about Trump is that his train of thought rarely runs on a single track, writes Ron Elving",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "I liked a @user video NEW: Anti Trump Riots in America Compilation",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Google Earth Now Available In VR | | #SpectaclesWebsite",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "So many of the 6 Cs and such deep learning happening during \"Free Choice Friday\". Ask me what I did, how I did it a…",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "The portions are small but being that the food was so good makes up for that.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "food"
+      ],
+      "negative_aspects": [
+        "portions"
+      ]
+    }
+  },
+  {
+    "text": "If asked why I'm smiling at my phone, theres a good chance its cause Im looking at something Cubs related & I remember they're world champs.",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "When I'm in public and pull a pair of underwear out of my sweatshirt sleeve, I can't help but feel like David Blaine. #magic #static",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Service was decent, but not as smooth as I would expect from a place with these prices and reputation.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "reputation"
+      ],
+      "negative_aspects": [
+        "prices"
+      ]
+    }
+  },
+  {
+    "text": "Chinese scientists convert infectious viruses into live vaccines to tackle deadly viruses",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "The \"Clinton Foundation\" enterprise has nothing to sell if she is not in power. Desperately trying to stay in busin…",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user IT'S TIME FOR ME TO SELL MY ROBOTS",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user #Hamas plays the same game. Real change is needed, which is why I back @user",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Season 4 of arrested development (2013) announced the building of a wall on the American-Mexican border. Original. @user",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Peter Thiel insider picked to oversee Trump's Defense Department transition Drone strikes against pesky journalists?",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "The bread is the soft paratha bread (unlike the plain bread they use in Calcutta), and the stuffing is tandoori styled and very flavorful.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "bread",
+        "paratha bread",
+        "stuffing",
+        "tandoori"
+      ],
+      "negative_aspects": [
+        "bread"
+      ]
+    }
+  },
+  {
+    "text": "Trump May Name Anti-Worker Billionaire Ross as Com Sec#p2 #UniteBlue #mepolitics \"And the swamp keeps filling\"https://t.co/o3HIJr5hUC",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Plus, when our entrees were held up in the kitchen on a busy Saturday night, the owner sent over complimentary summer rolls to hold us over!",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "summer rolls",
+        "owner"
+      ],
+      "negative_aspects": [
+        "entrees"
+      ]
+    }
+  },
+  {
+    "text": "The latest The Knitting Star Daily! Thanks to @user #mannequinchallenge #thisiswhatyoucamefor",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "#Israel is threatened by a more capable and deadly #Hezbollah",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "The cafe itself was really nice with comfortable outdoor chairs and tables, but the service could have been better.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "cafe",
+        "outdoor chairs",
+        "tables"
+      ],
+      "negative_aspects": [
+        "service"
+      ]
+    }
+  },
+  {
+    "text": "GOD I LOVE ONE DIRECTION SO MUCH❤️ JUST WATCHED #TB1D #WHEREWEARETOUR AND LITERALLY I'M CRYING OUT LOUD! PURE TALANT #onedirection #love",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user  My opinion-This is a ploy to make an agreement between her and Trump.  She won't protest if he won't prosecute.",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Just realised I've loved zac Efron since I was 7 and I'm 16",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Remember Fidel Castro in Bangladesh . . .#MonirulAlam #reportage #FidelCastro",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Attended Youth Speak Forum @ #USConsulate by #AISECInChennai Lot of ideas and interactions#unitednations #y4gg",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "People relate with people like them.They share ideologies and philosophies!#StillWithHer",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": ".Humans suffer too from the inaccuracies and delays of treatments due to animal testing #CambridgeKillers",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "If you're craving for Haru's great food, especially the House Roll, but can't stand the wait building outisde, head across the street to their Sake Bar!",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "food"
+      ],
+      "negative_aspects": [
+        "wait building"
+      ]
+    }
+  },
+  {
+    "text": "@user @user both win tonight! #GoJazz #WeAreUtahJazz #TakeNote",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Our waiter was fine, the place looks nice in that not-trying-too-hard way, but at those prices, a little more should be expected of your food.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "waiter",
+        "place"
+      ],
+      "negative_aspects": [
+        "prices",
+        "food"
+      ]
+    }
+  },
+  {
+    "text": "Ethnic cleansing is morally wrong and illegal, no matter who is perpetrating it. #IsraeliApartheid #Palestine #BDShttps://t.co/RXe8t1uYIL",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Y'all. I just watched two David Blaine specials on Netflix. I. Don't. It's real. It's all real. I don't understand. It's. Wut. Sum1. Halp.☠️",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Vanessa Hudgens Say Ok Music Video (Official with Zac Efron) vía @user",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "The plain pizza was soggy and the creative wild mushroom(third generation-Fornini) pizza we had was drenched with truffle oil in the middle( again making it soggy) and nothingon the rest.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "wild mushroom(third generation-Fornini) pizza"
+      ],
+      "negative_aspects": [
+        "plain pizza"
+      ]
+    }
+  },
+  {
+    "text": "Cristiano Ronaldo and Messi during the game in ELclasico 3 December 2016. I love this moment.",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Even though its good seafood, the prices are too high.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "seafood"
+      ],
+      "negative_aspects": [
+        "prices"
+      ]
+    }
+  },
+  {
+    "text": "Who's better than Grayson Allen or josh Jackson 😂😂😂😂😂",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Wikileaks released documents about #Yemen #yemencrisis",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "It may be a bit packed on weekends, but the vibe is good and it is the best French food you will find in the area.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "vibe",
+        "French food"
+      ],
+      "negative_aspects": [
+        "packed"
+      ]
+    }
+  },
+  {
+    "text": "@user @user Happy Thanksgiving,hope you had a lot to be thankful 4. Please, Re-Do OBAMA CARE its that time again & its BAD!",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "While most people can attest to spending over $50 on drinks in New York bars and hardly feeling a thing, the drinks here are plentiful and unique.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "drinks"
+      ],
+      "negative_aspects": [
+        "drinks",
+        "bars"
+      ]
+    }
+  },
+  {
+    "text": "Thalia is a beautiful restaurant with beautiful people serving you, but the food doesn't quite match up.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "people serving"
+      ],
+      "negative_aspects": [
+        "food"
+      ]
+    }
+  },
+  {
+    "text": "The food there is so good that even to order out the wait is incredible.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "food"
+      ],
+      "negative_aspects": [
+        "wait"
+      ]
+    }
+  },
+  {
+    "text": "Unlike other places in NYC where the sandwiches you want only come as a triple-decker, here you can get what you want in a reasonably-sized portion (and price).",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "price",
+        "portion"
+      ],
+      "negative_aspects": [
+        "sandwiches"
+      ]
+    }
+  },
+  {
+    "text": "That Westworld finale was so good! Hoping we don't have to wait too long for Season 2...",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user #ThankYouObama for destroying the Democratic party and your legacy within 100 days of you leaving office",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "There's something about this place..☮️✡️✝️☪️ #Jerusalem #westernwall #peacetoall #thankful #weekend #shabbat",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user   I think you should pick Rudy over Mitt but I trust your judgement. #PresidentTrump #MAGA #DrainTheSwamp",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user #hatchimals #BlackFriday My daughter would love this 😂",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user Why wasn't Obama admin more aggressive in goading FBI/CIA to counter or investigate Russian hacks on DNC and election systems?",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "My problem is that my jokes seem a hell of a lot funnier when they're in my head and then they fall flat like Michael Moore on ice skates.",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "I really liked the noodle dishes at Rice Avenue compared to their Green Curry dish.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "noodle dishes"
+      ],
+      "negative_aspects": [
+        "Green Curry dish"
+      ]
+    }
+  },
+  {
+    "text": "@user Steve Bannon has done nothing to you.",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user hahah D, I am missing your stories this thanksgiving so I had to hear jokes from someone else!",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Favourite album guys...#3yearsofmidnightmemories #onedirection #MtvStarsNiallHoran #harrystyles #LouisTomlinson",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user  Lieberman praises McFarland/Flynn in transition release on nomination. Lieberman for State Dept ?",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user Fossil fuels are as problematic,but as they are finite it makes sense to improve on other sources that are not. #JustConversing",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Quick favor - how to politely end conversation with an over chatty #uber driver?",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "You don't go to Mizu for excellent service, you go for the large amounts of food, the amiable atmosphere, and the hole-in-the-wall feeling of the place.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "food",
+        "atmosphere"
+      ],
+      "negative_aspects": [
+        "service"
+      ]
+    }
+  },
+  {
+    "text": "#Khamenei #Hezbollah #IRGC able to Get #Shia all in Harmony to Assault #Sunni people & Lands, a type of #Devil Warlord",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Fans can find Base Series 2 in The Armory packs located in the Thanksgiving store! Happy Collecting!",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Grayson Allen - Willam & Mary: via @user",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user play google earth VR",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user @user and a corruption crisis. Lives are no longer lives, left control, no individual! Ashamed!",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user @user That's why Melania stole Michelle's speech, right",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "I liked a @user video from @user Anti-Donald Trump Protests and Riots in a Nutshell (VIDEO)",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Westworld is also one of the few shows that I've actually been keeping up with; so that much show how good it is",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user   Obama transferred CENSUS Bureau to be under under White House control WHY ?REDISTRICTING? Happen early in his Admin Pls club",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "#Trudeau gives your cash to #Terrorist #Hamas-influenced group - #UNRWA - @user",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user @user sweet jesus valentines day is gonna be a too lewd for titter",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Leadership lesson from Manager, Darius's favorite team!https://t.co/4vwEuoLsBW",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user @user @user a reunion is expected. plz sing the theme song #Beautyandthebeast",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Paul Ryan is the gold standard for conservatism.... #SeanDuffy #aphorism",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "In his address, ousted #Ukraine president #Yanukovych reminds us that he, like #Putin, is a bald-faced liar with no regard for human life.",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "However, in the summer of 2003, it seems the management has changed and the great big door has been replaced for a glass front ridding itself of the dark romantic getup.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "door"
+      ],
+      "negative_aspects": [
+        "glass front"
+      ]
+    }
+  },
+  {
+    "text": "@user By this logic, we shouldn't have lifted embargo on Cuba b/c it was \"long standing policy.\"",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "The people with carts of food don't understand you because they don't speak English, their job is to give you the delicious food you point at.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "food"
+      ],
+      "negative_aspects": [
+        "people with carts of food"
+      ]
+    }
+  },
+  {
+    "text": "Kim Fatty The Third will be pleased to know we've not been banned from nick naming him in the UK.",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": ".@MensJournal pushed the #Tesla #modelSP100D to its limits. Their verdicts': #autonews #testdrive #automodel #EVs",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Interesting,I wonder what Mark Cuban has to say to Bannon now that his criminal candidate lost BIGLY.  Embarrassment",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Barbecued codfish was gorgeously moist - as if poached - yet the fabulous texture was let down by curiously bland seasoning - a spice rub might have overwhelmed, however herb mix or other sauce would have done much to enhance.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "Barbecued codfish"
+      ],
+      "negative_aspects": [
+        "seasoning",
+        "spice rub",
+        "herb mix",
+        "sauce"
+      ]
+    }
+  },
+  {
+    "text": "#GilmoreGirlsTop4 brought to you by 1. Babette 2. Jackson 3. Jess 4. Brian 🤗 Happy #GilmoreGirlsRevival Day!!",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "The food is usually good but it certainly isn't a relaxing place to go.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "food"
+      ],
+      "negative_aspects": [
+        "place"
+      ]
+    }
+  },
+  {
+    "text": "Pelosi announces several Dem leadership nominations",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "The service is descent even when this small place is packed.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "service"
+      ],
+      "negative_aspects": [
+        "place"
+      ]
+    }
+  },
+  {
+    "text": "@user @user @user Traitor closet 👳🏿🖕🏻🐍Obama Sends Sickening Surprise to Town That Rejected Mosque #tcot",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "3D-printing robots & #IoT are revolutionizing #manufacturing, which is directly impacting the #supplychain…",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user @user @user What's funny is that you people label yourselves as Christians.",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Renzi Resigns Following Crushing Referendum Defeat #Italy #election #referendum #Renzi…",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user Not your business what people should buy for themselves. ANY gun control is immoral.",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "<-How Much For BOOM BOOM No Condom? #nsfw #bath #bubble  #onedirection",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Christmas in December 🎅🏼🎄New Years in January 🎉Valentines in February 👫Birthday in March👸❣️",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Fires near 'Abu Ghosh', northwest of occupied Jerusalem.#israelisburning #Palestine",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user @user @user .....Good Old Graham Westley!!",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user Things are hotting up in Europe too...people are fed up with the mass immigration madness and the Eurozone experiment.",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "I bought Seventh Generation Hand Wash, Fresh Citrus, 12 Ounce in support of End Animal Testing...",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "OH GOD WHAT EVEN IS EDDIE REDMAYNE? can I pack him in a suitcase? 😭😭 #fantasticbeasts",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Nov 19????.Busted !! WIKILEAKS anti TRUMP PROTESTS SponsorS BY HILLARY AND GEORGE...",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Spirit of my silence i can hear you. But im afraid to be near you. #ThisIsUs 😍😍😍",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "zac efron completely naked",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user yup. Mind boggling as Chaffetz and GOP sits by and watches this. How about Cuba embargo violation????",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "when you jacked into your house without keys. hell yeah, i'm david blaine jr.",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Seems Tim Duncan is doing more than just showing up at #Spurs practices  #spurs #gospursgo",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user @user ...and by \"genocidal antisemites\" you mean Steve Bannon, right?#NotMyPresident",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Guacamole+shrimp appetizer was really great, we both had the filet, very good, didn't much like the frites that came with, but the filet was so good, neither of us cared.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "Guacamole+shrimp appetizer",
+        "filet",
+        "filet"
+      ],
+      "negative_aspects": [
+        "frites"
+      ]
+    }
+  },
+  {
+    "text": ".@JoyAnnReid @user  been saying media must stop providing cover to racists with euphemisms chosen by white supremacists themselves.👀",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Great idea from @user #trumptransitionteam",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Traditional French decour was pleasant though the hall was rather noisy - the restaurant was full and we had to raise our voices to be able to maintain a conversation.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "Traditional French decour"
+      ],
+      "negative_aspects": [
+        "hall"
+      ]
+    }
+  },
+  {
+    "text": "However, go for the ambience, and consider the food just a companion for a trip across the world!",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "ambience"
+      ],
+      "negative_aspects": [
+        "food"
+      ]
+    }
+  },
+  {
+    "text": "Service was slow, but the people were friendly.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "people"
+      ],
+      "negative_aspects": [
+        "Service"
+      ]
+    }
+  },
+  {
+    "text": "However, if you want great food at a great price and don't mind the decor, you can't beat this place.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "food",
+        "price"
+      ],
+      "negative_aspects": [
+        "decor"
+      ]
+    }
+  },
+  {
+    "text": "I feel like Michelle Obama when Melania stoled her speech 😭😂😂",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user @user might as well go full Nazi now.",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Robots endanger up to two-thirds of emerging economy jobs: UN",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "#Microsoft joins the #Linux Foundation!  Read all about it: #OpenSource",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "The Frontiers Issue with Guest Editor President Barack Obama – President Barack Obama on How We’ll Embrace…",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "End Prohibition: Donate To The New Approach Missouri 2016 Medical... #endprohibition, #cannabis, #marijuana",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user @user These liberals wanted nothing more then to keep the real USA content, to be able to just make it. 46 mil on Foodstamps",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Granted the space is smaller than most, it is the best service you will find in even the largest of restaurants.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "service"
+      ],
+      "negative_aspects": [
+        "space"
+      ]
+    }
+  },
+  {
+    "text": "They are often crowded on the weekends but they are efficient and accurate with their service.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "service"
+      ],
+      "negative_aspects": [
+        "crowded"
+      ]
+    }
+  },
+  {
+    "text": "@user @user He spent any chance he had when he appointed Steve Bannon. Fuck him.",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "This may be the reason folks protest and complain but your don't listen trump I guess they are resorting to this I…",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "#HurtFeelingsInChinaToday: US should butt out of alliances that upset “Kim Fatty the Third\" & his bum buddiesBy…",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user @user @user Obviously means nothing since it hasn't stopped Soros from funding anti-Trump protests/riots.",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "He'd make a great Ambassador to #Libya",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "The background singers breasts are clapping along to Jesus Can Work It Out. *tears* #ThankYouObama",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user He already has a friend, the blamee who \"wrote\" Melania's RNC speech.",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "The portions are now very small, the sauces are overly-ambitious usually inedible while the service is still good, the restaurant, due to its popularity, seems frantic.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "service"
+      ],
+      "negative_aspects": [
+        "portions",
+        "sauces"
+      ]
+    }
+  },
+  {
+    "text": "Moules were excellent, lobster ravioli was VERY salty!",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "Moules"
+      ],
+      "negative_aspects": [
+        "lobster ravioli"
+      ]
+    }
+  },
+  {
+    "text": "#LindsayLohan Is ‘Feeling Thankful’ After Blasting #ArianaGrande For Wearing ‘#TooMuch…",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "The excitement felt when the #hatchimals hatches. Rosie's face was #priceless .  #hatchybirthday…",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "George #Soros is behind @user 's #recount2016",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user Heh - hopefully we get lucky.  Fidel's brother, Nicolás Maduro, Hassan Nasrallah?  we can only hope!",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "To begin, we were told there was a 30 minute wait and started to leave, when the hostess offered to call us on our cell phone when the table was ready.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "hostess",
+        "table"
+      ],
+      "negative_aspects": [
+        "wait"
+      ]
+    }
+  },
+  {
+    "text": "#UnitedNations African Development Bank : Water at the heart of COP22 and actions on climate ch... Read more:",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "If you are someone who appreciates simplicity, elegance, and wonderfully presented and tasting seafood and vegetables regardless of portion size, Kai is your place.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "seafood",
+        "vegetables"
+      ],
+      "negative_aspects": [
+        "portion size"
+      ]
+    }
+  },
+  {
+    "text": "If I could rate the people this place would be off the charts - unfortunately - the pizza, sorry - not the best in NYC.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "people"
+      ],
+      "negative_aspects": [
+        "pizza"
+      ]
+    }
+  },
+  {
+    "text": "I wouldn't trust @user to hold my latte for me for a sec. Make of that what you will. #StillWithHer #TheResistance",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user Let Pelosi stay. She's the best thing that happened to the Rep Party. Crazy, ranting, confused women is perfect for the Dems. #MAGA",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "I wanna live in a world where Vanessa Hudgens and Zac Efron get back together",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user This year I’m already taken care of with World of FF, Persona 5 and FFXV. So much to play.",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "New on @user . Big fan of @user and @user #ArianaGrande #NickiMinaj #Barbies #Barbz #Arianators…",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "This is one great place to eat pizza more out but not a good place for take-out pizza.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "pizza"
+      ],
+      "negative_aspects": [
+        "take-out pizza"
+      ]
+    }
+  },
+  {
+    "text": "Years of research cuts: China is ahead of the US in #machinelearning  #deeplearning #ArtificialIntelligence via @user",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Or Ben Carson. #Scampaign",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user you cant fuck the ugly away, Melania Trump tried... and this was the result",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user @user @user Keith your jets might get Tony Romo next year either way he's not coming back to Dallas",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user I hope I white pilled you a bit enjoy Christmas in England the third world awaits the liberals hope they're as welcoming 😂",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "THE GREAT WALL OF ISRAEL #gaza #palestine #israel #BDS #apartheid #jerusalem",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Service could be improved but overall this is a place that understands the importance of little things (the heavy, black, antique-seeming teapot, for one) in the restaurant experience.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "teapot"
+      ],
+      "negative_aspects": [
+        "Service"
+      ]
+    }
+  },
+  {
+    "text": "@user Melania wrote the speech",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "It's a tad droll when Dateline NBC quotes a California DA talking tough about the state's \"death penalty.\"",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Just in time for Trump, the Obama admin expands JSOC's powers to secretly wage... by #johncusack via @user",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "in an effort to increase turnover, the restaurant offers no desserts beyond the complimentary espresso cup filled with chocolate mousse.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "espresso cup filled with chocolate mousse"
+      ],
+      "negative_aspects": [
+        "desserts"
+      ]
+    }
+  },
+  {
+    "text": "@user @user @user I'm showing Google Earth VR to my colleague, he can't stop anymore ;D. Try it if you haven't yet!",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user relaxes with his team on thevoiceau 😁✌🏻️ #RickyMartin #Ricky_Martin #РикиМартин…",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "There was a long wait for a table outside, but it was a little too hot in the sun anyway so our insde table was very nice.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "insde table"
+      ],
+      "negative_aspects": [
+        "wait"
+      ]
+    }
+  },
+  {
+    "text": "David Blaine is incredible. Everyone needs to check out his special on Netflix #WOW",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Wait staff is blantently unappreciative of your business but its the best pie on the UWS!",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "pie"
+      ],
+      "negative_aspects": [
+        "Wait staff"
+      ]
+    }
+  },
+  {
+    "text": "Good atmosphere, combination of all the hottest music dress code is relatively strict except on Fridays.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "atmosphere",
+        "music"
+      ],
+      "negative_aspects": [
+        "dress cod"
+      ]
+    }
+  },
+  {
+    "text": "Niall's arms are perfect! #MPN #OneDirection",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "True. Also, don't you support TPP?? Weird",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "While the new restaurant still features much of the same classical furniture that made Tiffin so attractive, the menu has been overhauled.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "classical furniture"
+      ],
+      "negative_aspects": [
+        "menu"
+      ]
+    }
+  },
+  {
+    "text": "The 'Alt-Right' Is A Hate Movement, And It's Scarier Than You Think - Huffington Post",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Is that Manuel 'France wil have to learn to live with terrorism' Valls?",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user @user Why get rid of Obamacare?",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "I will wash my hands with .@realDonaldTrump if he picks Mitt over #Rudy. #DrainTheSwamp pick #Rudy @user",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user @user meh.. Grayson Allen is 💩",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user @user When did she state that she would implement a mandatory death penalty for killing a police officer?",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "“Make Art, and Fight the Power”: A Historically Black National Book Awards - The New Yorker #NBAwards | @user",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "We are still going strong! We're open until 10 pm tonight! All our regular sized Pops! are 3 for $25! Exclusives included!",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Though you will undoubtedly be seated at a table with what seems like barely enough room (no matter what the size of your party), the warm atomosphere is worth the cramped quarters- you'll have fun and forgot about the tight spot you're in.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "atomosphere"
+      ],
+      "negative_aspects": [
+        "table",
+        "room",
+        "spot"
+      ]
+    }
+  },
+  {
+    "text": "Because we didn't have a reservation, we could only sit in the back garden, but it was great, secluded and perfect in nice weather.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "back garden"
+      ],
+      "negative_aspects": [
+        "reservation"
+      ]
+    }
+  },
+  {
+    "text": "@user //@elizabethforma This can't be legal! He is profiting from the @user and it is BLATANT! Can u do something.",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "The ambience was nice, but service wasn't so great.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "ambience"
+      ],
+      "negative_aspects": [
+        "service"
+      ]
+    }
+  },
+  {
+    "text": "While the food was good (certainly no Il Mulino) the service was horrendous.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "food"
+      ],
+      "negative_aspects": [
+        "service"
+      ]
+    }
+  },
+  {
+    "text": "Do y'all feel bad for Tony Romo?",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Raul Castro: Cuba will ban naming of monuments after Fidel -",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "I do not care if HRC goes to prison or is deported. But George Soros and son must be arrested and given to Russia. He must be dealt with.",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user Coward... well... why doesn't Poroshenko or Avakov or Saakasjvili travel to Crimea?",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user @user Not to mention he used a racial slur at a nationally televised debate. \"Bad hombres\" -Donald Trump.",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Now i know why they are raving about this show! #thisisus",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "【Popular Song】Ahh, I said I'm putting down my story in a popular song #Taylor #ArianaGrande #Justin #music",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Although the tables may be closely situated, the candle-light, food-quality and service overcompensate.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "candle-light",
+        "food-quality",
+        "service"
+      ],
+      "negative_aspects": [
+        "tables"
+      ]
+    }
+  },
+  {
+    "text": "The drinks are a saving grace, but service staff, please, get over yourselves.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "drinks"
+      ],
+      "negative_aspects": [
+        "service staff"
+      ]
+    }
+  },
+  {
+    "text": "@user @user @user @user riiiight... because all those anti-Trump riots are his supporters.",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Another good reason to control immigration.Racial segregation 'growing in UK', Dame Louise Casey warns -",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "That meeting with pelosi Shumer and others dems..including Hillary and.. ( Jill Stein)",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Any automaker wanting to stay in biz will eventually make self-driving cars. Lobbying and fear-mongering is only for time to catch up",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Abortion really brings out the kid in you.",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "If you celebrated Thanksgiving from abroad this year, send us photos from your experience & we can share them!…",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Fun times inside @user with the @user #hatchimals. @user learned what it takes to care for one on li…",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Castro died after seeing his Obamacare premium hikes",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Trump defendendo Steve Bannon: \"But Steve went to Harvard, he was a, you know, he was very successful,  he was a Naval officer (+)",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Decor is nice though service can be spotty.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "Decor"
+      ],
+      "negative_aspects": [
+        "service"
+      ]
+    }
+  },
+  {
+    "text": "@user so many deplorables..need a basket the size of Russia",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Inside Expa Labs, #uber co-founder’s take on the #startup accelerator",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Rightists plan mega-Jerusalem in 2040 - with invisible Palestinians",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Tot Tutors Kids’ Toy Storage Organizer with 12 Plastic Bins #NationalFastFoodDay",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "The menu looked good, except for offering the Chilean Sea Bass, but the server does not offer up the specials that were written on the board outside.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "menu"
+      ],
+      "negative_aspects": [
+        "Chilean Sea Bass",
+        "server"
+      ]
+    }
+  },
+  {
+    "text": "sometimes i get bad food and bad service, sometimes i get good good and bad service.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "good"
+      ],
+      "negative_aspects": [
+        "food",
+        "service",
+        "service"
+      ]
+    }
+  },
+  {
+    "text": "“True compassion does not marginalize anyone, nor does it humiliate and exclude...”",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user @user Mitt, Hillary and Obama- Comey, and many more",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Nigel Farage plans to move to USA. I thought Trump was against allowing \"bad hombres\" into America ...",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "We were fans of the half-price Saturday night option until some inedible squid during a recent visit.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "half-price Saturday night option"
+      ],
+      "negative_aspects": [
+        "squid"
+      ]
+    }
+  },
+  {
+    "text": "Why don't we have @user #uber? #SalemOR",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "It is nearly impossible to get a table, so if you ever have the chance to go here for dinner, DO NOT pass it up.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "dinner"
+      ],
+      "negative_aspects": [
+        "table"
+      ]
+    }
+  },
+  {
+    "text": "It's a shame that a nice, convenient place like the Pink Pony can be so ruined by lousy service.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "place"
+      ],
+      "negative_aspects": [
+        "service"
+      ]
+    }
+  },
+  {
+    "text": "#TrumpTransitionTeam#Chaotic#disorganizedSlow on - Uptickahhh..#MSM#Pollsters#Polls#usatodayI thinkU are…",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Pope Francis insults Catholic youth - The Detroit News",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Pelosi Challenger Tim Ryan: Is He Any Better?",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Despite a slightly limited menu, everything prepared is done to perfection, ultra fresh and a work of food art.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "food art"
+      ],
+      "negative_aspects": [
+        "menu"
+      ]
+    }
+  },
+  {
+    "text": "National fast food day is the only thing that matters🍔 Watch the animation here🍟",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "FCBarcelona: 📷 Great pics from other side of Celtic v FC Barcelona: #FCBlive",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "There's this Jaguar ad that keeps coming up on my tl and every time i see it i think of a tesla model s",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Service is friendly, prices are good - delivery time was a little slow, but for the way this pizza tastes, I'm willing to overlook it.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "Service",
+        "prices",
+        "pizza"
+      ],
+      "negative_aspects": [
+        "delivery time"
+      ]
+    }
+  },
+  {
+    "text": "Small servings for main entree, i had salmon (wasnt impressed) girlfriend had chicken, it was good.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "chicken"
+      ],
+      "negative_aspects": [
+        "salmon",
+        "servings",
+        "entree"
+      ]
+    }
+  },
+  {
+    "text": "Where tanks in other Chinatown restaurants display a lurking myriad of sad-looking marine life in their murky waters, the tanks at Ping's are clear as glass with healthy-looking creatures who do not yet know that they will be part of some dim sum lover's brunch.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "tanks"
+      ],
+      "negative_aspects": [
+        "tanks"
+      ]
+    }
+  },
+  {
+    "text": "After 2 tries by the waiter to take it away (we hadn't even looked at it yet, we had full beers yet to drink), the manager approached and told us they needed the table for people with reservations.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "reservations"
+      ],
+      "negative_aspects": [
+        "waiter",
+        "manager"
+      ]
+    }
+  },
+  {
+    "text": "if Persona 5 is already out and ready in Japan why can't we have it nowpleasemy crops are dying",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "brick by ben folds five is objectively the best song ever written about abortion",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Even if this results in nothing, big PR coup for Trump,vs Obama's admin which didnt seem to do much,plus look at pi…",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Yes, they use fancy ingredients, but even fancy ingredients don't make for good pizza unless someone knows how to get the crust right.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "ingredients",
+        "ingredients"
+      ],
+      "negative_aspects": [
+        "pizza"
+      ]
+    }
+  },
+  {
+    "text": "The all-new America's Next Top Model judging panel has been revealed, and we're excited",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "But remember the Clinton Foundation??",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "It's funny to watch the news stations try to figure Donald Trump out when he is putting his cabinet togetherSo funny",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user @user She's under the Clinton Foundation umbrella now. Only explanation for her change of heart towards Hillary.",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Hillary won the popular vote by over 3 million votes... But people still ask me why I'm not even registered to vote... Cause it don't matter",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user om.fucking.g.fuck you....craven.How Republicans can rebuild Obamacarehttps://t.co/N7XPyeRcldhttps://t.co/VK29wkI8v0",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "When your dream is to be the next kim Jong Un",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "All the money went into the interior decoration, none of it went to the chefs.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "interior decoration"
+      ],
+      "negative_aspects": [
+        "chefs"
+      ]
+    }
+  },
+  {
+    "text": "@user Ossethia is independent. no land grab. and mccain puppet saakashvili is wanted criminal in Georgia",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "So thankful for #TheExorcist & #ScreamQueens so please @user #RenewTheExorcist & #RenewScreamQueens",
+    "label": "positive",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "A cheap eat for NYC, but not for dosa.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "eat"
+      ],
+      "negative_aspects": [
+        "dosa"
+      ]
+    }
+  },
+  {
+    "text": "My husband said the portions were very small, but if my main course was good to eat the portion would've been fine for me.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "portion"
+      ],
+      "negative_aspects": [
+        "portions",
+        "main course"
+      ]
+    }
+  },
+  {
+    "text": "@user \"As conservatives, we also care about your sexuality though\".",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "The service is a little scatty at times but all is forgiven when the food arrives.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "food"
+      ],
+      "negative_aspects": [
+        "service"
+      ]
+    }
+  },
+  {
+    "text": "The popular vote has never mattered it's a lie. Look at the election of 1824",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "Trending: Hatchimal | Hatchimals #Hatchimals",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user sorry, do you have any proof of that?",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user creativity doesn't exist which is why the same movies/tv shows keep getting made. Wait til Zac Efron plays John McClain.",
+    "label": "neutral",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "The first 2 courses were very good, but the chocolate sampler was too rich for me and the dessert wine far too sweet.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "courses"
+      ],
+      "negative_aspects": [
+        "chocolate sampler",
+        "dessert wine"
+      ]
+    }
+  },
+  {
+    "text": "When liberals judge you on your beliefs when both your Grandparents are unable to work and undergo Atos work assess…",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "@user President Obama says a lot of things.  Thank GOD that's coming to an end, I know Obama Admin have been harassing you too",
+    "label": "negative",
+    "phenomenon": "normal_sentiment",
+    "source": "tweet_eval_sentiment"
+  },
+  {
+    "text": "The sweet lassi was excellent as was the lamb chettinad and the garlic naan but the rasamalai was forgettable.",
+    "label": "mixed",
+    "phenomenon": "aspect_mixed",
+    "source": "semeval_restaurants_absa",
+    "gold_evidence": {
+      "positive_aspects": [
+        "sweet lassi",
+        "lamb chettinad",
+        "garlic naan"
+      ],
+      "negative_aspects": [
+        "rasamalai"
+      ]
+    }
+  }
+]

@@ -1,0 +1,777 @@
+{
+  "settings": {
+    "clause_confidence_threshold": 0.65,
+    "contrast_markers": [
+      "but",
+      "however",
+      "although",
+      "though",
+      "yet",
+      "whereas",
+      "while"
+    ]
+  },
+  "summary": {
+    "total_missed_mixed": 59,
+    "contrast_examples": 24,
+    "no_contrast_examples": 35,
+    "recoverable": 2,
+    "not_recoverable": 22,
+    "recovery_rate_all": 0.03389830508474576,
+    "recovery_rate_contrast": 0.08333333333333333,
+    "current_correct_mixed": 41,
+    "potential_correct_mixed": 43,
+    "current_mixed_recall": 0.41,
+    "potential_mixed_recall": 0.43
+  },
+  "marker_counts": {
+    "but": 21,
+    "however": 1,
+    "yet": 2
+  },
+  "recovery_marker_counts": {
+    "but": 2
+  },
+  "recovered_by_original_prediction": {
+    "positive": 1,
+    "negative": 1
+  },
+  "results": [
+    {
+      "index": 1,
+      "text": "I must warn the reader that the portions sizes are very small (especially the appetizers), so if you plan to eat until you are full and do not intend to order the chef's special tasting menu, prepare to order and pay for an appetizer (1 dish for each person because the portions are not for sharing), a main entree, and the cold udon at the end of the meal.",
+      "original_prediction": "neutral",
+      "has_contrast": false,
+      "recoverable": false,
+      "reason": "no_supported_contrast_marker"
+    },
+    {
+      "index": 2,
+      "text": "The wait here is long for dim sum, but if you don't like sharing tables or if the typical raucous dim sum atmosphere is not your gig, this is a sleek (for Chinatown) alternative.",
+      "original_prediction": "negative",
+      "failure_category": "missing_positive_aspect_evidence",
+      "has_contrast": true,
+      "marker": "but",
+      "left": {
+        "text": "The wait here is long for dim sum",
+        "sentiment": "negative",
+        "confidence": 0.6786
+      },
+      "right": {
+        "text": "if you don't like sharing tables or if the typical raucous dim sum atmosphere is not your gig, this is a sleek (for Chinatown) alternative.",
+        "sentiment": "neutral",
+        "confidence": 0.5164
+      },
+      "recoverable": false
+    },
+    {
+      "index": 3,
+      "text": "My entree of hot pot with seafood was full of imitation crabmeat with a couple pieces of shrimp and squid, and was unnecessarily heated with a burner.",
+      "original_prediction": "negative",
+      "has_contrast": false,
+      "recoverable": false,
+      "reason": "no_supported_contrast_marker"
+    },
+    {
+      "index": 4,
+      "text": "The food is very good for it's price, better than most fried dumplings I've had.",
+      "original_prediction": "positive",
+      "has_contrast": false,
+      "recoverable": false,
+      "reason": "no_supported_contrast_marker"
+    },
+    {
+      "index": 5,
+      "text": "Good, because hey, it's more food, but bad because dim sum is supposed to be smaller portions so you can try out more dishes and smaller so that each dish is cheap.",
+      "original_prediction": "neutral",
+      "failure_category": "missing_positive_aspect_evidence",
+      "has_contrast": true,
+      "marker": "but",
+      "left": {
+        "text": "Good, because hey, it's more food",
+        "sentiment": "positive",
+        "confidence": 0.9148
+      },
+      "right": {
+        "text": "bad because dim sum is supposed to be smaller portions so you can try out more dishes and smaller so that each dish is cheap.",
+        "sentiment": "negative",
+        "confidence": 0.595
+      },
+      "recoverable": false
+    },
+    {
+      "index": 6,
+      "text": "Staffs are not that friendly, but the taste covers all.",
+      "original_prediction": "negative",
+      "failure_category": "missing_positive_aspect_evidence",
+      "has_contrast": true,
+      "marker": "but",
+      "left": {
+        "text": "Staffs are not that friendly",
+        "sentiment": "negative",
+        "confidence": 0.8677
+      },
+      "right": {
+        "text": "the taste covers all.",
+        "sentiment": "neutral",
+        "confidence": 0.5545
+      },
+      "recoverable": false
+    },
+    {
+      "index": 7,
+      "text": "Despite the fact that the space is large, they've overcrowded the floor with tables.",
+      "original_prediction": "neutral",
+      "has_contrast": false,
+      "recoverable": false,
+      "reason": "no_supported_contrast_marker"
+    },
+    {
+      "index": 8,
+      "text": "While the place is not a hotspot hangout, the drinks are unique and pack a lot of bang for the buck.",
+      "original_prediction": "positive",
+      "has_contrast": false,
+      "recoverable": false,
+      "reason": "no_supported_contrast_marker"
+    },
+    {
+      "index": 9,
+      "text": "Given the incredible architecture surrounding it, this place has no character.",
+      "original_prediction": "neutral",
+      "has_contrast": false,
+      "recoverable": false,
+      "reason": "no_supported_contrast_marker"
+    },
+    {
+      "index": 10,
+      "text": "The puke green walls leave a lot to be desired, but the food is very good.",
+      "original_prediction": "positive",
+      "failure_category": "missing_negative_aspect_evidence",
+      "has_contrast": true,
+      "marker": "but",
+      "left": {
+        "text": "The puke green walls leave a lot to be desired",
+        "sentiment": "negative",
+        "confidence": 0.8723
+      },
+      "right": {
+        "text": "the food is very good.",
+        "sentiment": "positive",
+        "confidence": 0.9767
+      },
+      "recoverable": true
+    },
+    {
+      "index": 11,
+      "text": "Ambiance is barely romantic but management tries.",
+      "original_prediction": "negative",
+      "failure_category": "missing_positive_aspect_evidence",
+      "has_contrast": true,
+      "marker": "but",
+      "left": {
+        "text": "Ambiance is barely romantic",
+        "sentiment": "negative",
+        "confidence": 0.652
+      },
+      "right": {
+        "text": "management tries.",
+        "sentiment": "neutral",
+        "confidence": 0.6848
+      },
+      "recoverable": false
+    },
+    {
+      "index": 12,
+      "text": "While the room is not particularly comfortable, once you're seated you'll forget about everything except what's on your plate.",
+      "original_prediction": "neutral",
+      "has_contrast": false,
+      "recoverable": false,
+      "reason": "no_supported_contrast_marker"
+    },
+    {
+      "index": 13,
+      "text": "We were seated promptly as we had reservations, however after that the service was slow.",
+      "original_prediction": "neutral",
+      "failure_category": "missing_positive_aspect_evidence",
+      "has_contrast": true,
+      "marker": "however",
+      "left": {
+        "text": "We were seated promptly as we had reservations",
+        "sentiment": "neutral",
+        "confidence": 0.6844
+      },
+      "right": {
+        "text": "after that the service was slow.",
+        "sentiment": "negative",
+        "confidence": 0.8633
+      },
+      "recoverable": false
+    },
+    {
+      "index": 14,
+      "text": "The space is nice but when we order our drink we were in for a surprise.",
+      "original_prediction": "positive",
+      "failure_category": "missing_negative_aspect_evidence",
+      "has_contrast": true,
+      "marker": "but",
+      "left": {
+        "text": "The space is nice",
+        "sentiment": "positive",
+        "confidence": 0.9536
+      },
+      "right": {
+        "text": "when we order our drink we were in for a surprise.",
+        "sentiment": "neutral",
+        "confidence": 0.6175
+      },
+      "recoverable": false
+    },
+    {
+      "index": 15,
+      "text": "First, the waiter who served us neglected to fill us in on the specials, which I would have chosen had I known about them.",
+      "original_prediction": "negative",
+      "has_contrast": false,
+      "recoverable": false,
+      "reason": "no_supported_contrast_marker"
+    },
+    {
+      "index": 16,
+      "text": "I had a terrific meal, and our server guided us toward a very nice wine in our price range, instead of allowing us to purchase a similarly priced wine that wasn't as good.",
+      "original_prediction": "positive",
+      "has_contrast": false,
+      "recoverable": false,
+      "reason": "no_supported_contrast_marker"
+    },
+    {
+      "index": 17,
+      "text": "Bottom line: B+ for the food, F for the service.",
+      "original_prediction": "neutral",
+      "has_contrast": false,
+      "recoverable": false,
+      "reason": "no_supported_contrast_marker"
+    },
+    {
+      "index": 18,
+      "text": "It is kinda nosiy and the tables are close together but it's still a beautiful place to enjoy a nice dinner.",
+      "original_prediction": "positive",
+      "failure_category": "missing_negative_aspect_evidence",
+      "has_contrast": true,
+      "marker": "but",
+      "left": {
+        "text": "It is kinda nosiy and the tables are close together",
+        "sentiment": "neutral",
+        "confidence": 0.741
+      },
+      "right": {
+        "text": "it's still a beautiful place to enjoy a nice dinner.",
+        "sentiment": "positive",
+        "confidence": 0.9781
+      },
+      "recoverable": false
+    },
+    {
+      "index": 19,
+      "text": "20 minutes for our reservation but it gave us time to have a few cocktails and enjoy our surroundings and each other.",
+      "original_prediction": "positive",
+      "failure_category": "missing_negative_aspect_evidence",
+      "has_contrast": true,
+      "marker": "but",
+      "left": {
+        "text": "20 minutes for our reservation",
+        "sentiment": "neutral",
+        "confidence": 0.8752
+      },
+      "right": {
+        "text": "it gave us time to have a few cocktails and enjoy our surroundings and each other.",
+        "sentiment": "positive",
+        "confidence": 0.8763
+      },
+      "recoverable": false
+    },
+    {
+      "index": 20,
+      "text": "The menu is Prix Fixe, so be prepared to spend at least $60 per person, but it is Well worth itsuperb food.",
+      "original_prediction": "positive",
+      "failure_category": "missing_negative_aspect_evidence",
+      "has_contrast": true,
+      "marker": "but",
+      "left": {
+        "text": "The menu is Prix Fixe, so be prepared to spend at least $60 per person",
+        "sentiment": "neutral",
+        "confidence": 0.7715
+      },
+      "right": {
+        "text": "it is Well worth itsuperb food.",
+        "sentiment": "positive",
+        "confidence": 0.9555
+      },
+      "recoverable": false
+    },
+    {
+      "index": 21,
+      "text": "Service is highly refined: our seating was delayed 35 minutes past our reservation and the maitre d' apologized and regularly kept us apprised of progress.",
+      "original_prediction": "positive",
+      "has_contrast": false,
+      "recoverable": false,
+      "reason": "no_supported_contrast_marker"
+    },
+    {
+      "index": 22,
+      "text": "It is far more popular as a bar than as a restaurant, with only a few tables and the waiter being the bartender, but we greatly enjoyed the unobtrusive atmosphere.",
+      "original_prediction": "positive",
+      "failure_category": "missing_negative_aspect_evidence",
+      "has_contrast": true,
+      "marker": "but",
+      "left": {
+        "text": "It is far more popular as a bar than as a restaurant, with only a few tables and the waiter being the bartender",
+        "sentiment": "positive",
+        "confidence": 0.4893
+      },
+      "right": {
+        "text": "we greatly enjoyed the unobtrusive atmosphere.",
+        "sentiment": "positive",
+        "confidence": 0.9831
+      },
+      "recoverable": false
+    },
+    {
+      "index": 23,
+      "text": "The bread is the soft paratha bread (unlike the plain bread they use in Calcutta), and the stuffing is tandoori styled and very flavorful.",
+      "original_prediction": "positive",
+      "has_contrast": false,
+      "recoverable": false,
+      "reason": "no_supported_contrast_marker"
+    },
+    {
+      "index": 24,
+      "text": "Plus, when our entrees were held up in the kitchen on a busy Saturday night, the owner sent over complimentary summer rolls to hold us over!",
+      "original_prediction": "positive",
+      "has_contrast": false,
+      "recoverable": false,
+      "reason": "no_supported_contrast_marker"
+    },
+    {
+      "index": 25,
+      "text": "The cafe itself was really nice with comfortable outdoor chairs and tables, but the service could have been better.",
+      "original_prediction": "positive",
+      "failure_category": "missing_positive_aspect_evidence",
+      "has_contrast": true,
+      "marker": "but",
+      "left": {
+        "text": "The cafe itself was really nice with comfortable outdoor chairs and tables",
+        "sentiment": "positive",
+        "confidence": 0.9796
+      },
+      "right": {
+        "text": "the service could have been better.",
+        "sentiment": "negative",
+        "confidence": 0.5691
+      },
+      "recoverable": false
+    },
+    {
+      "index": 26,
+      "text": "The plain pizza was soggy and the creative wild mushroom(third generation-Fornini) pizza we had was drenched with truffle oil in the middle( again making it soggy) and nothingon the rest.",
+      "original_prediction": "negative",
+      "has_contrast": false,
+      "recoverable": false,
+      "reason": "no_supported_contrast_marker"
+    },
+    {
+      "index": 27,
+      "text": "It may be a bit packed on weekends, but the vibe is good and it is the best French food you will find in the area.",
+      "original_prediction": "positive",
+      "failure_category": "missing_negative_aspect_evidence",
+      "has_contrast": true,
+      "marker": "but",
+      "left": {
+        "text": "It may be a bit packed on weekends",
+        "sentiment": "neutral",
+        "confidence": 0.8845
+      },
+      "right": {
+        "text": "the vibe is good and it is the best French food you will find in the area.",
+        "sentiment": "positive",
+        "confidence": 0.9773
+      },
+      "recoverable": false
+    },
+    {
+      "index": 28,
+      "text": "While most people can attest to spending over $50 on drinks in New York bars and hardly feeling a thing, the drinks here are plentiful and unique.",
+      "original_prediction": "positive",
+      "has_contrast": false,
+      "recoverable": false,
+      "reason": "no_supported_contrast_marker"
+    },
+    {
+      "index": 29,
+      "text": "The food there is so good that even to order out the wait is incredible.",
+      "original_prediction": "positive",
+      "has_contrast": false,
+      "recoverable": false,
+      "reason": "no_supported_contrast_marker"
+    },
+    {
+      "index": 30,
+      "text": "Unlike other places in NYC where the sandwiches you want only come as a triple-decker, here you can get what you want in a reasonably-sized portion (and price).",
+      "original_prediction": "positive",
+      "has_contrast": false,
+      "recoverable": false,
+      "reason": "no_supported_contrast_marker"
+    },
+    {
+      "index": 31,
+      "text": "I really liked the noodle dishes at Rice Avenue compared to their Green Curry dish.",
+      "original_prediction": "positive",
+      "has_contrast": false,
+      "recoverable": false,
+      "reason": "no_supported_contrast_marker"
+    },
+    {
+      "index": 32,
+      "text": "You don't go to Mizu for excellent service, you go for the large amounts of food, the amiable atmosphere, and the hole-in-the-wall feeling of the place.",
+      "original_prediction": "positive",
+      "has_contrast": false,
+      "recoverable": false,
+      "reason": "no_supported_contrast_marker"
+    },
+    {
+      "index": 33,
+      "text": "However, in the summer of 2003, it seems the management has changed and the great big door has been replaced for a glass front ridding itself of the dark romantic getup.",
+      "original_prediction": "negative",
+      "has_contrast": false,
+      "recoverable": false,
+      "reason": "no_supported_contrast_marker"
+    },
+    {
+      "index": 34,
+      "text": "The service is descent even when this small place is packed.",
+      "original_prediction": "neutral",
+      "has_contrast": false,
+      "recoverable": false,
+      "reason": "no_supported_contrast_marker"
+    },
+    {
+      "index": 35,
+      "text": "Guacamole+shrimp appetizer was really great, we both had the filet, very good, didn't much like the frites that came with, but the filet was so good, neither of us cared.",
+      "original_prediction": "positive",
+      "failure_category": "missing_negative_aspect_evidence",
+      "has_contrast": true,
+      "marker": "but",
+      "left": {
+        "text": "Guacamole+shrimp appetizer was really great, we both had the filet, very good, didn't much like the frites that came with",
+        "sentiment": "positive",
+        "confidence": 0.9691
+      },
+      "right": {
+        "text": "the filet was so good, neither of us cared.",
+        "sentiment": "positive",
+        "confidence": 0.8311
+      },
+      "recoverable": false
+    },
+    {
+      "index": 36,
+      "text": "However, go for the ambience, and consider the food just a companion for a trip across the world!",
+      "original_prediction": "positive",
+      "has_contrast": false,
+      "recoverable": false,
+      "reason": "no_supported_contrast_marker"
+    },
+    {
+      "index": 37,
+      "text": "However, if you want great food at a great price and don't mind the decor, you can't beat this place.",
+      "original_prediction": "positive",
+      "has_contrast": false,
+      "recoverable": false,
+      "reason": "no_supported_contrast_marker"
+    },
+    {
+      "index": 38,
+      "text": "They are often crowded on the weekends but they are efficient and accurate with their service.",
+      "original_prediction": "positive",
+      "failure_category": "missing_negative_aspect_evidence",
+      "has_contrast": true,
+      "marker": "but",
+      "left": {
+        "text": "They are often crowded on the weekends",
+        "sentiment": "neutral",
+        "confidence": 0.8321
+      },
+      "right": {
+        "text": "they are efficient and accurate with their service.",
+        "sentiment": "positive",
+        "confidence": 0.8914
+      },
+      "recoverable": false
+    },
+    {
+      "index": 39,
+      "text": "To begin, we were told there was a 30 minute wait and started to leave, when the hostess offered to call us on our cell phone when the table was ready.",
+      "original_prediction": "neutral",
+      "has_contrast": false,
+      "recoverable": false,
+      "reason": "no_supported_contrast_marker"
+    },
+    {
+      "index": 40,
+      "text": "If you are someone who appreciates simplicity, elegance, and wonderfully presented and tasting seafood and vegetables regardless of portion size, Kai is your place.",
+      "original_prediction": "positive",
+      "has_contrast": false,
+      "recoverable": false,
+      "reason": "no_supported_contrast_marker"
+    },
+    {
+      "index": 41,
+      "text": "If I could rate the people this place would be off the charts - unfortunately - the pizza, sorry - not the best in NYC.",
+      "original_prediction": "negative",
+      "has_contrast": false,
+      "recoverable": false,
+      "reason": "no_supported_contrast_marker"
+    },
+    {
+      "index": 42,
+      "text": "This is one great place to eat pizza more out but not a good place for take-out pizza.",
+      "original_prediction": "negative",
+      "failure_category": "no_confident_aspect_evidence",
+      "has_contrast": true,
+      "marker": "but",
+      "left": {
+        "text": "This is one great place to eat pizza more out",
+        "sentiment": "positive",
+        "confidence": 0.9697
+      },
+      "right": {
+        "text": "not a good place for take-out pizza.",
+        "sentiment": "negative",
+        "confidence": 0.8774
+      },
+      "recoverable": true
+    },
+    {
+      "index": 43,
+      "text": "Service could be improved but overall this is a place that understands the importance of little things (the heavy, black, antique-seeming teapot, for one) in the restaurant experience.",
+      "original_prediction": "positive",
+      "failure_category": "no_confident_aspect_evidence",
+      "has_contrast": true,
+      "marker": "but",
+      "left": {
+        "text": "Service could be improved",
+        "sentiment": "neutral",
+        "confidence": 0.5375
+      },
+      "right": {
+        "text": "overall this is a place that understands the importance of little things (the heavy, black, antique-seeming teapot, for one) in the restaurant experience.",
+        "sentiment": "positive",
+        "confidence": 0.7548
+      },
+      "recoverable": false
+    },
+    {
+      "index": 44,
+      "text": "in an effort to increase turnover, the restaurant offers no desserts beyond the complimentary espresso cup filled with chocolate mousse.",
+      "original_prediction": "neutral",
+      "has_contrast": false,
+      "recoverable": false,
+      "reason": "no_supported_contrast_marker"
+    },
+    {
+      "index": 45,
+      "text": "Good atmosphere, combination of all the hottest music dress code is relatively strict except on Fridays.",
+      "original_prediction": "positive",
+      "has_contrast": false,
+      "recoverable": false,
+      "reason": "no_supported_contrast_marker"
+    },
+    {
+      "index": 46,
+      "text": "While the new restaurant still features much of the same classical furniture that made Tiffin so attractive, the menu has been overhauled.",
+      "original_prediction": "positive",
+      "has_contrast": false,
+      "recoverable": false,
+      "reason": "no_supported_contrast_marker"
+    },
+    {
+      "index": 47,
+      "text": "Though you will undoubtedly be seated at a table with what seems like barely enough room (no matter what the size of your party), the warm atomosphere is worth the cramped quarters- you'll have fun and forgot about the tight spot you're in.",
+      "original_prediction": "positive",
+      "has_contrast": false,
+      "recoverable": false,
+      "reason": "no_supported_contrast_marker"
+    },
+    {
+      "index": 48,
+      "text": "Because we didn't have a reservation, we could only sit in the back garden, but it was great, secluded and perfect in nice weather.",
+      "original_prediction": "positive",
+      "failure_category": "missing_negative_aspect_evidence",
+      "has_contrast": true,
+      "marker": "but",
+      "left": {
+        "text": "Because we didn't have a reservation, we could only sit in the back garden",
+        "sentiment": "neutral",
+        "confidence": 0.6815
+      },
+      "right": {
+        "text": "it was great, secluded and perfect in nice weather.",
+        "sentiment": "positive",
+        "confidence": 0.9875
+      },
+      "recoverable": false
+    },
+    {
+      "index": 49,
+      "text": "Although the tables may be closely situated, the candle-light, food-quality and service overcompensate.",
+      "original_prediction": "neutral",
+      "has_contrast": false,
+      "recoverable": false,
+      "reason": "no_supported_contrast_marker"
+    },
+    {
+      "index": 50,
+      "text": "The drinks are a saving grace, but service staff, please, get over yourselves.",
+      "original_prediction": "negative",
+      "failure_category": "missing_negative_aspect_evidence",
+      "has_contrast": true,
+      "marker": "but",
+      "left": {
+        "text": "The drinks are a saving grace",
+        "sentiment": "positive",
+        "confidence": 0.6445
+      },
+      "right": {
+        "text": "service staff, please, get over yourselves.",
+        "sentiment": "negative",
+        "confidence": 0.7857
+      },
+      "recoverable": false
+    },
+    {
+      "index": 51,
+      "text": "sometimes i get bad food and bad service, sometimes i get good good and bad service.",
+      "original_prediction": "negative",
+      "has_contrast": false,
+      "recoverable": false,
+      "reason": "no_supported_contrast_marker"
+    },
+    {
+      "index": 52,
+      "text": "We were fans of the half-price Saturday night option until some inedible squid during a recent visit.",
+      "original_prediction": "neutral",
+      "has_contrast": false,
+      "recoverable": false,
+      "reason": "no_supported_contrast_marker"
+    },
+    {
+      "index": 53,
+      "text": "It is nearly impossible to get a table, so if you ever have the chance to go here for dinner, DO NOT pass it up.",
+      "original_prediction": "negative",
+      "has_contrast": false,
+      "recoverable": false,
+      "reason": "no_supported_contrast_marker"
+    },
+    {
+      "index": 54,
+      "text": "Where tanks in other Chinatown restaurants display a lurking myriad of sad-looking marine life in their murky waters, the tanks at Ping's are clear as glass with healthy-looking creatures who do not yet know that they will be part of some dim sum lover's brunch.",
+      "original_prediction": "neutral",
+      "failure_category": "missing_positive_aspect_evidence",
+      "has_contrast": true,
+      "marker": "yet",
+      "left": {
+        "text": "Where tanks in other Chinatown restaurants display a lurking myriad of sad-looking marine life in their murky waters, the tanks at Ping's are clear as glass with healthy-looking creatures who do not",
+        "sentiment": "negative",
+        "confidence": 0.6335
+      },
+      "right": {
+        "text": "know that they will be part of some dim sum lover's brunch.",
+        "sentiment": "neutral",
+        "confidence": 0.7661
+      },
+      "recoverable": false
+    },
+    {
+      "index": 55,
+      "text": "After 2 tries by the waiter to take it away (we hadn't even looked at it yet, we had full beers yet to drink), the manager approached and told us they needed the table for people with reservations.",
+      "original_prediction": "neutral",
+      "failure_category": "missing_positive_aspect_evidence",
+      "has_contrast": true,
+      "marker": "yet",
+      "left": {
+        "text": "After 2 tries by the waiter to take it away (we hadn't even looked at it",
+        "sentiment": "neutral",
+        "confidence": 0.6178
+      },
+      "right": {
+        "text": "we had full beers yet to drink), the manager approached and told us they needed the table for people with reservations.",
+        "sentiment": "neutral",
+        "confidence": 0.9225
+      },
+      "recoverable": false
+    },
+    {
+      "index": 56,
+      "text": "Yes, they use fancy ingredients, but even fancy ingredients don't make for good pizza unless someone knows how to get the crust right.",
+      "original_prediction": "negative",
+      "failure_category": "missing_negative_aspect_evidence",
+      "has_contrast": true,
+      "marker": "but",
+      "left": {
+        "text": "Yes, they use fancy ingredients",
+        "sentiment": "neutral",
+        "confidence": 0.6865
+      },
+      "right": {
+        "text": "even fancy ingredients don't make for good pizza unless someone knows how to get the crust right.",
+        "sentiment": "negative",
+        "confidence": 0.6986
+      },
+      "recoverable": false
+    },
+    {
+      "index": 57,
+      "text": "All the money went into the interior decoration, none of it went to the chefs.",
+      "original_prediction": "neutral",
+      "has_contrast": false,
+      "recoverable": false,
+      "reason": "no_supported_contrast_marker"
+    },
+    {
+      "index": 58,
+      "text": "A cheap eat for NYC, but not for dosa.",
+      "original_prediction": "neutral",
+      "failure_category": "missing_negative_aspect_evidence",
+      "has_contrast": true,
+      "marker": "but",
+      "left": {
+        "text": "A cheap eat for NYC",
+        "sentiment": "neutral",
+        "confidence": 0.5813
+      },
+      "right": {
+        "text": "not for dosa.",
+        "sentiment": "neutral",
+        "confidence": 0.5592
+      },
+      "recoverable": false
+    },
+    {
+      "index": 59,
+      "text": "The service is a little scatty at times but all is forgiven when the food arrives.",
+      "original_prediction": "negative",
+      "failure_category": "missing_positive_aspect_evidence",
+      "has_contrast": true,
+      "marker": "but",
+      "left": {
+        "text": "The service is a little scatty at times",
+        "sentiment": "negative",
+        "confidence": 0.8776
+      },
+      "right": {
+        "text": "all is forgiven when the food arrives.",
+        "sentiment": "positive",
+        "confidence": 0.5253
+      },
+      "recoverable": false
+    }
+  ]
+}

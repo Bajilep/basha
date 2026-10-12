@@ -1,0 +1,1920 @@
+{
+  "summary": {
+    "total_mixed_misses": 59,
+    "failure_categories": {
+      "missing_positive_aspect_evidence": 20,
+      "no_confident_aspect_evidence": 8,
+      "missing_negative_aspect_evidence": 31
+    },
+    "predicted_labels": {
+      "neutral": 16,
+      "negative": 14,
+      "positive": 29
+    },
+    "surface_patterns": {
+      "negation_language": 15,
+      "contrast_language": 34,
+      "no_simple_surface_pattern": 16,
+      "comparative_or_value_language": 9
+    },
+    "contrast_supports_mixed": 3,
+    "sentence_support_same_side": 24,
+    "sentence_support_opposite_side": 3,
+    "no_sentence_support": 32
+  },
+  "errors": [
+    {
+      "index": 1,
+      "text": "I must warn the reader that the portions sizes are very small (especially the appetizers), so if you plan to eat until you are full and do not intend to order the chef's special tasting menu, prepare to order and pay for an appetizer (1 dish for each person because the portions are not for sharing), a main entree, and the cold udon at the end of the meal.",
+      "true_label": "mixed",
+      "predicted_label": "neutral",
+      "decision_source": "core_sentiment",
+      "failure_category": "missing_positive_aspect_evidence",
+      "aspect_state": "negative_only",
+      "positive_aspects": [],
+      "negative_aspects": [
+        {
+          "aspect": "portions sizes",
+          "sentiment": "negative",
+          "confidence": 0.628
+        },
+        {
+          "aspect": "portions",
+          "sentiment": "negative",
+          "confidence": 0.6201
+        }
+      ],
+      "positive_sentences": [],
+      "negative_sentences": [],
+      "sentence_relationship": "none",
+      "contrast_supports_mixed": false,
+      "contrast": {
+        "supports_mixed": false,
+        "confidence": 0.0
+      },
+      "surface_patterns": [
+        "negation_language"
+      ]
+    },
+    {
+      "index": 2,
+      "text": "The wait here is long for dim sum, but if you don't like sharing tables or if the typical raucous dim sum atmosphere is not your gig, this is a sleek (for Chinatown) alternative.",
+      "true_label": "mixed",
+      "predicted_label": "negative",
+      "decision_source": "core_sentiment",
+      "failure_category": "missing_positive_aspect_evidence",
+      "aspect_state": "negative_only",
+      "positive_aspects": [],
+      "negative_aspects": [
+        {
+          "aspect": "wait",
+          "sentiment": "negative",
+          "confidence": 0.8115
+        }
+      ],
+      "positive_sentences": [],
+      "negative_sentences": [],
+      "sentence_relationship": "none",
+      "contrast_supports_mixed": false,
+      "contrast": {
+        "supports_mixed": false,
+        "confidence": 0.0
+      },
+      "surface_patterns": [
+        "contrast_language",
+        "negation_language"
+      ]
+    },
+    {
+      "index": 3,
+      "text": "My entree of hot pot with seafood was full of imitation crabmeat with a couple pieces of shrimp and squid, and was unnecessarily heated with a burner.",
+      "true_label": "mixed",
+      "predicted_label": "negative",
+      "decision_source": "core_sentiment",
+      "failure_category": "no_confident_aspect_evidence",
+      "aspect_state": "none",
+      "positive_aspects": [],
+      "negative_aspects": [],
+      "positive_sentences": [],
+      "negative_sentences": [
+        {
+          "text": "My entree of hot pot with seafood was full of imitation crabmeat with a couple pieces of shrimp and squid, and was unnecessarily heated with a burner.",
+          "label": "negative",
+          "confidence": 0.8825
+        }
+      ],
+      "sentence_relationship": "none",
+      "contrast_supports_mixed": false,
+      "contrast": {
+        "supports_mixed": false,
+        "confidence": 0.0
+      },
+      "surface_patterns": [
+        "no_simple_surface_pattern"
+      ]
+    },
+    {
+      "index": 4,
+      "text": "The food is very good for it's price, better than most fried dumplings I've had.",
+      "true_label": "mixed",
+      "predicted_label": "positive",
+      "decision_source": "core_sentiment",
+      "failure_category": "missing_negative_aspect_evidence",
+      "aspect_state": "positive_only",
+      "positive_aspects": [
+        {
+          "aspect": "food",
+          "sentiment": "positive",
+          "confidence": 0.9272
+        },
+        {
+          "aspect": "price",
+          "sentiment": "positive",
+          "confidence": 0.7399
+        }
+      ],
+      "negative_aspects": [],
+      "positive_sentences": [
+        {
+          "text": "The food is very good for it's price, better than most fried dumplings I've had.",
+          "label": "positive",
+          "confidence": 0.9755
+        }
+      ],
+      "negative_sentences": [],
+      "sentence_relationship": "same_positive",
+      "contrast_supports_mixed": false,
+      "contrast": {
+        "supports_mixed": false,
+        "confidence": 0.0
+      },
+      "surface_patterns": [
+        "comparative_or_value_language"
+      ]
+    },
+    {
+      "index": 5,
+      "text": "Good, because hey, it's more food, but bad because dim sum is supposed to be smaller portions so you can try out more dishes and smaller so that each dish is cheap.",
+      "true_label": "mixed",
+      "predicted_label": "neutral",
+      "decision_source": "core_sentiment",
+      "failure_category": "missing_positive_aspect_evidence",
+      "aspect_state": "negative_only",
+      "positive_aspects": [],
+      "negative_aspects": [
+        {
+          "aspect": "portions",
+          "sentiment": "negative",
+          "confidence": 0.7168
+        }
+      ],
+      "positive_sentences": [],
+      "negative_sentences": [],
+      "sentence_relationship": "none",
+      "contrast_supports_mixed": false,
+      "contrast": {
+        "supports_mixed": false,
+        "confidence": 0.0
+      },
+      "surface_patterns": [
+        "contrast_language",
+        "comparative_or_value_language"
+      ]
+    },
+    {
+      "index": 6,
+      "text": "Staffs are not that friendly, but the taste covers all.",
+      "true_label": "mixed",
+      "predicted_label": "negative",
+      "decision_source": "core_sentiment",
+      "failure_category": "missing_positive_aspect_evidence",
+      "aspect_state": "negative_only",
+      "positive_aspects": [],
+      "negative_aspects": [
+        {
+          "aspect": "Staff",
+          "sentiment": "negative",
+          "confidence": 0.8053
+        }
+      ],
+      "positive_sentences": [],
+      "negative_sentences": [
+        {
+          "text": "Staffs are not that friendly, but the taste covers all.",
+          "label": "negative",
+          "confidence": 0.7898
+        }
+      ],
+      "sentence_relationship": "same_negative",
+      "contrast_supports_mixed": false,
+      "contrast": {
+        "supports_mixed": false,
+        "confidence": 0.0
+      },
+      "surface_patterns": [
+        "contrast_language",
+        "negation_language"
+      ]
+    },
+    {
+      "index": 7,
+      "text": "Despite the fact that the space is large, they've overcrowded the floor with tables.",
+      "true_label": "mixed",
+      "predicted_label": "neutral",
+      "decision_source": "core_sentiment",
+      "failure_category": "no_confident_aspect_evidence",
+      "aspect_state": "none",
+      "positive_aspects": [],
+      "negative_aspects": [],
+      "positive_sentences": [],
+      "negative_sentences": [],
+      "sentence_relationship": "none",
+      "contrast_supports_mixed": false,
+      "contrast": {
+        "supports_mixed": false,
+        "confidence": 0.0
+      },
+      "surface_patterns": [
+        "contrast_language"
+      ]
+    },
+    {
+      "index": 8,
+      "text": "While the place is not a hotspot hangout, the drinks are unique and pack a lot of bang for the buck.",
+      "true_label": "mixed",
+      "predicted_label": "positive",
+      "decision_source": "core_sentiment",
+      "failure_category": "missing_negative_aspect_evidence",
+      "aspect_state": "positive_only",
+      "positive_aspects": [
+        {
+          "aspect": "drinks",
+          "sentiment": "positive",
+          "confidence": 0.9174
+        }
+      ],
+      "negative_aspects": [],
+      "positive_sentences": [
+        {
+          "text": "While the place is not a hotspot hangout, the drinks are unique and pack a lot of bang for the buck.",
+          "label": "positive",
+          "confidence": 0.8553
+        }
+      ],
+      "negative_sentences": [],
+      "sentence_relationship": "same_positive",
+      "contrast_supports_mixed": false,
+      "contrast": {
+        "supports_mixed": false,
+        "confidence": 0.0
+      },
+      "surface_patterns": [
+        "contrast_language",
+        "negation_language"
+      ]
+    },
+    {
+      "index": 9,
+      "text": "Given the incredible architecture surrounding it, this place has no character.",
+      "true_label": "mixed",
+      "predicted_label": "neutral",
+      "decision_source": "core_sentiment",
+      "failure_category": "missing_negative_aspect_evidence",
+      "aspect_state": "positive_only",
+      "positive_aspects": [
+        {
+          "aspect": "architecture",
+          "sentiment": "positive",
+          "confidence": 0.8549
+        }
+      ],
+      "negative_aspects": [],
+      "positive_sentences": [],
+      "negative_sentences": [],
+      "sentence_relationship": "none",
+      "contrast_supports_mixed": false,
+      "contrast": {
+        "supports_mixed": false,
+        "confidence": 0.0
+      },
+      "surface_patterns": [
+        "negation_language"
+      ]
+    },
+    {
+      "index": 10,
+      "text": "The puke green walls leave a lot to be desired, but the food is very good.",
+      "true_label": "mixed",
+      "predicted_label": "positive",
+      "decision_source": "core_sentiment",
+      "failure_category": "missing_negative_aspect_evidence",
+      "aspect_state": "positive_only",
+      "positive_aspects": [
+        {
+          "aspect": "food",
+          "sentiment": "positive",
+          "confidence": 0.9426
+        }
+      ],
+      "negative_aspects": [],
+      "positive_sentences": [
+        {
+          "text": "The puke green walls leave a lot to be desired, but the food is very good.",
+          "label": "positive",
+          "confidence": 0.8417
+        }
+      ],
+      "negative_sentences": [],
+      "sentence_relationship": "same_positive",
+      "contrast_supports_mixed": true,
+      "contrast": {
+        "supports_mixed": true,
+        "confidence": 0.9245
+      },
+      "surface_patterns": [
+        "contrast_language"
+      ]
+    },
+    {
+      "index": 11,
+      "text": "Ambiance is barely romantic but management tries.",
+      "true_label": "mixed",
+      "predicted_label": "negative",
+      "decision_source": "core_sentiment",
+      "failure_category": "missing_positive_aspect_evidence",
+      "aspect_state": "negative_only",
+      "positive_aspects": [],
+      "negative_aspects": [
+        {
+          "aspect": "Amb",
+          "sentiment": "negative",
+          "confidence": 0.6475
+        }
+      ],
+      "positive_sentences": [],
+      "negative_sentences": [],
+      "sentence_relationship": "none",
+      "contrast_supports_mixed": false,
+      "contrast": {
+        "supports_mixed": false,
+        "confidence": 0.0
+      },
+      "surface_patterns": [
+        "contrast_language",
+        "negation_language"
+      ]
+    },
+    {
+      "index": 12,
+      "text": "While the room is not particularly comfortable, once you're seated you'll forget about everything except what's on your plate.",
+      "true_label": "mixed",
+      "predicted_label": "neutral",
+      "decision_source": "core_sentiment",
+      "failure_category": "missing_positive_aspect_evidence",
+      "aspect_state": "negative_only",
+      "positive_aspects": [],
+      "negative_aspects": [
+        {
+          "aspect": "room",
+          "sentiment": "negative",
+          "confidence": 0.8039
+        }
+      ],
+      "positive_sentences": [],
+      "negative_sentences": [],
+      "sentence_relationship": "none",
+      "contrast_supports_mixed": false,
+      "contrast": {
+        "supports_mixed": false,
+        "confidence": 0.0
+      },
+      "surface_patterns": [
+        "contrast_language",
+        "negation_language"
+      ]
+    },
+    {
+      "index": 13,
+      "text": "We were seated promptly as we had reservations, however after that the service was slow.",
+      "true_label": "mixed",
+      "predicted_label": "neutral",
+      "decision_source": "core_sentiment",
+      "failure_category": "missing_positive_aspect_evidence",
+      "aspect_state": "negative_only",
+      "positive_aspects": [],
+      "negative_aspects": [
+        {
+          "aspect": "service",
+          "sentiment": "negative",
+          "confidence": 0.9337
+        }
+      ],
+      "positive_sentences": [],
+      "negative_sentences": [],
+      "sentence_relationship": "none",
+      "contrast_supports_mixed": false,
+      "contrast": {
+        "supports_mixed": false,
+        "confidence": 0.0
+      },
+      "surface_patterns": [
+        "contrast_language"
+      ]
+    },
+    {
+      "index": 14,
+      "text": "The space is nice but when we order our drink we were in for a surprise.",
+      "true_label": "mixed",
+      "predicted_label": "positive",
+      "decision_source": "core_sentiment",
+      "failure_category": "missing_negative_aspect_evidence",
+      "aspect_state": "positive_only",
+      "positive_aspects": [
+        {
+          "aspect": "space",
+          "sentiment": "positive",
+          "confidence": 0.8298
+        }
+      ],
+      "negative_aspects": [],
+      "positive_sentences": [
+        {
+          "text": "The space is nice but when we order our drink we were in for a surprise.",
+          "label": "positive",
+          "confidence": 0.7574
+        }
+      ],
+      "negative_sentences": [],
+      "sentence_relationship": "same_positive",
+      "contrast_supports_mixed": false,
+      "contrast": {
+        "supports_mixed": false,
+        "confidence": 0.0
+      },
+      "surface_patterns": [
+        "contrast_language"
+      ]
+    },
+    {
+      "index": 15,
+      "text": "First, the waiter who served us neglected to fill us in on the specials, which I would have chosen had I known about them.",
+      "true_label": "mixed",
+      "predicted_label": "negative",
+      "decision_source": "core_sentiment",
+      "failure_category": "missing_positive_aspect_evidence",
+      "aspect_state": "negative_only",
+      "positive_aspects": [],
+      "negative_aspects": [
+        {
+          "aspect": "waiter",
+          "sentiment": "negative",
+          "confidence": 0.9463
+        }
+      ],
+      "positive_sentences": [],
+      "negative_sentences": [],
+      "sentence_relationship": "none",
+      "contrast_supports_mixed": false,
+      "contrast": {
+        "supports_mixed": false,
+        "confidence": 0.0
+      },
+      "surface_patterns": [
+        "no_simple_surface_pattern"
+      ]
+    },
+    {
+      "index": 16,
+      "text": "I had a terrific meal, and our server guided us toward a very nice wine in our price range, instead of allowing us to purchase a similarly priced wine that wasn't as good.",
+      "true_label": "mixed",
+      "predicted_label": "positive",
+      "decision_source": "core_sentiment",
+      "failure_category": "missing_negative_aspect_evidence",
+      "aspect_state": "positive_only",
+      "positive_aspects": [
+        {
+          "aspect": "meal",
+          "sentiment": "positive",
+          "confidence": 0.8593
+        },
+        {
+          "aspect": "server",
+          "sentiment": "positive",
+          "confidence": 0.818
+        },
+        {
+          "aspect": "wine",
+          "sentiment": "positive",
+          "confidence": 0.829
+        }
+      ],
+      "negative_aspects": [],
+      "positive_sentences": [
+        {
+          "text": "I had a terrific meal, and our server guided us toward a very nice wine in our price range, instead of allowing us to purchase a similarly priced wine that wasn't as good.",
+          "label": "positive",
+          "confidence": 0.932
+        }
+      ],
+      "negative_sentences": [],
+      "sentence_relationship": "same_positive",
+      "contrast_supports_mixed": false,
+      "contrast": {
+        "supports_mixed": false,
+        "confidence": 0.0
+      },
+      "surface_patterns": [
+        "comparative_or_value_language"
+      ]
+    },
+    {
+      "index": 17,
+      "text": "Bottom line: B+ for the food, F for the service.",
+      "true_label": "mixed",
+      "predicted_label": "neutral",
+      "decision_source": "core_sentiment",
+      "failure_category": "missing_negative_aspect_evidence",
+      "aspect_state": "positive_only",
+      "positive_aspects": [
+        {
+          "aspect": "food",
+          "sentiment": "positive",
+          "confidence": 0.5004
+        },
+        {
+          "aspect": "service",
+          "sentiment": "positive",
+          "confidence": 0.6631
+        }
+      ],
+      "negative_aspects": [],
+      "positive_sentences": [],
+      "negative_sentences": [],
+      "sentence_relationship": "none",
+      "contrast_supports_mixed": false,
+      "contrast": {
+        "supports_mixed": false,
+        "confidence": 0.0
+      },
+      "surface_patterns": [
+        "no_simple_surface_pattern"
+      ]
+    },
+    {
+      "index": 18,
+      "text": "It is kinda nosiy and the tables are close together but it's still a beautiful place to enjoy a nice dinner.",
+      "true_label": "mixed",
+      "predicted_label": "positive",
+      "decision_source": "core_sentiment",
+      "failure_category": "missing_negative_aspect_evidence",
+      "aspect_state": "positive_only",
+      "positive_aspects": [
+        {
+          "aspect": "place",
+          "sentiment": "positive",
+          "confidence": 0.526
+        },
+        {
+          "aspect": "dinner",
+          "sentiment": "positive",
+          "confidence": 0.8583
+        }
+      ],
+      "negative_aspects": [],
+      "positive_sentences": [
+        {
+          "text": "It is kinda nosiy and the tables are close together but it's still a beautiful place to enjoy a nice dinner.",
+          "label": "positive",
+          "confidence": 0.9498
+        }
+      ],
+      "negative_sentences": [],
+      "sentence_relationship": "same_positive",
+      "contrast_supports_mixed": false,
+      "contrast": {
+        "supports_mixed": false,
+        "confidence": 0.0
+      },
+      "surface_patterns": [
+        "contrast_language"
+      ]
+    },
+    {
+      "index": 19,
+      "text": "20 minutes for our reservation but it gave us time to have a few cocktails and enjoy our surroundings and each other.",
+      "true_label": "mixed",
+      "predicted_label": "positive",
+      "decision_source": "core_sentiment",
+      "failure_category": "missing_negative_aspect_evidence",
+      "aspect_state": "positive_only",
+      "positive_aspects": [
+        {
+          "aspect": "surroundings",
+          "sentiment": "positive",
+          "confidence": 0.7712
+        }
+      ],
+      "negative_aspects": [],
+      "positive_sentences": [
+        {
+          "text": "20 minutes for our reservation but it gave us time to have a few cocktails and enjoy our surroundings and each other.",
+          "label": "positive",
+          "confidence": 0.878
+        }
+      ],
+      "negative_sentences": [],
+      "sentence_relationship": "same_positive",
+      "contrast_supports_mixed": false,
+      "contrast": {
+        "supports_mixed": false,
+        "confidence": 0.0
+      },
+      "surface_patterns": [
+        "contrast_language"
+      ]
+    },
+    {
+      "index": 20,
+      "text": "The menu is Prix Fixe, so be prepared to spend at least $60 per person, but it is Well worth itsuperb food.",
+      "true_label": "mixed",
+      "predicted_label": "positive",
+      "decision_source": "core_sentiment",
+      "failure_category": "missing_negative_aspect_evidence",
+      "aspect_state": "positive_only",
+      "positive_aspects": [
+        {
+          "aspect": "food",
+          "sentiment": "positive",
+          "confidence": 0.8715
+        }
+      ],
+      "negative_aspects": [],
+      "positive_sentences": [
+        {
+          "text": "The menu is Prix Fixe, so be prepared to spend at least $60 per person, but it is Well worth itsuperb food.",
+          "label": "positive",
+          "confidence": 0.7872
+        }
+      ],
+      "negative_sentences": [],
+      "sentence_relationship": "same_positive",
+      "contrast_supports_mixed": false,
+      "contrast": {
+        "supports_mixed": false,
+        "confidence": 0.0
+      },
+      "surface_patterns": [
+        "contrast_language",
+        "comparative_or_value_language"
+      ]
+    },
+    {
+      "index": 21,
+      "text": "Service is highly refined: our seating was delayed 35 minutes past our reservation and the maitre d' apologized and regularly kept us apprised of progress.",
+      "true_label": "mixed",
+      "predicted_label": "positive",
+      "decision_source": "core_sentiment",
+      "failure_category": "missing_negative_aspect_evidence",
+      "aspect_state": "positive_only",
+      "positive_aspects": [
+        {
+          "aspect": "Service",
+          "sentiment": "positive",
+          "confidence": 0.8928
+        }
+      ],
+      "negative_aspects": [],
+      "positive_sentences": [
+        {
+          "text": "Service is highly refined: our seating was delayed 35 minutes past our reservation and the maitre d' apologized and regularly kept us apprised of progress.",
+          "label": "positive",
+          "confidence": 0.7575
+        }
+      ],
+      "negative_sentences": [],
+      "sentence_relationship": "same_positive",
+      "contrast_supports_mixed": false,
+      "contrast": {
+        "supports_mixed": false,
+        "confidence": 0.0
+      },
+      "surface_patterns": [
+        "no_simple_surface_pattern"
+      ]
+    },
+    {
+      "index": 22,
+      "text": "It is far more popular as a bar than as a restaurant, with only a few tables and the waiter being the bartender, but we greatly enjoyed the unobtrusive atmosphere.",
+      "true_label": "mixed",
+      "predicted_label": "positive",
+      "decision_source": "core_sentiment",
+      "failure_category": "missing_negative_aspect_evidence",
+      "aspect_state": "positive_only",
+      "positive_aspects": [
+        {
+          "aspect": "atmosphere",
+          "sentiment": "positive",
+          "confidence": 0.8867
+        }
+      ],
+      "negative_aspects": [],
+      "positive_sentences": [
+        {
+          "text": "It is far more popular as a bar than as a restaurant, with only a few tables and the waiter being the bartender, but we greatly enjoyed the unobtrusive atmosphere.",
+          "label": "positive",
+          "confidence": 0.9578
+        }
+      ],
+      "negative_sentences": [],
+      "sentence_relationship": "same_positive",
+      "contrast_supports_mixed": false,
+      "contrast": {
+        "supports_mixed": false,
+        "confidence": 0.0
+      },
+      "surface_patterns": [
+        "contrast_language"
+      ]
+    },
+    {
+      "index": 23,
+      "text": "The bread is the soft paratha bread (unlike the plain bread they use in Calcutta), and the stuffing is tandoori styled and very flavorful.",
+      "true_label": "mixed",
+      "predicted_label": "positive",
+      "decision_source": "core_sentiment",
+      "failure_category": "missing_negative_aspect_evidence",
+      "aspect_state": "positive_only",
+      "positive_aspects": [
+        {
+          "aspect": "bread",
+          "sentiment": "positive",
+          "confidence": 0.6932
+        },
+        {
+          "aspect": "par",
+          "sentiment": "positive",
+          "confidence": 0.517
+        },
+        {
+          "aspect": "stuffing",
+          "sentiment": "positive",
+          "confidence": 0.8106
+        }
+      ],
+      "negative_aspects": [],
+      "positive_sentences": [
+        {
+          "text": "The bread is the soft paratha bread (unlike the plain bread they use in Calcutta), and the stuffing is tandoori styled and very flavorful.",
+          "label": "positive",
+          "confidence": 0.7783
+        }
+      ],
+      "negative_sentences": [],
+      "sentence_relationship": "same_positive",
+      "contrast_supports_mixed": false,
+      "contrast": {
+        "supports_mixed": false,
+        "confidence": 0.0
+      },
+      "surface_patterns": [
+        "no_simple_surface_pattern"
+      ]
+    },
+    {
+      "index": 24,
+      "text": "Plus, when our entrees were held up in the kitchen on a busy Saturday night, the owner sent over complimentary summer rolls to hold us over!",
+      "true_label": "mixed",
+      "predicted_label": "positive",
+      "decision_source": "core_sentiment",
+      "failure_category": "missing_negative_aspect_evidence",
+      "aspect_state": "positive_only",
+      "positive_aspects": [
+        {
+          "aspect": "owner",
+          "sentiment": "positive",
+          "confidence": 0.6711
+        }
+      ],
+      "negative_aspects": [],
+      "positive_sentences": [
+        {
+          "text": "Plus, when our entrees were held up in the kitchen on a busy Saturday night, the owner sent over complimentary summer rolls to hold us over!",
+          "label": "positive",
+          "confidence": 0.6657
+        }
+      ],
+      "negative_sentences": [],
+      "sentence_relationship": "same_positive",
+      "contrast_supports_mixed": false,
+      "contrast": {
+        "supports_mixed": false,
+        "confidence": 0.0
+      },
+      "surface_patterns": [
+        "no_simple_surface_pattern"
+      ]
+    },
+    {
+      "index": 25,
+      "text": "The cafe itself was really nice with comfortable outdoor chairs and tables, but the service could have been better.",
+      "true_label": "mixed",
+      "predicted_label": "positive",
+      "decision_source": "core_sentiment",
+      "failure_category": "missing_positive_aspect_evidence",
+      "aspect_state": "negative_only",
+      "positive_aspects": [],
+      "negative_aspects": [
+        {
+          "aspect": "service",
+          "sentiment": "negative",
+          "confidence": 0.6615
+        }
+      ],
+      "positive_sentences": [
+        {
+          "text": "The cafe itself was really nice with comfortable outdoor chairs and tables, but the service could have been better.",
+          "label": "positive",
+          "confidence": 0.9104
+        }
+      ],
+      "negative_sentences": [],
+      "sentence_relationship": "opposite_positive",
+      "contrast_supports_mixed": false,
+      "contrast": {
+        "supports_mixed": false,
+        "confidence": 0.0
+      },
+      "surface_patterns": [
+        "contrast_language"
+      ]
+    },
+    {
+      "index": 26,
+      "text": "The plain pizza was soggy and the creative wild mushroom(third generation-Fornini) pizza we had was drenched with truffle oil in the middle( again making it soggy) and nothingon the rest.",
+      "true_label": "mixed",
+      "predicted_label": "negative",
+      "decision_source": "core_sentiment",
+      "failure_category": "missing_positive_aspect_evidence",
+      "aspect_state": "negative_only",
+      "positive_aspects": [],
+      "negative_aspects": [
+        {
+          "aspect": "plain",
+          "sentiment": "negative",
+          "confidence": 0.5538
+        }
+      ],
+      "positive_sentences": [],
+      "negative_sentences": [
+        {
+          "text": "The plain pizza was soggy and the creative wild mushroom(third generation-Fornini) pizza we had was drenched with truffle oil in the middle( again making it soggy) and nothingon the rest.",
+          "label": "negative",
+          "confidence": 0.7943
+        }
+      ],
+      "sentence_relationship": "same_negative",
+      "contrast_supports_mixed": false,
+      "contrast": {
+        "supports_mixed": false,
+        "confidence": 0.0
+      },
+      "surface_patterns": [
+        "no_simple_surface_pattern"
+      ]
+    },
+    {
+      "index": 27,
+      "text": "It may be a bit packed on weekends, but the vibe is good and it is the best French food you will find in the area.",
+      "true_label": "mixed",
+      "predicted_label": "positive",
+      "decision_source": "core_sentiment",
+      "failure_category": "missing_negative_aspect_evidence",
+      "aspect_state": "positive_only",
+      "positive_aspects": [
+        {
+          "aspect": "vibe",
+          "sentiment": "positive",
+          "confidence": 0.8456
+        },
+        {
+          "aspect": "French food",
+          "sentiment": "positive",
+          "confidence": 0.7654
+        }
+      ],
+      "negative_aspects": [],
+      "positive_sentences": [
+        {
+          "text": "It may be a bit packed on weekends, but the vibe is good and it is the best French food you will find in the area.",
+          "label": "positive",
+          "confidence": 0.9472
+        }
+      ],
+      "negative_sentences": [],
+      "sentence_relationship": "same_positive",
+      "contrast_supports_mixed": false,
+      "contrast": {
+        "supports_mixed": false,
+        "confidence": 0.0
+      },
+      "surface_patterns": [
+        "contrast_language"
+      ]
+    },
+    {
+      "index": 28,
+      "text": "While most people can attest to spending over $50 on drinks in New York bars and hardly feeling a thing, the drinks here are plentiful and unique.",
+      "true_label": "mixed",
+      "predicted_label": "positive",
+      "decision_source": "core_sentiment",
+      "failure_category": "missing_negative_aspect_evidence",
+      "aspect_state": "positive_only",
+      "positive_aspects": [
+        {
+          "aspect": "drinks",
+          "sentiment": "positive",
+          "confidence": 0.9189
+        }
+      ],
+      "negative_aspects": [],
+      "positive_sentences": [
+        {
+          "text": "While most people can attest to spending over $50 on drinks in New York bars and hardly feeling a thing, the drinks here are plentiful and unique.",
+          "label": "positive",
+          "confidence": 0.8071
+        }
+      ],
+      "negative_sentences": [],
+      "sentence_relationship": "same_positive",
+      "contrast_supports_mixed": false,
+      "contrast": {
+        "supports_mixed": false,
+        "confidence": 0.0
+      },
+      "surface_patterns": [
+        "contrast_language",
+        "negation_language"
+      ]
+    },
+    {
+      "index": 29,
+      "text": "The food there is so good that even to order out the wait is incredible.",
+      "true_label": "mixed",
+      "predicted_label": "positive",
+      "decision_source": "core_sentiment",
+      "failure_category": "missing_negative_aspect_evidence",
+      "aspect_state": "positive_only",
+      "positive_aspects": [
+        {
+          "aspect": "food",
+          "sentiment": "positive",
+          "confidence": 0.9024
+        },
+        {
+          "aspect": "wait",
+          "sentiment": "positive",
+          "confidence": 0.8846
+        }
+      ],
+      "negative_aspects": [],
+      "positive_sentences": [
+        {
+          "text": "The food there is so good that even to order out the wait is incredible.",
+          "label": "positive",
+          "confidence": 0.9727
+        }
+      ],
+      "negative_sentences": [],
+      "sentence_relationship": "same_positive",
+      "contrast_supports_mixed": false,
+      "contrast": {
+        "supports_mixed": false,
+        "confidence": 0.0
+      },
+      "surface_patterns": [
+        "no_simple_surface_pattern"
+      ]
+    },
+    {
+      "index": 30,
+      "text": "Unlike other places in NYC where the sandwiches you want only come as a triple-decker, here you can get what you want in a reasonably-sized portion (and price).",
+      "true_label": "mixed",
+      "predicted_label": "positive",
+      "decision_source": "core_sentiment",
+      "failure_category": "missing_negative_aspect_evidence",
+      "aspect_state": "positive_only",
+      "positive_aspects": [
+        {
+          "aspect": "portion",
+          "sentiment": "positive",
+          "confidence": 0.6746
+        }
+      ],
+      "negative_aspects": [],
+      "positive_sentences": [],
+      "negative_sentences": [],
+      "sentence_relationship": "none",
+      "contrast_supports_mixed": false,
+      "contrast": {
+        "supports_mixed": false,
+        "confidence": 0.0
+      },
+      "surface_patterns": [
+        "comparative_or_value_language"
+      ]
+    },
+    {
+      "index": 31,
+      "text": "I really liked the noodle dishes at Rice Avenue compared to their Green Curry dish.",
+      "true_label": "mixed",
+      "predicted_label": "positive",
+      "decision_source": "core_sentiment",
+      "failure_category": "missing_negative_aspect_evidence",
+      "aspect_state": "positive_only",
+      "positive_aspects": [
+        {
+          "aspect": "noodle dishes",
+          "sentiment": "positive",
+          "confidence": 0.6872
+        }
+      ],
+      "negative_aspects": [],
+      "positive_sentences": [
+        {
+          "text": "I really liked the noodle dishes at Rice Avenue compared to their Green Curry dish.",
+          "label": "positive",
+          "confidence": 0.9451
+        }
+      ],
+      "negative_sentences": [],
+      "sentence_relationship": "same_positive",
+      "contrast_supports_mixed": false,
+      "contrast": {
+        "supports_mixed": false,
+        "confidence": 0.0
+      },
+      "surface_patterns": [
+        "no_simple_surface_pattern"
+      ]
+    },
+    {
+      "index": 32,
+      "text": "You don't go to Mizu for excellent service, you go for the large amounts of food, the amiable atmosphere, and the hole-in-the-wall feeling of the place.",
+      "true_label": "mixed",
+      "predicted_label": "positive",
+      "decision_source": "core_sentiment",
+      "failure_category": "missing_negative_aspect_evidence",
+      "aspect_state": "positive_only",
+      "positive_aspects": [
+        {
+          "aspect": "service",
+          "sentiment": "positive",
+          "confidence": 0.8829
+        },
+        {
+          "aspect": "food",
+          "sentiment": "positive",
+          "confidence": 0.7395
+        },
+        {
+          "aspect": "atmosphere",
+          "sentiment": "positive",
+          "confidence": 0.9119
+        }
+      ],
+      "negative_aspects": [],
+      "positive_sentences": [],
+      "negative_sentences": [],
+      "sentence_relationship": "none",
+      "contrast_supports_mixed": false,
+      "contrast": {
+        "supports_mixed": false,
+        "confidence": 0.0
+      },
+      "surface_patterns": [
+        "no_simple_surface_pattern"
+      ]
+    },
+    {
+      "index": 33,
+      "text": "However, in the summer of 2003, it seems the management has changed and the great big door has been replaced for a glass front ridding itself of the dark romantic getup.",
+      "true_label": "mixed",
+      "predicted_label": "negative",
+      "decision_source": "sarcasm_resolution",
+      "failure_category": "missing_positive_aspect_evidence",
+      "aspect_state": "negative_only",
+      "positive_aspects": [],
+      "negative_aspects": [
+        {
+          "aspect": "management",
+          "sentiment": "negative",
+          "confidence": 0.7026
+        }
+      ],
+      "positive_sentences": [],
+      "negative_sentences": [],
+      "sentence_relationship": "none",
+      "contrast_supports_mixed": false,
+      "contrast": {
+        "supports_mixed": false,
+        "confidence": 0.0
+      },
+      "surface_patterns": [
+        "contrast_language"
+      ]
+    },
+    {
+      "index": 34,
+      "text": "The service is descent even when this small place is packed.",
+      "true_label": "mixed",
+      "predicted_label": "neutral",
+      "decision_source": "core_sentiment",
+      "failure_category": "missing_positive_aspect_evidence",
+      "aspect_state": "negative_only",
+      "positive_aspects": [],
+      "negative_aspects": [
+        {
+          "aspect": "service",
+          "sentiment": "negative",
+          "confidence": 0.7744
+        }
+      ],
+      "positive_sentences": [],
+      "negative_sentences": [],
+      "sentence_relationship": "none",
+      "contrast_supports_mixed": false,
+      "contrast": {
+        "supports_mixed": false,
+        "confidence": 0.0
+      },
+      "surface_patterns": [
+        "no_simple_surface_pattern"
+      ]
+    },
+    {
+      "index": 35,
+      "text": "Guacamole+shrimp appetizer was really great, we both had the filet, very good, didn't much like the frites that came with, but the filet was so good, neither of us cared.",
+      "true_label": "mixed",
+      "predicted_label": "positive",
+      "decision_source": "core_sentiment",
+      "failure_category": "missing_negative_aspect_evidence",
+      "aspect_state": "positive_only",
+      "positive_aspects": [
+        {
+          "aspect": "Guacamole+shrimp appetizer",
+          "sentiment": "positive",
+          "confidence": 0.6261
+        },
+        {
+          "aspect": "filet",
+          "sentiment": "positive",
+          "confidence": 0.5005
+        }
+      ],
+      "negative_aspects": [],
+      "positive_sentences": [
+        {
+          "text": "Guacamole+shrimp appetizer was really great, we both had the filet, very good, didn't much like the frites that came with, but the filet was so good, neither of us cared.",
+          "label": "positive",
+          "confidence": 0.9723
+        }
+      ],
+      "negative_sentences": [],
+      "sentence_relationship": "same_positive",
+      "contrast_supports_mixed": false,
+      "contrast": {
+        "supports_mixed": false,
+        "confidence": 0.0
+      },
+      "surface_patterns": [
+        "contrast_language"
+      ]
+    },
+    {
+      "index": 36,
+      "text": "However, go for the ambience, and consider the food just a companion for a trip across the world!",
+      "true_label": "mixed",
+      "predicted_label": "positive",
+      "decision_source": "core_sentiment",
+      "failure_category": "missing_negative_aspect_evidence",
+      "aspect_state": "positive_only",
+      "positive_aspects": [
+        {
+          "aspect": "amb",
+          "sentiment": "positive",
+          "confidence": 0.7869
+        },
+        {
+          "aspect": "food",
+          "sentiment": "positive",
+          "confidence": 0.8369
+        }
+      ],
+      "negative_aspects": [],
+      "positive_sentences": [],
+      "negative_sentences": [],
+      "sentence_relationship": "none",
+      "contrast_supports_mixed": false,
+      "contrast": {
+        "supports_mixed": false,
+        "confidence": 0.0
+      },
+      "surface_patterns": [
+        "contrast_language"
+      ]
+    },
+    {
+      "index": 37,
+      "text": "However, if you want great food at a great price and don't mind the decor, you can't beat this place.",
+      "true_label": "mixed",
+      "predicted_label": "positive",
+      "decision_source": "core_sentiment",
+      "failure_category": "missing_negative_aspect_evidence",
+      "aspect_state": "positive_only",
+      "positive_aspects": [
+        {
+          "aspect": "food",
+          "sentiment": "positive",
+          "confidence": 0.9131
+        },
+        {
+          "aspect": "price",
+          "sentiment": "positive",
+          "confidence": 0.8174
+        }
+      ],
+      "negative_aspects": [],
+      "positive_sentences": [
+        {
+          "text": "However, if you want great food at a great price and don't mind the decor, you can't beat this place.",
+          "label": "positive",
+          "confidence": 0.9625
+        }
+      ],
+      "negative_sentences": [],
+      "sentence_relationship": "same_positive",
+      "contrast_supports_mixed": false,
+      "contrast": {
+        "supports_mixed": false,
+        "confidence": 0.0
+      },
+      "surface_patterns": [
+        "contrast_language",
+        "comparative_or_value_language"
+      ]
+    },
+    {
+      "index": 38,
+      "text": "They are often crowded on the weekends but they are efficient and accurate with their service.",
+      "true_label": "mixed",
+      "predicted_label": "positive",
+      "decision_source": "core_sentiment",
+      "failure_category": "missing_negative_aspect_evidence",
+      "aspect_state": "positive_only",
+      "positive_aspects": [
+        {
+          "aspect": "service",
+          "sentiment": "positive",
+          "confidence": 0.8852
+        }
+      ],
+      "negative_aspects": [],
+      "positive_sentences": [],
+      "negative_sentences": [],
+      "sentence_relationship": "none",
+      "contrast_supports_mixed": false,
+      "contrast": {
+        "supports_mixed": false,
+        "confidence": 0.0
+      },
+      "surface_patterns": [
+        "contrast_language"
+      ]
+    },
+    {
+      "index": 39,
+      "text": "To begin, we were told there was a 30 minute wait and started to leave, when the hostess offered to call us on our cell phone when the table was ready.",
+      "true_label": "mixed",
+      "predicted_label": "neutral",
+      "decision_source": "core_sentiment",
+      "failure_category": "missing_positive_aspect_evidence",
+      "aspect_state": "negative_only",
+      "positive_aspects": [],
+      "negative_aspects": [
+        {
+          "aspect": "host",
+          "sentiment": "negative",
+          "confidence": 0.6406
+        }
+      ],
+      "positive_sentences": [],
+      "negative_sentences": [],
+      "sentence_relationship": "none",
+      "contrast_supports_mixed": false,
+      "contrast": {
+        "supports_mixed": false,
+        "confidence": 0.0
+      },
+      "surface_patterns": [
+        "no_simple_surface_pattern"
+      ]
+    },
+    {
+      "index": 40,
+      "text": "If you are someone who appreciates simplicity, elegance, and wonderfully presented and tasting seafood and vegetables regardless of portion size, Kai is your place.",
+      "true_label": "mixed",
+      "predicted_label": "positive",
+      "decision_source": "core_sentiment",
+      "failure_category": "missing_negative_aspect_evidence",
+      "aspect_state": "positive_only",
+      "positive_aspects": [
+        {
+          "aspect": "seafood",
+          "sentiment": "positive",
+          "confidence": 0.9157
+        },
+        {
+          "aspect": "vegetables",
+          "sentiment": "positive",
+          "confidence": 0.7058
+        }
+      ],
+      "negative_aspects": [],
+      "positive_sentences": [
+        {
+          "text": "If you are someone who appreciates simplicity, elegance, and wonderfully presented and tasting seafood and vegetables regardless of portion size, Kai is your place.",
+          "label": "positive",
+          "confidence": 0.9289
+        }
+      ],
+      "negative_sentences": [],
+      "sentence_relationship": "same_positive",
+      "contrast_supports_mixed": false,
+      "contrast": {
+        "supports_mixed": false,
+        "confidence": 0.0
+      },
+      "surface_patterns": [
+        "no_simple_surface_pattern"
+      ]
+    },
+    {
+      "index": 41,
+      "text": "If I could rate the people this place would be off the charts - unfortunately - the pizza, sorry - not the best in NYC.",
+      "true_label": "mixed",
+      "predicted_label": "negative",
+      "decision_source": "core_sentiment",
+      "failure_category": "missing_positive_aspect_evidence",
+      "aspect_state": "negative_only",
+      "positive_aspects": [],
+      "negative_aspects": [
+        {
+          "aspect": "pizza",
+          "sentiment": "negative",
+          "confidence": 0.7762
+        }
+      ],
+      "positive_sentences": [],
+      "negative_sentences": [
+        {
+          "text": "If I could rate the people this place would be off the charts - unfortunately - the pizza, sorry - not the best in NYC.",
+          "label": "negative",
+          "confidence": 0.9121
+        }
+      ],
+      "sentence_relationship": "same_negative",
+      "contrast_supports_mixed": false,
+      "contrast": {
+        "supports_mixed": false,
+        "confidence": 0.0
+      },
+      "surface_patterns": [
+        "negation_language"
+      ]
+    },
+    {
+      "index": 42,
+      "text": "This is one great place to eat pizza more out but not a good place for take-out pizza.",
+      "true_label": "mixed",
+      "predicted_label": "negative",
+      "decision_source": "core_sentiment",
+      "failure_category": "no_confident_aspect_evidence",
+      "aspect_state": "none",
+      "positive_aspects": [],
+      "negative_aspects": [],
+      "positive_sentences": [],
+      "negative_sentences": [
+        {
+          "text": "This is one great place to eat pizza more out but not a good place for take-out pizza.",
+          "label": "negative",
+          "confidence": 0.6546
+        }
+      ],
+      "sentence_relationship": "none",
+      "contrast_supports_mixed": true,
+      "contrast": {
+        "supports_mixed": true,
+        "confidence": 0.9235
+      },
+      "surface_patterns": [
+        "contrast_language",
+        "negation_language"
+      ]
+    },
+    {
+      "index": 43,
+      "text": "Service could be improved but overall this is a place that understands the importance of little things (the heavy, black, antique-seeming teapot, for one) in the restaurant experience.",
+      "true_label": "mixed",
+      "predicted_label": "positive",
+      "decision_source": "core_sentiment",
+      "failure_category": "no_confident_aspect_evidence",
+      "aspect_state": "none",
+      "positive_aspects": [],
+      "negative_aspects": [],
+      "positive_sentences": [],
+      "negative_sentences": [],
+      "sentence_relationship": "none",
+      "contrast_supports_mixed": false,
+      "contrast": {
+        "supports_mixed": false,
+        "confidence": 0.0
+      },
+      "surface_patterns": [
+        "contrast_language"
+      ]
+    },
+    {
+      "index": 44,
+      "text": "in an effort to increase turnover, the restaurant offers no desserts beyond the complimentary espresso cup filled with chocolate mousse.",
+      "true_label": "mixed",
+      "predicted_label": "neutral",
+      "decision_source": "core_sentiment",
+      "failure_category": "no_confident_aspect_evidence",
+      "aspect_state": "none",
+      "positive_aspects": [],
+      "negative_aspects": [],
+      "positive_sentences": [],
+      "negative_sentences": [],
+      "sentence_relationship": "none",
+      "contrast_supports_mixed": false,
+      "contrast": {
+        "supports_mixed": false,
+        "confidence": 0.0
+      },
+      "surface_patterns": [
+        "negation_language"
+      ]
+    },
+    {
+      "index": 45,
+      "text": "Good atmosphere, combination of all the hottest music dress code is relatively strict except on Fridays.",
+      "true_label": "mixed",
+      "predicted_label": "positive",
+      "decision_source": "core_sentiment",
+      "failure_category": "missing_negative_aspect_evidence",
+      "aspect_state": "positive_only",
+      "positive_aspects": [
+        {
+          "aspect": "atmosphere",
+          "sentiment": "positive",
+          "confidence": 0.8948
+        }
+      ],
+      "negative_aspects": [],
+      "positive_sentences": [
+        {
+          "text": "Good atmosphere, combination of all the hottest music dress code is relatively strict except on Fridays.",
+          "label": "positive",
+          "confidence": 0.9331
+        }
+      ],
+      "negative_sentences": [],
+      "sentence_relationship": "same_positive",
+      "contrast_supports_mixed": false,
+      "contrast": {
+        "supports_mixed": false,
+        "confidence": 0.0
+      },
+      "surface_patterns": [
+        "no_simple_surface_pattern"
+      ]
+    },
+    {
+      "index": 46,
+      "text": "While the new restaurant still features much of the same classical furniture that made Tiffin so attractive, the menu has been overhauled.",
+      "true_label": "mixed",
+      "predicted_label": "positive",
+      "decision_source": "core_sentiment",
+      "failure_category": "no_confident_aspect_evidence",
+      "aspect_state": "none",
+      "positive_aspects": [],
+      "negative_aspects": [],
+      "positive_sentences": [],
+      "negative_sentences": [],
+      "sentence_relationship": "none",
+      "contrast_supports_mixed": false,
+      "contrast": {
+        "supports_mixed": false,
+        "confidence": 0.0
+      },
+      "surface_patterns": [
+        "contrast_language"
+      ]
+    },
+    {
+      "index": 47,
+      "text": "Though you will undoubtedly be seated at a table with what seems like barely enough room (no matter what the size of your party), the warm atomosphere is worth the cramped quarters- you'll have fun and forgot about the tight spot you're in.",
+      "true_label": "mixed",
+      "predicted_label": "positive",
+      "decision_source": "core_sentiment",
+      "failure_category": "missing_positive_aspect_evidence",
+      "aspect_state": "negative_only",
+      "positive_aspects": [],
+      "negative_aspects": [
+        {
+          "aspect": "spot",
+          "sentiment": "negative",
+          "confidence": 0.5548
+        }
+      ],
+      "positive_sentences": [
+        {
+          "text": "Though you will undoubtedly be seated at a table with what seems like barely enough room (no matter what the size of your party), the warm atomosphere is worth the cramped quarters- you'll have fun and forgot about the tight spot you're in.",
+          "label": "positive",
+          "confidence": 0.8453
+        }
+      ],
+      "negative_sentences": [],
+      "sentence_relationship": "opposite_positive",
+      "contrast_supports_mixed": false,
+      "contrast": {
+        "supports_mixed": false,
+        "confidence": 0.0
+      },
+      "surface_patterns": [
+        "contrast_language",
+        "negation_language",
+        "comparative_or_value_language"
+      ]
+    },
+    {
+      "index": 48,
+      "text": "Because we didn't have a reservation, we could only sit in the back garden, but it was great, secluded and perfect in nice weather.",
+      "true_label": "mixed",
+      "predicted_label": "positive",
+      "decision_source": "core_sentiment",
+      "failure_category": "missing_negative_aspect_evidence",
+      "aspect_state": "positive_only",
+      "positive_aspects": [
+        {
+          "aspect": "weather",
+          "sentiment": "positive",
+          "confidence": 0.6744
+        }
+      ],
+      "negative_aspects": [],
+      "positive_sentences": [
+        {
+          "text": "Because we didn't have a reservation, we could only sit in the back garden, but it was great, secluded and perfect in nice weather.",
+          "label": "positive",
+          "confidence": 0.9491
+        }
+      ],
+      "negative_sentences": [],
+      "sentence_relationship": "same_positive",
+      "contrast_supports_mixed": false,
+      "contrast": {
+        "supports_mixed": false,
+        "confidence": 0.0
+      },
+      "surface_patterns": [
+        "contrast_language"
+      ]
+    },
+    {
+      "index": 49,
+      "text": "Although the tables may be closely situated, the candle-light, food-quality and service overcompensate.",
+      "true_label": "mixed",
+      "predicted_label": "neutral",
+      "decision_source": "core_sentiment",
+      "failure_category": "missing_negative_aspect_evidence",
+      "aspect_state": "positive_only",
+      "positive_aspects": [
+        {
+          "aspect": "food",
+          "sentiment": "positive",
+          "confidence": 0.7335
+        },
+        {
+          "aspect": "service",
+          "sentiment": "positive",
+          "confidence": 0.8187
+        }
+      ],
+      "negative_aspects": [],
+      "positive_sentences": [],
+      "negative_sentences": [],
+      "sentence_relationship": "none",
+      "contrast_supports_mixed": false,
+      "contrast": {
+        "supports_mixed": false,
+        "confidence": 0.0
+      },
+      "surface_patterns": [
+        "contrast_language"
+      ]
+    },
+    {
+      "index": 50,
+      "text": "The drinks are a saving grace, but service staff, please, get over yourselves.",
+      "true_label": "mixed",
+      "predicted_label": "negative",
+      "decision_source": "core_sentiment",
+      "failure_category": "missing_negative_aspect_evidence",
+      "aspect_state": "positive_only",
+      "positive_aspects": [
+        {
+          "aspect": "drinks",
+          "sentiment": "positive",
+          "confidence": 0.7792
+        }
+      ],
+      "negative_aspects": [],
+      "positive_sentences": [],
+      "negative_sentences": [],
+      "sentence_relationship": "none",
+      "contrast_supports_mixed": true,
+      "contrast": {
+        "supports_mixed": true,
+        "confidence": 0.7151
+      },
+      "surface_patterns": [
+        "contrast_language"
+      ]
+    },
+    {
+      "index": 51,
+      "text": "sometimes i get bad food and bad service, sometimes i get good good and bad service.",
+      "true_label": "mixed",
+      "predicted_label": "negative",
+      "decision_source": "core_sentiment",
+      "failure_category": "missing_positive_aspect_evidence",
+      "aspect_state": "negative_only",
+      "positive_aspects": [],
+      "negative_aspects": [
+        {
+          "aspect": "food",
+          "sentiment": "negative",
+          "confidence": 0.8319
+        },
+        {
+          "aspect": "service",
+          "sentiment": "negative",
+          "confidence": 0.8555
+        },
+        {
+          "aspect": "service",
+          "sentiment": "negative",
+          "confidence": 0.5906
+        }
+      ],
+      "positive_sentences": [],
+      "negative_sentences": [],
+      "sentence_relationship": "none",
+      "contrast_supports_mixed": false,
+      "contrast": {
+        "supports_mixed": false,
+        "confidence": 0.0
+      },
+      "surface_patterns": [
+        "no_simple_surface_pattern"
+      ]
+    },
+    {
+      "index": 52,
+      "text": "We were fans of the half-price Saturday night option until some inedible squid during a recent visit.",
+      "true_label": "mixed",
+      "predicted_label": "neutral",
+      "decision_source": "core_sentiment",
+      "failure_category": "missing_positive_aspect_evidence",
+      "aspect_state": "negative_only",
+      "positive_aspects": [],
+      "negative_aspects": [
+        {
+          "aspect": "squid",
+          "sentiment": "negative",
+          "confidence": 0.6211
+        }
+      ],
+      "positive_sentences": [],
+      "negative_sentences": [],
+      "sentence_relationship": "none",
+      "contrast_supports_mixed": false,
+      "contrast": {
+        "supports_mixed": false,
+        "confidence": 0.0
+      },
+      "surface_patterns": [
+        "comparative_or_value_language"
+      ]
+    },
+    {
+      "index": 53,
+      "text": "It is nearly impossible to get a table, so if you ever have the chance to go here for dinner, DO NOT pass it up.",
+      "true_label": "mixed",
+      "predicted_label": "negative",
+      "decision_source": "core_sentiment",
+      "failure_category": "no_confident_aspect_evidence",
+      "aspect_state": "none",
+      "positive_aspects": [],
+      "negative_aspects": [],
+      "positive_sentences": [],
+      "negative_sentences": [],
+      "sentence_relationship": "none",
+      "contrast_supports_mixed": false,
+      "contrast": {
+        "supports_mixed": false,
+        "confidence": 0.0
+      },
+      "surface_patterns": [
+        "negation_language"
+      ]
+    },
+    {
+      "index": 54,
+      "text": "Where tanks in other Chinatown restaurants display a lurking myriad of sad-looking marine life in their murky waters, the tanks at Ping's are clear as glass with healthy-looking creatures who do not yet know that they will be part of some dim sum lover's brunch.",
+      "true_label": "mixed",
+      "predicted_label": "neutral",
+      "decision_source": "core_sentiment",
+      "failure_category": "missing_positive_aspect_evidence",
+      "aspect_state": "negative_only",
+      "positive_aspects": [],
+      "negative_aspects": [
+        {
+          "aspect": "marine",
+          "sentiment": "negative",
+          "confidence": 0.5136
+        }
+      ],
+      "positive_sentences": [],
+      "negative_sentences": [],
+      "sentence_relationship": "none",
+      "contrast_supports_mixed": false,
+      "contrast": {
+        "supports_mixed": false,
+        "confidence": 0.0
+      },
+      "surface_patterns": [
+        "contrast_language",
+        "negation_language"
+      ]
+    },
+    {
+      "index": 55,
+      "text": "After 2 tries by the waiter to take it away (we hadn't even looked at it yet, we had full beers yet to drink), the manager approached and told us they needed the table for people with reservations.",
+      "true_label": "mixed",
+      "predicted_label": "neutral",
+      "decision_source": "core_sentiment",
+      "failure_category": "missing_positive_aspect_evidence",
+      "aspect_state": "negative_only",
+      "positive_aspects": [],
+      "negative_aspects": [
+        {
+          "aspect": "waiter",
+          "sentiment": "negative",
+          "confidence": 0.8164
+        },
+        {
+          "aspect": "manager",
+          "sentiment": "negative",
+          "confidence": 0.5373
+        }
+      ],
+      "positive_sentences": [],
+      "negative_sentences": [],
+      "sentence_relationship": "none",
+      "contrast_supports_mixed": false,
+      "contrast": {
+        "supports_mixed": false,
+        "confidence": 0.0
+      },
+      "surface_patterns": [
+        "contrast_language"
+      ]
+    },
+    {
+      "index": 56,
+      "text": "Yes, they use fancy ingredients, but even fancy ingredients don't make for good pizza unless someone knows how to get the crust right.",
+      "true_label": "mixed",
+      "predicted_label": "negative",
+      "decision_source": "core_sentiment",
+      "failure_category": "missing_negative_aspect_evidence",
+      "aspect_state": "positive_only",
+      "positive_aspects": [
+        {
+          "aspect": "ingredients",
+          "sentiment": "positive",
+          "confidence": 0.7554
+        }
+      ],
+      "negative_aspects": [],
+      "positive_sentences": [],
+      "negative_sentences": [
+        {
+          "text": "Yes, they use fancy ingredients, but even fancy ingredients don't make for good pizza unless someone knows how to get the crust right.",
+          "label": "negative",
+          "confidence": 0.7284
+        }
+      ],
+      "sentence_relationship": "opposite_negative",
+      "contrast_supports_mixed": false,
+      "contrast": {
+        "supports_mixed": false,
+        "confidence": 0.0
+      },
+      "surface_patterns": [
+        "contrast_language"
+      ]
+    },
+    {
+      "index": 57,
+      "text": "All the money went into the interior decoration, none of it went to the chefs.",
+      "true_label": "mixed",
+      "predicted_label": "neutral",
+      "decision_source": "core_sentiment",
+      "failure_category": "no_confident_aspect_evidence",
+      "aspect_state": "none",
+      "positive_aspects": [],
+      "negative_aspects": [],
+      "positive_sentences": [],
+      "negative_sentences": [],
+      "sentence_relationship": "none",
+      "contrast_supports_mixed": false,
+      "contrast": {
+        "supports_mixed": false,
+        "confidence": 0.0
+      },
+      "surface_patterns": [
+        "no_simple_surface_pattern"
+      ]
+    },
+    {
+      "index": 58,
+      "text": "A cheap eat for NYC, but not for dosa.",
+      "true_label": "mixed",
+      "predicted_label": "neutral",
+      "decision_source": "core_sentiment",
+      "failure_category": "missing_negative_aspect_evidence",
+      "aspect_state": "positive_only",
+      "positive_aspects": [
+        {
+          "aspect": "eat",
+          "sentiment": "positive",
+          "confidence": 0.7304
+        }
+      ],
+      "negative_aspects": [],
+      "positive_sentences": [],
+      "negative_sentences": [],
+      "sentence_relationship": "none",
+      "contrast_supports_mixed": false,
+      "contrast": {
+        "supports_mixed": false,
+        "confidence": 0.0
+      },
+      "surface_patterns": [
+        "contrast_language",
+        "negation_language",
+        "comparative_or_value_language"
+      ]
+    },
+    {
+      "index": 59,
+      "text": "The service is a little scatty at times but all is forgiven when the food arrives.",
+      "true_label": "mixed",
+      "predicted_label": "negative",
+      "decision_source": "core_sentiment",
+      "failure_category": "missing_positive_aspect_evidence",
+      "aspect_state": "negative_only",
+      "positive_aspects": [],
+      "negative_aspects": [
+        {
+          "aspect": "service",
+          "sentiment": "negative",
+          "confidence": 0.9175
+        }
+      ],
+      "positive_sentences": [],
+      "negative_sentences": [],
+      "sentence_relationship": "none",
+      "contrast_supports_mixed": false,
+      "contrast": {
+        "supports_mixed": false,
+        "confidence": 0.0
+      },
+      "surface_patterns": [
+        "contrast_language"
+      ]
+    }
+  ]
+}

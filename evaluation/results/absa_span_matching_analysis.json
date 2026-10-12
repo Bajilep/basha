@@ -1,0 +1,711 @@
+{
+  "settings": {
+    "sequence_threshold": 0.8,
+    "token_overlap_threshold": 0.5
+  },
+  "summary": {
+    "original_extraction_failures": 94,
+    "near_matches": 5,
+    "near_match_correct_polarity": 4,
+    "near_match_wrong_polarity": 1,
+    "true_extraction_failures": 89,
+    "corrected_correct_aspects": 62,
+    "corrected_polarity_failures": 9,
+    "total_gold_aspects": 160
+  },
+  "details": [
+    {
+      "text": "I must warn the reader that the portions sizes are very small (especially the appetizers), so if you plan to eat until you are full and do not intend to order the chef's special tasting menu, prepare to order and pay for an appetizer (1 dish for each person because the portions are not for sharing), a main entree, and the cold udon at the end of the meal.",
+      "gold_aspect": "chef",
+      "gold_sentiment": "positive",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "I must warn the reader that the portions sizes are very small (especially the appetizers), so if you plan to eat until you are full and do not intend to order the chef's special tasting menu, prepare to order and pay for an appetizer (1 dish for each person because the portions are not for sharing), a main entree, and the cold udon at the end of the meal.",
+      "gold_aspect": "menu",
+      "gold_sentiment": "positive",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "I must warn the reader that the portions sizes are very small (especially the appetizers), so if you plan to eat until you are full and do not intend to order the chef's special tasting menu, prepare to order and pay for an appetizer (1 dish for each person because the portions are not for sharing), a main entree, and the cold udon at the end of the meal.",
+      "gold_aspect": "appetizers",
+      "gold_sentiment": "negative",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "I must warn the reader that the portions sizes are very small (especially the appetizers), so if you plan to eat until you are full and do not intend to order the chef's special tasting menu, prepare to order and pay for an appetizer (1 dish for each person because the portions are not for sharing), a main entree, and the cold udon at the end of the meal.",
+      "gold_aspect": "appetizer",
+      "gold_sentiment": "negative",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "I must warn the reader that the portions sizes are very small (especially the appetizers), so if you plan to eat until you are full and do not intend to order the chef's special tasting menu, prepare to order and pay for an appetizer (1 dish for each person because the portions are not for sharing), a main entree, and the cold udon at the end of the meal.",
+      "gold_aspect": "dish",
+      "gold_sentiment": "negative",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "The wait here is long for dim sum, but if you don't like sharing tables or if the typical raucous dim sum atmosphere is not your gig, this is a sleek (for Chinatown) alternative.",
+      "gold_aspect": "tables",
+      "gold_sentiment": "positive",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "My entree of hot pot with seafood was full of imitation crabmeat with a couple pieces of shrimp and squid, and was unnecessarily heated with a burner.",
+      "gold_aspect": "entree",
+      "gold_sentiment": "positive",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "My entree of hot pot with seafood was full of imitation crabmeat with a couple pieces of shrimp and squid, and was unnecessarily heated with a burner.",
+      "gold_aspect": "hot pot with seafood",
+      "gold_sentiment": "negative",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "My entree of hot pot with seafood was full of imitation crabmeat with a couple pieces of shrimp and squid, and was unnecessarily heated with a burner.",
+      "gold_aspect": "shrimp",
+      "gold_sentiment": "negative",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "My entree of hot pot with seafood was full of imitation crabmeat with a couple pieces of shrimp and squid, and was unnecessarily heated with a burner.",
+      "gold_aspect": "squid",
+      "gold_sentiment": "negative",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "My entree of hot pot with seafood was full of imitation crabmeat with a couple pieces of shrimp and squid, and was unnecessarily heated with a burner.",
+      "gold_aspect": "crabmeat",
+      "gold_sentiment": "negative",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "The food is very good for it's price, better than most fried dumplings I've had.",
+      "gold_aspect": "fried dumplings",
+      "gold_sentiment": "negative",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "Good, because hey, it's more food, but bad because dim sum is supposed to be smaller portions so you can try out more dishes and smaller so that each dish is cheap.",
+      "gold_aspect": "food",
+      "gold_sentiment": "positive",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "Good, because hey, it's more food, but bad because dim sum is supposed to be smaller portions so you can try out more dishes and smaller so that each dish is cheap.",
+      "gold_aspect": "dim sum",
+      "gold_sentiment": "negative",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "Staffs are not that friendly, but the taste covers all.",
+      "gold_aspect": "taste",
+      "gold_sentiment": "positive",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "Staffs are not that friendly, but the taste covers all.",
+      "gold_aspect": "Staffs",
+      "gold_sentiment": "negative",
+      "result": "near_match_correct_polarity",
+      "matched_prediction": {
+        "aspect": "Staff",
+        "sentiment": "negative",
+        "confidence": 0.8053
+      },
+      "match_type": "near_match",
+      "sequence_similarity": 0.9090909090909091,
+      "token_overlap": 0.0
+    },
+    {
+      "text": "Despite the fact that the space is large, they've overcrowded the floor with tables.",
+      "gold_aspect": "space",
+      "gold_sentiment": "positive",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "Despite the fact that the space is large, they've overcrowded the floor with tables.",
+      "gold_aspect": "tables",
+      "gold_sentiment": "negative",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "While the place is not a hotspot hangout, the drinks are unique and pack a lot of bang for the buck.",
+      "gold_aspect": "place",
+      "gold_sentiment": "negative",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "Given the incredible architecture surrounding it, this place has no character.",
+      "gold_aspect": "place",
+      "gold_sentiment": "negative",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "The puke green walls leave a lot to be desired, but the food is very good.",
+      "gold_aspect": "walls",
+      "gold_sentiment": "negative",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "Ambiance is barely romantic but management tries.",
+      "gold_aspect": "management",
+      "gold_sentiment": "positive",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "Ambiance is barely romantic but management tries.",
+      "gold_aspect": "Ambiance",
+      "gold_sentiment": "negative",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "While the room is not particularly comfortable, once you're seated you'll forget about everything except what's on your plate.",
+      "gold_aspect": "plate",
+      "gold_sentiment": "positive",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "We were seated promptly as we had reservations, however after that the service was slow.",
+      "gold_aspect": "reservations",
+      "gold_sentiment": "positive",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "The space is nice but when we order our drink we were in for a surprise.",
+      "gold_aspect": "drink",
+      "gold_sentiment": "negative",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "First, the waiter who served us neglected to fill us in on the specials, which I would have chosen had I known about them.",
+      "gold_aspect": "specials",
+      "gold_sentiment": "positive",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "First, the waiter who served us neglected to fill us in on the specials, which I would have chosen had I known about them.",
+      "gold_aspect": "served",
+      "gold_sentiment": "negative",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "I had a terrific meal, and our server guided us toward a very nice wine in our price range, instead of allowing us to purchase a similarly priced wine that wasn't as good.",
+      "gold_aspect": "price range",
+      "gold_sentiment": "positive",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "It is kinda nosiy and the tables are close together but it's still a beautiful place to enjoy a nice dinner.",
+      "gold_aspect": "tables",
+      "gold_sentiment": "negative",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "20 minutes for our reservation but it gave us time to have a few cocktails and enjoy our surroundings and each other.",
+      "gold_aspect": "cocktails",
+      "gold_sentiment": "positive",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "20 minutes for our reservation but it gave us time to have a few cocktails and enjoy our surroundings and each other.",
+      "gold_aspect": "reservation",
+      "gold_sentiment": "negative",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "The menu is Prix Fixe, so be prepared to spend at least $60 per person, but it is Well worth itsuperb food.",
+      "gold_aspect": "menu",
+      "gold_sentiment": "negative",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "Service is highly refined: our seating was delayed 35 minutes past our reservation and the maitre d' apologized and regularly kept us apprised of progress.",
+      "gold_aspect": "maitre",
+      "gold_sentiment": "positive",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "Service is highly refined: our seating was delayed 35 minutes past our reservation and the maitre d' apologized and regularly kept us apprised of progress.",
+      "gold_aspect": "reservation",
+      "gold_sentiment": "negative",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "It is far more popular as a bar than as a restaurant, with only a few tables and the waiter being the bartender, but we greatly enjoyed the unobtrusive atmosphere.",
+      "gold_aspect": "bar",
+      "gold_sentiment": "positive",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "It is far more popular as a bar than as a restaurant, with only a few tables and the waiter being the bartender, but we greatly enjoyed the unobtrusive atmosphere.",
+      "gold_aspect": "tables",
+      "gold_sentiment": "negative",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "The bread is the soft paratha bread (unlike the plain bread they use in Calcutta), and the stuffing is tandoori styled and very flavorful.",
+      "gold_aspect": "paratha bread",
+      "gold_sentiment": "positive",
+      "result": "near_match_correct_polarity",
+      "matched_prediction": {
+        "aspect": "bread",
+        "sentiment": "positive",
+        "confidence": 0.6932
+      },
+      "match_type": "near_match",
+      "sequence_similarity": 0.5555555555555556,
+      "token_overlap": 1.0
+    },
+    {
+      "text": "The bread is the soft paratha bread (unlike the plain bread they use in Calcutta), and the stuffing is tandoori styled and very flavorful.",
+      "gold_aspect": "tandoori",
+      "gold_sentiment": "positive",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "Plus, when our entrees were held up in the kitchen on a busy Saturday night, the owner sent over complimentary summer rolls to hold us over!",
+      "gold_aspect": "summer rolls",
+      "gold_sentiment": "positive",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "Plus, when our entrees were held up in the kitchen on a busy Saturday night, the owner sent over complimentary summer rolls to hold us over!",
+      "gold_aspect": "entrees",
+      "gold_sentiment": "negative",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "The cafe itself was really nice with comfortable outdoor chairs and tables, but the service could have been better.",
+      "gold_aspect": "cafe",
+      "gold_sentiment": "positive",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "The cafe itself was really nice with comfortable outdoor chairs and tables, but the service could have been better.",
+      "gold_aspect": "outdoor chairs",
+      "gold_sentiment": "positive",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "The cafe itself was really nice with comfortable outdoor chairs and tables, but the service could have been better.",
+      "gold_aspect": "tables",
+      "gold_sentiment": "positive",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "The plain pizza was soggy and the creative wild mushroom(third generation-Fornini) pizza we had was drenched with truffle oil in the middle( again making it soggy) and nothingon the rest.",
+      "gold_aspect": "wild mushroom(third generation-Fornini) pizza",
+      "gold_sentiment": "positive",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "The plain pizza was soggy and the creative wild mushroom(third generation-Fornini) pizza we had was drenched with truffle oil in the middle( again making it soggy) and nothingon the rest.",
+      "gold_aspect": "plain pizza",
+      "gold_sentiment": "negative",
+      "result": "near_match_correct_polarity",
+      "matched_prediction": {
+        "aspect": "plain",
+        "sentiment": "negative",
+        "confidence": 0.5538
+      },
+      "match_type": "near_match",
+      "sequence_similarity": 0.625,
+      "token_overlap": 1.0
+    },
+    {
+      "text": "It may be a bit packed on weekends, but the vibe is good and it is the best French food you will find in the area.",
+      "gold_aspect": "packed",
+      "gold_sentiment": "negative",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "While most people can attest to spending over $50 on drinks in New York bars and hardly feeling a thing, the drinks here are plentiful and unique.",
+      "gold_aspect": "bars",
+      "gold_sentiment": "negative",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "Unlike other places in NYC where the sandwiches you want only come as a triple-decker, here you can get what you want in a reasonably-sized portion (and price).",
+      "gold_aspect": "price",
+      "gold_sentiment": "positive",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "Unlike other places in NYC where the sandwiches you want only come as a triple-decker, here you can get what you want in a reasonably-sized portion (and price).",
+      "gold_aspect": "sandwiches",
+      "gold_sentiment": "negative",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "I really liked the noodle dishes at Rice Avenue compared to their Green Curry dish.",
+      "gold_aspect": "Green Curry dish",
+      "gold_sentiment": "negative",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "However, in the summer of 2003, it seems the management has changed and the great big door has been replaced for a glass front ridding itself of the dark romantic getup.",
+      "gold_aspect": "door",
+      "gold_sentiment": "positive",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "However, in the summer of 2003, it seems the management has changed and the great big door has been replaced for a glass front ridding itself of the dark romantic getup.",
+      "gold_aspect": "glass front",
+      "gold_sentiment": "negative",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "The service is descent even when this small place is packed.",
+      "gold_aspect": "place",
+      "gold_sentiment": "negative",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "Guacamole+shrimp appetizer was really great, we both had the filet, very good, didn't much like the frites that came with, but the filet was so good, neither of us cared.",
+      "gold_aspect": "frites",
+      "gold_sentiment": "negative",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "However, go for the ambience, and consider the food just a companion for a trip across the world!",
+      "gold_aspect": "ambience",
+      "gold_sentiment": "positive",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "However, if you want great food at a great price and don't mind the decor, you can't beat this place.",
+      "gold_aspect": "decor",
+      "gold_sentiment": "negative",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "They are often crowded on the weekends but they are efficient and accurate with their service.",
+      "gold_aspect": "crowded",
+      "gold_sentiment": "negative",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "To begin, we were told there was a 30 minute wait and started to leave, when the hostess offered to call us on our cell phone when the table was ready.",
+      "gold_aspect": "hostess",
+      "gold_sentiment": "positive",
+      "result": "near_match_wrong_polarity",
+      "matched_prediction": {
+        "aspect": "host",
+        "sentiment": "negative",
+        "confidence": 0.6406
+      },
+      "match_type": "near_match",
+      "sequence_similarity": 0.7272727272727273,
+      "token_overlap": 0.0
+    },
+    {
+      "text": "To begin, we were told there was a 30 minute wait and started to leave, when the hostess offered to call us on our cell phone when the table was ready.",
+      "gold_aspect": "table",
+      "gold_sentiment": "positive",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "To begin, we were told there was a 30 minute wait and started to leave, when the hostess offered to call us on our cell phone when the table was ready.",
+      "gold_aspect": "wait",
+      "gold_sentiment": "negative",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "If you are someone who appreciates simplicity, elegance, and wonderfully presented and tasting seafood and vegetables regardless of portion size, Kai is your place.",
+      "gold_aspect": "portion size",
+      "gold_sentiment": "negative",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "If I could rate the people this place would be off the charts - unfortunately - the pizza, sorry - not the best in NYC.",
+      "gold_aspect": "people",
+      "gold_sentiment": "positive",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "This is one great place to eat pizza more out but not a good place for take-out pizza.",
+      "gold_aspect": "pizza",
+      "gold_sentiment": "positive",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "This is one great place to eat pizza more out but not a good place for take-out pizza.",
+      "gold_aspect": "take-out pizza",
+      "gold_sentiment": "negative",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "Service could be improved but overall this is a place that understands the importance of little things (the heavy, black, antique-seeming teapot, for one) in the restaurant experience.",
+      "gold_aspect": "teapot",
+      "gold_sentiment": "positive",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "Service could be improved but overall this is a place that understands the importance of little things (the heavy, black, antique-seeming teapot, for one) in the restaurant experience.",
+      "gold_aspect": "Service",
+      "gold_sentiment": "negative",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "in an effort to increase turnover, the restaurant offers no desserts beyond the complimentary espresso cup filled with chocolate mousse.",
+      "gold_aspect": "espresso cup filled with chocolate mousse",
+      "gold_sentiment": "positive",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "in an effort to increase turnover, the restaurant offers no desserts beyond the complimentary espresso cup filled with chocolate mousse.",
+      "gold_aspect": "desserts",
+      "gold_sentiment": "negative",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "Good atmosphere, combination of all the hottest music dress code is relatively strict except on Fridays.",
+      "gold_aspect": "music",
+      "gold_sentiment": "positive",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "Good atmosphere, combination of all the hottest music dress code is relatively strict except on Fridays.",
+      "gold_aspect": "dress cod",
+      "gold_sentiment": "negative",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "While the new restaurant still features much of the same classical furniture that made Tiffin so attractive, the menu has been overhauled.",
+      "gold_aspect": "classical furniture",
+      "gold_sentiment": "positive",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "While the new restaurant still features much of the same classical furniture that made Tiffin so attractive, the menu has been overhauled.",
+      "gold_aspect": "menu",
+      "gold_sentiment": "negative",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "Though you will undoubtedly be seated at a table with what seems like barely enough room (no matter what the size of your party), the warm atomosphere is worth the cramped quarters- you'll have fun and forgot about the tight spot you're in.",
+      "gold_aspect": "atomosphere",
+      "gold_sentiment": "positive",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "Though you will undoubtedly be seated at a table with what seems like barely enough room (no matter what the size of your party), the warm atomosphere is worth the cramped quarters- you'll have fun and forgot about the tight spot you're in.",
+      "gold_aspect": "table",
+      "gold_sentiment": "negative",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "Though you will undoubtedly be seated at a table with what seems like barely enough room (no matter what the size of your party), the warm atomosphere is worth the cramped quarters- you'll have fun and forgot about the tight spot you're in.",
+      "gold_aspect": "room",
+      "gold_sentiment": "negative",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "Because we didn't have a reservation, we could only sit in the back garden, but it was great, secluded and perfect in nice weather.",
+      "gold_aspect": "back garden",
+      "gold_sentiment": "positive",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "Because we didn't have a reservation, we could only sit in the back garden, but it was great, secluded and perfect in nice weather.",
+      "gold_aspect": "reservation",
+      "gold_sentiment": "negative",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "Although the tables may be closely situated, the candle-light, food-quality and service overcompensate.",
+      "gold_aspect": "candle-light",
+      "gold_sentiment": "positive",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "Although the tables may be closely situated, the candle-light, food-quality and service overcompensate.",
+      "gold_aspect": "food-quality",
+      "gold_sentiment": "positive",
+      "result": "near_match_correct_polarity",
+      "matched_prediction": {
+        "aspect": "food",
+        "sentiment": "positive",
+        "confidence": 0.7335
+      },
+      "match_type": "near_match",
+      "sequence_similarity": 0.5,
+      "token_overlap": 1.0
+    },
+    {
+      "text": "Although the tables may be closely situated, the candle-light, food-quality and service overcompensate.",
+      "gold_aspect": "tables",
+      "gold_sentiment": "negative",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "The drinks are a saving grace, but service staff, please, get over yourselves.",
+      "gold_aspect": "service staff",
+      "gold_sentiment": "negative",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "sometimes i get bad food and bad service, sometimes i get good good and bad service.",
+      "gold_aspect": "good",
+      "gold_sentiment": "positive",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "We were fans of the half-price Saturday night option until some inedible squid during a recent visit.",
+      "gold_aspect": "half-price Saturday night option",
+      "gold_sentiment": "positive",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "It is nearly impossible to get a table, so if you ever have the chance to go here for dinner, DO NOT pass it up.",
+      "gold_aspect": "dinner",
+      "gold_sentiment": "positive",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "It is nearly impossible to get a table, so if you ever have the chance to go here for dinner, DO NOT pass it up.",
+      "gold_aspect": "table",
+      "gold_sentiment": "negative",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "Where tanks in other Chinatown restaurants display a lurking myriad of sad-looking marine life in their murky waters, the tanks at Ping's are clear as glass with healthy-looking creatures who do not yet know that they will be part of some dim sum lover's brunch.",
+      "gold_aspect": "tanks",
+      "gold_sentiment": "positive",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "Where tanks in other Chinatown restaurants display a lurking myriad of sad-looking marine life in their murky waters, the tanks at Ping's are clear as glass with healthy-looking creatures who do not yet know that they will be part of some dim sum lover's brunch.",
+      "gold_aspect": "tanks",
+      "gold_sentiment": "negative",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "After 2 tries by the waiter to take it away (we hadn't even looked at it yet, we had full beers yet to drink), the manager approached and told us they needed the table for people with reservations.",
+      "gold_aspect": "reservations",
+      "gold_sentiment": "positive",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "Yes, they use fancy ingredients, but even fancy ingredients don't make for good pizza unless someone knows how to get the crust right.",
+      "gold_aspect": "pizza",
+      "gold_sentiment": "negative",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "All the money went into the interior decoration, none of it went to the chefs.",
+      "gold_aspect": "interior decoration",
+      "gold_sentiment": "positive",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "All the money went into the interior decoration, none of it went to the chefs.",
+      "gold_aspect": "chefs",
+      "gold_sentiment": "negative",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "A cheap eat for NYC, but not for dosa.",
+      "gold_aspect": "dosa",
+      "gold_sentiment": "negative",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    },
+    {
+      "text": "The service is a little scatty at times but all is forgiven when the food arrives.",
+      "gold_aspect": "food",
+      "gold_sentiment": "positive",
+      "result": "true_extraction_failure",
+      "matched_prediction": null
+    }
+  ]
+}

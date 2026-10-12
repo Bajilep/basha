@@ -1,0 +1,59 @@
+{
+  "model": "gauneg/roberta-base-absa-ate-sentiment",
+  "max_length": 512,
+  "label2id": {
+    "O": 0,
+    "B-neu": 1,
+    "I-neu": 2,
+    "B-neg": 3,
+    "B-con": 4,
+    "I-pos": 5,
+    "B-pos": 6,
+    "I-con": 7,
+    "I-neg": 8
+  },
+  "train_stats": {
+    "duplicate_annotations_removed": 21,
+    "recovered_span": 3056,
+    "aspect_aligned": 14035,
+    "overlap_shorter_removed": 25,
+    "span_not_found": 2,
+    "example_no_valid_aspects": 1,
+    "original_span": 11004,
+    "input_examples": 5958,
+    "output_examples": 5957
+  },
+  "validation_stats": {
+    "duplicate_annotations_removed": 1,
+    "recovered_span": 297,
+    "aspect_aligned": 1614,
+    "overlap_shorter_removed": 1,
+    "original_span": 1318,
+    "input_examples": 679,
+    "output_examples": 679
+  },
+  "train_label_counts": {
+    "X": 11914,
+    "O": 127940,
+    "B-con": 78,
+    "B-neg": 3306,
+    "B-pos": 5136,
+    "I-pos": 4047,
+    "B-neu": 5515,
+    "I-neg": 1202,
+    "I-con": 36,
+    "I-neu": 3071
+  },
+  "validation_label_counts": {
+    "X": 1358,
+    "B-pos": 571,
+    "O": 15092,
+    "B-neu": 646,
+    "I-neu": 380,
+    "I-pos": 475,
+    "B-neg": 387,
+    "I-neg": 136,
+    "B-con": 10,
+    "I-con": 8
+  }
+}

@@ -1,0 +1,2763 @@
+{
+  "summary": {
+    "matched_sentences": 59,
+    "missing_from_benchmark": 0,
+    "total_gold_aspects": 160,
+    "correct_aspects": 58,
+    "correct_rate": 0.3625,
+    "extraction_failures": 94,
+    "extraction_failure_rate": 0.5875,
+    "polarity_failures": 8,
+    "polarity_failure_rate": 0.05,
+    "extraction_failure_by_polarity": {
+      "positive": 44,
+      "negative": 50
+    },
+    "polarity_failure_by_gold": {
+      "negative": 7,
+      "positive": 1
+    },
+    "sentence_failure_types": {
+      "extraction_failure": 51,
+      "both_extraction_and_polarity": 5,
+      "polarity_failure": 3
+    }
+  },
+  "missing_sentences": [],
+  "errors": [
+    {
+      "index": 1,
+      "text": "I must warn the reader that the portions sizes are very small (especially the appetizers), so if you plan to eat until you are full and do not intend to order the chef's special tasting menu, prepare to order and pay for an appetizer (1 dish for each person because the portions are not for sharing), a main entree, and the cold udon at the end of the meal.",
+      "basha_prediction": "neutral",
+      "basha_failure_category": "missing_positive_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "chef",
+          "menu"
+        ],
+        "negative_aspects": [
+          "portions",
+          "appetizers",
+          "appetizer",
+          "dish",
+          "portions"
+        ]
+      },
+      "gauneg_predictions": [
+        {
+          "aspect": "portions sizes",
+          "sentiment": "negative",
+          "confidence": 0.628
+        },
+        {
+          "aspect": "portions",
+          "sentiment": "negative",
+          "confidence": 0.6201
+        }
+      ],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "chef",
+          "gold_sentiment": "positive",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        },
+        {
+          "gold_aspect": "menu",
+          "gold_sentiment": "positive",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        },
+        {
+          "gold_aspect": "portions",
+          "gold_sentiment": "negative",
+          "status": "correct",
+          "matched_prediction": {
+            "aspect": "portions",
+            "sentiment": "negative",
+            "confidence": 0.6201
+          }
+        },
+        {
+          "gold_aspect": "appetizers",
+          "gold_sentiment": "negative",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        },
+        {
+          "gold_aspect": "appetizer",
+          "gold_sentiment": "negative",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        },
+        {
+          "gold_aspect": "dish",
+          "gold_sentiment": "negative",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        },
+        {
+          "gold_aspect": "portions",
+          "gold_sentiment": "negative",
+          "status": "correct",
+          "matched_prediction": {
+            "aspect": "portions",
+            "sentiment": "negative",
+            "confidence": 0.6201
+          }
+        }
+      ],
+      "sentence_failure_type": "extraction_failure"
+    },
+    {
+      "index": 2,
+      "text": "The wait here is long for dim sum, but if you don't like sharing tables or if the typical raucous dim sum atmosphere is not your gig, this is a sleek (for Chinatown) alternative.",
+      "basha_prediction": "negative",
+      "basha_failure_category": "missing_positive_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "tables"
+        ],
+        "negative_aspects": [
+          "wait"
+        ]
+      },
+      "gauneg_predictions": [
+        {
+          "aspect": "wait",
+          "sentiment": "negative",
+          "confidence": 0.8115
+        }
+      ],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "tables",
+          "gold_sentiment": "positive",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        },
+        {
+          "gold_aspect": "wait",
+          "gold_sentiment": "negative",
+          "status": "correct",
+          "matched_prediction": {
+            "aspect": "wait",
+            "sentiment": "negative",
+            "confidence": 0.8115
+          }
+        }
+      ],
+      "sentence_failure_type": "extraction_failure"
+    },
+    {
+      "index": 3,
+      "text": "My entree of hot pot with seafood was full of imitation crabmeat with a couple pieces of shrimp and squid, and was unnecessarily heated with a burner.",
+      "basha_prediction": "negative",
+      "basha_failure_category": "no_confident_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "entree"
+        ],
+        "negative_aspects": [
+          "hot pot with seafood",
+          "shrimp",
+          "squid",
+          "crabmeat"
+        ]
+      },
+      "gauneg_predictions": [],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "entree",
+          "gold_sentiment": "positive",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        },
+        {
+          "gold_aspect": "hot pot with seafood",
+          "gold_sentiment": "negative",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        },
+        {
+          "gold_aspect": "shrimp",
+          "gold_sentiment": "negative",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        },
+        {
+          "gold_aspect": "squid",
+          "gold_sentiment": "negative",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        },
+        {
+          "gold_aspect": "crabmeat",
+          "gold_sentiment": "negative",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        }
+      ],
+      "sentence_failure_type": "extraction_failure"
+    },
+    {
+      "index": 4,
+      "text": "The food is very good for it's price, better than most fried dumplings I've had.",
+      "basha_prediction": "positive",
+      "basha_failure_category": "missing_negative_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "food",
+          "price"
+        ],
+        "negative_aspects": [
+          "fried dumplings"
+        ]
+      },
+      "gauneg_predictions": [
+        {
+          "aspect": "food",
+          "sentiment": "positive",
+          "confidence": 0.9272
+        },
+        {
+          "aspect": "price",
+          "sentiment": "positive",
+          "confidence": 0.7399
+        }
+      ],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "food",
+          "gold_sentiment": "positive",
+          "status": "correct",
+          "matched_prediction": {
+            "aspect": "food",
+            "sentiment": "positive",
+            "confidence": 0.9272
+          }
+        },
+        {
+          "gold_aspect": "price",
+          "gold_sentiment": "positive",
+          "status": "correct",
+          "matched_prediction": {
+            "aspect": "price",
+            "sentiment": "positive",
+            "confidence": 0.7399
+          }
+        },
+        {
+          "gold_aspect": "fried dumplings",
+          "gold_sentiment": "negative",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        }
+      ],
+      "sentence_failure_type": "extraction_failure"
+    },
+    {
+      "index": 5,
+      "text": "Good, because hey, it's more food, but bad because dim sum is supposed to be smaller portions so you can try out more dishes and smaller so that each dish is cheap.",
+      "basha_prediction": "neutral",
+      "basha_failure_category": "missing_positive_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "food"
+        ],
+        "negative_aspects": [
+          "dim sum",
+          "portions"
+        ]
+      },
+      "gauneg_predictions": [
+        {
+          "aspect": "portions",
+          "sentiment": "negative",
+          "confidence": 0.7168
+        }
+      ],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "food",
+          "gold_sentiment": "positive",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        },
+        {
+          "gold_aspect": "dim sum",
+          "gold_sentiment": "negative",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        },
+        {
+          "gold_aspect": "portions",
+          "gold_sentiment": "negative",
+          "status": "correct",
+          "matched_prediction": {
+            "aspect": "portions",
+            "sentiment": "negative",
+            "confidence": 0.7168
+          }
+        }
+      ],
+      "sentence_failure_type": "extraction_failure"
+    },
+    {
+      "index": 6,
+      "text": "Staffs are not that friendly, but the taste covers all.",
+      "basha_prediction": "negative",
+      "basha_failure_category": "missing_positive_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "taste"
+        ],
+        "negative_aspects": [
+          "Staffs"
+        ]
+      },
+      "gauneg_predictions": [
+        {
+          "aspect": "Staff",
+          "sentiment": "negative",
+          "confidence": 0.8053
+        }
+      ],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "taste",
+          "gold_sentiment": "positive",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        },
+        {
+          "gold_aspect": "Staffs",
+          "gold_sentiment": "negative",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        }
+      ],
+      "sentence_failure_type": "extraction_failure"
+    },
+    {
+      "index": 7,
+      "text": "Despite the fact that the space is large, they've overcrowded the floor with tables.",
+      "basha_prediction": "neutral",
+      "basha_failure_category": "no_confident_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "space"
+        ],
+        "negative_aspects": [
+          "tables"
+        ]
+      },
+      "gauneg_predictions": [],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "space",
+          "gold_sentiment": "positive",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        },
+        {
+          "gold_aspect": "tables",
+          "gold_sentiment": "negative",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        }
+      ],
+      "sentence_failure_type": "extraction_failure"
+    },
+    {
+      "index": 8,
+      "text": "While the place is not a hotspot hangout, the drinks are unique and pack a lot of bang for the buck.",
+      "basha_prediction": "positive",
+      "basha_failure_category": "missing_negative_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "drinks"
+        ],
+        "negative_aspects": [
+          "place"
+        ]
+      },
+      "gauneg_predictions": [
+        {
+          "aspect": "drinks",
+          "sentiment": "positive",
+          "confidence": 0.9174
+        }
+      ],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "drinks",
+          "gold_sentiment": "positive",
+          "status": "correct",
+          "matched_prediction": {
+            "aspect": "drinks",
+            "sentiment": "positive",
+            "confidence": 0.9174
+          }
+        },
+        {
+          "gold_aspect": "place",
+          "gold_sentiment": "negative",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        }
+      ],
+      "sentence_failure_type": "extraction_failure"
+    },
+    {
+      "index": 9,
+      "text": "Given the incredible architecture surrounding it, this place has no character.",
+      "basha_prediction": "neutral",
+      "basha_failure_category": "missing_negative_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "architecture"
+        ],
+        "negative_aspects": [
+          "place"
+        ]
+      },
+      "gauneg_predictions": [
+        {
+          "aspect": "architecture",
+          "sentiment": "positive",
+          "confidence": 0.8549
+        }
+      ],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "architecture",
+          "gold_sentiment": "positive",
+          "status": "correct",
+          "matched_prediction": {
+            "aspect": "architecture",
+            "sentiment": "positive",
+            "confidence": 0.8549
+          }
+        },
+        {
+          "gold_aspect": "place",
+          "gold_sentiment": "negative",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        }
+      ],
+      "sentence_failure_type": "extraction_failure"
+    },
+    {
+      "index": 10,
+      "text": "The puke green walls leave a lot to be desired, but the food is very good.",
+      "basha_prediction": "positive",
+      "basha_failure_category": "missing_negative_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "food"
+        ],
+        "negative_aspects": [
+          "walls"
+        ]
+      },
+      "gauneg_predictions": [
+        {
+          "aspect": "food",
+          "sentiment": "positive",
+          "confidence": 0.9426
+        }
+      ],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "food",
+          "gold_sentiment": "positive",
+          "status": "correct",
+          "matched_prediction": {
+            "aspect": "food",
+            "sentiment": "positive",
+            "confidence": 0.9426
+          }
+        },
+        {
+          "gold_aspect": "walls",
+          "gold_sentiment": "negative",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        }
+      ],
+      "sentence_failure_type": "extraction_failure"
+    },
+    {
+      "index": 11,
+      "text": "Ambiance is barely romantic but management tries.",
+      "basha_prediction": "negative",
+      "basha_failure_category": "missing_positive_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "management"
+        ],
+        "negative_aspects": [
+          "Ambiance"
+        ]
+      },
+      "gauneg_predictions": [
+        {
+          "aspect": "Amb",
+          "sentiment": "negative",
+          "confidence": 0.6475
+        }
+      ],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "management",
+          "gold_sentiment": "positive",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        },
+        {
+          "gold_aspect": "Ambiance",
+          "gold_sentiment": "negative",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        }
+      ],
+      "sentence_failure_type": "extraction_failure"
+    },
+    {
+      "index": 12,
+      "text": "While the room is not particularly comfortable, once you're seated you'll forget about everything except what's on your plate.",
+      "basha_prediction": "neutral",
+      "basha_failure_category": "missing_positive_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "plate"
+        ],
+        "negative_aspects": [
+          "room"
+        ]
+      },
+      "gauneg_predictions": [
+        {
+          "aspect": "room",
+          "sentiment": "negative",
+          "confidence": 0.8039
+        }
+      ],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "plate",
+          "gold_sentiment": "positive",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        },
+        {
+          "gold_aspect": "room",
+          "gold_sentiment": "negative",
+          "status": "correct",
+          "matched_prediction": {
+            "aspect": "room",
+            "sentiment": "negative",
+            "confidence": 0.8039
+          }
+        }
+      ],
+      "sentence_failure_type": "extraction_failure"
+    },
+    {
+      "index": 13,
+      "text": "We were seated promptly as we had reservations, however after that the service was slow.",
+      "basha_prediction": "neutral",
+      "basha_failure_category": "missing_positive_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "reservations"
+        ],
+        "negative_aspects": [
+          "service"
+        ]
+      },
+      "gauneg_predictions": [
+        {
+          "aspect": "service",
+          "sentiment": "negative",
+          "confidence": 0.9337
+        }
+      ],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "reservations",
+          "gold_sentiment": "positive",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        },
+        {
+          "gold_aspect": "service",
+          "gold_sentiment": "negative",
+          "status": "correct",
+          "matched_prediction": {
+            "aspect": "service",
+            "sentiment": "negative",
+            "confidence": 0.9337
+          }
+        }
+      ],
+      "sentence_failure_type": "extraction_failure"
+    },
+    {
+      "index": 14,
+      "text": "The space is nice but when we order our drink we were in for a surprise.",
+      "basha_prediction": "positive",
+      "basha_failure_category": "missing_negative_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "space"
+        ],
+        "negative_aspects": [
+          "drink"
+        ]
+      },
+      "gauneg_predictions": [
+        {
+          "aspect": "space",
+          "sentiment": "positive",
+          "confidence": 0.8298
+        }
+      ],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "space",
+          "gold_sentiment": "positive",
+          "status": "correct",
+          "matched_prediction": {
+            "aspect": "space",
+            "sentiment": "positive",
+            "confidence": 0.8298
+          }
+        },
+        {
+          "gold_aspect": "drink",
+          "gold_sentiment": "negative",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        }
+      ],
+      "sentence_failure_type": "extraction_failure"
+    },
+    {
+      "index": 15,
+      "text": "First, the waiter who served us neglected to fill us in on the specials, which I would have chosen had I known about them.",
+      "basha_prediction": "negative",
+      "basha_failure_category": "missing_positive_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "specials"
+        ],
+        "negative_aspects": [
+          "waiter",
+          "served"
+        ]
+      },
+      "gauneg_predictions": [
+        {
+          "aspect": "waiter",
+          "sentiment": "negative",
+          "confidence": 0.9463
+        }
+      ],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "specials",
+          "gold_sentiment": "positive",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        },
+        {
+          "gold_aspect": "waiter",
+          "gold_sentiment": "negative",
+          "status": "correct",
+          "matched_prediction": {
+            "aspect": "waiter",
+            "sentiment": "negative",
+            "confidence": 0.9463
+          }
+        },
+        {
+          "gold_aspect": "served",
+          "gold_sentiment": "negative",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        }
+      ],
+      "sentence_failure_type": "extraction_failure"
+    },
+    {
+      "index": 16,
+      "text": "I had a terrific meal, and our server guided us toward a very nice wine in our price range, instead of allowing us to purchase a similarly priced wine that wasn't as good.",
+      "basha_prediction": "positive",
+      "basha_failure_category": "missing_negative_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "meal",
+          "server",
+          "wine",
+          "price range"
+        ],
+        "negative_aspects": [
+          "wine"
+        ]
+      },
+      "gauneg_predictions": [
+        {
+          "aspect": "meal",
+          "sentiment": "positive",
+          "confidence": 0.8593
+        },
+        {
+          "aspect": "server",
+          "sentiment": "positive",
+          "confidence": 0.818
+        },
+        {
+          "aspect": "wine",
+          "sentiment": "positive",
+          "confidence": 0.829
+        }
+      ],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "meal",
+          "gold_sentiment": "positive",
+          "status": "correct",
+          "matched_prediction": {
+            "aspect": "meal",
+            "sentiment": "positive",
+            "confidence": 0.8593
+          }
+        },
+        {
+          "gold_aspect": "server",
+          "gold_sentiment": "positive",
+          "status": "correct",
+          "matched_prediction": {
+            "aspect": "server",
+            "sentiment": "positive",
+            "confidence": 0.818
+          }
+        },
+        {
+          "gold_aspect": "wine",
+          "gold_sentiment": "positive",
+          "status": "correct",
+          "matched_prediction": {
+            "aspect": "wine",
+            "sentiment": "positive",
+            "confidence": 0.829
+          }
+        },
+        {
+          "gold_aspect": "price range",
+          "gold_sentiment": "positive",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        },
+        {
+          "gold_aspect": "wine",
+          "gold_sentiment": "negative",
+          "status": "polarity_failure",
+          "matched_prediction": {
+            "aspect": "wine",
+            "sentiment": "positive",
+            "confidence": 0.829
+          }
+        }
+      ],
+      "sentence_failure_type": "both_extraction_and_polarity"
+    },
+    {
+      "index": 17,
+      "text": "Bottom line: B+ for the food, F for the service.",
+      "basha_prediction": "neutral",
+      "basha_failure_category": "missing_negative_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "food"
+        ],
+        "negative_aspects": [
+          "service"
+        ]
+      },
+      "gauneg_predictions": [
+        {
+          "aspect": "food",
+          "sentiment": "positive",
+          "confidence": 0.5004
+        },
+        {
+          "aspect": "service",
+          "sentiment": "positive",
+          "confidence": 0.6631
+        }
+      ],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "food",
+          "gold_sentiment": "positive",
+          "status": "correct",
+          "matched_prediction": {
+            "aspect": "food",
+            "sentiment": "positive",
+            "confidence": 0.5004
+          }
+        },
+        {
+          "gold_aspect": "service",
+          "gold_sentiment": "negative",
+          "status": "polarity_failure",
+          "matched_prediction": {
+            "aspect": "service",
+            "sentiment": "positive",
+            "confidence": 0.6631
+          }
+        }
+      ],
+      "sentence_failure_type": "polarity_failure"
+    },
+    {
+      "index": 18,
+      "text": "It is kinda nosiy and the tables are close together but it's still a beautiful place to enjoy a nice dinner.",
+      "basha_prediction": "positive",
+      "basha_failure_category": "missing_negative_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "dinner",
+          "place"
+        ],
+        "negative_aspects": [
+          "tables"
+        ]
+      },
+      "gauneg_predictions": [
+        {
+          "aspect": "place",
+          "sentiment": "positive",
+          "confidence": 0.526
+        },
+        {
+          "aspect": "dinner",
+          "sentiment": "positive",
+          "confidence": 0.8583
+        }
+      ],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "dinner",
+          "gold_sentiment": "positive",
+          "status": "correct",
+          "matched_prediction": {
+            "aspect": "dinner",
+            "sentiment": "positive",
+            "confidence": 0.8583
+          }
+        },
+        {
+          "gold_aspect": "place",
+          "gold_sentiment": "positive",
+          "status": "correct",
+          "matched_prediction": {
+            "aspect": "place",
+            "sentiment": "positive",
+            "confidence": 0.526
+          }
+        },
+        {
+          "gold_aspect": "tables",
+          "gold_sentiment": "negative",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        }
+      ],
+      "sentence_failure_type": "extraction_failure"
+    },
+    {
+      "index": 19,
+      "text": "20 minutes for our reservation but it gave us time to have a few cocktails and enjoy our surroundings and each other.",
+      "basha_prediction": "positive",
+      "basha_failure_category": "missing_negative_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "cocktails",
+          "surroundings"
+        ],
+        "negative_aspects": [
+          "reservation"
+        ]
+      },
+      "gauneg_predictions": [
+        {
+          "aspect": "surroundings",
+          "sentiment": "positive",
+          "confidence": 0.7712
+        }
+      ],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "cocktails",
+          "gold_sentiment": "positive",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        },
+        {
+          "gold_aspect": "surroundings",
+          "gold_sentiment": "positive",
+          "status": "correct",
+          "matched_prediction": {
+            "aspect": "surroundings",
+            "sentiment": "positive",
+            "confidence": 0.7712
+          }
+        },
+        {
+          "gold_aspect": "reservation",
+          "gold_sentiment": "negative",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        }
+      ],
+      "sentence_failure_type": "extraction_failure"
+    },
+    {
+      "index": 20,
+      "text": "The menu is Prix Fixe, so be prepared to spend at least $60 per person, but it is Well worth itsuperb food.",
+      "basha_prediction": "positive",
+      "basha_failure_category": "missing_negative_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "food"
+        ],
+        "negative_aspects": [
+          "menu"
+        ]
+      },
+      "gauneg_predictions": [
+        {
+          "aspect": "food",
+          "sentiment": "positive",
+          "confidence": 0.8715
+        }
+      ],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "food",
+          "gold_sentiment": "positive",
+          "status": "correct",
+          "matched_prediction": {
+            "aspect": "food",
+            "sentiment": "positive",
+            "confidence": 0.8715
+          }
+        },
+        {
+          "gold_aspect": "menu",
+          "gold_sentiment": "negative",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        }
+      ],
+      "sentence_failure_type": "extraction_failure"
+    },
+    {
+      "index": 21,
+      "text": "Service is highly refined: our seating was delayed 35 minutes past our reservation and the maitre d' apologized and regularly kept us apprised of progress.",
+      "basha_prediction": "positive",
+      "basha_failure_category": "missing_negative_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "Service",
+          "maitre"
+        ],
+        "negative_aspects": [
+          "reservation"
+        ]
+      },
+      "gauneg_predictions": [
+        {
+          "aspect": "Service",
+          "sentiment": "positive",
+          "confidence": 0.8928
+        }
+      ],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "Service",
+          "gold_sentiment": "positive",
+          "status": "correct",
+          "matched_prediction": {
+            "aspect": "Service",
+            "sentiment": "positive",
+            "confidence": 0.8928
+          }
+        },
+        {
+          "gold_aspect": "maitre",
+          "gold_sentiment": "positive",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        },
+        {
+          "gold_aspect": "reservation",
+          "gold_sentiment": "negative",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        }
+      ],
+      "sentence_failure_type": "extraction_failure"
+    },
+    {
+      "index": 22,
+      "text": "It is far more popular as a bar than as a restaurant, with only a few tables and the waiter being the bartender, but we greatly enjoyed the unobtrusive atmosphere.",
+      "basha_prediction": "positive",
+      "basha_failure_category": "missing_negative_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "bar",
+          "atmosphere"
+        ],
+        "negative_aspects": [
+          "tables"
+        ]
+      },
+      "gauneg_predictions": [
+        {
+          "aspect": "atmosphere",
+          "sentiment": "positive",
+          "confidence": 0.8867
+        }
+      ],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "bar",
+          "gold_sentiment": "positive",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        },
+        {
+          "gold_aspect": "atmosphere",
+          "gold_sentiment": "positive",
+          "status": "correct",
+          "matched_prediction": {
+            "aspect": "atmosphere",
+            "sentiment": "positive",
+            "confidence": 0.8867
+          }
+        },
+        {
+          "gold_aspect": "tables",
+          "gold_sentiment": "negative",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        }
+      ],
+      "sentence_failure_type": "extraction_failure"
+    },
+    {
+      "index": 23,
+      "text": "The bread is the soft paratha bread (unlike the plain bread they use in Calcutta), and the stuffing is tandoori styled and very flavorful.",
+      "basha_prediction": "positive",
+      "basha_failure_category": "missing_negative_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "bread",
+          "paratha bread",
+          "stuffing",
+          "tandoori"
+        ],
+        "negative_aspects": [
+          "bread"
+        ]
+      },
+      "gauneg_predictions": [
+        {
+          "aspect": "bread",
+          "sentiment": "positive",
+          "confidence": 0.6932
+        },
+        {
+          "aspect": "par",
+          "sentiment": "positive",
+          "confidence": 0.517
+        },
+        {
+          "aspect": "stuffing",
+          "sentiment": "positive",
+          "confidence": 0.8106
+        }
+      ],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "bread",
+          "gold_sentiment": "positive",
+          "status": "correct",
+          "matched_prediction": {
+            "aspect": "bread",
+            "sentiment": "positive",
+            "confidence": 0.6932
+          }
+        },
+        {
+          "gold_aspect": "paratha bread",
+          "gold_sentiment": "positive",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        },
+        {
+          "gold_aspect": "stuffing",
+          "gold_sentiment": "positive",
+          "status": "correct",
+          "matched_prediction": {
+            "aspect": "stuffing",
+            "sentiment": "positive",
+            "confidence": 0.8106
+          }
+        },
+        {
+          "gold_aspect": "tandoori",
+          "gold_sentiment": "positive",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        },
+        {
+          "gold_aspect": "bread",
+          "gold_sentiment": "negative",
+          "status": "polarity_failure",
+          "matched_prediction": {
+            "aspect": "bread",
+            "sentiment": "positive",
+            "confidence": 0.6932
+          }
+        }
+      ],
+      "sentence_failure_type": "both_extraction_and_polarity"
+    },
+    {
+      "index": 24,
+      "text": "Plus, when our entrees were held up in the kitchen on a busy Saturday night, the owner sent over complimentary summer rolls to hold us over!",
+      "basha_prediction": "positive",
+      "basha_failure_category": "missing_negative_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "summer rolls",
+          "owner"
+        ],
+        "negative_aspects": [
+          "entrees"
+        ]
+      },
+      "gauneg_predictions": [
+        {
+          "aspect": "owner",
+          "sentiment": "positive",
+          "confidence": 0.6711
+        }
+      ],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "summer rolls",
+          "gold_sentiment": "positive",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        },
+        {
+          "gold_aspect": "owner",
+          "gold_sentiment": "positive",
+          "status": "correct",
+          "matched_prediction": {
+            "aspect": "owner",
+            "sentiment": "positive",
+            "confidence": 0.6711
+          }
+        },
+        {
+          "gold_aspect": "entrees",
+          "gold_sentiment": "negative",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        }
+      ],
+      "sentence_failure_type": "extraction_failure"
+    },
+    {
+      "index": 25,
+      "text": "The cafe itself was really nice with comfortable outdoor chairs and tables, but the service could have been better.",
+      "basha_prediction": "positive",
+      "basha_failure_category": "missing_positive_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "cafe",
+          "outdoor chairs",
+          "tables"
+        ],
+        "negative_aspects": [
+          "service"
+        ]
+      },
+      "gauneg_predictions": [
+        {
+          "aspect": "service",
+          "sentiment": "negative",
+          "confidence": 0.6615
+        }
+      ],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "cafe",
+          "gold_sentiment": "positive",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        },
+        {
+          "gold_aspect": "outdoor chairs",
+          "gold_sentiment": "positive",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        },
+        {
+          "gold_aspect": "tables",
+          "gold_sentiment": "positive",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        },
+        {
+          "gold_aspect": "service",
+          "gold_sentiment": "negative",
+          "status": "correct",
+          "matched_prediction": {
+            "aspect": "service",
+            "sentiment": "negative",
+            "confidence": 0.6615
+          }
+        }
+      ],
+      "sentence_failure_type": "extraction_failure"
+    },
+    {
+      "index": 26,
+      "text": "The plain pizza was soggy and the creative wild mushroom(third generation-Fornini) pizza we had was drenched with truffle oil in the middle( again making it soggy) and nothingon the rest.",
+      "basha_prediction": "negative",
+      "basha_failure_category": "missing_positive_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "wild mushroom(third generation-Fornini) pizza"
+        ],
+        "negative_aspects": [
+          "plain pizza"
+        ]
+      },
+      "gauneg_predictions": [
+        {
+          "aspect": "plain",
+          "sentiment": "negative",
+          "confidence": 0.5538
+        }
+      ],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "wild mushroom(third generation-Fornini) pizza",
+          "gold_sentiment": "positive",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        },
+        {
+          "gold_aspect": "plain pizza",
+          "gold_sentiment": "negative",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        }
+      ],
+      "sentence_failure_type": "extraction_failure"
+    },
+    {
+      "index": 27,
+      "text": "It may be a bit packed on weekends, but the vibe is good and it is the best French food you will find in the area.",
+      "basha_prediction": "positive",
+      "basha_failure_category": "missing_negative_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "vibe",
+          "French food"
+        ],
+        "negative_aspects": [
+          "packed"
+        ]
+      },
+      "gauneg_predictions": [
+        {
+          "aspect": "vibe",
+          "sentiment": "positive",
+          "confidence": 0.8456
+        },
+        {
+          "aspect": "French food",
+          "sentiment": "positive",
+          "confidence": 0.7654
+        }
+      ],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "vibe",
+          "gold_sentiment": "positive",
+          "status": "correct",
+          "matched_prediction": {
+            "aspect": "vibe",
+            "sentiment": "positive",
+            "confidence": 0.8456
+          }
+        },
+        {
+          "gold_aspect": "French food",
+          "gold_sentiment": "positive",
+          "status": "correct",
+          "matched_prediction": {
+            "aspect": "French food",
+            "sentiment": "positive",
+            "confidence": 0.7654
+          }
+        },
+        {
+          "gold_aspect": "packed",
+          "gold_sentiment": "negative",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        }
+      ],
+      "sentence_failure_type": "extraction_failure"
+    },
+    {
+      "index": 28,
+      "text": "While most people can attest to spending over $50 on drinks in New York bars and hardly feeling a thing, the drinks here are plentiful and unique.",
+      "basha_prediction": "positive",
+      "basha_failure_category": "missing_negative_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "drinks"
+        ],
+        "negative_aspects": [
+          "drinks",
+          "bars"
+        ]
+      },
+      "gauneg_predictions": [
+        {
+          "aspect": "drinks",
+          "sentiment": "positive",
+          "confidence": 0.9189
+        }
+      ],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "drinks",
+          "gold_sentiment": "positive",
+          "status": "correct",
+          "matched_prediction": {
+            "aspect": "drinks",
+            "sentiment": "positive",
+            "confidence": 0.9189
+          }
+        },
+        {
+          "gold_aspect": "drinks",
+          "gold_sentiment": "negative",
+          "status": "polarity_failure",
+          "matched_prediction": {
+            "aspect": "drinks",
+            "sentiment": "positive",
+            "confidence": 0.9189
+          }
+        },
+        {
+          "gold_aspect": "bars",
+          "gold_sentiment": "negative",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        }
+      ],
+      "sentence_failure_type": "both_extraction_and_polarity"
+    },
+    {
+      "index": 29,
+      "text": "The food there is so good that even to order out the wait is incredible.",
+      "basha_prediction": "positive",
+      "basha_failure_category": "missing_negative_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "food"
+        ],
+        "negative_aspects": [
+          "wait"
+        ]
+      },
+      "gauneg_predictions": [
+        {
+          "aspect": "food",
+          "sentiment": "positive",
+          "confidence": 0.9024
+        },
+        {
+          "aspect": "wait",
+          "sentiment": "positive",
+          "confidence": 0.8846
+        }
+      ],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "food",
+          "gold_sentiment": "positive",
+          "status": "correct",
+          "matched_prediction": {
+            "aspect": "food",
+            "sentiment": "positive",
+            "confidence": 0.9024
+          }
+        },
+        {
+          "gold_aspect": "wait",
+          "gold_sentiment": "negative",
+          "status": "polarity_failure",
+          "matched_prediction": {
+            "aspect": "wait",
+            "sentiment": "positive",
+            "confidence": 0.8846
+          }
+        }
+      ],
+      "sentence_failure_type": "polarity_failure"
+    },
+    {
+      "index": 30,
+      "text": "Unlike other places in NYC where the sandwiches you want only come as a triple-decker, here you can get what you want in a reasonably-sized portion (and price).",
+      "basha_prediction": "positive",
+      "basha_failure_category": "missing_negative_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "price",
+          "portion"
+        ],
+        "negative_aspects": [
+          "sandwiches"
+        ]
+      },
+      "gauneg_predictions": [
+        {
+          "aspect": "portion",
+          "sentiment": "positive",
+          "confidence": 0.6746
+        }
+      ],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "price",
+          "gold_sentiment": "positive",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        },
+        {
+          "gold_aspect": "portion",
+          "gold_sentiment": "positive",
+          "status": "correct",
+          "matched_prediction": {
+            "aspect": "portion",
+            "sentiment": "positive",
+            "confidence": 0.6746
+          }
+        },
+        {
+          "gold_aspect": "sandwiches",
+          "gold_sentiment": "negative",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        }
+      ],
+      "sentence_failure_type": "extraction_failure"
+    },
+    {
+      "index": 31,
+      "text": "I really liked the noodle dishes at Rice Avenue compared to their Green Curry dish.",
+      "basha_prediction": "positive",
+      "basha_failure_category": "missing_negative_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "noodle dishes"
+        ],
+        "negative_aspects": [
+          "Green Curry dish"
+        ]
+      },
+      "gauneg_predictions": [
+        {
+          "aspect": "noodle dishes",
+          "sentiment": "positive",
+          "confidence": 0.6872
+        }
+      ],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "noodle dishes",
+          "gold_sentiment": "positive",
+          "status": "correct",
+          "matched_prediction": {
+            "aspect": "noodle dishes",
+            "sentiment": "positive",
+            "confidence": 0.6872
+          }
+        },
+        {
+          "gold_aspect": "Green Curry dish",
+          "gold_sentiment": "negative",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        }
+      ],
+      "sentence_failure_type": "extraction_failure"
+    },
+    {
+      "index": 32,
+      "text": "You don't go to Mizu for excellent service, you go for the large amounts of food, the amiable atmosphere, and the hole-in-the-wall feeling of the place.",
+      "basha_prediction": "positive",
+      "basha_failure_category": "missing_negative_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "food",
+          "atmosphere"
+        ],
+        "negative_aspects": [
+          "service"
+        ]
+      },
+      "gauneg_predictions": [
+        {
+          "aspect": "service",
+          "sentiment": "positive",
+          "confidence": 0.8829
+        },
+        {
+          "aspect": "food",
+          "sentiment": "positive",
+          "confidence": 0.7395
+        },
+        {
+          "aspect": "atmosphere",
+          "sentiment": "positive",
+          "confidence": 0.9119
+        }
+      ],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "food",
+          "gold_sentiment": "positive",
+          "status": "correct",
+          "matched_prediction": {
+            "aspect": "food",
+            "sentiment": "positive",
+            "confidence": 0.7395
+          }
+        },
+        {
+          "gold_aspect": "atmosphere",
+          "gold_sentiment": "positive",
+          "status": "correct",
+          "matched_prediction": {
+            "aspect": "atmosphere",
+            "sentiment": "positive",
+            "confidence": 0.9119
+          }
+        },
+        {
+          "gold_aspect": "service",
+          "gold_sentiment": "negative",
+          "status": "polarity_failure",
+          "matched_prediction": {
+            "aspect": "service",
+            "sentiment": "positive",
+            "confidence": 0.8829
+          }
+        }
+      ],
+      "sentence_failure_type": "polarity_failure"
+    },
+    {
+      "index": 33,
+      "text": "However, in the summer of 2003, it seems the management has changed and the great big door has been replaced for a glass front ridding itself of the dark romantic getup.",
+      "basha_prediction": "negative",
+      "basha_failure_category": "missing_positive_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "door"
+        ],
+        "negative_aspects": [
+          "glass front"
+        ]
+      },
+      "gauneg_predictions": [
+        {
+          "aspect": "management",
+          "sentiment": "negative",
+          "confidence": 0.7026
+        }
+      ],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "door",
+          "gold_sentiment": "positive",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        },
+        {
+          "gold_aspect": "glass front",
+          "gold_sentiment": "negative",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        }
+      ],
+      "sentence_failure_type": "extraction_failure"
+    },
+    {
+      "index": 34,
+      "text": "The service is descent even when this small place is packed.",
+      "basha_prediction": "neutral",
+      "basha_failure_category": "missing_positive_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "service"
+        ],
+        "negative_aspects": [
+          "place"
+        ]
+      },
+      "gauneg_predictions": [
+        {
+          "aspect": "service",
+          "sentiment": "negative",
+          "confidence": 0.7744
+        }
+      ],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "service",
+          "gold_sentiment": "positive",
+          "status": "polarity_failure",
+          "matched_prediction": {
+            "aspect": "service",
+            "sentiment": "negative",
+            "confidence": 0.7744
+          }
+        },
+        {
+          "gold_aspect": "place",
+          "gold_sentiment": "negative",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        }
+      ],
+      "sentence_failure_type": "both_extraction_and_polarity"
+    },
+    {
+      "index": 35,
+      "text": "Guacamole+shrimp appetizer was really great, we both had the filet, very good, didn't much like the frites that came with, but the filet was so good, neither of us cared.",
+      "basha_prediction": "positive",
+      "basha_failure_category": "missing_negative_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "Guacamole+shrimp appetizer",
+          "filet",
+          "filet"
+        ],
+        "negative_aspects": [
+          "frites"
+        ]
+      },
+      "gauneg_predictions": [
+        {
+          "aspect": "Guacamole+shrimp appetizer",
+          "sentiment": "positive",
+          "confidence": 0.6261
+        },
+        {
+          "aspect": "filet",
+          "sentiment": "positive",
+          "confidence": 0.5005
+        }
+      ],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "Guacamole+shrimp appetizer",
+          "gold_sentiment": "positive",
+          "status": "correct",
+          "matched_prediction": {
+            "aspect": "Guacamole+shrimp appetizer",
+            "sentiment": "positive",
+            "confidence": 0.6261
+          }
+        },
+        {
+          "gold_aspect": "filet",
+          "gold_sentiment": "positive",
+          "status": "correct",
+          "matched_prediction": {
+            "aspect": "filet",
+            "sentiment": "positive",
+            "confidence": 0.5005
+          }
+        },
+        {
+          "gold_aspect": "filet",
+          "gold_sentiment": "positive",
+          "status": "correct",
+          "matched_prediction": {
+            "aspect": "filet",
+            "sentiment": "positive",
+            "confidence": 0.5005
+          }
+        },
+        {
+          "gold_aspect": "frites",
+          "gold_sentiment": "negative",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        }
+      ],
+      "sentence_failure_type": "extraction_failure"
+    },
+    {
+      "index": 36,
+      "text": "However, go for the ambience, and consider the food just a companion for a trip across the world!",
+      "basha_prediction": "positive",
+      "basha_failure_category": "missing_negative_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "ambience"
+        ],
+        "negative_aspects": [
+          "food"
+        ]
+      },
+      "gauneg_predictions": [
+        {
+          "aspect": "amb",
+          "sentiment": "positive",
+          "confidence": 0.7869
+        },
+        {
+          "aspect": "food",
+          "sentiment": "positive",
+          "confidence": 0.8369
+        }
+      ],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "ambience",
+          "gold_sentiment": "positive",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        },
+        {
+          "gold_aspect": "food",
+          "gold_sentiment": "negative",
+          "status": "polarity_failure",
+          "matched_prediction": {
+            "aspect": "food",
+            "sentiment": "positive",
+            "confidence": 0.8369
+          }
+        }
+      ],
+      "sentence_failure_type": "both_extraction_and_polarity"
+    },
+    {
+      "index": 37,
+      "text": "However, if you want great food at a great price and don't mind the decor, you can't beat this place.",
+      "basha_prediction": "positive",
+      "basha_failure_category": "missing_negative_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "food",
+          "price"
+        ],
+        "negative_aspects": [
+          "decor"
+        ]
+      },
+      "gauneg_predictions": [
+        {
+          "aspect": "food",
+          "sentiment": "positive",
+          "confidence": 0.9131
+        },
+        {
+          "aspect": "price",
+          "sentiment": "positive",
+          "confidence": 0.8174
+        }
+      ],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "food",
+          "gold_sentiment": "positive",
+          "status": "correct",
+          "matched_prediction": {
+            "aspect": "food",
+            "sentiment": "positive",
+            "confidence": 0.9131
+          }
+        },
+        {
+          "gold_aspect": "price",
+          "gold_sentiment": "positive",
+          "status": "correct",
+          "matched_prediction": {
+            "aspect": "price",
+            "sentiment": "positive",
+            "confidence": 0.8174
+          }
+        },
+        {
+          "gold_aspect": "decor",
+          "gold_sentiment": "negative",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        }
+      ],
+      "sentence_failure_type": "extraction_failure"
+    },
+    {
+      "index": 38,
+      "text": "They are often crowded on the weekends but they are efficient and accurate with their service.",
+      "basha_prediction": "positive",
+      "basha_failure_category": "missing_negative_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "service"
+        ],
+        "negative_aspects": [
+          "crowded"
+        ]
+      },
+      "gauneg_predictions": [
+        {
+          "aspect": "service",
+          "sentiment": "positive",
+          "confidence": 0.8852
+        }
+      ],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "service",
+          "gold_sentiment": "positive",
+          "status": "correct",
+          "matched_prediction": {
+            "aspect": "service",
+            "sentiment": "positive",
+            "confidence": 0.8852
+          }
+        },
+        {
+          "gold_aspect": "crowded",
+          "gold_sentiment": "negative",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        }
+      ],
+      "sentence_failure_type": "extraction_failure"
+    },
+    {
+      "index": 39,
+      "text": "To begin, we were told there was a 30 minute wait and started to leave, when the hostess offered to call us on our cell phone when the table was ready.",
+      "basha_prediction": "neutral",
+      "basha_failure_category": "missing_positive_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "hostess",
+          "table"
+        ],
+        "negative_aspects": [
+          "wait"
+        ]
+      },
+      "gauneg_predictions": [
+        {
+          "aspect": "host",
+          "sentiment": "negative",
+          "confidence": 0.6406
+        }
+      ],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "hostess",
+          "gold_sentiment": "positive",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        },
+        {
+          "gold_aspect": "table",
+          "gold_sentiment": "positive",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        },
+        {
+          "gold_aspect": "wait",
+          "gold_sentiment": "negative",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        }
+      ],
+      "sentence_failure_type": "extraction_failure"
+    },
+    {
+      "index": 40,
+      "text": "If you are someone who appreciates simplicity, elegance, and wonderfully presented and tasting seafood and vegetables regardless of portion size, Kai is your place.",
+      "basha_prediction": "positive",
+      "basha_failure_category": "missing_negative_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "seafood",
+          "vegetables"
+        ],
+        "negative_aspects": [
+          "portion size"
+        ]
+      },
+      "gauneg_predictions": [
+        {
+          "aspect": "seafood",
+          "sentiment": "positive",
+          "confidence": 0.9157
+        },
+        {
+          "aspect": "vegetables",
+          "sentiment": "positive",
+          "confidence": 0.7058
+        }
+      ],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "seafood",
+          "gold_sentiment": "positive",
+          "status": "correct",
+          "matched_prediction": {
+            "aspect": "seafood",
+            "sentiment": "positive",
+            "confidence": 0.9157
+          }
+        },
+        {
+          "gold_aspect": "vegetables",
+          "gold_sentiment": "positive",
+          "status": "correct",
+          "matched_prediction": {
+            "aspect": "vegetables",
+            "sentiment": "positive",
+            "confidence": 0.7058
+          }
+        },
+        {
+          "gold_aspect": "portion size",
+          "gold_sentiment": "negative",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        }
+      ],
+      "sentence_failure_type": "extraction_failure"
+    },
+    {
+      "index": 41,
+      "text": "If I could rate the people this place would be off the charts - unfortunately - the pizza, sorry - not the best in NYC.",
+      "basha_prediction": "negative",
+      "basha_failure_category": "missing_positive_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "people"
+        ],
+        "negative_aspects": [
+          "pizza"
+        ]
+      },
+      "gauneg_predictions": [
+        {
+          "aspect": "pizza",
+          "sentiment": "negative",
+          "confidence": 0.7762
+        }
+      ],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "people",
+          "gold_sentiment": "positive",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        },
+        {
+          "gold_aspect": "pizza",
+          "gold_sentiment": "negative",
+          "status": "correct",
+          "matched_prediction": {
+            "aspect": "pizza",
+            "sentiment": "negative",
+            "confidence": 0.7762
+          }
+        }
+      ],
+      "sentence_failure_type": "extraction_failure"
+    },
+    {
+      "index": 42,
+      "text": "This is one great place to eat pizza more out but not a good place for take-out pizza.",
+      "basha_prediction": "negative",
+      "basha_failure_category": "no_confident_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "pizza"
+        ],
+        "negative_aspects": [
+          "take-out pizza"
+        ]
+      },
+      "gauneg_predictions": [],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "pizza",
+          "gold_sentiment": "positive",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        },
+        {
+          "gold_aspect": "take-out pizza",
+          "gold_sentiment": "negative",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        }
+      ],
+      "sentence_failure_type": "extraction_failure"
+    },
+    {
+      "index": 43,
+      "text": "Service could be improved but overall this is a place that understands the importance of little things (the heavy, black, antique-seeming teapot, for one) in the restaurant experience.",
+      "basha_prediction": "positive",
+      "basha_failure_category": "no_confident_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "teapot"
+        ],
+        "negative_aspects": [
+          "Service"
+        ]
+      },
+      "gauneg_predictions": [],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "teapot",
+          "gold_sentiment": "positive",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        },
+        {
+          "gold_aspect": "Service",
+          "gold_sentiment": "negative",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        }
+      ],
+      "sentence_failure_type": "extraction_failure"
+    },
+    {
+      "index": 44,
+      "text": "in an effort to increase turnover, the restaurant offers no desserts beyond the complimentary espresso cup filled with chocolate mousse.",
+      "basha_prediction": "neutral",
+      "basha_failure_category": "no_confident_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "espresso cup filled with chocolate mousse"
+        ],
+        "negative_aspects": [
+          "desserts"
+        ]
+      },
+      "gauneg_predictions": [],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "espresso cup filled with chocolate mousse",
+          "gold_sentiment": "positive",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        },
+        {
+          "gold_aspect": "desserts",
+          "gold_sentiment": "negative",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        }
+      ],
+      "sentence_failure_type": "extraction_failure"
+    },
+    {
+      "index": 45,
+      "text": "Good atmosphere, combination of all the hottest music dress code is relatively strict except on Fridays.",
+      "basha_prediction": "positive",
+      "basha_failure_category": "missing_negative_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "atmosphere",
+          "music"
+        ],
+        "negative_aspects": [
+          "dress cod"
+        ]
+      },
+      "gauneg_predictions": [
+        {
+          "aspect": "atmosphere",
+          "sentiment": "positive",
+          "confidence": 0.8948
+        }
+      ],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "atmosphere",
+          "gold_sentiment": "positive",
+          "status": "correct",
+          "matched_prediction": {
+            "aspect": "atmosphere",
+            "sentiment": "positive",
+            "confidence": 0.8948
+          }
+        },
+        {
+          "gold_aspect": "music",
+          "gold_sentiment": "positive",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        },
+        {
+          "gold_aspect": "dress cod",
+          "gold_sentiment": "negative",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        }
+      ],
+      "sentence_failure_type": "extraction_failure"
+    },
+    {
+      "index": 46,
+      "text": "While the new restaurant still features much of the same classical furniture that made Tiffin so attractive, the menu has been overhauled.",
+      "basha_prediction": "positive",
+      "basha_failure_category": "no_confident_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "classical furniture"
+        ],
+        "negative_aspects": [
+          "menu"
+        ]
+      },
+      "gauneg_predictions": [],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "classical furniture",
+          "gold_sentiment": "positive",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        },
+        {
+          "gold_aspect": "menu",
+          "gold_sentiment": "negative",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        }
+      ],
+      "sentence_failure_type": "extraction_failure"
+    },
+    {
+      "index": 47,
+      "text": "Though you will undoubtedly be seated at a table with what seems like barely enough room (no matter what the size of your party), the warm atomosphere is worth the cramped quarters- you'll have fun and forgot about the tight spot you're in.",
+      "basha_prediction": "positive",
+      "basha_failure_category": "missing_positive_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "atomosphere"
+        ],
+        "negative_aspects": [
+          "table",
+          "room",
+          "spot"
+        ]
+      },
+      "gauneg_predictions": [
+        {
+          "aspect": "spot",
+          "sentiment": "negative",
+          "confidence": 0.5548
+        }
+      ],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "atomosphere",
+          "gold_sentiment": "positive",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        },
+        {
+          "gold_aspect": "table",
+          "gold_sentiment": "negative",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        },
+        {
+          "gold_aspect": "room",
+          "gold_sentiment": "negative",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        },
+        {
+          "gold_aspect": "spot",
+          "gold_sentiment": "negative",
+          "status": "correct",
+          "matched_prediction": {
+            "aspect": "spot",
+            "sentiment": "negative",
+            "confidence": 0.5548
+          }
+        }
+      ],
+      "sentence_failure_type": "extraction_failure"
+    },
+    {
+      "index": 48,
+      "text": "Because we didn't have a reservation, we could only sit in the back garden, but it was great, secluded and perfect in nice weather.",
+      "basha_prediction": "positive",
+      "basha_failure_category": "missing_negative_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "back garden"
+        ],
+        "negative_aspects": [
+          "reservation"
+        ]
+      },
+      "gauneg_predictions": [
+        {
+          "aspect": "weather",
+          "sentiment": "positive",
+          "confidence": 0.6744
+        }
+      ],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "back garden",
+          "gold_sentiment": "positive",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        },
+        {
+          "gold_aspect": "reservation",
+          "gold_sentiment": "negative",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        }
+      ],
+      "sentence_failure_type": "extraction_failure"
+    },
+    {
+      "index": 49,
+      "text": "Although the tables may be closely situated, the candle-light, food-quality and service overcompensate.",
+      "basha_prediction": "neutral",
+      "basha_failure_category": "missing_negative_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "candle-light",
+          "food-quality",
+          "service"
+        ],
+        "negative_aspects": [
+          "tables"
+        ]
+      },
+      "gauneg_predictions": [
+        {
+          "aspect": "food",
+          "sentiment": "positive",
+          "confidence": 0.7335
+        },
+        {
+          "aspect": "service",
+          "sentiment": "positive",
+          "confidence": 0.8187
+        }
+      ],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "candle-light",
+          "gold_sentiment": "positive",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        },
+        {
+          "gold_aspect": "food-quality",
+          "gold_sentiment": "positive",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        },
+        {
+          "gold_aspect": "service",
+          "gold_sentiment": "positive",
+          "status": "correct",
+          "matched_prediction": {
+            "aspect": "service",
+            "sentiment": "positive",
+            "confidence": 0.8187
+          }
+        },
+        {
+          "gold_aspect": "tables",
+          "gold_sentiment": "negative",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        }
+      ],
+      "sentence_failure_type": "extraction_failure"
+    },
+    {
+      "index": 50,
+      "text": "The drinks are a saving grace, but service staff, please, get over yourselves.",
+      "basha_prediction": "negative",
+      "basha_failure_category": "missing_negative_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "drinks"
+        ],
+        "negative_aspects": [
+          "service staff"
+        ]
+      },
+      "gauneg_predictions": [
+        {
+          "aspect": "drinks",
+          "sentiment": "positive",
+          "confidence": 0.7792
+        }
+      ],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "drinks",
+          "gold_sentiment": "positive",
+          "status": "correct",
+          "matched_prediction": {
+            "aspect": "drinks",
+            "sentiment": "positive",
+            "confidence": 0.7792
+          }
+        },
+        {
+          "gold_aspect": "service staff",
+          "gold_sentiment": "negative",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        }
+      ],
+      "sentence_failure_type": "extraction_failure"
+    },
+    {
+      "index": 51,
+      "text": "sometimes i get bad food and bad service, sometimes i get good good and bad service.",
+      "basha_prediction": "negative",
+      "basha_failure_category": "missing_positive_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "good"
+        ],
+        "negative_aspects": [
+          "food",
+          "service",
+          "service"
+        ]
+      },
+      "gauneg_predictions": [
+        {
+          "aspect": "food",
+          "sentiment": "negative",
+          "confidence": 0.8319
+        },
+        {
+          "aspect": "service",
+          "sentiment": "negative",
+          "confidence": 0.8555
+        },
+        {
+          "aspect": "service",
+          "sentiment": "negative",
+          "confidence": 0.5906
+        }
+      ],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "good",
+          "gold_sentiment": "positive",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        },
+        {
+          "gold_aspect": "food",
+          "gold_sentiment": "negative",
+          "status": "correct",
+          "matched_prediction": {
+            "aspect": "food",
+            "sentiment": "negative",
+            "confidence": 0.8319
+          }
+        },
+        {
+          "gold_aspect": "service",
+          "gold_sentiment": "negative",
+          "status": "correct",
+          "matched_prediction": {
+            "aspect": "service",
+            "sentiment": "negative",
+            "confidence": 0.8555
+          }
+        },
+        {
+          "gold_aspect": "service",
+          "gold_sentiment": "negative",
+          "status": "correct",
+          "matched_prediction": {
+            "aspect": "service",
+            "sentiment": "negative",
+            "confidence": 0.8555
+          }
+        }
+      ],
+      "sentence_failure_type": "extraction_failure"
+    },
+    {
+      "index": 52,
+      "text": "We were fans of the half-price Saturday night option until some inedible squid during a recent visit.",
+      "basha_prediction": "neutral",
+      "basha_failure_category": "missing_positive_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "half-price Saturday night option"
+        ],
+        "negative_aspects": [
+          "squid"
+        ]
+      },
+      "gauneg_predictions": [
+        {
+          "aspect": "squid",
+          "sentiment": "negative",
+          "confidence": 0.6211
+        }
+      ],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "half-price Saturday night option",
+          "gold_sentiment": "positive",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        },
+        {
+          "gold_aspect": "squid",
+          "gold_sentiment": "negative",
+          "status": "correct",
+          "matched_prediction": {
+            "aspect": "squid",
+            "sentiment": "negative",
+            "confidence": 0.6211
+          }
+        }
+      ],
+      "sentence_failure_type": "extraction_failure"
+    },
+    {
+      "index": 53,
+      "text": "It is nearly impossible to get a table, so if you ever have the chance to go here for dinner, DO NOT pass it up.",
+      "basha_prediction": "negative",
+      "basha_failure_category": "no_confident_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "dinner"
+        ],
+        "negative_aspects": [
+          "table"
+        ]
+      },
+      "gauneg_predictions": [],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "dinner",
+          "gold_sentiment": "positive",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        },
+        {
+          "gold_aspect": "table",
+          "gold_sentiment": "negative",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        }
+      ],
+      "sentence_failure_type": "extraction_failure"
+    },
+    {
+      "index": 54,
+      "text": "Where tanks in other Chinatown restaurants display a lurking myriad of sad-looking marine life in their murky waters, the tanks at Ping's are clear as glass with healthy-looking creatures who do not yet know that they will be part of some dim sum lover's brunch.",
+      "basha_prediction": "neutral",
+      "basha_failure_category": "missing_positive_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "tanks"
+        ],
+        "negative_aspects": [
+          "tanks"
+        ]
+      },
+      "gauneg_predictions": [
+        {
+          "aspect": "marine",
+          "sentiment": "negative",
+          "confidence": 0.5136
+        }
+      ],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "tanks",
+          "gold_sentiment": "positive",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        },
+        {
+          "gold_aspect": "tanks",
+          "gold_sentiment": "negative",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        }
+      ],
+      "sentence_failure_type": "extraction_failure"
+    },
+    {
+      "index": 55,
+      "text": "After 2 tries by the waiter to take it away (we hadn't even looked at it yet, we had full beers yet to drink), the manager approached and told us they needed the table for people with reservations.",
+      "basha_prediction": "neutral",
+      "basha_failure_category": "missing_positive_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "reservations"
+        ],
+        "negative_aspects": [
+          "waiter",
+          "manager"
+        ]
+      },
+      "gauneg_predictions": [
+        {
+          "aspect": "waiter",
+          "sentiment": "negative",
+          "confidence": 0.8164
+        },
+        {
+          "aspect": "manager",
+          "sentiment": "negative",
+          "confidence": 0.5373
+        }
+      ],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "reservations",
+          "gold_sentiment": "positive",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        },
+        {
+          "gold_aspect": "waiter",
+          "gold_sentiment": "negative",
+          "status": "correct",
+          "matched_prediction": {
+            "aspect": "waiter",
+            "sentiment": "negative",
+            "confidence": 0.8164
+          }
+        },
+        {
+          "gold_aspect": "manager",
+          "gold_sentiment": "negative",
+          "status": "correct",
+          "matched_prediction": {
+            "aspect": "manager",
+            "sentiment": "negative",
+            "confidence": 0.5373
+          }
+        }
+      ],
+      "sentence_failure_type": "extraction_failure"
+    },
+    {
+      "index": 56,
+      "text": "Yes, they use fancy ingredients, but even fancy ingredients don't make for good pizza unless someone knows how to get the crust right.",
+      "basha_prediction": "negative",
+      "basha_failure_category": "missing_negative_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "ingredients",
+          "ingredients"
+        ],
+        "negative_aspects": [
+          "pizza"
+        ]
+      },
+      "gauneg_predictions": [
+        {
+          "aspect": "ingredients",
+          "sentiment": "positive",
+          "confidence": 0.7554
+        }
+      ],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "ingredients",
+          "gold_sentiment": "positive",
+          "status": "correct",
+          "matched_prediction": {
+            "aspect": "ingredients",
+            "sentiment": "positive",
+            "confidence": 0.7554
+          }
+        },
+        {
+          "gold_aspect": "ingredients",
+          "gold_sentiment": "positive",
+          "status": "correct",
+          "matched_prediction": {
+            "aspect": "ingredients",
+            "sentiment": "positive",
+            "confidence": 0.7554
+          }
+        },
+        {
+          "gold_aspect": "pizza",
+          "gold_sentiment": "negative",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        }
+      ],
+      "sentence_failure_type": "extraction_failure"
+    },
+    {
+      "index": 57,
+      "text": "All the money went into the interior decoration, none of it went to the chefs.",
+      "basha_prediction": "neutral",
+      "basha_failure_category": "no_confident_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "interior decoration"
+        ],
+        "negative_aspects": [
+          "chefs"
+        ]
+      },
+      "gauneg_predictions": [],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "interior decoration",
+          "gold_sentiment": "positive",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        },
+        {
+          "gold_aspect": "chefs",
+          "gold_sentiment": "negative",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        }
+      ],
+      "sentence_failure_type": "extraction_failure"
+    },
+    {
+      "index": 58,
+      "text": "A cheap eat for NYC, but not for dosa.",
+      "basha_prediction": "neutral",
+      "basha_failure_category": "missing_negative_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "eat"
+        ],
+        "negative_aspects": [
+          "dosa"
+        ]
+      },
+      "gauneg_predictions": [
+        {
+          "aspect": "eat",
+          "sentiment": "positive",
+          "confidence": 0.7304
+        }
+      ],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "eat",
+          "gold_sentiment": "positive",
+          "status": "correct",
+          "matched_prediction": {
+            "aspect": "eat",
+            "sentiment": "positive",
+            "confidence": 0.7304
+          }
+        },
+        {
+          "gold_aspect": "dosa",
+          "gold_sentiment": "negative",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        }
+      ],
+      "sentence_failure_type": "extraction_failure"
+    },
+    {
+      "index": 59,
+      "text": "The service is a little scatty at times but all is forgiven when the food arrives.",
+      "basha_prediction": "negative",
+      "basha_failure_category": "missing_positive_aspect_evidence",
+      "gold": {
+        "positive_aspects": [
+          "food"
+        ],
+        "negative_aspects": [
+          "service"
+        ]
+      },
+      "gauneg_predictions": [
+        {
+          "aspect": "service",
+          "sentiment": "negative",
+          "confidence": 0.9175
+        }
+      ],
+      "gold_aspect_results": [
+        {
+          "gold_aspect": "food",
+          "gold_sentiment": "positive",
+          "status": "extraction_failure",
+          "matched_prediction": null
+        },
+        {
+          "gold_aspect": "service",
+          "gold_sentiment": "negative",
+          "status": "correct",
+          "matched_prediction": {
+            "aspect": "service",
+            "sentiment": "negative",
+            "confidence": 0.9175
+          }
+        }
+      ],
+      "sentence_failure_type": "extraction_failure"
+    }
+  ]
+}

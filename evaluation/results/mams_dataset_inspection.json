@@ -1,0 +1,624 @@
+{
+  "total_sentences": 5297,
+  "unique_sentences": 5297,
+  "total_aspects": 13854,
+  "sentences_without_aspects": 0,
+  "sentence_counts_by_split": {
+    "train": 4297,
+    "validation": 500,
+    "test": 500
+  },
+  "aspect_counts_by_split": {
+    "train": 11186,
+    "validation": 1332,
+    "test": 1336
+  },
+  "polarity_counts": {
+    "negative": 3418,
+    "positive": 4183,
+    "neutral": 6253
+  },
+  "mixed_sentences": 866,
+  "mixed_percentage": 16.34887672267321,
+  "frozen_benchmark_overlap": 16,
+  "frozen_overlap_examples": [
+    {
+      "text": "The portions are now very small, the sauces are overly-ambitious usually inedible while the service is still good, the restaurant, due to its popularity, seems frantic.",
+      "split": "train"
+    },
+    {
+      "text": "The ambience was nice, but service wasn't so great.",
+      "split": "train"
+    },
+    {
+      "text": "The wait here is long for dim sum, but if you don't like sharing tables or if the typical raucous dim sum atmosphere is not your gig, this is a sleek (for Chinatown) alternative.",
+      "split": "train"
+    },
+    {
+      "text": "Guacamole+shrimp appetizer was really great, we both had the filet, very good, didn't much like the frites that came with, but the filet was so good, neither of us cared.",
+      "split": "train"
+    },
+    {
+      "text": "Though you will undoubtedly be seated at a table with what seems like barely enough room (no matter what the size of your party), the warm atomosphere is worth the cramped quarters- you'll have fun and forgot about the tight spot you're in.",
+      "split": "train"
+    },
+    {
+      "text": "The menu looked good, except for offering the Chilean Sea Bass, but the server does not offer up the specials that were written on the board outside.",
+      "split": "train"
+    },
+    {
+      "text": "It is nearly impossible to get a table, so if you ever have the chance to go here for dinner, DO NOT pass it up.",
+      "split": "train"
+    },
+    {
+      "text": "The place is small and intimate and you may feel a little crowded, but the service is excellent and it's great for friends out, a romantic date, or a special occassion.",
+      "split": "train"
+    },
+    {
+      "text": "Great roofdeck, nice group of 30 somethings, but no music, kind of quiet.",
+      "split": "train"
+    },
+    {
+      "text": "While the food was good (certainly no Il Mulino) the service was horrendous.",
+      "split": "train"
+    },
+    {
+      "text": "After 2 tries by the waiter to take it away (we hadn't even looked at it yet, we had full beers yet to drink), the manager approached and told us they needed the table for people with reservations.",
+      "split": "train"
+    },
+    {
+      "text": "The menu is Prix Fixe, so be prepared to spend at least $60 per person, but it is Well worth itsuperb food.",
+      "split": "train"
+    },
+    {
+      "text": "Although the tables may be closely situated, the candle-light, food-quality and service overcompensate.",
+      "split": "train"
+    },
+    {
+      "text": "It is far more popular as a bar than as a restaurant, with only a few tables and the waiter being the bartender, but we greatly enjoyed the unobtrusive atmosphere.",
+      "split": "validation"
+    },
+    {
+      "text": "Moules were excellent, lobster ravioli was VERY salty!",
+      "split": "test"
+    },
+    {
+      "text": "The portions are small but being that the food was so good makes up for that.",
+      "split": "test"
+    }
+  ],
+  "duplicate_sentences": 0,
+  "duplicate_examples": [],
+  "span_validation": {
+    "checked": 13854,
+    "correct": 13849,
+    "incorrect": 5,
+    "examples": [
+      {
+        "text": "Staple entrees like moussaka more than make the grade, but the selection of clay pot-cooked dishes--tender lamb with orzo, or fish of the day with eggplant and zucchini--take comfort food to a new level.",
+        "aspect": "entrees",
+        "from": 8,
+        "to": 15,
+        "text_at_span": "ntrees "
+      },
+      {
+        "text": "Staple entrees like moussaka more than make the grade, but the selection of clay pot-cooked dishes--tender lamb with orzo, or fish of the day with eggplant and zucchini--take comfort food to a new level.",
+        "aspect": "lamb with orzo",
+        "from": 108,
+        "to": 122,
+        "text_at_span": "amb with orzo,"
+      },
+      {
+        "text": "Staple entrees like moussaka more than make the grade, but the selection of clay pot-cooked dishes--tender lamb with orzo, or fish of the day with eggplant and zucchini--take comfort food to a new level.",
+        "aspect": "fish",
+        "from": 127,
+        "to": 131,
+        "text_at_span": "ish "
+      },
+      {
+        "text": "Staple entrees like moussaka more than make the grade, but the selection of clay pot-cooked dishes--tender lamb with orzo, or fish of the day with eggplant and zucchini--take comfort food to a new level.",
+        "aspect": "eggplant and zucchini",
+        "from": 148,
+        "to": 169,
+        "text_at_span": "ggplant and zucchini-"
+      },
+      {
+        "text": "Staple entrees like moussaka more than make the grade, but the selection of clay pot-cooked dishes--tender lamb with orzo, or fish of the day with eggplant and zucchini--take comfort food to a new level.",
+        "aspect": "comfort food",
+        "from": 176,
+        "to": 188,
+        "text_at_span": "omfort food "
+      }
+    ]
+  },
+  "mixed_examples": [
+    {
+      "id": null,
+      "split": "train",
+      "text": "The decor is not special at all but their food and amazing prices make up for it.",
+      "aspects": [
+        {
+          "aspect": "decor",
+          "polarity": "negative",
+          "from": 4,
+          "to": 9
+        },
+        {
+          "aspect": "food",
+          "polarity": "positive",
+          "from": 42,
+          "to": 46
+        },
+        {
+          "aspect": "prices",
+          "polarity": "positive",
+          "from": 59,
+          "to": 65
+        }
+      ]
+    },
+    {
+      "id": null,
+      "split": "train",
+      "text": "Though the menu includes some unorthodox offerings (a peanut butter roll, for instance), the classics are pure and great--we've never had better sushi anywhere, including Japan.",
+      "aspects": [
+        {
+          "aspect": "menu",
+          "polarity": "neutral",
+          "from": 11,
+          "to": 15
+        },
+        {
+          "aspect": "peanut butter roll",
+          "polarity": "negative",
+          "from": 54,
+          "to": 72
+        },
+        {
+          "aspect": "classics",
+          "polarity": "positive",
+          "from": 93,
+          "to": 101
+        },
+        {
+          "aspect": "sushi",
+          "polarity": "positive",
+          "from": 145,
+          "to": 150
+        }
+      ]
+    },
+    {
+      "id": null,
+      "split": "train",
+      "text": "12/24/03  Dinner was ok, service was so- so,the worst part was the hostess - we made reservations a month before Christmas Eve for three people, you would think the table would be large enough for all three of us.",
+      "aspects": [
+        {
+          "aspect": "Dinner",
+          "polarity": "positive",
+          "from": 10,
+          "to": 16
+        },
+        {
+          "aspect": "service",
+          "polarity": "neutral",
+          "from": 25,
+          "to": 32
+        },
+        {
+          "aspect": "hostess",
+          "polarity": "negative",
+          "from": 67,
+          "to": 74
+        }
+      ]
+    },
+    {
+      "id": null,
+      "split": "train",
+      "text": "The service was impeccible, the menu traditional but inventive and presentation for the mostpart excellent but the food itself came up short.",
+      "aspects": [
+        {
+          "aspect": "service",
+          "polarity": "positive",
+          "from": 4,
+          "to": 11
+        },
+        {
+          "aspect": "menu",
+          "polarity": "positive",
+          "from": 32,
+          "to": 36
+        },
+        {
+          "aspect": "food",
+          "polarity": "negative",
+          "from": 115,
+          "to": 119
+        }
+      ]
+    },
+    {
+      "id": null,
+      "split": "train",
+      "text": "Food is pretty good but the service is horrific.",
+      "aspects": [
+        {
+          "aspect": "Food",
+          "polarity": "positive",
+          "from": 0,
+          "to": 4
+        },
+        {
+          "aspect": "service",
+          "polarity": "negative",
+          "from": 28,
+          "to": 35
+        }
+      ]
+    },
+    {
+      "id": null,
+      "split": "train",
+      "text": "last time, the waiter told my roommate he'd have to charge her $5 for mushrooms as one of her omelette choices (never heard that at my other favorite brunch places.",
+      "aspects": [
+        {
+          "aspect": "waiter",
+          "polarity": "negative",
+          "from": 15,
+          "to": 21
+        },
+        {
+          "aspect": "places",
+          "polarity": "positive",
+          "from": 157,
+          "to": 163
+        }
+      ]
+    },
+    {
+      "id": null,
+      "split": "train",
+      "text": "The food is also good although there are a few kinks to work out - the soft shell crab appetizer wasn't quite as 'soft' as it should be and the halibut was a little too peppery, but my friend loved his cod and said it was perfect.",
+      "aspects": [
+        {
+          "aspect": "food",
+          "polarity": "positive",
+          "from": 4,
+          "to": 8
+        },
+        {
+          "aspect": "soft shell crab appetizer",
+          "polarity": "negative",
+          "from": 71,
+          "to": 96
+        },
+        {
+          "aspect": "cod",
+          "polarity": "positive",
+          "from": 202,
+          "to": 205
+        }
+      ]
+    },
+    {
+      "id": null,
+      "split": "train",
+      "text": "Great food, but tiny portions and inexcusable service - disorganized, amateurish and definitely overpriced by a long shot.",
+      "aspects": [
+        {
+          "aspect": "food",
+          "polarity": "positive",
+          "from": 6,
+          "to": 10
+        },
+        {
+          "aspect": "portions",
+          "polarity": "negative",
+          "from": 21,
+          "to": 29
+        },
+        {
+          "aspect": "service",
+          "polarity": "negative",
+          "from": 46,
+          "to": 53
+        }
+      ]
+    },
+    {
+      "id": null,
+      "split": "train",
+      "text": "The decor in the dinin room is a bit bland, but the service is always friendly.",
+      "aspects": [
+        {
+          "aspect": "decor",
+          "polarity": "negative",
+          "from": 4,
+          "to": 9
+        },
+        {
+          "aspect": "dinin room",
+          "polarity": "neutral",
+          "from": 17,
+          "to": 27
+        },
+        {
+          "aspect": "service",
+          "polarity": "positive",
+          "from": 52,
+          "to": 59
+        }
+      ]
+    },
+    {
+      "id": null,
+      "split": "train",
+      "text": "Don't go for the decor or the location, go for the food!",
+      "aspects": [
+        {
+          "aspect": "decor",
+          "polarity": "negative",
+          "from": 17,
+          "to": 22
+        },
+        {
+          "aspect": "location",
+          "polarity": "negative",
+          "from": 30,
+          "to": 38
+        },
+        {
+          "aspect": "food",
+          "polarity": "positive",
+          "from": 51,
+          "to": 55
+        }
+      ]
+    },
+    {
+      "id": null,
+      "split": "train",
+      "text": "Although the sides at Lugers are delicious (the bacon is out of this world) the steak is entirely priced way too high.",
+      "aspects": [
+        {
+          "aspect": "sides",
+          "polarity": "positive",
+          "from": 13,
+          "to": 18
+        },
+        {
+          "aspect": "Lugers",
+          "polarity": "neutral",
+          "from": 22,
+          "to": 28
+        },
+        {
+          "aspect": "bacon",
+          "polarity": "positive",
+          "from": 48,
+          "to": 53
+        },
+        {
+          "aspect": "steak",
+          "polarity": "negative",
+          "from": 80,
+          "to": 85
+        },
+        {
+          "aspect": "priced",
+          "polarity": "negative",
+          "from": 98,
+          "to": 104
+        }
+      ]
+    },
+    {
+      "id": null,
+      "split": "train",
+      "text": "Although Sweet Melissa's food and pastries are very tasty, the unfriendly folks who work there sour the experience.",
+      "aspects": [
+        {
+          "aspect": "Melissa",
+          "polarity": "positive",
+          "from": 15,
+          "to": 22
+        },
+        {
+          "aspect": "food",
+          "polarity": "positive",
+          "from": 25,
+          "to": 29
+        },
+        {
+          "aspect": "pastries",
+          "polarity": "positive",
+          "from": 34,
+          "to": 42
+        },
+        {
+          "aspect": "experience",
+          "polarity": "negative",
+          "from": 104,
+          "to": 114
+        }
+      ]
+    },
+    {
+      "id": null,
+      "split": "train",
+      "text": "Just finished a tasty jerked chicken dinner that was too pricey for the subpar service and good, but not great food.",
+      "aspects": [
+        {
+          "aspect": "jerked chicken dinner",
+          "polarity": "positive",
+          "from": 22,
+          "to": 43
+        },
+        {
+          "aspect": "service",
+          "polarity": "negative",
+          "from": 79,
+          "to": 86
+        },
+        {
+          "aspect": "food",
+          "polarity": "neutral",
+          "from": 111,
+          "to": 115
+        }
+      ]
+    },
+    {
+      "id": null,
+      "split": "train",
+      "text": "Food other than sushi is also very nice.",
+      "aspects": [
+        {
+          "aspect": "Food",
+          "polarity": "positive",
+          "from": 0,
+          "to": 4
+        },
+        {
+          "aspect": "sushi",
+          "polarity": "negative",
+          "from": 16,
+          "to": 21
+        }
+      ]
+    },
+    {
+      "id": null,
+      "split": "train",
+      "text": "The portions are now very small, the sauces are overly-ambitious usually inedible while the service is still good, the restaurant, due to its popularity, seems frantic.",
+      "aspects": [
+        {
+          "aspect": "portions",
+          "polarity": "negative",
+          "from": 4,
+          "to": 12
+        },
+        {
+          "aspect": "service",
+          "polarity": "positive",
+          "from": 92,
+          "to": 99
+        }
+      ]
+    },
+    {
+      "id": null,
+      "split": "train",
+      "text": "I got there with my husband aspecting nothing but delicious landmark Italian food,instead, we got tasteless pizza, salty pasta dishes and over cooked Expensive prices, not compatible with the service they offer.",
+      "aspects": [
+        {
+          "aspect": "Italian food",
+          "polarity": "positive",
+          "from": 69,
+          "to": 81
+        },
+        {
+          "aspect": "pasta dishes",
+          "polarity": "negative",
+          "from": 121,
+          "to": 133
+        },
+        {
+          "aspect": "service",
+          "polarity": "positive",
+          "from": 192,
+          "to": 199
+        }
+      ]
+    },
+    {
+      "id": null,
+      "split": "train",
+      "text": "The food is right out of heaven, arrive hungry because the portions are huge but not the prices.",
+      "aspects": [
+        {
+          "aspect": "food",
+          "polarity": "positive",
+          "from": 4,
+          "to": 8
+        },
+        {
+          "aspect": "portions",
+          "polarity": "positive",
+          "from": 59,
+          "to": 67
+        },
+        {
+          "aspect": "prices",
+          "polarity": "negative",
+          "from": 89,
+          "to": 95
+        }
+      ]
+    },
+    {
+      "id": null,
+      "split": "train",
+      "text": "The wine list is short and the wine glasses suck (not spigleau or riedel, in addition they are small for the big italian wines on the menu).",
+      "aspects": [
+        {
+          "aspect": "wine list",
+          "polarity": "negative",
+          "from": 4,
+          "to": 13
+        },
+        {
+          "aspect": "italian wines",
+          "polarity": "positive",
+          "from": 113,
+          "to": 126
+        },
+        {
+          "aspect": "menu",
+          "polarity": "neutral",
+          "from": 134,
+          "to": 138
+        }
+      ]
+    },
+    {
+      "id": null,
+      "split": "train",
+      "text": "Its good to go there for drinks if you don't want to get drunk because you'll be lucky if you can get one drink an hour the service is so bad.",
+      "aspects": [
+        {
+          "aspect": "drinks",
+          "polarity": "positive",
+          "from": 25,
+          "to": 31
+        },
+        {
+          "aspect": "service",
+          "polarity": "negative",
+          "from": 124,
+          "to": 131
+        }
+      ]
+    },
+    {
+      "id": null,
+      "split": "train",
+      "text": "The chef insisted that the meat was cooked properly!?",
+      "aspects": [
+        {
+          "aspect": "chef",
+          "polarity": "negative",
+          "from": 4,
+          "to": 8
+        },
+        {
+          "aspect": "meat",
+          "polarity": "positive",
+          "from": 27,
+          "to": 31
+        }
+      ]
+    }
+  ]
+}

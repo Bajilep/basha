@@ -1,0 +1,490 @@
+{
+  "train": [
+    {
+      "type": "overlap_shorter_removed",
+      "text": "I ordered the crab cocktail and it was soaked in a lime juice concoction where all you could taste was the lime.",
+      "kept": {
+        "aspect": "lime juice concoction",
+        "polarity": "neutral",
+        "from": 51,
+        "to": 72,
+        "span_source": "recovered"
+      },
+      "removed": {
+        "aspect": "lime",
+        "polarity": "neutral",
+        "from": 51,
+        "to": 55,
+        "span_source": "recovered"
+      }
+    },
+    {
+      "type": "overlap_shorter_removed",
+      "text": "Delicious food, excellent service, and a pretty atmosphere make this a great choice for dinner and the $5.99 lunch buffet makes it an even better choice for lunch!",
+      "kept": {
+        "aspect": "lunch buffet",
+        "polarity": "positive",
+        "from": 109,
+        "to": 121,
+        "span_source": "recovered"
+      },
+      "removed": {
+        "aspect": "lunch",
+        "polarity": "positive",
+        "from": 109,
+        "to": 114,
+        "span_source": "recovered"
+      }
+    },
+    {
+      "type": "span_not_found",
+      "text": "They should have called it mascarpone with chocolate chips-good but a far cry from what the name implies.",
+      "aspect": "mascarpone with chocolate chip",
+      "polarity": "conflict",
+      "source": "semeval",
+      "occurrences": []
+    },
+    {
+      "type": "overlap_shorter_removed",
+      "text": "When he finally did, he was unable to make a gin and tonic -- couldn't find tonic.",
+      "kept": {
+        "aspect": "gin and tonic",
+        "polarity": "neutral",
+        "from": 45,
+        "to": 58,
+        "span_source": "recovered"
+      },
+      "removed": {
+        "aspect": "tonic",
+        "polarity": "neutral",
+        "from": 53,
+        "to": 58,
+        "span_source": "recovered"
+      }
+    },
+    {
+      "type": "overlap_shorter_removed",
+      "text": "We ordered the chicken casserole, but what we got were a few small pieces of chicken, all dark meat and on the bone.",
+      "kept": {
+        "aspect": "chicken casserole",
+        "polarity": "negative",
+        "from": 15,
+        "to": 32,
+        "span_source": "recovered"
+      },
+      "removed": {
+        "aspect": "chicken",
+        "polarity": "negative",
+        "from": 15,
+        "to": 22,
+        "span_source": "recovered"
+      }
+    },
+    {
+      "type": "span_not_found",
+      "text": "Interesting other dishes for a change include chicken in curry sauce and salmon caserole.",
+      "aspect": "chicken in curry sauc",
+      "polarity": "positive",
+      "source": "semeval",
+      "occurrences": []
+    },
+    {
+      "type": "overlap_shorter_removed",
+      "text": "After complaining about the chicken dish, the manager came over to tell us that, no one had ever complained before, and that we just didn't know what the dish was supposed to taste like.",
+      "kept": {
+        "aspect": "chicken dish",
+        "polarity": "negative",
+        "from": 28,
+        "to": 40,
+        "span_source": "recovered"
+      },
+      "removed": {
+        "aspect": "dish",
+        "polarity": "neutral",
+        "from": 36,
+        "to": 40,
+        "span_source": "recovered"
+      }
+    },
+    {
+      "type": "overlap_shorter_removed",
+      "text": "I had the cod with paella (spicy and very filling, I'm a big eater and could only eat half) while my boyfriend had the classic fish and chips (again, a big serving - at least 5 pieces of fish and a basketful of fries).",
+      "kept": {
+        "aspect": "fish and chips",
+        "polarity": "negative",
+        "from": 127,
+        "to": 141,
+        "span_source": "recovered"
+      },
+      "removed": {
+        "aspect": "fish",
+        "polarity": "neutral",
+        "from": 127,
+        "to": 131,
+        "span_source": "recovered"
+      }
+    },
+    {
+      "type": "overlap_shorter_removed",
+      "text": "Their whitefish salad is excellent--all whitefish with a little mayo.",
+      "kept": {
+        "aspect": "whitefish salad",
+        "polarity": "positive",
+        "from": 6,
+        "to": 21,
+        "span_source": "recovered"
+      },
+      "removed": {
+        "aspect": "whitefish",
+        "polarity": "positive",
+        "from": 6,
+        "to": 15,
+        "span_source": "recovered"
+      }
+    },
+    {
+      "type": "overlap_shorter_removed",
+      "text": "It was not above ordinary and the beef version had cheap (undercooked) beef.",
+      "kept": {
+        "aspect": "beef version",
+        "polarity": "negative",
+        "from": 34,
+        "to": 46,
+        "span_source": "recovered"
+      },
+      "removed": {
+        "aspect": "beef",
+        "polarity": "negative",
+        "from": 34,
+        "to": 38,
+        "span_source": "recovered"
+      }
+    },
+    {
+      "type": "overlap_shorter_removed",
+      "text": "I ordered a Chicken Teriyaki dish and found that the chicken was extremely dry.",
+      "kept": {
+        "aspect": "Chicken Teriyaki dish",
+        "polarity": "negative",
+        "from": 12,
+        "to": 33,
+        "span_source": "recovered"
+      },
+      "removed": {
+        "aspect": "chicken",
+        "polarity": "negative",
+        "from": 12,
+        "to": 19,
+        "span_source": "recovered"
+      }
+    },
+    {
+      "type": "overlap_shorter_removed",
+      "text": "An excellent alternative to fast food joints and ordering in but, the food was slightly disappointing.",
+      "kept": {
+        "aspect": "fast food",
+        "polarity": "negative",
+        "from": 28,
+        "to": 37,
+        "span_source": "recovered"
+      },
+      "removed": {
+        "aspect": "food",
+        "polarity": "negative",
+        "from": 33,
+        "to": 37,
+        "span_source": "recovered"
+      }
+    },
+    {
+      "type": "overlap_shorter_removed",
+      "text": "(food was delivered by a busboy, not waiter) We got no cheese offered for the pasta, our water and wine glasses remained EMPTY our entire meal, when we would have easily spent another $20 on wine.",
+      "kept": {
+        "aspect": "water and wine glasses",
+        "polarity": "negative",
+        "from": 89,
+        "to": 111,
+        "span_source": "recovered"
+      },
+      "removed": {
+        "aspect": "wine",
+        "polarity": "neutral",
+        "from": 99,
+        "to": 103,
+        "span_source": "recovered"
+      }
+    },
+    {
+      "type": "overlap_shorter_removed",
+      "text": "As we were sitting eating the subpar food the manager proceeded to berate a couple of his employees for putting out the wrong containers for condiments and explained to them how expensive these containers were.",
+      "kept": {
+        "aspect": "containers for condiments",
+        "polarity": "negative",
+        "from": 126,
+        "to": 151,
+        "span_source": "recovered"
+      },
+      "removed": {
+        "aspect": "containers",
+        "polarity": "neutral",
+        "from": 126,
+        "to": 136,
+        "span_source": "recovered"
+      }
+    },
+    {
+      "type": "overlap_shorter_removed",
+      "text": "Monday nights are a bargain at the $28 prix fix - this includes a three course meal plus *three* glasses of wine paired with each course.",
+      "kept": {
+        "aspect": "three course meal",
+        "polarity": "positive",
+        "from": 66,
+        "to": 83,
+        "span_source": "recovered"
+      },
+      "removed": {
+        "aspect": "course",
+        "polarity": "neutral",
+        "from": 72,
+        "to": 78,
+        "span_source": "recovered"
+      }
+    },
+    {
+      "type": "overlap_shorter_removed",
+      "text": "Ive asked a cart attendant for a lotus leaf wrapped rice and she replied back rice and just walked away.",
+      "kept": {
+        "aspect": "lotus leaf wrapped rice",
+        "polarity": "neutral",
+        "from": 33,
+        "to": 56,
+        "span_source": "recovered"
+      },
+      "removed": {
+        "aspect": "rice",
+        "polarity": "neutral",
+        "from": 52,
+        "to": 56,
+        "span_source": "recovered"
+      }
+    },
+    {
+      "type": "overlap_shorter_removed",
+      "text": "The takeout menu says to keep an eye out for an expanded menu offering more italian dishes, I can't wait!",
+      "kept": {
+        "aspect": "takeout menu",
+        "polarity": "positive",
+        "from": 4,
+        "to": 16,
+        "span_source": "recovered"
+      },
+      "removed": {
+        "aspect": "menu",
+        "polarity": "positive",
+        "from": 12,
+        "to": 16,
+        "span_source": "recovered"
+      }
+    },
+    {
+      "type": "overlap_shorter_removed",
+      "text": "The chicken parm was edible but had canned tomato sauce and boxed pasta and the chicken with portobello mushrooms consisted of dry, inedible chicken with terrible sauce.",
+      "kept": {
+        "aspect": "chicken parm",
+        "polarity": "conflict",
+        "from": 4,
+        "to": 16,
+        "span_source": "recovered"
+      },
+      "removed": {
+        "aspect": "chicken",
+        "polarity": "negative",
+        "from": 4,
+        "to": 11,
+        "span_source": "recovered"
+      }
+    },
+    {
+      "type": "overlap_shorter_removed",
+      "text": "The chicken parm was edible but had canned tomato sauce and boxed pasta and the chicken with portobello mushrooms consisted of dry, inedible chicken with terrible sauce.",
+      "kept": {
+        "aspect": "tomato sauce",
+        "polarity": "negative",
+        "from": 43,
+        "to": 55,
+        "span_source": "recovered"
+      },
+      "removed": {
+        "aspect": "sauce",
+        "polarity": "negative",
+        "from": 50,
+        "to": 55,
+        "span_source": "recovered"
+      }
+    },
+    {
+      "type": "overlap_shorter_removed",
+      "text": "The rice to fish ration was also good--they didn't try to overpack the rice.",
+      "kept": {
+        "aspect": "rice to fish ration",
+        "polarity": "positive",
+        "from": 4,
+        "to": 23,
+        "span_source": "recovered"
+      },
+      "removed": {
+        "aspect": "rice",
+        "polarity": "positive",
+        "from": 4,
+        "to": 8,
+        "span_source": "recovered"
+      }
+    },
+    {
+      "type": "overlap_shorter_removed",
+      "text": "My party of 8 had a seafood feast sampling Sammy's menu and we couldn't believe how great the food was.",
+      "kept": {
+        "aspect": "seafood",
+        "polarity": "neutral",
+        "from": 20,
+        "to": 27,
+        "span_source": "original"
+      },
+      "removed": {
+        "aspect": "food",
+        "polarity": "positive",
+        "from": 23,
+        "to": 27,
+        "span_source": "original"
+      }
+    },
+    {
+      "type": "overlap_shorter_removed",
+      "text": "No table space and one of the angry neighbors decided to take matters into his own hands by throwing a bucket of water out his window and onto the patrons waiting for their tables.",
+      "kept": {
+        "aspect": "table space",
+        "polarity": "negative",
+        "from": 3,
+        "to": 14,
+        "span_source": "original"
+      },
+      "removed": {
+        "aspect": "table s",
+        "polarity": "neutral",
+        "from": 3,
+        "to": 10,
+        "span_source": "original"
+      }
+    },
+    {
+      "type": "overlap_shorter_removed",
+      "text": "I tried the Crab Croquettes (delicious, and yes, the sauce IS hot) and the Salade Jumelle (a good, basic mesculen salad).",
+      "kept": {
+        "aspect": "Salade",
+        "polarity": "neutral",
+        "from": 75,
+        "to": 81,
+        "span_source": "original"
+      },
+      "removed": {
+        "aspect": "Salad",
+        "polarity": "positive",
+        "from": 75,
+        "to": 80,
+        "span_source": "original"
+      }
+    },
+    {
+      "type": "overlap_shorter_removed",
+      "text": "The appetizer, conch fritas was yummy; entree, spicy shrimp with coconut rice (just a hint of coconut - not overwhelming); and the dessert tres leches de mango with calle ocho cafe was unbelievable!",
+      "kept": {
+        "aspect": "spicy shrimp with coconut rice",
+        "polarity": "neutral",
+        "from": 47,
+        "to": 77,
+        "span_source": "original"
+      },
+      "removed": {
+        "aspect": "coconut",
+        "polarity": "neutral",
+        "from": 65,
+        "to": 72,
+        "span_source": "original"
+      }
+    },
+    {
+      "type": "overlap_shorter_removed",
+      "text": "What I can say is that it was definitely some very good quality pizza, no matter what area of the world/style of pizza you are used to.",
+      "kept": {
+        "aspect": "quality pizza",
+        "polarity": "positive",
+        "from": 56,
+        "to": 69,
+        "span_source": "original"
+      },
+      "removed": {
+        "aspect": "pizza",
+        "polarity": "neutral",
+        "from": 64,
+        "to": 69,
+        "span_source": "original"
+      }
+    },
+    {
+      "type": "overlap_shorter_removed",
+      "text": "For dinner I order linguine w/ red clam sauce, the pasta was perfect and the sauce was flavorful but the clams tasted funny so I ate around them.",
+      "kept": {
+        "aspect": "w/ red clam sauce",
+        "polarity": "neutral",
+        "from": 28,
+        "to": 45,
+        "span_source": "original"
+      },
+      "removed": {
+        "aspect": "clam s",
+        "polarity": "positive",
+        "from": 35,
+        "to": 41,
+        "span_source": "original"
+      }
+    },
+    {
+      "type": "overlap_shorter_removed",
+      "text": "Gobo's scallion pancakes are a bit dry, and the beet salad is low on beets, but the majority of dishes, especially those showcasing vegetables, are delicious in their simplicity.",
+      "kept": {
+        "aspect": "beet salad",
+        "polarity": "negative",
+        "from": 48,
+        "to": 58,
+        "span_source": "original"
+      },
+      "removed": {
+        "aspect": "beet s",
+        "polarity": "negative",
+        "from": 48,
+        "to": 54,
+        "span_source": "original"
+      }
+    }
+  ],
+  "validation": [
+    {
+      "type": "overlap_shorter_removed",
+      "text": "The table service could have been a little more attentive but as someone who also works in the service industry, I understood they were busy.",
+      "kept": {
+        "aspect": "table service",
+        "polarity": "conflict",
+        "from": 4,
+        "to": 17,
+        "span_source": "recovered"
+      },
+      "removed": {
+        "aspect": "service",
+        "polarity": "neutral",
+        "from": 10,
+        "to": 17,
+        "span_source": "recovered"
+      }
+    }
+  ]
+}

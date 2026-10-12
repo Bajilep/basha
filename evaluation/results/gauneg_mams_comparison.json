@@ -1,0 +1,53 @@
+{
+  "test_file": "C:\\Users\\Admin\\PycharmProjects\\basha\\evaluation\\data\\absa_mams_test.json",
+  "test_sentences": 487,
+  "gold_annotations": 1298,
+  "original": {
+    "model": "gauneg/roberta-base-absa-ate-sentiment",
+    "metrics": {
+      "gold_aspects": 1298,
+      "predicted_aspects": 1637,
+      "matched_aspects": 941,
+      "aspect": {
+        "precision": 0.5748320097739767,
+        "recall": 0.7249614791987673,
+        "f1": 0.6412265758091993
+      },
+      "polarity_accuracy_on_matched_spans": 0.8352816153028693,
+      "end_to_end": {
+        "precision": 0.48014660965180206,
+        "recall": 0.6055469953775039,
+        "f1": 0.5356047700170358
+      },
+      "gold_mixed_sentences": 68,
+      "mixed_detected": 42,
+      "mixed_detection_rate": 0.6176470588235294
+    },
+    "inference_seconds": 41.20096979988739,
+    "output9_predictions": 0
+  },
+  "finetuned": {
+    "model": "C:\\Users\\Admin\\PycharmProjects\\basha\\evaluation\\models\\gauneg_basha_v1\\best_model",
+    "metrics": {
+      "gold_aspects": 1298,
+      "predicted_aspects": 1433,
+      "matched_aspects": 1007,
+      "aspect": {
+        "precision": 0.702721563154222,
+        "recall": 0.775808936825886,
+        "f1": 0.7374588062980594
+      },
+      "polarity_accuracy_on_matched_spans": 0.8659384309831182,
+      "end_to_end": {
+        "precision": 0.6085136078157711,
+        "recall": 0.6718027734976888,
+        "f1": 0.6385939216404248
+      },
+      "gold_mixed_sentences": 68,
+      "mixed_detected": 52,
+      "mixed_detection_rate": 0.7647058823529411
+    },
+    "inference_seconds": 51.90202429983765,
+    "output9_predictions": 0
+  }
+}
