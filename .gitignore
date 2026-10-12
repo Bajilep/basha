@@ -1,0 +1,26 @@
+@"
+# Environments and IDE
+.venv/
+.idea/
+
+# Python build and cache
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# Large model files (host these on Hugging Face instead)
+evaluation/models/
+
+# Regenerable training files
+evaluation/data/gauneg_tokenized_*.json
+
+# Third-party dataset (download separately)
+evaluation/data/MAMS-ATSA/
+
+# OS files
+Thumbs.db
+.DS_Store
+"@ | Set-Content .gitignore -Encoding utf8
