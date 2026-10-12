@@ -6,7 +6,7 @@ from sklearn.metrics import (
     confusion_matrix,
 )
 
-from src.basha.sentiment.english_model import (
+from basha.sentiment.english_model import (
     EnglishSentimentModel,
 )
 

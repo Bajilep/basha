@@ -13,7 +13,7 @@ from sklearn.metrics import (
     f1_score,
 )
 
-from src.basha.fusion.english_fusion import EnglishFusion
+from basha.fusion.english_fusion import EnglishFusion
 
 # ==========================================================
 # CONFIGURATION

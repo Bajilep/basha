@@ -3,7 +3,7 @@ from __future__ import annotations
 
 import gc
 import json
-import sys
+
 import time
 from collections import Counter
 from pathlib import Path
@@ -14,11 +14,10 @@ import torch
 ROOT = Path(__file__).resolve().parents[1]
 EVAL = ROOT / "evaluation"
 
-if str(ROOT) not in sys.path:
-    sys.path.insert(0, str(ROOT))
 
-from src.basha.aspects.aspect_model import EnglishAspectModel
-from src.basha.fusion.english_fusion import EnglishFusion
+
+from basha.aspects.aspect_model import EnglishAspectModel
+from basha.fusion.english_fusion import EnglishFusion
 
 
 COMPARISON_PATH = (

@@ -57,6 +57,7 @@ class EnglishFusion:
 
         Aspect sentiment:
             Gauneg RoBERTa ABSA
+            (or a fine-tuned checkpoint via aspect_model_name)
 
         Sarcasm:
             BESSTIE DeBERTa-v3
@@ -70,9 +71,19 @@ class EnglishFusion:
             mixed detection
             discourse resolution
             sarcasm resolution
+
+    Parameters
+    ----------
+    aspect_model_name:
+        Optional Hugging Face model name or local folder
+        path for the aspect model. If omitted, the
+        original Gauneg model is used.
     """
 
-    def __init__(self) -> None:
+    def __init__(
+        self,
+        aspect_model_name: str | None = None,
+    ) -> None:
 
         print(
             "Initializing Basha English Fusion..."
@@ -87,7 +98,9 @@ class EnglishFusion:
         )
 
         self.aspect_model = (
-            EnglishAspectModel()
+            EnglishAspectModel(
+                aspect_model_name
+            )
         )
 
         self.sarcasm_model = (

@@ -48,8 +48,8 @@
     }
   },
   "performance": {
-    "total_seconds": 202.98887610295787,
-    "average_seconds_per_sample": 0.5074721902573947
+    "total_seconds": 198.49926490103826,
+    "average_seconds_per_sample": 0.49624816225259566
   },
   "results": [
     {
@@ -63,7 +63,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 6.681962399976328,
+      "time_seconds": 5.89466099999845,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -125,7 +125,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 1.205531100044027,
+      "time_seconds": 1.007758199935779,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -187,7 +187,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.7126037999987602,
+      "time_seconds": 0.6908100000582635,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -244,7 +244,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.6923638000153005,
+      "time_seconds": 0.6301510001067072,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -295,7 +295,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.4544538001064211,
+      "time_seconds": 0.40371199999935925,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -352,7 +352,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.5169432999100536,
+      "time_seconds": 0.5145710001233965,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -409,7 +409,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.47580519993789494,
+      "time_seconds": 0.4701690999791026,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -460,7 +460,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.6394477998837829,
+      "time_seconds": 0.5623689000494778,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -517,7 +517,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.5008996999822557,
+      "time_seconds": 0.4677856999915093,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -574,7 +574,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.43304469995200634,
+      "time_seconds": 0.36458839988335967,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -631,7 +631,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": true,
-      "time_seconds": 0.553871399955824,
+      "time_seconds": 0.5011183000169694,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -702,7 +702,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.8327077999711037,
+      "time_seconds": 0.9615500001236796,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -764,7 +764,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.4247757000848651,
+      "time_seconds": 0.42842329991981387,
       "sarcasm": {
         "detected": true,
         "label": "sarcasm",
@@ -815,7 +815,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.6993184001185,
+      "time_seconds": 0.715408300049603,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -872,7 +872,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.5119086999911815,
+      "time_seconds": 0.487479800125584,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -929,7 +929,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.41714220005087554,
+      "time_seconds": 0.36603359994478524,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -997,7 +997,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.4197164000943303,
+      "time_seconds": 0.42728590010665357,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -1054,7 +1054,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.41896030004136264,
+      "time_seconds": 0.45435429993085563,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -1111,7 +1111,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.41987930005416274,
+      "time_seconds": 0.4234457998536527,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -1168,7 +1168,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.4836502999532968,
+      "time_seconds": 0.4880951999220997,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -1225,7 +1225,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.43864359986037016,
+      "time_seconds": 0.4369623998645693,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -1287,7 +1287,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.4572813000995666,
+      "time_seconds": 0.4714842999819666,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -1338,7 +1338,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.5226817999500781,
+      "time_seconds": 0.5206467001698911,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -1400,7 +1400,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.590220500016585,
+      "time_seconds": 0.5593995999079198,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -1462,7 +1462,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.6251564999110997,
+      "time_seconds": 0.6656915000639856,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -1519,7 +1519,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.4372547999955714,
+      "time_seconds": 0.4455442999023944,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -1576,7 +1576,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": true,
-      "time_seconds": 1.044276700122282,
+      "time_seconds": 0.9745348999276757,
       "sarcasm": {
         "detected": true,
         "label": "sarcasm",
@@ -1638,7 +1638,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.4465147000737488,
+      "time_seconds": 0.4628967000171542,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -1689,7 +1689,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": true,
       "core_correct": false,
-      "time_seconds": 0.547804799862206,
+      "time_seconds": 0.5695250001735985,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -1760,7 +1760,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": true,
       "core_correct": false,
-      "time_seconds": 0.4418141001369804,
+      "time_seconds": 0.3938996000215411,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -1836,7 +1836,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.44216830004006624,
+      "time_seconds": 0.4227433998603374,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -1887,7 +1887,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.4123132999520749,
+      "time_seconds": 0.417030300013721,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -1944,7 +1944,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.3538084998726845,
+      "time_seconds": 0.3351886000018567,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -1995,7 +1995,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.37699340004473925,
+      "time_seconds": 0.37417279998771846,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -2046,7 +2046,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.3859396001789719,
+      "time_seconds": 0.35949929989874363,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -2103,7 +2103,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.46273350017145276,
+      "time_seconds": 0.35438670008443296,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -2160,7 +2160,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": true,
       "core_correct": false,
-      "time_seconds": 0.6845815998967737,
+      "time_seconds": 0.5884385998360813,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -2231,7 +2231,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.7358214999549091,
+      "time_seconds": 0.5622543999925256,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -2298,7 +2298,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.5677356000524014,
+      "time_seconds": 0.4926423002034426,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -2355,7 +2355,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.5701478999108076,
+      "time_seconds": 0.481910299975425,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -2412,7 +2412,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": true,
       "core_correct": false,
-      "time_seconds": 0.8186030997894704,
+      "time_seconds": 0.754227900179103,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -2498,7 +2498,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.469899500021711,
+      "time_seconds": 0.3707000999711454,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -2555,7 +2555,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.37557290005497634,
+      "time_seconds": 0.32935610017739236,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -2612,7 +2612,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.6260043000802398,
+      "time_seconds": 0.5310300998389721,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -2669,7 +2669,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.463301399955526,
+      "time_seconds": 0.40712789981625974,
       "sarcasm": {
         "detected": true,
         "label": "sarcasm",
@@ -2726,7 +2726,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.5205963999032974,
+      "time_seconds": 0.41538020013831556,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -2789,7 +2789,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.483433699933812,
+      "time_seconds": 0.43084979988634586,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -2846,7 +2846,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.5035942001268268,
+      "time_seconds": 0.47216909984126687,
       "sarcasm": {
         "detected": true,
         "label": "sarcasm",
@@ -2903,7 +2903,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": true,
       "core_correct": false,
-      "time_seconds": 0.5146115999668837,
+      "time_seconds": 0.4528556000441313,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -2975,7 +2975,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.43670670012943447,
+      "time_seconds": 0.40399619983509183,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -3026,7 +3026,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.4844693001359701,
+      "time_seconds": 0.4179273000918329,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -3077,7 +3077,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.4483340000733733,
+      "time_seconds": 0.3681256999261677,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -3134,7 +3134,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.44494899990968406,
+      "time_seconds": 0.35592999984510243,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -3185,7 +3185,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.4916473999619484,
+      "time_seconds": 0.32811470003798604,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -3236,7 +3236,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.483976700110361,
+      "time_seconds": 0.3941146999131888,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -3287,7 +3287,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.4900311001110822,
+      "time_seconds": 0.40588290011510253,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -3338,7 +3338,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.3828566998708993,
+      "time_seconds": 0.3413869000505656,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -3389,7 +3389,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.4379666999448091,
+      "time_seconds": 0.4206103999167681,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -3451,7 +3451,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.4210361000150442,
+      "time_seconds": 0.38548850012011826,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -3514,7 +3514,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.3443810997996479,
+      "time_seconds": 0.37232009996660054,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -3571,7 +3571,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.3891670999582857,
+      "time_seconds": 0.36488609993830323,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -3628,7 +3628,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": true,
       "core_correct": false,
-      "time_seconds": 0.5150174999143928,
+      "time_seconds": 0.4649195000529289,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -3710,7 +3710,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.47574449982494116,
+      "time_seconds": 0.45578550011850893,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -3761,7 +3761,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.4679374999832362,
+      "time_seconds": 0.4465115999337286,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -3818,7 +3818,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.5247001999523491,
+      "time_seconds": 0.4442187000531703,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -3875,7 +3875,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.5548803999554366,
+      "time_seconds": 0.4601463999133557,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -3932,7 +3932,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.5196120999753475,
+      "time_seconds": 0.47723910002969205,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -3995,7 +3995,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.7487090998329222,
+      "time_seconds": 0.4483803999610245,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -4046,7 +4046,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.694478599820286,
+      "time_seconds": 0.5933588000480086,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -4103,7 +4103,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.36732399999164045,
+      "time_seconds": 0.31769010005518794,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -4154,7 +4154,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": true,
-      "time_seconds": 0.5208970999810845,
+      "time_seconds": 0.4886348999571055,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -4219,7 +4219,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": true,
       "core_correct": false,
-      "time_seconds": 0.4530928998719901,
+      "time_seconds": 0.428721799980849,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -4300,7 +4300,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.5272747999988496,
+      "time_seconds": 0.5010307000484318,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -4357,7 +4357,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.464127300074324,
+      "time_seconds": 0.4422093001194298,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -4414,7 +4414,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": true,
       "core_correct": false,
-      "time_seconds": 0.5017701000906527,
+      "time_seconds": 0.5017389000859112,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -4491,7 +4491,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.44313499983400106,
+      "time_seconds": 0.4507458000443876,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -4548,7 +4548,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.4108185002114624,
+      "time_seconds": 0.4408067998010665,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -4599,7 +4599,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.45557030010968447,
+      "time_seconds": 0.46065749996341765,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -4656,7 +4656,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.5555474001448601,
+      "time_seconds": 0.6074276000726968,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -4707,7 +4707,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.5976506001316011,
+      "time_seconds": 0.5421968998853117,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -4764,7 +4764,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.6677951000165194,
+      "time_seconds": 0.5447336998768151,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -4815,7 +4815,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.6507633998990059,
+      "time_seconds": 0.45151820010505617,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -4866,7 +4866,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.5349063000176102,
+      "time_seconds": 0.6067059000488371,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -4923,7 +4923,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.4624624999705702,
+      "time_seconds": 0.3834942001849413,
       "sarcasm": {
         "detected": true,
         "label": "sarcasm",
@@ -4980,7 +4980,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.4647554000839591,
+      "time_seconds": 0.423731799935922,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -5048,7 +5048,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.7979781997855753,
+      "time_seconds": 0.5528871000278741,
       "sarcasm": {
         "detected": true,
         "label": "sarcasm",
@@ -5105,7 +5105,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.5050449999980628,
+      "time_seconds": 0.3567828999366611,
       "sarcasm": {
         "detected": true,
         "label": "sarcasm",
@@ -5156,7 +5156,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.5080864999908954,
+      "time_seconds": 0.3829630999825895,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -5213,7 +5213,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.5227247998118401,
+      "time_seconds": 0.41336339991539717,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -5270,7 +5270,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.4760945998132229,
+      "time_seconds": 0.38161569996736944,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -5327,7 +5327,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.5947358999401331,
+      "time_seconds": 0.5998058000113815,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -5389,7 +5389,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.4167672998737544,
+      "time_seconds": 0.34375520003959537,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -5440,7 +5440,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.5876677997875959,
+      "time_seconds": 0.48769419989548624,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -5497,7 +5497,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.4254894000478089,
+      "time_seconds": 0.3751475000753999,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -5554,7 +5554,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.6351929998490959,
+      "time_seconds": 0.42724600015208125,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -5611,7 +5611,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.645689900033176,
+      "time_seconds": 0.6058950999286026,
       "sarcasm": {
         "detected": true,
         "label": "sarcasm",
@@ -5662,7 +5662,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.6264485002029687,
+      "time_seconds": 0.7012656000442803,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -5719,7 +5719,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.5999867001082748,
+      "time_seconds": 0.7921875999309123,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -5782,7 +5782,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": true,
       "core_correct": false,
-      "time_seconds": 0.5773880998604,
+      "time_seconds": 0.9034695001319051,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -5847,7 +5847,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.5178308999165893,
+      "time_seconds": 2.2739641000516713,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -5904,7 +5904,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.7433637999929488,
+      "time_seconds": 1.110516999848187,
       "sarcasm": {
         "detected": true,
         "label": "sarcasm",
@@ -5955,7 +5955,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.4714164000470191,
+      "time_seconds": 0.4524145000614226,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -6006,7 +6006,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": true,
       "core_correct": false,
-      "time_seconds": 0.6261933001223952,
+      "time_seconds": 0.6097744000144303,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -6077,7 +6077,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.6710008000954986,
+      "time_seconds": 0.5671218999195844,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -6134,7 +6134,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.5602001000661403,
+      "time_seconds": 0.5592248998582363,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -6191,7 +6191,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.4956125000026077,
+      "time_seconds": 0.5112261001486331,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -6242,7 +6242,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.540628100046888,
+      "time_seconds": 0.5651531999465078,
       "sarcasm": {
         "detected": true,
         "label": "sarcasm",
@@ -6299,7 +6299,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.4779839999973774,
+      "time_seconds": 0.46604639990255237,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -6356,7 +6356,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": true,
-      "time_seconds": 0.5337665001861751,
+      "time_seconds": 0.47619730001315475,
       "sarcasm": {
         "detected": true,
         "label": "sarcasm",
@@ -6413,7 +6413,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.42761519993655384,
+      "time_seconds": 0.3960531000047922,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -6464,7 +6464,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.6394219000358135,
+      "time_seconds": 0.6178893998730928,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -6521,7 +6521,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.43557629990391433,
+      "time_seconds": 0.41293269977904856,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -6578,7 +6578,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.43665040004998446,
+      "time_seconds": 0.4191008999478072,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -6641,7 +6641,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.45450710016302764,
+      "time_seconds": 0.39363900013267994,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -6698,7 +6698,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.5072935000061989,
+      "time_seconds": 0.4379640999250114,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -6749,7 +6749,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.4812183000613004,
+      "time_seconds": 0.4188309002202004,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -6800,7 +6800,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.39393380004912615,
+      "time_seconds": 0.36345520010218024,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -6851,7 +6851,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.3930279999040067,
+      "time_seconds": 0.34593289997428656,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -6902,7 +6902,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.5511185000650585,
+      "time_seconds": 0.48053830000571907,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -6975,7 +6975,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.639507699990645,
+      "time_seconds": 0.49944330006837845,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -7032,7 +7032,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.4374550001230091,
+      "time_seconds": 0.36138020013459027,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -7094,7 +7094,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.655231700045988,
+      "time_seconds": 0.5249978001229465,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -7151,7 +7151,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.6408636001870036,
+      "time_seconds": 0.5079312999732792,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -7219,7 +7219,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.5745438998565078,
+      "time_seconds": 0.4896978000178933,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -7276,7 +7276,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.45720500010065734,
+      "time_seconds": 0.38794539985246956,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -7333,7 +7333,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.5015600000042468,
+      "time_seconds": 0.4518045000731945,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -7384,7 +7384,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.3822792998980731,
+      "time_seconds": 0.3324897000566125,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -7435,7 +7435,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.3903830999042839,
+      "time_seconds": 0.3552787001244724,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -7486,7 +7486,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.50526830018498,
+      "time_seconds": 0.46695770020596683,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -7543,7 +7543,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.5686757999937981,
+      "time_seconds": 0.5494860000908375,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -7594,7 +7594,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.35727200005203485,
+      "time_seconds": 0.3388678999617696,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -7645,7 +7645,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.3894588998518884,
+      "time_seconds": 0.3880695002153516,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -7702,7 +7702,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.4006552000064403,
+      "time_seconds": 0.39980120002292097,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -7753,7 +7753,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.42697750008665025,
+      "time_seconds": 0.3894362000282854,
       "sarcasm": {
         "detected": true,
         "label": "sarcasm",
@@ -7804,7 +7804,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.5165244999807328,
+      "time_seconds": 0.4857773999683559,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -7867,7 +7867,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": true,
       "core_correct": false,
-      "time_seconds": 0.4953628999646753,
+      "time_seconds": 0.4411441998090595,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -7938,7 +7938,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.43429389991797507,
+      "time_seconds": 0.3800223998259753,
       "sarcasm": {
         "detected": true,
         "label": "sarcasm",
@@ -7989,7 +7989,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.5762240998446941,
+      "time_seconds": 0.6625861001666635,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -8052,7 +8052,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.5229419998358935,
+      "time_seconds": 0.578113199910149,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -8103,7 +8103,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": true,
       "core_correct": false,
-      "time_seconds": 0.5255906998645514,
+      "time_seconds": 0.5035982001572847,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -8168,7 +8168,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": true,
       "core_correct": false,
-      "time_seconds": 0.6869357000105083,
+      "time_seconds": 0.6363134998828173,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -8244,7 +8244,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.4241620998363942,
+      "time_seconds": 0.41292899986729026,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -8295,7 +8295,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.6414445000700653,
+      "time_seconds": 0.5785004999488592,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -8346,7 +8346,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.45657040015794337,
+      "time_seconds": 0.43379250005818903,
       "sarcasm": {
         "detected": true,
         "label": "sarcasm",
@@ -8397,7 +8397,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": true,
       "core_correct": false,
-      "time_seconds": 0.5939802001230419,
+      "time_seconds": 0.5688971001654863,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -8474,7 +8474,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.4695878999773413,
+      "time_seconds": 0.43391260015778244,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -8537,7 +8537,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.44684510002844036,
+      "time_seconds": 0.40888980007730424,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -8594,7 +8594,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.42695989995263517,
+      "time_seconds": 0.3864064998924732,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -8651,7 +8651,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.5228158999234438,
+      "time_seconds": 0.4603128000162542,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -8708,7 +8708,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.5704854000359774,
+      "time_seconds": 0.5351415001787245,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -8771,7 +8771,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.3972422000952065,
+      "time_seconds": 0.4112132000736892,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -8822,7 +8822,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.45193470013327897,
+      "time_seconds": 0.40845629991963506,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -8879,7 +8879,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.39157420000992715,
+      "time_seconds": 0.4083707998506725,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -8930,7 +8930,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.5114885999355465,
+      "time_seconds": 0.41420550015755,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -8981,7 +8981,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.37684569996781647,
+      "time_seconds": 0.3695871001109481,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -9032,7 +9032,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.4646149999462068,
+      "time_seconds": 0.4021875998005271,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -9083,7 +9083,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.4100979999639094,
+      "time_seconds": 0.3450736999511719,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -9140,7 +9140,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.4015442000236362,
+      "time_seconds": 0.35182489990256727,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -9191,7 +9191,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.5153866000473499,
+      "time_seconds": 0.4602266999427229,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -9242,7 +9242,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": true,
       "core_correct": false,
-      "time_seconds": 0.46732259984128177,
+      "time_seconds": 0.44725009985268116,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -9313,7 +9313,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.46914899977855384,
+      "time_seconds": 0.44345610006712377,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -9364,7 +9364,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.6220553000457585,
+      "time_seconds": 0.610843300120905,
       "sarcasm": {
         "detected": true,
         "label": "sarcasm",
@@ -9415,7 +9415,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": true,
       "core_correct": false,
-      "time_seconds": 0.47246049996465445,
+      "time_seconds": 0.4766261999029666,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -9481,7 +9481,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.36519689997658134,
+      "time_seconds": 0.3600953998975456,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -9532,7 +9532,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.5532917999662459,
+      "time_seconds": 0.44807790010236204,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -9583,7 +9583,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.42162970011122525,
+      "time_seconds": 0.374266600003466,
       "sarcasm": {
         "detected": true,
         "label": "sarcasm",
@@ -9634,7 +9634,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.4597849000710994,
+      "time_seconds": 0.4285130000207573,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -9691,7 +9691,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.5234123000409454,
+      "time_seconds": 0.48324109986424446,
       "sarcasm": {
         "detected": true,
         "label": "sarcasm",
@@ -9742,7 +9742,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.4003409000579268,
+      "time_seconds": 0.3944459999911487,
       "sarcasm": {
         "detected": true,
         "label": "sarcasm",
@@ -9793,7 +9793,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.42588950018398464,
+      "time_seconds": 0.4610818999353796,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -9866,7 +9866,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.4905350999906659,
+      "time_seconds": 0.4924789001233876,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -9929,7 +9929,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.4318477001506835,
+      "time_seconds": 0.4158940000925213,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -9992,7 +9992,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.4682088000699878,
+      "time_seconds": 0.4449799000285566,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -10049,7 +10049,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.3749902001582086,
+      "time_seconds": 0.37525500007905066,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -10106,7 +10106,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.48659140011295676,
+      "time_seconds": 0.47793599986471236,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -10169,7 +10169,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.571567100007087,
+      "time_seconds": 0.6052059999201447,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -10231,7 +10231,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.4518571998924017,
+      "time_seconds": 0.4725366001948714,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -10282,7 +10282,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.3756142999045551,
+      "time_seconds": 0.3767467001453042,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -10345,7 +10345,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.5130052000749856,
+      "time_seconds": 0.4851325999479741,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -10396,7 +10396,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.43322280002757907,
+      "time_seconds": 0.4286360000260174,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -10447,7 +10447,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.3922975000459701,
+      "time_seconds": 0.3892453999724239,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -10504,7 +10504,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.3962437000591308,
+      "time_seconds": 0.39556309999898076,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -10561,7 +10561,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": true,
       "core_correct": false,
-      "time_seconds": 0.5393942999653518,
+      "time_seconds": 0.5615908999461681,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -10633,7 +10633,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.4381573998834938,
+      "time_seconds": 0.4164483000058681,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -10695,7 +10695,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": true,
       "core_correct": false,
-      "time_seconds": 0.5556944999843836,
+      "time_seconds": 0.5625879999715835,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -10771,7 +10771,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.49117269995622337,
+      "time_seconds": 0.541143300011754,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -10839,7 +10839,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.9553741998970509,
+      "time_seconds": 0.9899730000179261,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -10901,7 +10901,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.39938400010578334,
+      "time_seconds": 0.3909515000414103,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -10952,7 +10952,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.5213560999836773,
+      "time_seconds": 0.5265339000616223,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -11015,7 +11015,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.4454689999110997,
+      "time_seconds": 0.4475387998390943,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -11072,7 +11072,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": true,
       "core_correct": false,
-      "time_seconds": 0.44638370000757277,
+      "time_seconds": 0.44707400002516806,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -11143,7 +11143,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.39324280014261603,
+      "time_seconds": 0.37843709997832775,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -11194,7 +11194,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.35441040014848113,
+      "time_seconds": 0.3490112000145018,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -11245,7 +11245,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.4874162001069635,
+      "time_seconds": 0.5091855998616666,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -11313,7 +11313,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.4808322999160737,
+      "time_seconds": 0.4808984000701457,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -11378,7 +11378,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.4116535000503063,
+      "time_seconds": 0.4396015000529587,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -11441,7 +11441,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": true,
       "core_correct": false,
-      "time_seconds": 0.48720350000075996,
+      "time_seconds": 0.48281700001098216,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -11507,7 +11507,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.3728041001595557,
+      "time_seconds": 0.3741783001460135,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -11575,7 +11575,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.4580009002238512,
+      "time_seconds": 0.43956619990058243,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -11632,7 +11632,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.4346328000538051,
+      "time_seconds": 0.42535739997401834,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -11689,7 +11689,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.37219589995220304,
+      "time_seconds": 0.3837200999259949,
       "sarcasm": {
         "detected": true,
         "label": "sarcasm",
@@ -11746,7 +11746,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.4590171999298036,
+      "time_seconds": 0.46029600012116134,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -11809,7 +11809,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.5533012999221683,
+      "time_seconds": 0.5568496000487357,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -11866,7 +11866,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.3710964999627322,
+      "time_seconds": 0.3532171999104321,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -11923,7 +11923,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.4041621999349445,
+      "time_seconds": 0.3921109000220895,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -11974,7 +11974,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.4297756999731064,
+      "time_seconds": 0.41428030002862215,
       "sarcasm": {
         "detected": true,
         "label": "sarcasm",
@@ -12025,7 +12025,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.37135010003112257,
+      "time_seconds": 0.36807450000196695,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -12088,7 +12088,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.34326260001398623,
+      "time_seconds": 0.35270110005512834,
       "sarcasm": {
         "detected": true,
         "label": "sarcasm",
@@ -12139,7 +12139,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.40339910006150603,
+      "time_seconds": 0.36830279999412596,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -12190,7 +12190,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.4345698000397533,
+      "time_seconds": 0.4631450001616031,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -12247,7 +12247,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.4308059001341462,
+      "time_seconds": 0.424885299988091,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -12298,7 +12298,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.579001999925822,
+      "time_seconds": 0.5716271998826414,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -12355,7 +12355,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.3816815000027418,
+      "time_seconds": 0.37849300005473197,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -12412,7 +12412,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.4626143001951277,
+      "time_seconds": 0.44686889997683465,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -12479,7 +12479,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.44728760002180934,
+      "time_seconds": 0.4628676001448184,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -12536,7 +12536,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.4218312001321465,
+      "time_seconds": 0.425017099827528,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -12593,7 +12593,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.3590664998628199,
+      "time_seconds": 0.3562147000338882,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -12644,7 +12644,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.36132390005514026,
+      "time_seconds": 0.34905849979259074,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -12695,7 +12695,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.5054562001023442,
+      "time_seconds": 0.501551799941808,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -12762,7 +12762,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.36571360006928444,
+      "time_seconds": 0.4048175998032093,
       "sarcasm": {
         "detected": true,
         "label": "sarcasm",
@@ -12813,7 +12813,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.41407569986768067,
+      "time_seconds": 0.46262929984368384,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -12870,7 +12870,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.3983787999022752,
+      "time_seconds": 0.5744087998755276,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -12927,7 +12927,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.48798259999603033,
+      "time_seconds": 0.7176681999117136,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -12978,7 +12978,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.41521969996392727,
+      "time_seconds": 0.5560041000135243,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -13035,7 +13035,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.3746946998871863,
+      "time_seconds": 0.49390899995341897,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -13086,7 +13086,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.3940159999765456,
+      "time_seconds": 0.46257769991643727,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -13143,7 +13143,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.44199120020493865,
+      "time_seconds": 0.4915392000693828,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -13194,7 +13194,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.42119590006768703,
+      "time_seconds": 0.4033856999594718,
       "sarcasm": {
         "detected": true,
         "label": "sarcasm",
@@ -13251,7 +13251,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.44743579998612404,
+      "time_seconds": 0.444084599846974,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -13308,7 +13308,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.7111704999115318,
+      "time_seconds": 1.6305002998560667,
       "sarcasm": {
         "detected": true,
         "label": "sarcasm",
@@ -13376,7 +13376,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.39300279994495213,
+      "time_seconds": 1.30607739998959,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -13427,7 +13427,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": true,
       "core_correct": false,
-      "time_seconds": 0.43803919991478324,
+      "time_seconds": 0.5242381000425667,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -13492,7 +13492,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.3944239001721144,
+      "time_seconds": 0.45041829999536276,
       "sarcasm": {
         "detected": true,
         "label": "sarcasm",
@@ -13543,7 +13543,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.5133173998910934,
+      "time_seconds": 0.5650535000022501,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -13594,7 +13594,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.4743558999616653,
+      "time_seconds": 0.5154561998788267,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -13651,7 +13651,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": true,
       "core_correct": false,
-      "time_seconds": 0.6539507999550551,
+      "time_seconds": 0.8591896002180874,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -13727,7 +13727,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.6395473000593483,
+      "time_seconds": 1.003046500030905,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -13784,7 +13784,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": true,
       "core_correct": false,
-      "time_seconds": 0.4692453001625836,
+      "time_seconds": 0.7636289000511169,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -13849,7 +13849,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.34920489997603,
+      "time_seconds": 0.5616665000561625,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -13900,7 +13900,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.3766248000320047,
+      "time_seconds": 0.4795309000182897,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -13957,7 +13957,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.44567589997313917,
+      "time_seconds": 0.6682577999308705,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -14014,7 +14014,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.44640640006400645,
+      "time_seconds": 0.4689730000682175,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -14071,7 +14071,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.37466590013355017,
+      "time_seconds": 0.4052839002106339,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -14128,7 +14128,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.41060269996523857,
+      "time_seconds": 0.46023369999602437,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -14179,7 +14179,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.4440550000872463,
+      "time_seconds": 0.48933909996412694,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -14236,7 +14236,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.45404129987582564,
+      "time_seconds": 0.45937410020269454,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -14287,7 +14287,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.43584299995563924,
+      "time_seconds": 0.44500730000436306,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -14344,7 +14344,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.4031565000768751,
+      "time_seconds": 0.38979839999228716,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -14401,7 +14401,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.593721600016579,
+      "time_seconds": 0.6859413001220673,
       "sarcasm": {
         "detected": true,
         "label": "sarcasm",
@@ -14469,7 +14469,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.4940749001689255,
+      "time_seconds": 0.4765759001020342,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -14526,7 +14526,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.45793090015649796,
+      "time_seconds": 0.452644299948588,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -14577,7 +14577,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.5872531998902559,
+      "time_seconds": 0.6321658999659121,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -14653,7 +14653,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.5412959000095725,
+      "time_seconds": 0.47366959997452796,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -14704,7 +14704,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": true,
-      "time_seconds": 0.6578629000578076,
+      "time_seconds": 0.6221930999308825,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -14769,7 +14769,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.3861167000140995,
+      "time_seconds": 0.3982775001786649,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -14820,7 +14820,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.5696797999553382,
+      "time_seconds": 0.5918594000395387,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -14877,7 +14877,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.4859231000300497,
+      "time_seconds": 0.4934823999647051,
       "sarcasm": {
         "detected": true,
         "label": "sarcasm",
@@ -14934,7 +14934,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.459074400132522,
+      "time_seconds": 0.5114545000251383,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -14985,7 +14985,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.4675429000053555,
+      "time_seconds": 0.49348940001800656,
       "sarcasm": {
         "detected": true,
         "label": "sarcasm",
@@ -15042,7 +15042,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.7190803999546915,
+      "time_seconds": 0.7609560999553651,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -15110,7 +15110,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.4857878000475466,
+      "time_seconds": 0.530292300041765,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -15161,7 +15161,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.40699169994331896,
+      "time_seconds": 0.42906149988994,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -15218,7 +15218,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": true,
       "core_correct": false,
-      "time_seconds": 0.6256432998925447,
+      "time_seconds": 0.7092852001078427,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -15283,7 +15283,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.42380050010979176,
+      "time_seconds": 0.43738769995979965,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -15345,7 +15345,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": true,
       "core_correct": false,
-      "time_seconds": 0.5025508000981063,
+      "time_seconds": 0.48887170013040304,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -15411,7 +15411,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.4353658000472933,
+      "time_seconds": 0.3868625999893993,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -15479,7 +15479,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.40530169988051057,
+      "time_seconds": 0.41252620005980134,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -15530,7 +15530,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.3703823999967426,
+      "time_seconds": 0.3912959999870509,
       "sarcasm": {
         "detected": true,
         "label": "sarcasm",
@@ -15587,7 +15587,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.3747704999987036,
+      "time_seconds": 0.4071861000265926,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -15650,7 +15650,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.42841900000348687,
+      "time_seconds": 0.4343167000915855,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -15701,7 +15701,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.41470960015431046,
+      "time_seconds": 0.4083648999221623,
       "sarcasm": {
         "detected": true,
         "label": "sarcasm",
@@ -15752,7 +15752,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.4781488999724388,
+      "time_seconds": 0.4738463000394404,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -15803,7 +15803,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.46077030012384057,
+      "time_seconds": 0.4807818999979645,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -15860,7 +15860,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": true,
       "core_correct": false,
-      "time_seconds": 0.4118890999816358,
+      "time_seconds": 0.41363289998844266,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -15931,7 +15931,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.4776890000794083,
+      "time_seconds": 0.4663889000657946,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -15988,7 +15988,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.42437560018152,
+      "time_seconds": 0.45257560000754893,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -16045,7 +16045,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.5158788000699133,
+      "time_seconds": 0.5277078000362962,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -16102,7 +16102,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.43397650006227195,
+      "time_seconds": 0.45049750013276935,
       "sarcasm": {
         "detected": true,
         "label": "sarcasm",
@@ -16159,7 +16159,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.41611060011200607,
+      "time_seconds": 0.41075569996610284,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -16216,7 +16216,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.36347540002316236,
+      "time_seconds": 0.36895249993540347,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -16273,7 +16273,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.46082439995370805,
+      "time_seconds": 0.43905439996160567,
       "sarcasm": {
         "detected": true,
         "label": "sarcasm",
@@ -16330,7 +16330,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.3781658001244068,
+      "time_seconds": 0.38785409997217357,
       "sarcasm": {
         "detected": true,
         "label": "sarcasm",
@@ -16381,7 +16381,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": true,
       "core_correct": false,
-      "time_seconds": 0.5650514999870211,
+      "time_seconds": 0.566413699882105,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -16452,7 +16452,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": true,
       "core_correct": false,
-      "time_seconds": 0.3734530000947416,
+      "time_seconds": 0.38647889997810125,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -16523,7 +16523,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.45035300008021295,
+      "time_seconds": 0.4468763000331819,
       "sarcasm": {
         "detected": true,
         "label": "sarcasm",
@@ -16574,7 +16574,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.5349393000360578,
+      "time_seconds": 0.475717700086534,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -16631,7 +16631,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.35324140009470284,
+      "time_seconds": 0.39215800003148615,
       "sarcasm": {
         "detected": true,
         "label": "sarcasm",
@@ -16682,7 +16682,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.5015408999752253,
+      "time_seconds": 0.5800857001449913,
       "sarcasm": {
         "detected": true,
         "label": "sarcasm",
@@ -16744,7 +16744,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.43227670015767217,
+      "time_seconds": 0.5199208001140505,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -16801,7 +16801,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.44692630018107593,
+      "time_seconds": 0.4653085998725146,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -16852,7 +16852,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.4299210000317544,
+      "time_seconds": 0.4557338999584317,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -16920,7 +16920,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.40487270010635257,
+      "time_seconds": 0.4625705999787897,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -16983,7 +16983,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": true,
-      "time_seconds": 0.5009781999979168,
+      "time_seconds": 0.5338651998899877,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -17048,7 +17048,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": true,
-      "time_seconds": 0.7985285001341254,
+      "time_seconds": 0.8590099001303315,
       "sarcasm": {
         "detected": true,
         "label": "sarcasm",
@@ -17129,7 +17129,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.38860069983638823,
+      "time_seconds": 0.38447579997591674,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -17180,7 +17180,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.4572195000946522,
+      "time_seconds": 0.4759880001656711,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -17231,7 +17231,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.4761370001360774,
+      "time_seconds": 0.48390180012211204,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -17288,7 +17288,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.4806456998921931,
+      "time_seconds": 0.4651523001957685,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -17345,7 +17345,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.3952704998664558,
+      "time_seconds": 0.4146914000157267,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -17396,7 +17396,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.39144910010509193,
+      "time_seconds": 0.3915682998485863,
       "sarcasm": {
         "detected": true,
         "label": "sarcasm",
@@ -17447,7 +17447,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.4401483000256121,
+      "time_seconds": 0.4266489001456648,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -17504,7 +17504,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.437889700056985,
+      "time_seconds": 0.3970881998538971,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -17555,7 +17555,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.4210153999738395,
+      "time_seconds": 0.40216489997692406,
       "sarcasm": {
         "detected": true,
         "label": "sarcasm",
@@ -17612,7 +17612,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.4152891000267118,
+      "time_seconds": 0.40590430004522204,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -17669,7 +17669,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.5655204001814127,
+      "time_seconds": 0.5818469999358058,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -17720,7 +17720,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.3265543000306934,
+      "time_seconds": 0.3553281999193132,
       "sarcasm": {
         "detected": true,
         "label": "sarcasm",
@@ -17771,7 +17771,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.42610549996607006,
+      "time_seconds": 0.4174049000721425,
       "sarcasm": {
         "detected": true,
         "label": "sarcasm",
@@ -17822,7 +17822,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.45194759988225996,
+      "time_seconds": 0.5361322001554072,
       "sarcasm": {
         "detected": true,
         "label": "sarcasm",
@@ -17873,7 +17873,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.427036999957636,
+      "time_seconds": 0.48511469992809,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -17924,7 +17924,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.5932585999835283,
+      "time_seconds": 0.6984737999737263,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -17986,7 +17986,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.5101594999432564,
+      "time_seconds": 0.5612013998907059,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -18043,7 +18043,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": true,
       "core_correct": false,
-      "time_seconds": 0.5311936000362039,
+      "time_seconds": 0.5817967001348734,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -18114,7 +18114,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.4137679000850767,
+      "time_seconds": 0.42548139998689294,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -18176,7 +18176,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": true,
       "core_correct": false,
-      "time_seconds": 0.49342399998568,
+      "time_seconds": 0.5412075000349432,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -18248,7 +18248,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.39092710008844733,
+      "time_seconds": 0.39147399994544685,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -18311,7 +18311,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.4100351999513805,
+      "time_seconds": 0.4439598999451846,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -18374,7 +18374,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.44701710017398,
+      "time_seconds": 0.4806582999881357,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -18425,7 +18425,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.41785539989359677,
+      "time_seconds": 0.44892009999603033,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -18476,7 +18476,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.39406109997071326,
+      "time_seconds": 0.43519210000522435,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -18533,7 +18533,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.39857580000534654,
+      "time_seconds": 0.3525938999373466,
       "sarcasm": {
         "detected": true,
         "label": "sarcasm",
@@ -18584,7 +18584,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.36176260001957417,
+      "time_seconds": 0.35420070006512105,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -18635,7 +18635,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.4619561000727117,
+      "time_seconds": 0.4616997998673469,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -18692,7 +18692,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.3908822999801487,
+      "time_seconds": 0.41553090000525117,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -18749,7 +18749,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.3725313001777977,
+      "time_seconds": 0.3701502999756485,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -18806,7 +18806,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.40249480004422367,
+      "time_seconds": 0.43675890006124973,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -18857,7 +18857,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.6155392001383007,
+      "time_seconds": 0.5880459998734295,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -18919,7 +18919,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.5498110000044107,
+      "time_seconds": 0.5740046999417245,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -18982,7 +18982,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.5312153999693692,
+      "time_seconds": 0.4994133000727743,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -19045,7 +19045,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.5570620000362396,
+      "time_seconds": 0.5420886999927461,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -19102,7 +19102,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": true,
       "core_correct": false,
-      "time_seconds": 0.47728769993409514,
+      "time_seconds": 0.4457519000861794,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -19174,7 +19174,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": true,
       "core_correct": false,
-      "time_seconds": 0.3844222000334412,
+      "time_seconds": 0.3692369998898357,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -19245,7 +19245,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.3369392999447882,
+      "time_seconds": 0.3232124000787735,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -19296,7 +19296,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.36323429993353784,
+      "time_seconds": 0.37240689992904663,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -19347,7 +19347,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.6207214999012649,
+      "time_seconds": 0.5936165999155492,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -19414,7 +19414,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.5943562998436391,
+      "time_seconds": 0.5066341001074761,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -19471,7 +19471,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.4653050000779331,
+      "time_seconds": 0.47966720000840724,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -19533,7 +19533,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.439546599984169,
+      "time_seconds": 0.40215069986879826,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -19584,7 +19584,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.4216048999223858,
+      "time_seconds": 0.44327570009045303,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -19635,7 +19635,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.4074049999471754,
+      "time_seconds": 0.42194540007039905,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -19697,7 +19697,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.4745492001529783,
+      "time_seconds": 0.5064866999164224,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -19754,7 +19754,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.44295310019515455,
+      "time_seconds": 0.45146929984912276,
       "sarcasm": {
         "detected": true,
         "label": "sarcasm",
@@ -19811,7 +19811,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.5881721000187099,
+      "time_seconds": 0.6816841999534518,
       "sarcasm": {
         "detected": true,
         "label": "sarcasm",
@@ -19873,7 +19873,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.43022159999236465,
+      "time_seconds": 0.5036626998335123,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -19924,7 +19924,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.47288109990768135,
+      "time_seconds": 0.4892595000565052,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -19981,7 +19981,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.35526690003462136,
+      "time_seconds": 0.3710332999471575,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -20049,7 +20049,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.7410416000057012,
+      "time_seconds": 0.39346480020321906,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -20106,7 +20106,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.4988675999920815,
+      "time_seconds": 0.4521734998561442,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -20163,7 +20163,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.41180580016225576,
+      "time_seconds": 0.34283250011503696,
       "sarcasm": {
         "detected": true,
         "label": "sarcasm",
@@ -20220,7 +20220,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.6499318999703974,
+      "time_seconds": 0.5968388000037521,
       "sarcasm": {
         "detected": true,
         "label": "sarcasm",
@@ -20271,7 +20271,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": true,
       "core_correct": false,
-      "time_seconds": 0.5156491999514401,
+      "time_seconds": 0.4506973000243306,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -20337,7 +20337,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.37263170001097023,
+      "time_seconds": 0.3822310999967158,
       "sarcasm": {
         "detected": true,
         "label": "sarcasm",
@@ -20394,7 +20394,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.39558340003713965,
+      "time_seconds": 0.40421670000068843,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -20445,7 +20445,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": false,
-      "time_seconds": 0.3859435000922531,
+      "time_seconds": 0.34977130009792745,
       "sarcasm": {
         "detected": true,
         "label": "sarcasm",
@@ -20502,7 +20502,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.41171310003846884,
+      "time_seconds": 0.3999801999889314,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -20553,7 +20553,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": true,
       "core_correct": false,
-      "time_seconds": 0.5253232000395656,
+      "time_seconds": 0.5159762999974191,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -20618,7 +20618,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.38401639997027814,
+      "time_seconds": 0.39454870019108057,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -20685,7 +20685,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.41221219999715686,
+      "time_seconds": 0.3882541998755187,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -20736,7 +20736,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.3721643998287618,
+      "time_seconds": 0.34078470012173057,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -20787,7 +20787,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": false,
-      "time_seconds": 0.4700301999691874,
+      "time_seconds": 0.4290922998916358,
       "sarcasm": {
         "detected": true,
         "label": "sarcasm",
@@ -20850,7 +20850,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.3793220000807196,
+      "time_seconds": 0.3861573999747634,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -20907,7 +20907,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.4222400998696685,
+      "time_seconds": 0.42397450003772974,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -20958,7 +20958,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.42172119999304414,
+      "time_seconds": 0.4366548000834882,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -21009,7 +21009,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": true,
       "core_correct": false,
-      "time_seconds": 0.40085189999081194,
+      "time_seconds": 0.39738099998794496,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -21080,7 +21080,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.4748570001684129,
+      "time_seconds": 0.48754699993878603,
       "sarcasm": {
         "detected": true,
         "label": "sarcasm",
@@ -21137,7 +21137,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.386312099872157,
+      "time_seconds": 0.3384505999274552,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -21194,7 +21194,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.35522769996896386,
+      "time_seconds": 0.38166880002245307,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -21245,7 +21245,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": true,
       "core_correct": false,
-      "time_seconds": 0.40329819987528026,
+      "time_seconds": 0.40934920008294284,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -21316,7 +21316,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.3867947000544518,
+      "time_seconds": 0.3867289999034256,
       "sarcasm": {
         "detected": true,
         "label": "sarcasm",
@@ -21373,7 +21373,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.44745899992994964,
+      "time_seconds": 0.4528344999998808,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -21430,7 +21430,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.43595079984515905,
+      "time_seconds": 0.45634640008211136,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -21481,7 +21481,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": true,
       "core_correct": false,
-      "time_seconds": 0.5361345999408513,
+      "time_seconds": 0.5354117001406848,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -21558,7 +21558,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": true,
       "core_correct": false,
-      "time_seconds": 0.38291890011169016,
+      "time_seconds": 0.3932203999720514,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -21629,7 +21629,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.6872807999607176,
+      "time_seconds": 0.696544700069353,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -21686,7 +21686,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.602021399885416,
+      "time_seconds": 0.6176769000012428,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -21748,7 +21748,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.5613539998885244,
+      "time_seconds": 0.38579289987683296,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -21799,7 +21799,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.41896379995159805,
+      "time_seconds": 0.3589899998623878,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -21856,7 +21856,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.4925283999182284,
+      "time_seconds": 0.43001120002008975,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -21913,7 +21913,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.5065201001707464,
+      "time_seconds": 0.5156227999832481,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -21976,7 +21976,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.39401040016673505,
+      "time_seconds": 0.3909330000169575,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -22033,7 +22033,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.35752349998801947,
+      "time_seconds": 0.3395917001180351,
       "sarcasm": {
         "detected": true,
         "label": "sarcasm",
@@ -22084,7 +22084,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.4145996000152081,
+      "time_seconds": 0.3568072998896241,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -22135,7 +22135,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.44365149992518127,
+      "time_seconds": 0.4544863000046462,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -22186,7 +22186,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.7231778001878411,
+      "time_seconds": 0.6188280000351369,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -22243,7 +22243,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.6574477001558989,
+      "time_seconds": 0.4986922999378294,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -22300,7 +22300,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.4451393000781536,
+      "time_seconds": 0.378141799941659,
       "sarcasm": {
         "detected": true,
         "label": "sarcasm",
@@ -22351,7 +22351,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.6542181000113487,
+      "time_seconds": 0.389464900130406,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -22402,7 +22402,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 1.0275574000552297,
+      "time_seconds": 0.5128423999994993,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -22459,7 +22459,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.6422196999192238,
+      "time_seconds": 0.4429109999909997,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -22516,7 +22516,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.6600029000546783,
+      "time_seconds": 0.517160200048238,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -22573,7 +22573,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": true,
       "core_correct": false,
-      "time_seconds": 1.3422260000370443,
+      "time_seconds": 0.5907248998992145,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -22638,7 +22638,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.7893302999436855,
+      "time_seconds": 0.5432138999458402,
       "sarcasm": {
         "detected": true,
         "label": "sarcasm",
@@ -22689,7 +22689,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.7319968999363482,
+      "time_seconds": 0.47279320005327463,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -22746,7 +22746,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.7537426000926644,
+      "time_seconds": 0.430121700046584,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -22803,7 +22803,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.49038559990003705,
+      "time_seconds": 0.3692085000220686,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -22854,7 +22854,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": false,
       "core_correct": false,
-      "time_seconds": 0.5508443999569863,
+      "time_seconds": 0.3605995001271367,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -22905,7 +22905,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.5944759000558406,
+      "time_seconds": 0.46371720009483397,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -22962,7 +22962,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": true,
       "core_correct": false,
-      "time_seconds": 0.7281579000409693,
+      "time_seconds": 0.5011909999884665,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -23032,7 +23032,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.5134662999771535,
+      "time_seconds": 0.41019730013795197,
       "sarcasm": {
         "detected": true,
         "label": "sarcasm",
@@ -23089,7 +23089,7 @@
       "phenomenon": "normal_sentiment",
       "fusion_correct": true,
       "core_correct": true,
-      "time_seconds": 0.5693219997920096,
+      "time_seconds": 0.4483323998283595,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",
@@ -23146,7 +23146,7 @@
       "phenomenon": "aspect_mixed",
       "fusion_correct": true,
       "core_correct": false,
-      "time_seconds": 0.5270520998165011,
+      "time_seconds": 0.5333634000271559,
       "sarcasm": {
         "detected": false,
         "label": "non_sarcasm",

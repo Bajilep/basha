@@ -13,7 +13,7 @@ from sklearn.metrics import (
     recall_score,
 )
 
-from src.basha.sarcasm.english_sarcasm import EnglishSarcasmModel
+from basha.sarcasm.english_sarcasm import EnglishSarcasmModel
 
 
 # ==========================================================

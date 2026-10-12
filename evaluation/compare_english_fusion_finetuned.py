@@ -2,7 +2,7 @@
 from __future__ import annotations
 
 import json
-import sys
+
 import time
 from collections import Counter
 from pathlib import Path
@@ -18,11 +18,10 @@ from sklearn.metrics import (
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 EVALUATION_DIR = Path(__file__).resolve().parent
 
-if str(PROJECT_ROOT) not in sys.path:
-    sys.path.insert(0, str(PROJECT_ROOT))
 
-from src.basha.aspects.aspect_model import EnglishAspectModel
-from src.basha.fusion.english_fusion import EnglishFusion
+
+from basha.aspects.aspect_model import EnglishAspectModel
+from basha.fusion.english_fusion import EnglishFusion
 
 
 DATASET_PATH = (
