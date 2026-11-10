@@ -1,6 +1,6 @@
 from pprint import pprint
 
-from src.basha.semantics.semantic_conflict import (
+from basha.semantics.semantic_conflict import (
     SemanticConflictDetector,
 )
 

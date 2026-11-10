@@ -1,4 +1,4 @@
-from src.basha.fusion.mixed_detector import (
+from basha.fusion.mixed_detector import (
     MixedDetector,
 )
 

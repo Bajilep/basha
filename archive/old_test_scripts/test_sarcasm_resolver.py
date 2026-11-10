@@ -1,6 +1,6 @@
 from pprint import pprint
 
-from src.basha.fusion.sarcasm_resolver import (
+from basha.fusion.sarcasm_resolver import (
     SarcasmResolver,
 )
 

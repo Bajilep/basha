@@ -1,6 +1,6 @@
 from pprint import pprint
 
-from src.basha.fusion.english_fusion import (
+from basha.fusion.english_fusion import (
     EnglishFusion,
 )
 

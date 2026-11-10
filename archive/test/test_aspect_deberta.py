@@ -1,6 +1,6 @@
 import time
 
-from src.basha.aspects.aspect_model_deberta import (
+from basha.aspects.aspect_model_deberta import (
     DebertaAspectModel,
 )
 

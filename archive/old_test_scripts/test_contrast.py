@@ -1,8 +1,8 @@
-from src.basha.sentiment.english_model import (
+from basha.sentiment.english_model import (
     EnglishSentimentModel,
 )
 
-from src.basha.aspects.contrast import (
+from basha.aspects.contrast import (
     ContrastAnalyzer,
 )
 

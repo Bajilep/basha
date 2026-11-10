@@ -1,12 +1,12 @@
-from src.basha.sentiment.english_model import (
+from basha.sentiment.english_model import (
     EnglishSentimentModel,
 )
 
-from src.basha.longtext.splitter import (
+from basha.longtext.splitter import (
     SentenceSplitter,
 )
 
-from src.basha.longtext.aggregator import (
+from basha.longtext.aggregator import (
     SentimentAggregator,
 )
 

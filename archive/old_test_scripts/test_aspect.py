@@ -1,4 +1,4 @@
-from src.basha.aspects.aspect_model import (
+from basha.aspects.aspect_model import (
     EnglishAspectModel,
 )
 

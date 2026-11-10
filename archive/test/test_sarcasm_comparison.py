@@ -1,8 +1,8 @@
-from src.basha.sarcasm.english_sarcasm import (
+from basha.sarcasm.english_sarcasm import (
     EnglishSarcasmModel,
 )
 
-from src.basha.sarcasm.besstie_sarcasm import (
+from basha.sarcasm.besstie_sarcasm import (
     BesstieSarcasmModel,
 )
 

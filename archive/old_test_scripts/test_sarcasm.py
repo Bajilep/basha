@@ -1,6 +1,6 @@
 from pprint import pprint
 
-from src.basha.sarcasm.english_sarcasm import (
+from basha.sarcasm.english_sarcasm import (
     EnglishSarcasmModel,
 )
 

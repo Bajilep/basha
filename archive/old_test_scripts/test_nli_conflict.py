@@ -1,6 +1,6 @@
 from pprint import pprint
 
-from src.basha.semantics.nli_conflict import (
+from basha.semantics.nli_conflict import (
     NLIConflictDetector,
 )
 

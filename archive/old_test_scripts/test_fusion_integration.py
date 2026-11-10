@@ -1,22 +1,22 @@
 from pprint import pprint
 
-from src.basha.sentiment.english_model import (
+from basha.sentiment.english_model import (
     EnglishSentimentModel,
 )
 
-from src.basha.aspects.aspect_model import (
+from basha.aspects.aspect_model import (
     EnglishAspectModel,
 )
 
-from src.basha.aspects.contrast import (
+from basha.aspects.contrast import (
     ContrastAnalyzer,
 )
 
-from src.basha.longtext.splitter import (
+from basha.longtext.splitter import (
     split_sentences,
 )
 
-from src.basha.fusion.mixed_detector import (
+from basha.fusion.mixed_detector import (
     MixedDetector,
 )
 

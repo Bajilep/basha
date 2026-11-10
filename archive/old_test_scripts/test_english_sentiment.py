@@ -1,4 +1,4 @@
-from src.basha.sentiment.english_model import (
+from basha.sentiment.english_model import (
     EnglishSentimentModel,
 )
 

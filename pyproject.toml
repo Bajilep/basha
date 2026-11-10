@@ -4,12 +4,34 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "basha"
-version = "0.2.0.dev0"
+version = "1.0.2"
+description = "A modular Python library for sentiment analysis and text intelligence"
+readme = "README.md"
+license = "MIT"
+authors = [
+    { name = "Bajil Mohammed E.P." }
+]
 requires-python = ">=3.10"
-dependencies = ["torch", "transformers>=4.40", "sentencepiece"]
+
+dependencies = [
+    "torch",
+    "transformers>=4.40",
+    "sentencepiece"
+]
 
 [project.optional-dependencies]
-dev = ["pytest", "datasets", "scikit-learn"]
+dev = [
+    "pytest",
+    "datasets",
+    "scikit-learn"
+]
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+    "slow: loads real models; run with pytest -m slow"
+]
+addopts = "-m 'not slow'"
